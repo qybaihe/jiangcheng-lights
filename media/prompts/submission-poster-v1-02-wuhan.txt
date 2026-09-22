@@ -1,0 +1,24 @@
+Use case: ads-marketing
+Asset type: finished premium Chinese narrative-game promotional poster, landscape 16:9. Generate all artwork AND accurate Chinese typography in the image.
+Primary request: Create the second poster in the 江城有灯 series, a breathtaking yet intimate Wuhan travel-and-exploration illustration. It must feel like the same game and design family as reference 1, with a fresh composition centered on an inviting riverfront cycling journey.
+Input images: Image 1 is the approved first poster, palette, refined anime painting style, logo and typography family only; do NOT duplicate its composition or its wording. Image 2 is the locked identity/costume of 阿遥: adult woman with short chestnut bob, ivory cardigan with dark green ribbons, dark green skirt, black tights and beige floral canvas satchel. Image 3 is the 江汉关 clock tower / Wuhan ferry / river architectural reference; preserve recognizable architectural features, re-illustrate in the series style.
+
+Main illustration: In a fictional Wuhan Hankou-inspired neighborhood, 阿遥 rides a simple mint-green city bicycle along a gently curved old-brick riverside lane. Show a natural confident cycling pose, both hands on the handlebars, both feet and pedals coherent, long graceful adult proportions. A small bicycle basket holds a neatly closed brown paper parcel. She is in the mid-right foreground, leaving most of the left sky and pale wall calm for type. Low three-quarter perspective and diagonal cobblestone path give a feeling of discovering the city. Nearby, breakfast steam rises from a modest street stall, neighbours sit on bamboo chairs, teal-green wooden doors and potted plants line the lane. Beyond the white stone embankment railing is the broad jade-blue Yangtze with a white-blue ferry and a clearly recognizable 江汉关钟楼. A distant side view of Wuhan Yangtze River Bridge has a steel truss deck and repeated solid bridge piers, not a modern suspension bridge or Shanghai skyline. Poetic artistic geography, not a real map.
+Two secondary memory-sized illustrated vignettes, integrated elegantly at the lower right like two lightly overlapping paper travel prints, never a UI dashboard: one shows a small muted-teal compact car being driven down a neighbourhood street, the other shows the same heroine in a small wooden rowing boat on calm river water near shore, wearing a muted orange flotation vest over her cardigan, holding two coherent oars. The calm boating scene is sunny and separate from any rain event. The main bicycle scene remains dominant. Do not add extra scenes, maps or app interfaces.
+
+Style and palette: The same exquisite bright hand-painted anime key art as reference 1, emerald/teal architecture, blue-green water, sunlit ivory, subtle honey-yellow highlights, clean painted edges and fine surface detail, minimal paper grain. Layered wind-touched willow foliage, lively but unhurried, beautiful white clouds. No gloomy desaturation, tourism stock photography, heavy sepia filter, toy-like low-poly people, or exaggerated speed/racing danger.
+Layout: Upper left elegant logo followed by strong large Chinese title across two balanced lines if needed; pleasant generous negative space around it. Wide cinematic picture, neat bottom supporting copy. Keep all text and vignette borders at least 80px inside the canvas. No poster mockup or frame.
+
+Text (verbatim, simplified Chinese):
+Small series logo at top left: "江城有灯"
+Main headline: "武汉味，藏在日常里"
+Subtitle: "从一碗过早，走到一江灯火。"
+Two short support lines:
+"江汉关的钟声，长江大桥的桥影。"
+"拐进里分，听街坊说说这座城。"
+One restrained label beside the main cycling scene: "骑车穿巷"
+Label on car travel print: "驾车慢游"
+Label on rowing travel print: "江上划船"
+Small bottom-right signature: "游戏主题海报"
+
+Typography: Exact strings once only, no quote marks; deep teal refined Chinese headline with brush-influenced elegance; body clear Chinese Song-style type, consistent with reference 1. Main headline approximately 78–90px at 2048 canvas width, supporting text at least 30px, vignette labels at least 34px. Very legible contrast; no text over busy faces. No other words, no random street-sign glyphs, no award claims, competition logos, watermark, QR codes, dates, fake screenshot or fake game UI.

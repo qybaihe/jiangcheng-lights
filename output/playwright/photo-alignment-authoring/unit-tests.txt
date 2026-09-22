@@ -1,0 +1,36 @@
+✔ two frozen Wuhan photos each identify three real scene features, not generated CG geometry (0.813333ms)
+✔ a real first-person camera at both reference poses recognizes all three curved-world anchors (0.523625ms)
+✔ the rendered reference frame has each landmark inside the photograph (0.086833ms)
+✔ the shot stays consistent at 16:10 and ultrawide sizes instead of stretching the reference (1.14ms)
+✔ wrong position is not solved by aiming in the reference direction from another street (0.182583ms)
+✔ looking away and looking at the ground both require correcting the actual camera (0.133833ms)
+✔ yaw wraps around 2π without breaking a matching camera orientation (0.083167ms)
+✔ small real walking and aim deviations are accepted, rather than pixel-perfect matching (0.132875ms)
+✔ scene position, camera angles AND three projections are jointly required (0.230708ms)
+✔ behind-camera, hidden, duplicate and non-finite projections never count as the missing clue (0.197084ms)
+✔ vehicles, overview, blocked dialogue and paused world do not take successful pictures (0.230292ms)
+✔ invalid samples are deterministic failures, not default-position successes (0.127833ms)
+✔ invalid photo ids cannot read inherited object properties (0.327708ms)
+✔ a reference-aligned update never auto-completes: a deliberate fresh shutter is required (4.116917ms)
+✔ a stale green HUD cannot authorize a shutter after the player moves away (0.124584ms)
+✔ hints advance in three steps without changing evaluation, completing or penalizing a result (0.087459ms)
+✔ cancel is terminal and cannot leak a completion into saved progress (0.234625ms)
+✔ a finished snapshot and result remain finished across later updates and cancellation (0.11325ms)
+✔ snapshots and reference projections cannot mutate session evaluation through aliases (0.090791ms)
+✔ only genuine issued results are recorded, not serialized or constructed completion objects (0.1075ms)
+✔ progress is a canonical unique id list, never a camera, elapsed time, hints or main-story flags (0.087875ms)
+✔ both genuine photo results survive JSON roundtrip without affecting the existing story (0.097208ms)
+✔ the world bridge reads the real rendered curvature rather than projecting logical anchors flat (0.084875ms)
+✔ projecting a sample does not move the player, update story state or mutate the camera matrix (0.083666ms)
+✔ invitation copy explains actual controls and optional hints rather than a countdown (0.169833ms)
+✔ gallery views display only earned photo states and escape supplied narrative text (0.137625ms)
+✔ controller owns Escape and camera restoration without assigning a player position or writing storage (0.428209ms)
+✔ HUD keeps the world interactive, includes reduced-motion behavior, and does not hide by color alone (1.148583ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 103.281125

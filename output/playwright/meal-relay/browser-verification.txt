@@ -1,0 +1,55 @@
+### Result
+{"passed":true,"sealed":3,"delivered":0,"corrections":true,"focus":true,"saveResume":true,"condimentVisual":true,"hudNavigation":true,"mobileOverflow":false}
+### Ran Playwright code
+```js
+await (async (page) => {
+ await page.getByRole('button',{name:'重置样例'}).click();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).waitFor();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ if(!(await page.getByRole('status').textContent()).includes('热食'))throw new Error('missing correction');
+ if(!(await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).evaluate(b=>b===document.activeElement)))throw new Error('lost keyboard focus');
+ await page.getByRole('button',{name:'热干面',exact:true}).click();
+ await page.getByRole('button',{name:'不放葱',exact:true}).click();
+ await page.getByRole('button',{name:'先收好，待会儿继续'}).click();
+ await page.getByRole('button',{name:'打开分装台'}).click();
+ if(await page.getByRole('button',{name:'热干面',exact:true}).getAttribute('aria-pressed')!=='true')throw new Error('cancel lost food');
+ await page.reload();
+ if(await page.getByRole('button',{name:'不放葱',exact:true}).getAttribute('aria-pressed')!=='true')throw new Error('reload lost condiment');
+ await page.getByRole('button',{name:'不放辣',exact:true}).click();
+ await page.getByRole('button',{name:'林婆婆',exact:true}).click();
+ if(await page.locator('.meal-lunchbox__food .meal-herbs').evaluate(g=>getComputedStyle(g).display)!=='none')throw new Error('no-scallion visual mismatch');
+ await page.screenshot({path:'output/playwright/meal-relay/packing-selected.png'});
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ await page.getByRole('button',{name:/02 陈姐/}).click();
+ await page.getByRole('button',{name:'三鲜豆皮',exact:true}).click();
+ await page.getByRole('button',{name:'撒在上面',exact:true}).click();
+ await page.getByRole('group',{name:'辣椒的放法',exact:true}).getByRole('button',{name:'小碟另放',exact:true}).click();
+ await page.getByRole('button',{name:'小许',exact:true}).click();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ if(!(await page.getByRole('status').textContent()).includes('名字'))throw new Error('wrong name not caught');
+ if(await page.getByRole('button',{name:'三鲜豆皮',exact:true}).getAttribute('aria-pressed')!=='true')throw new Error('correction erased food');
+ await page.getByRole('button',{name:'陈姐',exact:true}).click();
+ await page.screenshot({path:'output/playwright/meal-relay/packing-chen.png'});
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ await page.getByRole('button',{name:/03 小许/}).click();
+ await page.getByRole('button',{name:'藕汤',exact:true}).click();
+ await page.getByRole('button',{name:'撒在上面',exact:true}).click();
+ await page.getByRole('button',{name:'不放辣',exact:true}).click();
+ await page.getByRole('button',{name:'小许',exact:true}).click();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ const progress=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('meal-test')));
+ if(Object.values(progress.rounds.evening.boxes).some(box=>!box.sealed||box.delivered))throw new Error('packing should not deliver');
+ await page.getByRole('button',{name:'提起保温篮，去交接',exact:true}).click();
+ await page.screenshot({path:'output/playwright/meal-relay/delivery-hud.png'});
+ await page.getByRole('button',{name:'陈姐 西巷接力点'}).click();
+ if(!(await page.locator('#events').textContent()).includes('meal-west'))throw new Error('missing route callback');
+ await page.getByRole('button',{name:'打开分装台'}).click();
+ await page.setViewportSize({width:390,height:844});
+ if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('mobile overflow');
+ await page.screenshot({path:'output/playwright/meal-relay/packing-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1440,height:1000});
+ await page.screenshot({path:'output/playwright/meal-relay/packing-complete.png'});
+ return {passed:true,sealed:3,delivered:0,corrections:true,focus:true,saveResume:true,condimentVisual:true,hudNavigation:true,mobileOverflow:false};
+}
+)(page);
+```

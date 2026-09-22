@@ -1,0 +1,4417 @@
+{
+  "version": 1,
+  "storyVersion": 3,
+  "generatedAt": "2026-09-11T16:40:17+00:00",
+  "source": "src/story.js:DIALOGUES+EXTRA_DIALOGUES;src/ending-v3-data.js:ENDING_DIALOGUES (silent actions excluded)",
+  "sourceSha256": "7010abe35ccaea43e8cbc349dc7b61d5e83ef41ee35a96bb544342d756c52823",
+  "provider": {
+    "id": "microsoft-edge-read-aloud",
+    "service": "Microsoft Edge Read Aloud",
+    "client": "edge-tts",
+    "clientVersion": "7.2.8",
+    "transport": "Edge Speech WebSocket via edge-tts",
+    "authentication": "No project credential or browser cookies used",
+    "limitations": "Unofficial Edge client; no API SLA. Mainland standard Mandarin neural voices, not voice clones or Wuhan dialect. Narrator and female NPCs share Xiaoxiao with fixed per-role rate/pitch profiles."
+  },
+  "encoding": {
+    "codec": "mp3",
+    "sampleRate": 48000,
+    "channels": 1,
+    "bitrate": 96000
+  },
+  "normalization": {
+    "integratedLufs": -19,
+    "truePeakDbtp": -2,
+    "loudnessRangeLu": 9
+  },
+  "voices": {
+    "narrator": {
+      "voiceId": "zh-CN-XiaoxiaoNeural",
+      "locale": "zh-CN",
+      "rate": "-6%",
+      "pitch": "+0Hz",
+      "description": "旁白，沉静、留白的普通话女声"
+    },
+    "ayao-female": {
+      "voiceId": "zh-CN-XiaoyiNeural",
+      "locale": "zh-CN",
+      "rate": "-3%",
+      "pitch": "-2Hz",
+      "description": "成年阿遥女声，年轻自然"
+    },
+    "ayao-male": {
+      "voiceId": "zh-CN-YunxiNeural",
+      "locale": "zh-CN",
+      "rate": "-5%",
+      "pitch": "-2Hz",
+      "description": "成年阿遥男声，年轻自然"
+    },
+    "grandpa": {
+      "voiceId": "zh-CN-YunyangNeural",
+      "locale": "zh-CN",
+      "rate": "-8%",
+      "pitch": "-4Hz",
+      "description": "外公，温和低声；标准音色经轻度韵律调整，不是老年克隆"
+    },
+    "granny": {
+      "voiceId": "zh-CN-XiaoxiaoNeural",
+      "locale": "zh-CN",
+      "rate": "-11%",
+      "pitch": "-7Hz",
+      "description": "林婆婆，低缓温和；标准女声轻调韵律，不伪称老年克隆"
+    },
+    "chef": {
+      "voiceId": "zh-CN-XiaoxiaoNeural",
+      "locale": "zh-CN",
+      "rate": "+3%",
+      "pitch": "-3Hz",
+      "description": "蔡姨，明亮干脆，稍快的生活口吻"
+    },
+    "dock": {
+      "voiceId": "zh-CN-YunjianNeural",
+      "locale": "zh-CN",
+      "rate": "-8%",
+      "pitch": "-5Hz",
+      "description": "周伯，厚实男声，放慢节奏"
+    },
+    "community": {
+      "voiceId": "zh-CN-XiaoxiaoNeural",
+      "locale": "zh-CN",
+      "rate": "-1%",
+      "pitch": "+2Hz",
+      "description": "小许，清楚、亲近的普通话女声"
+    },
+    "child": {
+      "voiceId": "zh-CN-YunxiaNeural",
+      "locale": "zh-CN",
+      "rate": "-5%",
+      "pitch": "+2Hz",
+      "description": "童年阿遥，偏少年的轻亮声线，男女主共用"
+    }
+  },
+  "lines": {
+    "intro-arrival": {
+      "text": "到了。门还是得往上提啊？",
+      "sha256": "68ab976856a70f1b5facba77b776bb9bd373df7e9d58c87c1368d0280cd7e694",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-arrival.female.f1610776a9ac.mp3",
+          "duration": 3.48,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "dfb9d4fa88a3597cff605b012caf4d4852db6c544559f1df51c086dee9152477",
+          "bytes": 42381,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-arrival.male.18bf9fbdfaec.mp3",
+          "duration": 3.6,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "37ee89c8968a0e62bdc28b9d27ff5fab16957d80c19f6747ac860b1689b8b998",
+          "bytes": 43821,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-door-tip": {
+      "text": "提右边。别使蛮劲。",
+      "sha256": "759398bccddf84d7b240e90fb0156cecc65d269e9865ae3175d121a8d9e3bc31",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-door-tip.default.8d5a1d41aa4f.mp3",
+          "duration": 2.904,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "19e01f27e4708179b85a4f206c95e791d943a08885a7379bb28534341728a124",
+          "bytes": 35469,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-door-joke": {
+      "text": "您修了半条街，怎么就不修自家门？",
+      "sha256": "9bcb44b1039b8aadc9a374ad3a40ee8ddbd86bbeba0c75416903a85cb6bad30d",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-door-joke.female.f29c536f4437.mp3",
+          "duration": 3.696,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "48f3f266fe44135e2f8a9429033beea5b8b65ba68635476e0c06f2770556a6a8",
+          "bytes": 44973,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-door-joke.male.f28e34831ff8.mp3",
+          "duration": 3.864,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "fac5985a91b0a91f7ed7467684a759f7928691891cbe33fa069e7ffb7be2139e",
+          "bytes": 46989,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-table": {
+      "text": "回来再弄。桌上东西看见没？",
+      "sha256": "b0175a041480a8a0e131e75de42b2e8630204cb5bf6f961a735018ae6ac52f60",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-table.default.1c3b8d49c98c.mp3",
+          "duration": 3.768,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "af6467452613f8dd1e17191b0a9475c30d19373ca7a41ec78d66308bc62d98cd",
+          "bytes": 45837,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-short-stay": {
+      "text": "看见了。送完，明天我就回去。",
+      "sha256": "b2f9774310c92c81addd89fdd8b42cbb4762bd7064eef9b48cfd8ae3a37bf23c",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-short-stay.female.6d18dee1c51b.mp3",
+          "duration": 4.008,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "51180ed0201ac9d4501e16f277f172e938852c1b9b0d5ae18c67fbfdf3aec6b8",
+          "bytes": 48717,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-short-stay.male.6b40d6b36c63.mp3",
+          "duration": 3.96,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "5e610e532e6d68ca2a8c294e28da8f57fbebcaf6b1f21856d274c8e078fcc96b",
+          "bytes": 48141,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-commissions": {
+      "text": "嗯。收音机给林婆婆，灯给蔡姨，手电给老周。",
+      "sha256": "cbe5bd8fd0b63e2dff074497e2fff3d437e62a683056cf39f68a15bb1c394a4b",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-commissions.default.7e8b2831f8f3.mp3",
+          "duration": 5.328,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "21f1098b79eaff7c7c1d3fd64db31d84f59a878bd6a6c9181106a3c46f9c66f7",
+          "bytes": 64557,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-radio-open": {
+      "text": "收音机怎么还拆着？",
+      "sha256": "f554210e600b5ffa99f9b25074b3b9affbc068d4991ac75271ae5e6a2a5863c7",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-radio-open.female.16873d901b45.mp3",
+          "duration": 2.544,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5d9c005c6a9fd46c0825b070e810102e3fc8bec7240d74d1ba48960899dc5fb2",
+          "bytes": 31149,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-radio-open.male.0eecacf6d26c.mp3",
+          "duration": 2.52,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "8083477f3d955e3aba50ec5ac1acaab7b888eab0e57e93a4d94174854eda4148",
+          "bytes": 30861,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-radio-instructions": {
+      "text": "走得急。电池取了，你照着图接一下。",
+      "sha256": "9003d8c920b053b853fbd86fbadd3fabc9d5b0e33c0576c0fd2d4e21ce7661e4",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-radio-instructions.default.da8c8cc5d20d.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "dba2c6988ccf996be40d69a22b08be3fd23733cf0c4bd71200fd23a41edbf48b",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-homework": {
+      "text": "这也给我留作业？",
+      "sha256": "92195b09f72fd7f243da21e0396e73088126f72e1d6ce473880ff6949d64c8c2",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-homework.female.dd7b48c994f5.mp3",
+          "duration": 2.256,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "e853c2228e08933c5fd734ac6d2b5b00382c597aa338808e02e8151a4f382014",
+          "bytes": 27693,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-homework.male.c2320a534d0a.mp3",
+          "duration": 2.184,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "4faf310e4ff296754242e48273937030997b7af223c682608e2d16d753d1ab36",
+          "bytes": 26829,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-childhood-repair": {
+      "text": "你小时候不是抢着要修？",
+      "sha256": "1936788fd1daf740764d03c3fe4339eb1e38f3fce2b29350324e5ae2eee34804",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-childhood-repair.default.f861e6b1b076.mp3",
+          "duration": 2.712,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "d5746edc334dbfe602ddd2825db63cb54a37a31065f416ad7c54b391dd899016",
+          "bytes": 33165,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-rest": {
+      "text": "行。您就在姨妈那儿好好歇着，药记得吃。",
+      "sha256": "c8ac12e6746c5db066257756c43d385f4cc35af998019327690bb02f551d2bd1",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-rest.female.1af5071b51bf.mp3",
+          "duration": 4.872,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "32c5ad9a1dc036080eb55ac3f2ab52ff97421bd68e7f7bc3a339308b732c54c3",
+          "bytes": 59085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-rest.male.41b1a512d2da.mp3",
+          "duration": 4.872,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "249dcb66e9cf0a7bdd7ad8eab5560c5b765422616d9fa8b6eef48dbbee9a4cde",
+          "bytes": 59085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-meal-question": {
+      "text": "吃过了。你呢，吃饭没有？",
+      "sha256": "eaad08d6100b8b31af8dd8e0896644b0437328130a74563232700d424335ba20",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-meal-question.default.16dab18bdcd2.mp3",
+          "duration": 3.384,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "0b12f244339ffd6cc3ab16c40d48fd0d4bdbcecdff10f1c9143aef269df52102",
+          "bytes": 41229,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-meal-later": {
+      "text": "一会儿吃。",
+      "sha256": "3d087365208047d4f4eb12c372ac958ddef242ed3f1e1bebc4bf713a5e285375",
+      "speaker": "阿遥",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/intro-meal-later.female.458494bc7969.mp3",
+          "duration": 1.68,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "7702e5acd2b6376e2a5a17f894ebdbd54d57f1574869d2dd52271bc53925bcf6",
+          "bytes": 20781,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/intro-meal-later.male.106a0541f7a8.mp3",
+          "duration": 1.944,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "3d1ec99c2c027fa5e3f1e487853261120a31a2355f47d8e09cd9e159f1ed5e5c",
+          "bytes": 23949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "intro-eat-first": {
+      "text": "又一会儿。先吃了再跑。",
+      "sha256": "64bd81ce320b116eceadf3046781247f5d0f186dd94859ec375ff647b3f1b531",
+      "speaker": "外公",
+      "scene": "intro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/intro-eat-first.default.4efc501cbb99.mp3",
+          "duration": 3.072,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "916278c9188b5680054c9861aa391c8015f47e4736329fa89c21a2facabaedee",
+          "bytes": 37485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-arrival": {
+      "text": "林婆婆。",
+      "sha256": "024612ee84c99f815cbe0b835dc02d3c70065ff75754a4769f555bb8b93d540d",
+      "speaker": "阿遥",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-arrival.female.b4402608e6dc.mp3",
+          "duration": 1.656,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "a3c41ea0ca21c8b4c4c84201fad4d450a8d99a3cb31447f09ed0b41b74105a66",
+          "bytes": 20493,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-arrival.male.e6e0e0da65ce.mp3",
+          "duration": 1.968,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "94ae05b096b138f27b22307d517aa46b68894d5d67a22adeba3358e8789fcbcd",
+          "bytes": 24237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-welcome": {
+      "text": "哎哟，阿遥！站门口做什么，进来呀。",
+      "sha256": "20b7c3b167d19d802f9d4029c81befc86fe2336254659a2d2f65938e163ac6b8",
+      "speaker": "林婆婆",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-welcome.default.8be70ae6202e.mp3",
+          "duration": 4.992,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "280ce31749f45c4e9dc0e8446cb02af021bf0fe664d7998869146e80a0629485",
+          "bytes": 60525,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-joke": {
+      "text": "给您送收音机。怕您又问我作业。",
+      "sha256": "aa2b36704de9697cf55d9abf228edc24ef1876b8d46623e6bfa11215cd2b3077",
+      "speaker": "阿遥",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-joke.female.8c54b00105fc.mp3",
+          "duration": 4.056,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "a3f0238b18fde00d400f9832d38baf507ba76d2ffdb5243810edd36840f677c2",
+          "bytes": 49293,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-joke.male.52bc661cc03c.mp3",
+          "duration": 4.2,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1b380d9f1e4331b4eced5055e11075a391118cfef0eae325981dcfad425340c6",
+          "bytes": 51021,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-work": {
+      "text": "现在不问作业了。工作累不累？",
+      "sha256": "a85d8446d9eb332036f7a30584b332ac21bb1ab1220fd9deb58627c19f3de201",
+      "speaker": "林婆婆",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-work.default.5d88a4a9f491.mp3",
+          "duration": 4.032,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "5274eba5405a0fff3d3b8f78f77be440dfbd795453a9d3c610646497c58f6e17",
+          "bytes": 49005,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-radio-restored": {
+      "text": "还行。您听，修好了。",
+      "sha256": "70b08e92fa4711b307d250b7ce70d2885f0a112565ee7d249ed252553662a175",
+      "speaker": "阿遥",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-radio-restored.female.34dcc108b144.mp3",
+          "duration": 3.36,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "399c35e9ddbef8727fbf8a9fbabf314fd0864fc9f613e6b56aa44cb86e17663d",
+          "bytes": 40941,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-radio-restored.male.10e3e2edcd4c.mp3",
+          "duration": 3.984,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "c5bf05cb828755513a33b3eec3163cb0efab01377b117a2d4e70fc0c1011d769",
+          "bytes": 48429,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-grandpa-health": {
+      "text": "你外公住得惯不惯？",
+      "sha256": "4d4b31a1696dcfcaa127f4d06f23a751f7562841e15390847b0f675b0ad929d3",
+      "speaker": "林婆婆",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-grandpa-health.default.34fcec0a8f80.mp3",
+          "duration": 2.352,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "f53be72b970b30c421fad0d2c11d7b700814dac72f7e69bcba6046b346da05a9",
+          "bytes": 28845,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-scissors": {
+      "text": "姨妈说，他已经开始嫌人家的剪刀不好用了。",
+      "sha256": "a0a7de7923f7c90b499cd541b25acf37ac81ccdb414c4f295e50bd6273e74592",
+      "speaker": "阿遥",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-scissors.female.cf7ed87368cf.mp3",
+          "duration": 4.968,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "c44dcfa4f5575f3c25a065f8fd56732b8447d6e869c1168dc34447db5a7cfa59",
+          "bytes": 60237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-scissors.male.c8e235b671bc.mp3",
+          "duration": 5.064,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "4665e688b9beef5c463763b95e5fd331cf3ae707d74ce0aa81432c47ea84de8f",
+          "bytes": 61389,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-recognition": {
+      "text": "还是那个样。",
+      "sha256": "4bdd2e7430180be339f9c7739da909bef906a5fa6861316aa66768b48d864de8",
+      "speaker": "林婆婆",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-recognition.default.0acfefb1bf4d.mp3",
+          "duration": 1.896,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "4e30beca36b229dd4ac6cb0f251f67b436396990aa270ceb62e7e034429401c0",
+          "bytes": 23373,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-drawing-question": {
+      "text": "这不会是我画的吧？",
+      "sha256": "b6cf66541314948be2f12e158348e271266e0ab256212b4b0e5198808af328fe",
+      "speaker": "阿遥",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-drawing-question.female.107fa0b55998.mp3",
+          "duration": 2.424,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "02fb9c951b65f6274d1006eff7653debf7da3bdacd08db5ff1f465a42ebf85d9",
+          "bytes": 29709,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-drawing-question.male.eefb18963482.mp3",
+          "duration": 2.568,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "6f42151426abbfafc65b92301158659cb5a2b3f8cbbcd539eaeb250f6f043625",
+          "bytes": 31437,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-drawing-request": {
+      "text": "旁边还签了大名。帮我拼回去。",
+      "sha256": "8fa5db6158a711d1287dd12102a863819cf293e0f46f52f5ba84271e0e1ea74f",
+      "speaker": "林婆婆",
+      "scene": "granny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-drawing-request.default.278a2b455069.mp3",
+          "duration": 4.224,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "13cf2eb1402ea9bc4cbce7231978d43e1902af26e22ad96313fe73f0fb0745a1",
+          "bytes": 51309,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-kept-question": {
+      "text": "您还留着啊。",
+      "sha256": "a51ff40d5dc574e883744aa3a899d76986a577bb601ee4f57c6a759339549eca",
+      "speaker": "阿遥",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-kept-question.female.3cd3d65a5215.mp3",
+          "duration": 1.896,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "460f7f21d2b5fc2d11e6a341223f97319ced1b4a49e237409a7e24a9be57a190",
+          "bytes": 23373,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-kept-question.male.aee954665656.mp3",
+          "duration": 2.04,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "f137db24b78cc5feb0468dbbc466a908ce0d62f8b826500d1d240ccfa85909c7",
+          "bytes": 25101,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-kept-answer": {
+      "text": "你送我的，我收着。",
+      "sha256": "77282707185c5811daf60d3346a0fbb8f414648fa1568e1f080d7c81061b589f",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-kept-answer.default.bea75af3bf69.mp3",
+          "duration": 2.592,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "5f28b5368265e099ee2cbb25ce7704f98f42afcca32058631461bf6962e8745d",
+          "bytes": 31725,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-context": {
+      "text": "那阵屋里漏雨，你外公收拾了几天。我去敲门，才晓得他还没吃。",
+      "sha256": "3ca4c35130fa88321ede55e00dcc3d2219acbf48e6ec349128ee7ef2e762f766",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-context.default.1bd7291a4103.mp3",
+          "duration": 7.272,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "2c1dddb4b6913d2787d8a2f53df452ffb4d7a8c9913a7aad71629fee30b969fb",
+          "bytes": 87885,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-entry": {
+      "text": "面要坨了，先吃。",
+      "sha256": "c77e6411d16d638c77244d04ab531ba9fcb5449df8855364b117dbfdf8d423ae",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-entry.default.5e0e5bdb1954.mp3",
+          "duration": 2.424,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-6%",
+          "pitch": "-7Hz",
+          "audioSha256": "7437725183af3439693e55f3eb1ff09a375862631c0274d6a856832c7804e21c",
+          "bytes": 29709,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-child-pickup": {
+      "text": "下午还得接阿遥……",
+      "sha256": "9555ce77a335d58a55bbf013100145f2d469212d4b597014809c9cc3b18819f1",
+      "speaker": "外公",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-child-pickup.default.1ef395e0ad70.mp3",
+          "duration": 2.112,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "7612dd73895b5e1cbc011c012e17f5fa15b61de5a20eb49868461c9da2649511",
+          "bytes": 25965,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-offer": {
+      "text": "我去接。让孩子来我这儿写，行不行？",
+      "sha256": "b7f34cde20668fcb9097b7c7e6a170b7a6cfd1be6a49846a9dd80afb8649e6dc",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-offer.default.83f3671c9043.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-6%",
+          "pitch": "-7Hz",
+          "audioSha256": "bae88c74ea80661808758976533cc70efdd53e07d27beef8bb683d8e512c9f44",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-consent": {
+      "text": "行。就是话有点多。",
+      "sha256": "b83fae67fe29629ce403f8199e52ec7a2e5cc7c597e641e5af70593a75216f6e",
+      "speaker": "外公",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-consent.default.aeb8b8bfbaa7.mp3",
+          "duration": 2.976,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "c271b062b0ee85a303c0c804fc8c9ab45fc429f2631cd7ae1c9d4032d287765f",
+          "bytes": 36333,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-humor": {
+      "text": "还怕我嫌吵啊？",
+      "sha256": "9efa6eaf390130ebe4e301d87502f1230ab44c5212bd7c0c313da00bf783b6b9",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-humor.default.cf89b079d4e4.mp3",
+          "duration": 1.872,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-6%",
+          "pitch": "-7Hz",
+          "audioSha256": "dfa51ed0823e8dabb9a54890d1e7b69756102a85270caef6526d7b5da1d636ee",
+          "bytes": 23085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-bamboo": {
+      "text": "我抱回去。",
+      "sha256": "f8122b76a7fb3cb7433824bacd776fb03bdfefa64c8efabea4861e92cbc22577",
+      "speaker": "外公",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-bamboo.default.73039979b983.mp3",
+          "duration": 1.464,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "42272d06e3e15d5063197b38aeb9d8de5abbbe96ffc158d3c06584bf500378a8",
+          "bytes": 18189,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-memory-wash-hands": {
+      "text": "洗了手再抱，一手的油。",
+      "sha256": "2f8ce19207fd81ae5f6f0ddec4a0c7db0c4ef91a4ddad5e0532ab0f375be7e78",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-memory-wash-hands.default.a474f40bde3b.mp3",
+          "duration": 2.856,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-6%",
+          "pitch": "-7Hz",
+          "audioSha256": "486a61c56446c1940aedd00012b0be0b266421b433abb0fc4693ec97fafc7a32",
+          "bytes": 34893,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-present-return": {
+      "text": "我记得。那回醒了，扇子还在响。",
+      "sha256": "421a1f43c75ab46b62df438c64c79ecad0869664bb306d91ef34fdd786f446e2",
+      "speaker": "阿遥",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-present-return.female.0eaaa3cd1c87.mp3",
+          "duration": 4.128,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "821352a8ff7db948989ade49edf6b79372e0bc78d5842527a0bd618c5368b4f1",
+          "bytes": 50157,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-present-return.male.62f3837ad884.mp3",
+          "duration": 4.68,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1e6ba0178c03c8c0d505c7f5aa529c4c087f251622d836b36b9899cc93a55395",
+          "bytes": 56781,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-present-fan-joke": {
+      "text": "你醒了也装睡。扇子一停，你就动。",
+      "sha256": "9f8dfa603d9310a3463723c18e3b303246531c7f077e7170f5c43997f5744ff7",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-present-fan-joke.default.94f4b3e8de50.mp3",
+          "duration": 4.608,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "76d265ebb5616bca7f33e55f940e9d72cd8aeec6f196cc1635445af4452c86ca",
+          "bytes": 55917,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-present-list": {
+      "text": "这个交小许。我跟陈姐去社区小屋，都说好了。",
+      "sha256": "fbd76cc54fd3d4376b901480826f7fb0098ad811d0a2b9c215072ab2c231771a",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-present-list.default.480cc1bfc0a8.mp3",
+          "duration": 5.616,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "ffb8867350ab445f1d03dd162541fa74de244b4ac61febc9a6fa0c265d30e9c3",
+          "bytes": 68013,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-present-consent": {
+      "text": "包要我帮您拿吗？",
+      "sha256": "136ae44b5d5f5fe9518f5701bed6a18614af7d91e2a460040a635586fd8dc7cd",
+      "speaker": "阿遥",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/granny-present-consent.female.99893bbad524.mp3",
+          "duration": 2.16,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "4fb883bb5453c099a03e47f8a91bde62b9b751582d1a8877259062d566705063",
+          "bytes": 26541,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/granny-present-consent.male.c45c494232f3.mp3",
+          "duration": 2.328,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "88278659541ff3571a71cbac9c789b7277ef330e98c55d07850e59aa7bb2eb1d",
+          "bytes": 28557,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "granny-present-agency": {
+      "text": "轻得很。要帮忙我喊你，到了我给小许打电话。",
+      "sha256": "6c9780643dd6fc2e89f0eccca8eafa12d5bf9b45d93ca8ab705586fcc1e67a90",
+      "speaker": "林婆婆",
+      "scene": "grannyMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/granny-present-agency.default.903d4ada51da.mp3",
+          "duration": 5.808,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "dd5ccab7dd7aff429c3c8c871b5bcb3917ed35015606598ec57c8a2b46ce84e7",
+          "bytes": 70317,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-lamp-delivered": {
+      "text": "蔡姨，外公让我还灯。",
+      "sha256": "8e8ebb447abd2fce2dd6e818f0837228ca49161f5fddf64494a22f1ec8d5d4cf",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-lamp-delivered.female.6492707ebc1f.mp3",
+          "duration": 3.072,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "e212e9ef5d7d20d04b702d4f3aa8132004c98a1abba30b8246188e1c8305a445",
+          "bytes": 37485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-lamp-delivered.male.025cf05ff682.mp3",
+          "duration": 3.072,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "e225da6cbc98d2176243395a7da3f676e148b107936b1351abfc6eb05e6e024c",
+          "bytes": 37485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-greeting": {
+      "text": "放这儿。吃了没？",
+      "sha256": "8e46ddaf4344e0b2dae69b98c8ff450a2f82ac9e2488040a04fdc6b7821d3100",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-greeting.default.3b7b0869d7e2.mp3",
+          "duration": 2.4,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "a6ea6192231ae886167b85e99be5a319caec147ef4d6a6707dce3f6616be040e",
+          "bytes": 29421,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-evening": {
+      "text": "还没。这么晚还开着锅？",
+      "sha256": "6f07bef313c317aa2fa1d3ded423b240cc950a30a78d4c284a31d35c182b333e",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-evening.female.4ea92d52acb8.mp3",
+          "duration": 3.36,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "80ed88cf5065d264b887cc7e5026a9f12aa7f7b5e73885c13250c38853d178fc",
+          "bytes": 40941,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-evening.male.2321fd13a42e.mp3",
+          "duration": 3.672,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "eccbf51f6d897718bfbc36a18718d23d4e55828cb6dac44215974587b0fab4bf",
+          "bytes": 44685,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-food-plan": {
+      "text": "给社区备点热饭。来，你先吃这碗。",
+      "sha256": "f61903e7b00750f63de8a458cc171625605068bc1cedaf09000eca80640fa958",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-food-plan.default.32dac9eee1ad.mp3",
+          "duration": 4.248,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "a357b0218923bfb1e550bd368d4ce4d653ad047d669d1d1016368dbbdce54efb",
+          "bytes": 51597,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-meal-question": {
+      "text": "那您呢？",
+      "sha256": "e4bfce1fa0f7d0ac6dcdf43a65ec3363eab2480c927354a9d037f96f524a20c8",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-meal-question.female.af893f487216.mp3",
+          "duration": 1.584,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "ca2eaa7a12a30e14741027d07835c96727ac01c5f3b4c77f1c1b67645c4ce664",
+          "bytes": 19629,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-meal-question.male.bf3713bb25a4.mp3",
+          "duration": 1.728,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "52b189c1d002b187d7a3546774887231cbfe546289a47dcd693915892d7c4cc4",
+          "bytes": 21357,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-onion": {
+      "text": "锅都开着，再下一把的事。葱还是不要？",
+      "sha256": "9841b68adddd89a8cd5c0d550455e21fb1f3f10ce2a8447730add556a5fe01b4",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-onion.default.84ecb30b0bb5.mp3",
+          "duration": 4.368,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "063d641fff2e85e2f5fa91936857a9d4673e5d2833d02068b90fad56f220c7e4",
+          "bytes": 53037,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-changed": {
+      "text": "要，我现在吃了。",
+      "sha256": "37bc7b18f076ce58ca95ce321c625c5f993912fb5c8184da3d415ba2c0bd1f73",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-changed.female.7ebb73d4b666.mp3",
+          "duration": 2.424,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "fd2001480177c7ecb0f6b53955354c64a92f7d8062babf5bce798e013e76ea84",
+          "bytes": 29709,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-changed.male.3b77b28199ab.mp3",
+          "duration": 2.688,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "91fefe9b69d7b56fa67739f103441b6947d706c0e304b31efded7d7cd728d297",
+          "bytes": 32877,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-authorized-pickup": {
+      "text": "行。吃完帮我取几样？都跟人说好了。",
+      "sha256": "606c4cc3e1287e006b8770727093bedee412a8584d8a0b3a0ebba668331048af",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-authorized-pickup.default.2f3a3c0ec413.mp3",
+          "duration": 4.488,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "135a8ad9ccd21645875ea7c7ec7b746690c14197ffd4be6efe5e053344d57dbf",
+          "bytes": 54477,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-supplies-question": {
+      "text": "取什么？",
+      "sha256": "5d3e1129394b3e6981e765ad3a520b13293b77436691979b9d6a89396b408ed7",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-supplies-question.female.c4d928c76712.mp3",
+          "duration": 1.656,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "b71a4c0d96d9da46e987672266e01b266404c41974bae4869da1f2fc89bcd5e5",
+          "bytes": 20493,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-supplies-question.male.87d63fd3f540.mp3",
+          "duration": 1.656,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "638cbb94d24dfd3a899e2327e21501a577336105245fd8ad71d465278160e9fc",
+          "bytes": 20493,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-supplies": {
+      "text": "箱子、水，还有备用电池。小许要的，一起送过去。",
+      "sha256": "2693dcbab809a2a3e1166b263d66282931303ce7faafb98129f8165cb944bac6",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-supplies.default.b3de89614488.mp3",
+          "duration": 5.664,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "bb9fd1d5fc81d926133d18157040afc7868c21109d92d727de734b75a09a4f08",
+          "bytes": 68589,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-handover": {
+      "text": "取齐了带回来？",
+      "sha256": "95596c7f5d7b5b841d438910c15fea5ff8725b4b955e74e080bb6f49e75a4795",
+      "speaker": "阿遥",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-intro-handover.female.180f1e74cfb6.mp3",
+          "duration": 2.184,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "428f59362904fc002ec51a4281703c5dd5a5decb47e9faeba197b37f65d523bd",
+          "bytes": 26829,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-intro-handover.male.8dcd514644d8.mp3",
+          "duration": 2.064,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "32a07e7eacd2dfbbd73c47ec19bc1cdeb651b0b70486a3a9894d6d4c8bd68191",
+          "bytes": 25389,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-intro-note": {
+      "text": "嗯。我核一下。地方给你写上了。",
+      "sha256": "4e3d37da4de680d00e9c48857aff39f8c4e1ccbc0b6686cd9ded26de74d358c2",
+      "speaker": "蔡姨",
+      "scene": "chefIntro",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-intro-note.default.7cd39ceb8d94.mp3",
+          "duration": 4.128,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "2ca78ec06cf6e83180bd6556bd584769e1c9ecc067f9520b4aad711af631ffb4",
+          "bytes": 50157,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-handover-check": {
+      "text": "齐了。辛苦，喝口水。",
+      "sha256": "6435842914272f52addb4dfed239c54957f18dbfdbd6ab261669a6d8f1f12cc2",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-handover-check.default.5b07ffe882c1.mp3",
+          "duration": 3.312,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "e7e856d169d3ce0db2e64460651083a8706acc175e26fd6352cba486e3cf818e",
+          "bytes": 40365,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-lamp-question": {
+      "text": "这灯用了多少年了？",
+      "sha256": "7e0d32b97062a5d5ab95dc89040aa21a3dc46e84fb118ca393aebe972a811a2d",
+      "speaker": "阿遥",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-lamp-question.female.b6212b7c8fb2.mp3",
+          "duration": 2.376,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "817f1bea782a2282382cb05e519f6bfd289037089b728ed1058e28da56ec8a15",
+          "bytes": 29133,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-lamp-question.male.e806c4f71d28.mp3",
+          "duration": 2.448,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "226bf48efce74a126f61d1d8828a2ce8cccd2fdc76027487e9b69f69d65ca80c",
+          "bytes": 29997,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-first-stall": {
+      "text": "我头一回出摊就用它。那时连找钱都看不清。",
+      "sha256": "f7d0106897fb6d7777013bfdf739f75342931fe7f881ba7f6cf307a6bbe98a4f",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-first-stall.default.150a6ab2b292.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "b6f47c078f8346abcf78317ab9daef1c67eefd6c7c0a21bc5da22fa353e99d9c",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-entry": {
+      "text": "老陆，帮我照一下。",
+      "sha256": "137479372f6cc4691983669c31720385868f832cbd1ecb5c68253c56637fbd6e",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-entry.default.64fac27ab017.mp3",
+          "duration": 2.232,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+1%",
+          "pitch": "-3Hz",
+          "audioSha256": "98e8a8870e2d14c5e12865e835908639c8974f231f5dba7f7945b58dc4803382",
+          "bytes": 27405,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-ask": {
+      "text": "搁这儿？",
+      "sha256": "d497ca4616103972809b9e7b700de6e0e7c701a0fb6252fb484de2cd21c7e08a",
+      "speaker": "外公",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-ask.default.150cd95e394c.mp3",
+          "duration": 1.2,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "ada63198a473bafbbaa1d6a8a7061d7d8953ca9519cc159351a61a633a7b4b86",
+          "bytes": 15021,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-borrow": {
+      "text": "天亮还你。",
+      "sha256": "fd5a81cbbe73cdd12a99acf8ac65eff5e7e694307e360a493e593fed758514dd",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-borrow.default.e3932ceccf41.mp3",
+          "duration": 1.632,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+1%",
+          "pitch": "-3Hz",
+          "audioSha256": "8036b54afdd7da8cb3b5e85206b81917da425cf8ace05a181e571dbc716eb382",
+          "bytes": 20205,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-two-lamps": {
+      "text": "留着用。阿遥写字有台灯。",
+      "sha256": "9e2a2f23353129a47b8b84a0111b922c5452c37c6f4352758c0f4a1fa2f31a8a",
+      "speaker": "外公",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-two-lamps.default.40f35df4784e.mp3",
+          "duration": 3.312,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "628c8a2e29eafbf0e24a7992c12075571c633d1f78436ea240a2dccdf4c8710f",
+          "bytes": 40365,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-extra-bowl": {
+      "text": "饭钱先记着，过两天……",
+      "sha256": "b522a8649ea617bf215c6cd39e442442bb5074a105d43cea230d044a8bd25a20",
+      "speaker": "外公",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-extra-bowl.default.e3b0573135dc.mp3",
+          "duration": 2.544,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "543d35583669506dbcf416450373ca550fa051d5084722e9f635f00fdbb56617",
+          "bytes": 31149,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-eat": {
+      "text": "先吃，锅里还热着。",
+      "sha256": "c5d806a9f396aaa349f2c512da687f04c039fa9c3673e3b035288fecacf26aaf",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-eat.default.1d2842688d18.mp3",
+          "duration": 2.472,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+1%",
+          "pitch": "-3Hz",
+          "audioSha256": "4428f27dcc6373610677dd20bb6dad9f2929530a3953dc730cd1df29bb4fd823",
+          "bytes": 30285,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-child-onion": {
+      "text": "阿遥那份别放葱。",
+      "sha256": "85b3b70f88a02847f58100801aa89a57158f97a0d3374009e32e4040c954c797",
+      "speaker": "外公",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-child-onion.default.85d707ec7ec6.mp3",
+          "duration": 2.136,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "aad8cae81ca6cb778fd5e6feb85b4766b24699df3ec010d60d3d2ec9cec560f1",
+          "bytes": 26253,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-memory-ready": {
+      "text": "晓得，早装好了。",
+      "sha256": "76ab5a30ce49b319dd16711dc1cf6cd422933bf5eb6a2516d079f1a3642a318f",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-memory-ready.default.fb2762b6b7cc.mp3",
+          "duration": 2.256,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+1%",
+          "pitch": "-3Hz",
+          "audioSha256": "beb6452bf26875bf8a654c22e69cff10089d5923164bb785cd38ccd67d60b35f",
+          "bytes": 27693,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-return": {
+      "text": "红盖子，边上有个白点……",
+      "sha256": "b24df43f27eb8963531f9b823d77fb2cf607bc329e7a4bd26ce16b2f3b8b5c4f",
+      "speaker": "阿遥",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-present-return.female.71832067df3a.mp3",
+          "duration": 3.192,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "e2fa354b0de532e40b9f6463f60f4bade19e5544dba74295985859c076b0af64",
+          "bytes": 38925,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-present-return.male.624937138893.mp3",
+          "duration": 3.072,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "ab9f411b9691c4c30ff8d98b4bda507291b7e98fba6460e3b89a97a385427952",
+          "bytes": 37485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-lunchbox": {
+      "text": "就是它。你的豆皮装那里。",
+      "sha256": "4f85afd73d0a189b44f7190c48b2977be21d8950a0502a06a4356f1fe6653eeb",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-present-lunchbox.default.02b4ebd24285.mp3",
+          "duration": 3.192,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "de2bd859fd1a928adadd56cc521777ab7456d907ebc531953ad0bbc5743bb6b4",
+          "bytes": 38925,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-child-belief": {
+      "text": "我一直以为是外公做的。",
+      "sha256": "a29cee17f59c57fd5176d6c5b08b22cf9dacc453cceaaf37a09a9db2889d286d",
+      "speaker": "阿遥",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-present-child-belief.female.5df2945ea6fb.mp3",
+          "duration": 2.736,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "411d8ace97448d4da6c7b8e437cc5faef18c839cab60ac705313f301dfe66a36",
+          "bytes": 33453,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-present-child-belief.male.e503cd16765a.mp3",
+          "duration": 2.616,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1e65aa28e870157fe95b64ebed8a1c4a46fbe9449dc95dba7a8f493063d88c7c",
+          "bytes": 32013,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-humor": {
+      "text": "他会？蛋皮一铲起来就碎。",
+      "sha256": "8a6d0cbaca05e70166ad4c0ff4bca2db6d16c53df63b67fa847ae72a307eb371",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-present-humor.default.ce5a55be4083.mp3",
+          "duration": 3.288,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "ddc28fb3131cc716094b9c4a1861cdf5f557fe4d6eacf4ffd4f7e1a1687097ed",
+          "bytes": 40077,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-dispatch": {
+      "text": "热食备好了。小许安排的人一会儿来取。",
+      "sha256": "8e703e1c1d3b62e50df9467b24f2111e6d933d046c68eb68d932414c6ce7ce3d",
+      "speaker": "蔡姨",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/chef-present-dispatch.default.e15319a06342.mp3",
+          "duration": 4.272,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "f78ca66350dbb7e97a6a10226a92e5837f788d0f75686231788aae77a6694eae",
+          "bytes": 51885,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "chef-present-care": {
+      "text": "那您也吃一口，别又等凉了。",
+      "sha256": "43bc3ff7f373613cf8df789fdadfd32691a7794fc7d0d5fc534ae1df8f714ef9",
+      "speaker": "阿遥",
+      "scene": "chefMemory",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/chef-present-care.female.b825a105aaa0.mp3",
+          "duration": 3.096,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "690907da36aeb84f29eeb6d50e560f81281fdc97ee18287c963ab70cb27b4f73",
+          "bytes": 37773,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/chef-present-care.male.0afc631f85c0.mp3",
+          "duration": 3.192,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "58769b31dec5d5078a66a57624b51d03dbfef5abd1152ad4b1134884f43c65a9",
+          "bytes": 38925,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-safe-place": {
+      "text": "阿遥？来，棚子底下。",
+      "sha256": "ffff36545d4b4b805fe51c8b8c11421a37c59afe9d31b4ca8e0fa5f9d6b82c9a",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-safe-place.default.66d98f484972.mp3",
+          "duration": 3.72,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "172d9542abeef89f0d0575cb87789a83476ad41b29c6cb882d10c4d6aef3e8b7",
+          "bytes": 45261,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-flashlight": {
+      "text": "您的手电。开关换好了。",
+      "sha256": "dd7f65f76cf2b6bbfc1299e79c6b46adc363a8ba7044038885f9cfb68496f1d3",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-flashlight.female.970e9ff0ffdb.mp3",
+          "duration": 3.336,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "b191942d1e965e317ba28e03218e3d9ba84ddb4a18ba560cb3d9e29fd0665c56",
+          "bytes": 40653,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-flashlight.male.cd629ba945a8.mp3",
+          "duration": 3.696,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "051ce051d4b198490a70fa9587d3f58a06b479fbe870a8ac2a154733b50459bb",
+          "bytes": 44973,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-grandpa-rest": {
+      "text": "这下利索了。你外公歇得住？",
+      "sha256": "db38c3e2af13b7d6ddc891388c63e97bddbf685cc15bd506e0b680d24d0d577a",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-grandpa-rest.default.308b9ece9492.mp3",
+          "duration": 4.248,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "bdc21b6b0279d771f2a2de9bdd6b466cecd34f14863df0aba2b602b4c7be4121",
+          "bytes": 51597,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-grandpa-answer": {
+      "text": "姨妈看着，想忙都忙不了。",
+      "sha256": "2016fd5b8df404cd67820f801fd377047095b682eba7ab6fad3d4ce9aca5f69f",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-grandpa-answer.female.b201f9bd4312.mp3",
+          "duration": 3.192,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "122017c3fef99e8336d281aeac4770fa15bacae42c3515d85a7cd7b9a75a2227",
+          "bytes": 38925,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-grandpa-answer.male.293be39ffac9.mp3",
+          "duration": 3.408,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "3077287a59f3b11afd5c5f712d4ee23b3a573b0f2d13eb542440fadd0a881dd0",
+          "bytes": 41517,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-grandpa-joke": {
+      "text": "那他憋得慌。",
+      "sha256": "1d3bf5740ab7b3e2bc3b0f10d4c9c86061037facadb14bd7ddf908ef76c412f5",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-grandpa-joke.default.23fdf47028eb.mp3",
+          "duration": 2.088,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "b6d0fdd36f773b281f66dd69262202e6bb730b4f020553d106193734c7262f06",
+          "bytes": 25677,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-retired": {
+      "text": "您都退休了，还天天来看船？",
+      "sha256": "1e7d714d4c87d75c2aeae606c9b9ef00d709d51344d9913ac950bf6649cf09dd",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-retired.female.5448562c57d4.mp3",
+          "duration": 3.336,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "4354d0bca1122867dfff88fc76397a419e66251f52d0a66ac990eb1e90267078",
+          "bytes": 40653,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-retired.male.b3cf9eb3c19e.mp3",
+          "duration": 3.624,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1e23f4fea74cec01ddd7a36b73689549c5a9f393753e29a20b91f279a9d152bb",
+          "bytes": 44109,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-watching-ferry": {
+      "text": "顺路来坐坐。你外公以前也来。",
+      "sha256": "1812b22f0f08f0f0e17c18d3e31cebd7677d51fc8f784d8aca223b570a6b31e8",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-watching-ferry.default.dc563389b8cc.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "4aab4c4cda27d28f09da04fb23f5301d42b75d0f8207d3bf060ea93e5d601afd",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-box-before": {
+      "text": "有一回，抱着一箱工具。说是不想开店了。",
+      "sha256": "805289b8cdbbf780e09f064e421b228507604d63a50f6c6b619635e0c1f39b43",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-box-before.default.0167cb9f50b3.mp3",
+          "duration": 5.208,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "9e977de63d6a61d43b66b7da2f3e89c972486ff1183b8f1410cd88119fdee9d7",
+          "bytes": 63117,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-grandpa-question": {
+      "text": "他真舍得？",
+      "sha256": "0314bf2390b07a501cc52d125b53f4aed9ca3d6c9b187f230e4daef80e456b55",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-grandpa-question.female.2dba08d35f9d.mp3",
+          "duration": 1.872,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "4ff77caae1a8a15a5d135a10145a0eac4517756cc920b207a913a3adc8a4ca3a",
+          "bytes": 23085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-grandpa-question.male.199e4ca1529c.mp3",
+          "duration": 2.064,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "c18d4c87b75c2ba4b93af18210083973ab2afb26f4d25057669942312c2c57db",
+          "bytes": 25389,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-entry": {
+      "text": "老陆，去哪儿？",
+      "sha256": "2976d43637e61b843292306e9c4345e8b59b60eb3bc1e62e460a0882f14043a7",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-entry.default.edca1ea72a8c.mp3",
+          "duration": 2.352,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-5%",
+          "pitch": "-5Hz",
+          "audioSha256": "cda74b479211326b7a29deeda42ae51e11f2bc8c3e25c7617fe9ab7232491649",
+          "bytes": 28845,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-job": {
+      "text": "对岸问了个活。还没定。",
+      "sha256": "db29be6f1c1b4ee8a669ea44dd696e5bbfe48f4eebd7e28d41c4fec0e9bfbd1e",
+      "speaker": "外公",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-job.default.5b6c410274d0.mp3",
+          "duration": 3.12,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "a395061aba921c1e0031bf15a4dbbbe97c487ffdc9a79d25bc187f8a1c37cc8d",
+          "bytes": 38061,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-ask": {
+      "text": "我托一边？",
+      "sha256": "e045806338d24c7b3fa02ab3270171762a6768fcd953ae11de144338a09f523d",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-ask.default.ed20cc6f10b2.mp3",
+          "duration": 1.968,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-5%",
+          "pitch": "-5Hz",
+          "audioSha256": "db335ee212892eff1010e8006700834ca26c4cf54b97ab51eaeea1150fc5b085",
+          "bytes": 24237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-accepted": {
+      "text": "好。托底下，纸壳软了。",
+      "sha256": "1c5849575644772ac12ce3f089bfbe9ab629a33ed1a8dc87492d00ff5358240b",
+      "speaker": "外公",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-accepted.default.3e7441438b8f.mp3",
+          "duration": 3.24,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "2a860f1ad6582830dafe5f908b05f663a35a631845f66edaf6c469d09de85a1c",
+          "bytes": 39501,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-choice": {
+      "text": "坐船，还是回去？",
+      "sha256": "216bc459db7ec3fa657b10c018df93453ec03ea2d987c8cf9b98092b56376117",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-choice.default.067c08a59fa7.mp3",
+          "duration": 2.832,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-5%",
+          "pitch": "-5Hz",
+          "audioSha256": "84819b98d31604519f047056e051fb1c54cdb0f82bb8018597c0a730a66e9085",
+          "bytes": 34605,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-memory-return": {
+      "text": "先回吧。我再想想。",
+      "sha256": "f7cf47d524462649ebe64717ab83f1fec403d86249a13bb6e67d437e980a5649",
+      "speaker": "外公",
+      "scene": "dock",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-memory-return.default.d5732f67ea9b.mp3",
+          "duration": 2.784,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "ee29a51500df3e1948daa1e1d3f7200e414052ec3728caf695d61ed0b610cbdd",
+          "bytes": 34029,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-return": {
+      "text": "后来还是开了。舍不得那间店。",
+      "sha256": "24a5c4dc152b903944d8903a59a462540b51620dbc685f0fade0e9b940058841",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-present-return.default.a5f407f03b94.mp3",
+          "duration": 4.128,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "954ef3c14cda0c6ed76627df6dece26a98f7382929bc3ffc42436fb81ef855a5",
+          "bytes": 50157,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-envelope": {
+      "text": "差点忘了。旧照片，答应给你外公的，替我带回去。",
+      "sha256": "18d98a7a54d98ff19d021c0922c34f6466376bd4ec705734deec93bf76ccafb9",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-present-envelope.default.0d07bb449e2b.mp3",
+          "duration": 6.24,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "bab85218ed12dd4e0a21c20dc77ec112ea667d295770679713e68afadbd7eb59",
+          "bytes": 75501,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-child-question": {
+      "text": "这里头有我吗？",
+      "sha256": "ada7f8ac30932c6c99a87e82ef4651e251d62c91f68374bffd0c5137335c9e9b",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-present-child-question.female.6ed58d57bb44.mp3",
+          "duration": 2.04,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "9f6ff8ab582d3c8278057ffef2f3736fd2b8c1cd42c4f3ce9534f177b4adfdef",
+          "bytes": 25101,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-present-child-question.male.80d616f5fb4a.mp3",
+          "duration": 2.16,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "9df1ac0d7d28102eff661037071e8a5c8c4d66e3dc39eeb809f6c943321591f6",
+          "bytes": 26541,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-store-photo": {
+      "text": "有。你先收好，风大，别吹跑了。",
+      "sha256": "e5fe161b7c07a2773f0b1dd844c0f0f984f868f2817138fa9b4faa0acbb34e5e",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-present-store-photo.default.b47d23dcc8df.mp3",
+          "duration": 4.872,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "26f36daa192c5e9673b0094b2e77eb7d0ae9d9f505faa2c50d1fc6039fa4c545",
+          "bytes": 59085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-community-plan": {
+      "text": "小许？那几家我来联系。到了给你电话。",
+      "sha256": "fb0a6d1a4673d4837c42066b3cd7a903d865ed6a8fbe1f081b775961b7e96a4a",
+      "speaker": "周伯",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/dock-present-community-plan.default.8955e038e408.mp3",
+          "duration": 5.496,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "da405dc867f3396c360015477db9285bd16fee95b92a30697f80ed3168a1f338",
+          "bytes": 66573,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "dock-present-goodbye": {
+      "text": "那我先走，您忙。",
+      "sha256": "5ed54a8ea9960be23d05823ac4d8d7faa17b127efb5c52b568fb9de6a9ac82dd",
+      "speaker": "阿遥",
+      "scene": "dock",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/dock-present-goodbye.female.66f2c0122a4b.mp3",
+          "duration": 2.52,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "97c3980ccd35fbad772b58dcadfcc7624f5cf624933745f9012cddac24fec820",
+          "bytes": 30861,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/dock-present-goodbye.male.d072d4751929.mp3",
+          "duration": 2.544,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "a3e3e8523e5c292dbbe111f6e966aecf56de059428cf4aae2fc3ba7dc57026bf",
+          "bytes": 31149,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-arrival": {
+      "text": "谢谢，差点又吹散了。",
+      "sha256": "38576e3e307f62c8936b0ea1aea3416cf6a8afdbc10c1715cf353fd250fa30a2",
+      "speaker": "小许",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-arrival.default.4a2bb79ef23b.mp3",
+          "duration": 2.688,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "84b532e904c7e382e7500f5c986ca024e2c5272e93bd3bdc78e2bbd507360bc0",
+          "bytes": 32877,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-report-list": {
+      "text": "婆婆的单子。她跟陈姐一起过去。",
+      "sha256": "5c93b0b22fae88d179d86ac288a0d72cc43460f28e76f6796e74453b2e2e1a4c",
+      "speaker": "阿遥",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/community-report-list.female.7c90f81b28c8.mp3",
+          "duration": 3.984,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "15cdbbb0926f9cea548e6c512b7e4c0f6b8bb2c85bec929cda808cd994f46e70",
+          "bytes": 48429,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/community-report-list.male.9e780d00d5ff.mp3",
+          "duration": 4.056,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "457279dcb5eaa83c8b7f86b76ece89c44a518dd3ffc9d0ef0f18f86ce1eb665e",
+          "bytes": 49293,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-seats": {
+      "text": "嗯，留了两个位置。",
+      "sha256": "07e112c04f1c198389c70575c68c9ee407e1c7941c2176938a7aa9a6ac172fb7",
+      "speaker": "小许",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-seats.default.b3b81210f76e.mp3",
+          "duration": 2.352,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "a86e59fe4d71e2e63d98e80f127136305b60f327a3c3ee6c13236eae21c48ba1",
+          "bytes": 28845,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-report-ready": {
+      "text": "蔡姨备好了饭，等人取。周伯说那几家他联系。",
+      "sha256": "74d07d7631873cf3d994c84310663c693c804d0cde7e253d9cd46e3b191e3b30",
+      "speaker": "阿遥",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/community-report-ready.female.f96596de2d0c.mp3",
+          "duration": 5.664,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "154900c24527092a136c1d3880d75b267c06ba9fbfafc2cc5d5a04dbe0e8e4ad",
+          "bytes": 68589,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/community-report-ready.male.b9b9578d6df1.mp3",
+          "duration": 5.664,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "9a7886c99e2a9db5e86db5a92190b61a0133995d6b1e38c36d5073be34bf21fb",
+          "bytes": 68589,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-check-records": {
+      "text": "好，我再跟他们核一下。",
+      "sha256": "efdd86b787f1f0e01dae85cd93e5404f8c95753ea08127c9f670b780aa01c772",
+      "speaker": "小许",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-check-records.default.4357d84f539c.mp3",
+          "duration": 2.616,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "5cea48d053961f5df8d7f98fe18657579d03e9304abb897b87220a174dd722ec",
+          "bytes": 32013,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-ask-task": {
+      "text": "还有什么要帮忙的？",
+      "sha256": "857ac6da2440f3217a34fa269edb02fa3527c66f0eedd2b0177e00f2faecfb9b",
+      "speaker": "阿遥",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/community-ask-task.female.7f26477c0481.mp3",
+          "duration": 2.328,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "3d466e6813fa4cbdd8d328f43cded55ced68772b402a7e8d5b2e4a7c50b015b2",
+          "bytes": 28557,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/community-ask-task.male.c8b825bc44ba.mp3",
+          "duration": 2.184,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "d4d9b950935565ed5f68b792fac3547d8b224c166a9e3066e37a087ab63ae876",
+          "bytes": 26829,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-pack-start": {
+      "text": "帮我看看这个包，还差什么。清单在旁边。",
+      "sha256": "2e1b388fa580b6198e577f9b55dc9ba259d7e59f4b268c2dd66455c5b6295686",
+      "speaker": "小许",
+      "scene": "community",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-pack-start.default.c7f3615b1c43.mp3",
+          "duration": 4.632,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "d46b707aa197898f7be9fcd2fa1c626d14d14d85c2128c4042d235f99256c2d8",
+          "bytes": 56205,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-water-reminder": {
+      "text": "水在那边。",
+      "sha256": "bddcef8b77157f8e256797d251d8a2c449bc899c0e0234f89f947ee4a123601d",
+      "speaker": "阿遥",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/prepared-water-reminder.female.0f6aabc08038.mp3",
+          "duration": 1.824,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "e003e101000c6e1685131f33b9f019cda16761ef235b29521b47723dc57b11fe",
+          "bytes": 22509,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/prepared-water-reminder.male.86cbb5cbd226.mp3",
+          "duration": 1.968,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "fede2aa2d10bbe07017a21f0c41b832c56118a02f27163a62302769f8e2b6a44",
+          "bytes": 24237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-water-answer": {
+      "text": "忙糊涂了。",
+      "sha256": "5be5d303f964c4588db8e09165e7d604138a3a210a39e53248b6375cc76acb4d",
+      "speaker": "小许",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/prepared-water-answer.default.64fef6f0b1fa.mp3",
+          "duration": 1.56,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "a9e4340c57cbb1758435176f93dfd0e6daf4fadd82a49e22f88d3203077e57a7",
+          "bytes": 19341,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-observation-consent": {
+      "text": "还有两个路口没核到。你愿意帮我看一眼吗？",
+      "sha256": "97f8636d724247ab55d004ed32ecc51fe28f3b08cfdeb2f942fd89b5e25125a9",
+      "speaker": "小许",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/prepared-observation-consent.default.65457469d5c3.mp3",
+          "duration": 4.416,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "abb80dee18a80e56fee46ff8f32fe343a323563e8ce03c540c4581a5e39bfd2e",
+          "bytes": 53613,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-observation-answer": {
+      "text": "行，看到了就发你？",
+      "sha256": "2591686f324cfd56c863fa4f97053e54587b88ae24de6b9a42d29e77d89be2b9",
+      "speaker": "阿遥",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/prepared-observation-answer.female.5332317d2787.mp3",
+          "duration": 2.688,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "60197bdbc67f62ba4a9aa482f2841cd2b0e1454b02aa82a2608d16dcf96f621b",
+          "bytes": 32877,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/prepared-observation-answer.male.fd421653cdee.mp3",
+          "duration": 2.928,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "09f0267d12e062b73815412aba485c1278c9933ddf1de2f221d0af1ae6fcf366",
+          "bytes": 35757,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-safe-observation": {
+      "text": "对。在干地上看，别靠近积水和电箱。",
+      "sha256": "50ff649515d07e104b0433a860a4c8fc385d92beb6644875a88345f16d9f75d8",
+      "speaker": "小许",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/prepared-safe-observation.default.f29e8a08c1dd.mp3",
+          "duration": 4.632,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "7c177ee5925aa650cc0ae305c8b85816fdb1146d627e7c077c5182124ed21ad6",
+          "bytes": 56205,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "prepared-stop-if-unsafe": {
+      "text": "过不去就回来，别自己弄。我找人处理。",
+      "sha256": "4b55e220851c1e0b3abf558ebc27de7eba9700654981df49a7540354f2da4aa0",
+      "speaker": "小许",
+      "scene": "prepared",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/prepared-stop-if-unsafe.default.860f8802e47d.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "5685b4d2b92336e360ded948d08f26152c1e8aefe3150def38a9004905bdf615",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-professional-followup": {
+      "text": "你发的两处都记下了，已经联系人处理。",
+      "sha256": "02a5cd19d9311b38d9ea4130b23e70e6a432c87640edf8eeeaed46fbe60d59f9",
+      "speaker": "小许",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/checked-professional-followup.default.72be7b5de40a.mp3",
+          "duration": 3.768,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "1bac5a334f9e1a7ab400b922e9b492dbebc1578e4cecb2e83a115917acb22a9e",
+          "bytes": 45837,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-arrivals-question": {
+      "text": "婆婆她们到了？",
+      "sha256": "0068aaf7f174aa4661c619c8d56572713fb88157a89e88fe9501a6cf4200faeb",
+      "speaker": "阿遥",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/checked-arrivals-question.female.8d0621f81a5c.mp3",
+          "duration": 1.944,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "8258eea36be5f082055b2adf7c9ca7c2a53157d77f0b1037858a2b1a078557bb",
+          "bytes": 23949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/checked-arrivals-question.male.53febf892cff.mp3",
+          "duration": 1.944,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "131e5ae5a9de094f039dfb48faa55c01ab37fda0cb9560643b5d63f82a7396e5",
+          "bytes": 23949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-arrivals-confirmed": {
+      "text": "到了，跟陈姐坐里面。饭也到了，周伯刚报了平安。",
+      "sha256": "491db90822fe1fb7bf4afa0afe68cd4f4421519797977fc347fe291ce8fda1a2",
+      "speaker": "小许",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/checked-arrivals-confirmed.default.8797a530b3c6.mp3",
+          "duration": 5.568,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "785b30e224d5f517e13424255b504a2732382539d22adfeaf13343183d54c602",
+          "bytes": 67437,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-all-accounted": {
+      "text": "这回齐了。",
+      "sha256": "02ae1e1feebf4b79a6db46698f856fcac3318a555c83661caa7871f299ff0479",
+      "speaker": "阿遥",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/checked-all-accounted.female.66819f6da6b4.mp3",
+          "duration": 1.944,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "dbc4b5e978966eecd397351b94176fd8ca131c0382cfbff963dd69536b84077f",
+          "bytes": 23949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/checked-all-accounted.male.fc74b529dfe3.mp3",
+          "duration": 1.968,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "7f2f161ebf5a5af9114b5f57d7538fd0bedb939d6132948eddb49ad82981dcfc",
+          "bytes": 24237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-food-reminder": {
+      "text": "这个别再放凉了。",
+      "sha256": "59210f466c05e0a9f2b4a24f16880c99a998f931345758847f33c5a989dca191",
+      "speaker": "阿遥",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/checked-food-reminder.female.467bc22d1491.mp3",
+          "duration": 2.28,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "74dd1afc3e5ad7060a192c6cace4e9f7f188a0a643fa091bac4533a71fb3f2c9",
+          "bytes": 27981,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/checked-food-reminder.male.764736d398b4.mp3",
+          "duration": 2.256,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "68af3d0a071fabd6eaaba98cac61bebc410c2e5df84cbf547a77545d38939a2e",
+          "bytes": 27693,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-food-answer": {
+      "text": "吃，这就吃。",
+      "sha256": "759c551d98ba862551f7cf29765dc5292ffd3ce3477caf624c7422a3c3665192",
+      "speaker": "小许",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/checked-food-answer.default.1e2c3f2851a5.mp3",
+          "duration": 1.944,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "9531adae71e787150cdd65445d7e3c0a8dec26172fac07d2c9d546b40ce93868",
+          "bytes": 23949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-safe-return": {
+      "text": "主巷回修理铺那段确认过了。你先回屋，后面雨要大了。",
+      "sha256": "2a0aacad3030aac4dc364bb1f2854cec7b484ae4fdd37743079eea758cd382bc",
+      "speaker": "小许",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/checked-safe-return.default.57084f1cb9a2.mp3",
+          "duration": 6.0,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "d518f08bba1c4606541098a9768479baeff0c2856b0298389f1a06d1b7574fa0",
+          "bytes": 72621,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "checked-next-contact": {
+      "text": "好。有事给我打电话。",
+      "sha256": "699e0abe7e7a1f1ff49040cc84d26743b2a50fb762ea33d537fefbe28300a80b",
+      "speaker": "阿遥",
+      "scene": "checked",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/checked-next-contact.female.e8e22795144a.mp3",
+          "duration": 3.288,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "69df9972146154f3ac08efce120bc8eae1914fcc7ae3bc3573488ec53f2e2c06",
+          "bytes": 40077,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/checked-next-contact.male.3696117e0fcb.mp3",
+          "duration": 3.36,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "cf19ce65dc663dd5a000cd7e0eadc67e6b27a7de93b939a03e970c459d97dbd8",
+          "bytes": 40941,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-recognize-child": {
+      "text": "这不是我的书包吗……",
+      "sha256": "bacad0342a89a0fbf29f1fe7ff34667503c2e0d60e4032d6a7f5a4e4be110ba7",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-recognize-child.female.20e9a5ed814a.mp3",
+          "duration": 2.448,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "0551ec239d49e14ce7d813ed95f9fb3bc2d5d7f96d0e141178d62c4309a869a0",
+          "bytes": 29997,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-recognize-child.male.953be2f7396c.mp3",
+          "duration": 2.496,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "7916242ebad46e3e1db2bde50443371c29ca81a90dbfe5ccd9cadcccbfee4dda",
+          "bytes": 30573,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-entry": {
+      "text": "还是靠窗？",
+      "sha256": "8c2151885cbcf21d509f39d5c05eb8a869c37e858470a91e10de527e2d673d65",
+      "speaker": "周伯",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-entry.default.7bfe80355a13.mp3",
+          "duration": 1.968,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-5%",
+          "pitch": "-5Hz",
+          "audioSha256": "01d760cece19dc4ede28723459ad35ac41123bf8ed77a82a86f659b544ddd6dc",
+          "bytes": 24237,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-child-place": {
+      "text": "嗯，给阿遥留个角。",
+      "sha256": "0f357fcbbf910d24036f167cc9195c97485fecbd24c98768108c628bb17ca814",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-child-place.default.c614c4874496.mp3",
+          "duration": 2.256,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "6de907ffb4ca0ad4fd2fb9c403628a34eb11b6bcfa1808ae272008194e684502",
+          "bytes": 27693,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-dinner": {
+      "text": "饭在这儿。你那份也装了，莫忘了。",
+      "sha256": "2476419872591629faba0456a3c4399e465dd6f797f33bc64fc66e0081a22a97",
+      "speaker": "蔡姨",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-dinner.default.9bdb8651b672.mp3",
+          "duration": 3.936,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+1%",
+          "pitch": "-3Hz",
+          "audioSha256": "b7dffa3162d3ea95f7c1381651c6570db13773714dba7397ab45ba60fda92f16",
+          "bytes": 47853,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-thanks": {
+      "text": "好。",
+      "sha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-thanks.default.affacced5110.mp3",
+          "duration": 1.08,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "ce7f1477ab11a82c9da3ab845b8e0ad769f1e5111b2bac225afb5fd9d2ddc5c6",
+          "bytes": 13581,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-child": {
+      "text": "外公，明天还在这里写？",
+      "sha256": "7e9270113446107d25f9afc1aa2fc55172cd55addff51a473846a0ad9835e6c4",
+      "speaker": "童年的阿遥",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-child.default.71cffa910c8c.mp3",
+          "duration": 3.312,
+          "voiceId": "zh-CN-YunxiaNeural",
+          "profileId": "child",
+          "rate": "-5%",
+          "pitch": "+2Hz",
+          "audioSha256": "0263bc629e863e29afffee398f1659d152f8a77ac63ab794ed4e7a4c31fda0d8",
+          "bytes": 40365,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-memory-promise": {
+      "text": "还在这里。",
+      "sha256": "9e6db80c9527f411506df20d3ec87955f898b921d81dce5c5c9d380262875fbe",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-memory-promise.default.9e2c17671178.mp3",
+          "duration": 1.488,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-4%",
+          "pitch": "-4Hz",
+          "audioSha256": "707497f267d6837a339b146ff17a5ef1fc5144fc430076af97ddc1c3e9ea8c43",
+          "bytes": 18477,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-live-voice": {
+      "text": "送完了？",
+      "sha256": "190d34eb83a854a25592f74ab2af7eb7d0e3234caececb0d8a488c5005dba182",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-live-voice.default.0848b011d4a1.mp3",
+          "duration": 1.416,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "9c8c954533370ad36860d2c619e7e5fbacb9961009ec0aaaff5d1b35634a73ab",
+          "bytes": 17613,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-answer": {
+      "text": "嗯。蔡姨还给我留了饭。",
+      "sha256": "0eff504816388dad1328538427f3822669f139ac4c1100ecc2176b8aaac895ae",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-answer.female.7e6967b2c141.mp3",
+          "duration": 3.456,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "235fc93b29acadf9faac84e9e5587bc99fc4e1f98ee862a46d3eebd51beb3123",
+          "bytes": 42093,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-answer.male.948b73012c85.mp3",
+          "duration": 3.984,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "393e7e58709e9d75a95d227b3d411c06aca3d58d008e1fe74ee9f9ed7686543b",
+          "bytes": 48429,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-grandpa-answer": {
+      "text": "那就好。",
+      "sha256": "8c23aac734ac0cb4b9ef1beebb855cadf5ad363cc10a111eafc9465f989d5fbf",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-grandpa-answer.default.e21106fa5ca0.mp3",
+          "duration": 1.44,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "5b9286fe52dd8c9edaf5cb0df585bbc3b48ad545a7965b4d7f8b773ed02da83b",
+          "bytes": 17901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-photo-question": {
+      "text": "外公，周伯给我的照片，我看到了。",
+      "sha256": "db60c38c9791b7cec1e00aae2a85e78e4d6076d6868afec0c11c66e623b7a779",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-photo-question.female.cddf1a471826.mp3",
+          "duration": 3.96,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "124973161cded29902fd97c02c97b6cce1a7e645718d26e555dffed2ec8c8f54",
+          "bytes": 48141,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-photo-question.male.2d6815fbaa87.mp3",
+          "duration": 4.08,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "9fa4321c0b6bc770ab662a3a1edb91d85e0a31d3c409d54acbbbc32114e3a338",
+          "bytes": 49581,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-photo-found": {
+      "text": "找着了啊。我还以为丢了。",
+      "sha256": "b6067d1e96813149bc7010bfbf945e4e90b6e92410a3147d55dceb9b15cc8c92",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-photo-found.default.eb33729edff9.mp3",
+          "duration": 3.288,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "f27c911a2ff58e37e0e0af82536e849dfb5cda0f82ed76171bcfcc27a575095a",
+          "bytes": 40077,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-help-question": {
+      "text": "那天，他们都是来帮忙的？",
+      "sha256": "8d49bb6c85b6624dcabd231f872f9ddb7595f1682f4cb06685cfc33ccf69fefe",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-help-question.female.6e3a1594fa68.mp3",
+          "duration": 3.072,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "be6a46b6240f0199b3eeb74f3824bbe0b18d5db61e892cdda8b8d03e842b67bd",
+          "bytes": 37485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-help-question.male.b4a24b1877c1.mp3",
+          "duration": 3.24,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "9e25a3d08add9995d899607ce9d366f5448f2edb1796da4b2a2ee043a5c14d91",
+          "bytes": 39501,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-grandpa-humor": {
+      "text": "是啊。你还嫌人多，挤着你写字。",
+      "sha256": "455cde1b3ac2e502fe6e2856732812fdaa055db26683d6d867fe81ea4b07157f",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-grandpa-humor.default.30de8db4ad2f.mp3",
+          "duration": 3.792,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "bbd4a26e148a8b74f230ca81310999984668b4764ecda0de832683acc870b80a",
+          "bytes": 46125,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-childhood-belief": {
+      "text": "我以为都是你弄好的。",
+      "sha256": "ca39519e390db01a881a6b7de26033cee91e1a2ed0f2abafa947330fa5856bd5",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-childhood-belief.female.ab4dd79e4109.mp3",
+          "duration": 2.52,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "d765a43e0053eb1793128961cf35771f86eeda6db614ee4540bee237388a9ac3",
+          "bytes": 30861,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-childhood-belief.male.f96feeb87e33.mp3",
+          "duration": 2.544,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "a7edae049d75121d3003f5aa7c6862569d8ed268eee7c504d4899b8fce36e39b",
+          "bytes": 31149,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-grandpa-limits": {
+      "text": "哪有那么大本事。",
+      "sha256": "b317e5623a3a9267ad20d0a15aab5e47a2d1ef356f2b267973dfba72fb0b8939",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-grandpa-limits.default.5a7dbfb15a77.mp3",
+          "duration": 1.992,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "803c5c7c78eb4b6d9ed1ea7c7c48507c9391635b57f27201ecc15ceef7a0cdfa",
+          "bytes": 24525,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-care-for-grandpa": {
+      "text": "你回来，也别一进门就干活。",
+      "sha256": "12b7674310d34ee9cbf840e3118f73c96f3817313281e6f09395e61214c9517a",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-care-for-grandpa.female.84e1764c2f2f.mp3",
+          "duration": 3.12,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "64c9b3148aa553e01ce2f9b776aa91a82cca8a3d19f0270b47e1838094058c7c",
+          "bytes": 38061,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-care-for-grandpa.male.bd918f872345.mp3",
+          "duration": 3.264,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "bdc8820afdc958d2bf2607a403dc61778c9ce5bd2a5ec27a6a99920ce3cb3712",
+          "bytes": 39789,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-grandpa-question": {
+      "text": "不干活，干什么？",
+      "sha256": "b8c55e1e45b7f61ca0fcd606899599770707be57713a962388d15211d3e8e6d5",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-grandpa-question.default.5c67178c0def.mp3",
+          "duration": 2.184,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "8462b5580c759fcd807416993ea7677d5aeb8467f6a3d16f72c9d0c6b94a021e",
+          "bytes": 26829,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-next-breakfast": {
+      "text": "跟我去过早。",
+      "sha256": "0987e75451d85a829c529e6b719115547374b5da1b6470b3fd494104db9bac4d",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-next-breakfast.female.c4b2f51bc3fb.mp3",
+          "duration": 1.824,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "cb319235777cca18b34720347e683266c5cbeaf1bd7d203b521db9c67eec64aa",
+          "bytes": 22509,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-next-breakfast.male.6e7e27ac81b2.mp3",
+          "duration": 1.992,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "c7f2f9b63269abbbf6b209e1fb12f2f652385538e67f0eaa998925cadd255f17",
+          "bytes": 24525,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-departure-question": {
+      "text": "你不是明天走？",
+      "sha256": "03209bf9767507eb72033d3939334bae83b9b0f6dc506ea3c26b59926727e728",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-departure-question.default.80f90921dee6.mp3",
+          "duration": 1.776,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "5d9431075326f1a55c331e6e980ab3b8533b9e75daee47512ec3dcf84ee9f60e",
+          "bytes": 21933,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-stay-two-days": {
+      "text": "晚两天。我先替你尝尝，等你回来再去一回。",
+      "sha256": "efa2873d8053dae3c2307cf1efbb509d68a1cd68eed629292cfdcc9a732bfa5f",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-stay-two-days.female.bae2f9d7c299.mp3",
+          "duration": 4.872,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5b38a6650c4fe949aac73b99aec1b878c6d292b2fe21069a44c378d0bb3258de",
+          "bytes": 59085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-stay-two-days.male.7c418a02d269.mp3",
+          "duration": 5.328,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "306c280806c8a559a76967c40bc525eef3a7ff62c4ca0868bdc471b50ab740ba",
+          "bytes": 64557,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-onion-question": {
+      "text": "好，我请客。葱还给你挑出来？",
+      "sha256": "473df3bd0fc4d62156a375d623a9e64e6ab0bf225c80ad4045d89cd2c4cc0927",
+      "speaker": "外公",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-onion-question.default.38118eeffb41.mp3",
+          "duration": 3.768,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "032e226390341896913638b0308f58e2e4e3b6cdb1b63f670d604b090fc015e4",
+          "bytes": 45837,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-onion-answer": {
+      "text": "不用了，我现在吃了。",
+      "sha256": "ff1b0464202a3e91e6da51d57eec934883aae9dc5a12e5b14e597f2411541b86",
+      "speaker": "阿遥",
+      "scene": "ending",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-onion-answer.female.a493f7686786.mp3",
+          "duration": 2.688,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "8646b7fae75960167368ee1cc34126d3edcbcacc3c7f38e1664a45dc4138c37d",
+          "bytes": 32877,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-onion-answer.male.d4978321cf26.mp3",
+          "duration": 2.736,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "09a6b910390a18d558297135642d2f27d0042bacb31698da573208b4a9e16a33",
+          "bytes": 33453,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "radio-fixed": {
+      "text": "好了。还是这个声。",
+      "sha256": "4fd7292df064cd81e17993da76fa675363d915d2f77804ea79e26413b986ab89",
+      "speaker": "阿遥",
+      "scene": "radioFixed",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/radio-fixed.female.8ac8ffa9cdfe.mp3",
+          "duration": 2.88,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "0fe00add4cfb4002aaa096753350d57bd4f2605431b03429c87f0a2ac84d5fbd",
+          "bytes": 35181,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/radio-fixed.male.ef4ecf8831bf.mp3",
+          "duration": 3.144,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "b928da440ec06067e187a41ec7a8f5505ab40901b7d5f46b5737b4cce0b0e446",
+          "bytes": 38349,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "risk-water-report": {
+      "text": "江边这个口积水了，我没下去。位置发你。",
+      "sha256": "344ecedba893cebcbde7bea00a645d0463cf9e51f3871c309411ed8782a001a0",
+      "speaker": "阿遥",
+      "scene": "riskWaterReport",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/risk-water-report.female.c3734d9b17a1.mp3",
+          "duration": 4.704,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "b5ce6c919fae4244b4c04b92f89004ac8425acbc2f1eebb937822d988c8e7c48",
+          "bytes": 57069,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/risk-water-report.male.4104ae218f41.mp3",
+          "duration": 4.848,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "c26e7d37c44413e8db4e73d14d7d845793d48acf22dad4107b024d5d623966ea",
+          "bytes": 58797,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "risk-water-reply": {
+      "text": "收到。别从那里走，我安排人核查。",
+      "sha256": "ef36cc17f887954f71f28ecb3c35f298d9d8da4b9ae49116adfcd078451dea1a",
+      "speaker": "小许",
+      "scene": "riskWaterReport",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/risk-water-reply.default.00ff57317921.mp3",
+          "duration": 4.32,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "67a6b9d251421530ad87031095e6fd6374dceff5834ea453d60773551d4fbcf2",
+          "bytes": 52461,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "risk-cable-report": {
+      "text": "东巷电箱旁有水。我没靠近，位置也发了。",
+      "sha256": "363904054bef92e24f6a966526e385559026d6fc2429fadf76d77b18479d5400",
+      "speaker": "阿遥",
+      "scene": "riskCableReport",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/risk-cable-report.female.24ba24ec8acd.mp3",
+          "duration": 4.944,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5409f7875d1d02f22227a55e5a1a3d7771d76b84831e1e0112d56feb7b837109",
+          "bytes": 59949,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/risk-cable-report.male.7419db2c3f32.mp3",
+          "duration": 5.112,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "ae54784bcfd18beb92a135bc803cac14063938c0f004d74d0a16139fb6f1db46",
+          "bytes": 61965,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "risk-cable-reply": {
+      "text": "收到，离远些。这里交给专业人员。",
+      "sha256": "e4acb4765456fc0d805e4008c31483c394328a988494f41dd4802ae9f2902f56",
+      "speaker": "小许",
+      "scene": "riskCableReport",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/risk-cable-reply.default.056a65bc0de9.mp3",
+          "duration": 4.416,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "a9ae9457ce6eed49b9b384a6e674f85af3c91db25d1d65b54cd6d1473bb927d7",
+          "bytes": 53613,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "towel-present-question": {
+      "text": "这条毛巾，婆婆家也有。",
+      "sha256": "cf9f11b3732bd7bb141a659fac65397bc46734dd847d68859b5a0db28db6d9df",
+      "speaker": "阿遥",
+      "scene": "towel",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/towel-present-question.female.564d6eb7bc09.mp3",
+          "duration": 3.0,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "8d68580c92456bbc52497da4ff5fe1dac0d446a6381cedb970a63c542835d218",
+          "bytes": 36621,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/towel-present-question.male.000a23b695bb.mp3",
+          "duration": 3.168,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "f4d14eecfdaf4e3d87e606ebe2628d5b5a2d57ca14d9af15c53759fb15a29778",
+          "bytes": 38637,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "towel-present-origin": {
+      "text": "就是她的。我头回值夜班，淋了一头水。她给拿来的。",
+      "sha256": "c6f9d7b6817e869e5229b80e1e7a1b3929404c40ca229fb2e963f1a252f6e3e2",
+      "speaker": "小许",
+      "scene": "towel",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/towel-present-origin.default.cd279cbe808f.mp3",
+          "duration": 6.072,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "960604b36a4f93e52cbff914a6f47360a7529a81f882a5a100c038c72ee0a81e",
+          "bytes": 73485,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-memory-entry": {
+      "text": "先擦擦，脖子都湿了。",
+      "sha256": "8f64155c12b9f2a3c76c5aeb3ec72e5497b999d2a409a01d888d00cf263912ab",
+      "speaker": "林婆婆",
+      "scene": "towel",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-memory-entry.default.bc9d316e597d.mp3",
+          "duration": 2.784,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-6%",
+          "pitch": "-7Hz",
+          "audioSha256": "8182034f2b1931b7531624efa2ae8f17bcfa711a3247adeb8f57c68c032ef6e5",
+          "bytes": 34029,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "community-memory-thanks": {
+      "text": "谢谢婆婆。",
+      "sha256": "aa0cff3fd4d935177d9fae2c6478ce8febab9f8cd9c3f981d67cda74f3dc9520",
+      "speaker": "小许",
+      "scene": "towel",
+      "time": "memory",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/community-memory-thanks.default.9d7550945813.mp3",
+          "duration": 1.656,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "a071e904d567a6eb1fa51d7650643929102bc1c32def98487d60f19cb5163c61",
+          "bytes": 20493,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "postlude-next-breakfast": {
+      "text": "明早来吃豆皮，别睡过了。",
+      "sha256": "f74eb5027fd9600ec465aead423d24a6854d804c2809d78c20335d831143e3b7",
+      "speaker": "蔡姨",
+      "scene": "postlude",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/postlude-next-breakfast.default.8147ddcb6aff.mp3",
+          "duration": 2.856,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "c029971ab6f3d2e6445750ece8d5c125cd96067e1ce0ae53bf703a6fedba9179",
+          "bytes": 34893,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "postlude-save-me-one": {
+      "text": "好，给我留一份。",
+      "sha256": "d0f5460dc8baf7a7e59b47579ec57ee7ef3fa91e9a1df3f7f1635b81dd85bb71",
+      "speaker": "阿遥",
+      "scene": "postlude",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/postlude-save-me-one.female.8daea1d45fa5.mp3",
+          "duration": 2.376,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "3d86f332eb322f0adcb3936cf2f6ccae381e4f6a4fefee5bcf3bb14a763cd8e6",
+          "bytes": 29133,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/postlude-save-me-one.male.34fec79a8a2f.mp3",
+          "duration": 2.64,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "861ddebc90427d157e554fb19147d9586f5792c82ee0be4992b177263846fbb9",
+          "bytes": 32301,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "revisit-granny": {
+      "text": "坐不坐？给你挪个凳子。",
+      "sha256": "263c9d0f0919c13a5faa8a419629ac7b37dccdfb82cadcc80a7c8ab459f7783e",
+      "speaker": "林婆婆",
+      "scene": "revisitGranny",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/revisit-granny.default.1d0e34a4d47c.mp3",
+          "duration": 3.408,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "granny",
+          "rate": "-11%",
+          "pitch": "-7Hz",
+          "audioSha256": "c3263251a040961ca60f220d30fbd09e1730a688ff8d33168b0292edeb26b76d",
+          "bytes": 41517,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "revisit-chef-missing": {
+      "text": "还差的给你圈上了。看纸条，别白跑。",
+      "sha256": "eb997520fd45573b7ce6d04fada1c04ff055a7e50c5cd6a48da6ad92bad424ed",
+      "speaker": "蔡姨",
+      "scene": "revisitChefMissing",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/revisit-chef-missing.default.e3acf96d3063.mp3",
+          "duration": 4.2,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "84662cc43366f86151f1c64059896288322ec6137ccfa0723e525d3d975978b1",
+          "bytes": 51021,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "revisit-chef-prepared": {
+      "text": "箱子封好了，等小许的人来。",
+      "sha256": "1e29dd51e30c7492a197edd5459684fa149684a4dcff1dbeb580b6e150008eb1",
+      "speaker": "蔡姨",
+      "scene": "revisitChefPrepared",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/revisit-chef-prepared.default.0e04ad86cfc2.mp3",
+          "duration": 2.952,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "3ead57e653c40739471780745502773202bc131b3cb9a3afb991b10f811006f3",
+          "bytes": 36045,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "revisit-dock": {
+      "text": "我打完这个就走。你忙你的。",
+      "sha256": "af8f1d93279063ec170d93bd310ca8138ad07b46e777ec4793b32e4593273b4b",
+      "speaker": "周伯",
+      "scene": "revisitDock",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/revisit-dock.default.cfab4923062d.mp3",
+          "duration": 4.08,
+          "voiceId": "zh-CN-YunjianNeural",
+          "profileId": "dock",
+          "rate": "-8%",
+          "pitch": "-5Hz",
+          "audioSha256": "aeaf9972fa95127cef3d4452e579a81a8bff26268ce59c5b5d72eebdb73bd319",
+          "bytes": 49581,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "revisit-community": {
+      "text": "先把没问到的问清楚，回来一起核。",
+      "sha256": "b325dbf3426745df2fb958de7688797d879d9aec6ba195e1180fb059df821885",
+      "speaker": "小许",
+      "scene": "revisitCommunity",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/revisit-community.default.5d4255148140.mp3",
+          "duration": 3.624,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "4cdc26ba960e1deaad29684e2dd69b95e395bad5b631c8d58156978691d9f299",
+          "bytes": 44109,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "risk-unclear": {
+      "text": "这里看不清。我先退回去，位置发你。",
+      "sha256": "b7e61072ba0440359ebb6acd10b11295c39faea7e44b003c561092daa59cc23f",
+      "speaker": "阿遥",
+      "scene": "riskUnclear",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/risk-unclear.female.9b56bcc0ae8c.mp3",
+          "duration": 4.44,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "f0bc813fc35488cb27dd19f26ac37166014e3ec750e3e5d455848a2d5193b1d2",
+          "bytes": 53901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/risk-unclear.male.438ce244cbe4.mp3",
+          "duration": 4.608,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "cdcac490561530efec322b3499b613bb799c1e9c90b99fb0e017c89fd9c921e4",
+          "bytes": 55917,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-checkin": {
+      "text": "忙完了？",
+      "sha256": "e051284dc796516f175b25b7ee5421dc95129798aa1aeff08af15a8a54d2ab94",
+      "speaker": "外公",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-good-checkin.default.8a53d63501bf.mp3",
+          "duration": 1.368,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "e30e77dbafde68316d78b6997f126c2fa213e9dbb8046395a4715f9128d2e5b9",
+          "bytes": 17037,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-arrivals": {
+      "text": "嗯。人都到了，饭也送过去了。",
+      "sha256": "e4b841c76e36eb78f3ec2fa0ede2a0f49b139fc67407c486eac75ea3c29a1f79",
+      "speaker": "阿遥",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-good-arrivals.female.8bc0b43af4f9.mp3",
+          "duration": 4.08,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "f0d85ef0fc6ecf4f5c3cadfaf720a30d532823aedf863f62e88a85b17920834c",
+          "bytes": 49581,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-good-arrivals.male.113e48574c78.mp3",
+          "duration": 4.872,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "3fcf853a5ec608e004670d7917297bfa7ec8de3326139f5d31442319d3413d8f",
+          "bytes": 59085,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-eat": {
+      "text": "那你快吃，莫放凉了。",
+      "sha256": "c1afb0e18a85dbed44978ac411a731475b15d25abb956a385df4aa160d766f9e",
+      "speaker": "外公",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-good-eat.default.4ccdf68df35f.mp3",
+          "duration": 2.544,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "b739785607b8260c3d2fdb9c3394bc67a90f4943d7f0d6e1cb833559bc989591",
+          "bytes": 31149,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-stay": {
+      "text": "我再住两天。明早去蔡姨那里过早。",
+      "sha256": "9cb8da5efec2c943a3b8377e1f9f7d81acf3eefba581f63d897990f3318a69c4",
+      "speaker": "阿遥",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-good-stay.female.bf9a3152c80c.mp3",
+          "duration": 4.08,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "ae314004da5dbdfecce21588fb8896e2cb2c3e112464d948950e4a7de56175b0",
+          "bytes": 49581,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-good-stay.male.f1584bbbc074.mp3",
+          "duration": 4.464,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "98ff863aad72914eef8fa6c04005df64b26fb53c9ebdf05c882c0b5d0bbc4e9b",
+          "bytes": 54189,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-mianwo": {
+      "text": "帮我看看，还有没有面窝。",
+      "sha256": "d59f6160642f6a2d78a61af051b1cca34da82a72d3216725f666b1ef61e3f723",
+      "speaker": "外公",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-good-mianwo.default.d741907dd31b.mp3",
+          "duration": 2.664,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "b931ae048d403a651fc366eb1e1f275fd262569861726cd31f9ccad570d54594",
+          "bytes": 32589,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-good-together": {
+      "text": "好。等你回来，我们一起去。",
+      "sha256": "3a4861f36c23e25ce6db3d1a7c0b5dbf5733ac583bd014dd01688a8585878673",
+      "speaker": "阿遥",
+      "scene": "endingGood",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-good-together.female.405b7d4254e7.mp3",
+          "duration": 3.84,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5dec48af08be7070cec6b3fe9c15affa63fbf0e3d521491fddc35702107dedec",
+          "bytes": 46701,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-good-together.male.9f9460ee588e.mp3",
+          "duration": 3.816,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "d8c2d7ad1516ed828aea6f45b4e9774f7fdd4ea88714e3f8d73026c6bde34901",
+          "bytes": 46413,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-checkin": {
+      "text": "回店了？",
+      "sha256": "849763ff5562de2b85a2a2d5f6ddc0dd3505ff00be0b1181b13c2561f7e4b941",
+      "speaker": "外公",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-neutral-checkin.default.8866ff87cd1b.mp3",
+          "duration": 1.44,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "c434e8b0fb7ccef552d4337cbff6ce64816632e388c08ba19cd4095149872ab1",
+          "bytes": 17901,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-leave": {
+      "text": "嗯。我得先回去了，还要上班。",
+      "sha256": "059a423f99fde25aa2de8c60d3f0eca6006f0285bdfcbfe0dce4d101c41c0b4c",
+      "speaker": "阿遥",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-neutral-leave.female.b665c67d472f.mp3",
+          "duration": 3.864,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "3c881db1c7a74edf1c9e132b2bc42dc7827953619721e8d31994f9514fbe9b05",
+          "bytes": 46989,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-neutral-leave.male.62452134f9f9.mp3",
+          "duration": 4.56,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "b9cd1291d4d32877b12879eda9a60cd20b15bec1cedf3bdc80f1949d591e1b86",
+          "bytes": 55341,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-umbrella": {
+      "text": "行。柜台底下有把伞，带着。",
+      "sha256": "06d3cbf0cbad3e6dd770fcf5c3241eb5311c87a43eec266efbddbc05572612b6",
+      "speaker": "外公",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-neutral-umbrella.default.57d5708cda96.mp3",
+          "duration": 4.176,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "b380231e60945ba21a962038e82ef0154137330a1d7328380b91e0b900323199",
+          "bytes": 50733,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-rest": {
+      "text": "您就在姨妈那儿好好歇着。",
+      "sha256": "42c1b40757f41967d764ad08ffcb92881e169a79f1f32bff9b69622d8b8bbaeb",
+      "speaker": "阿遥",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-neutral-rest.female.527f4479f2fe.mp3",
+          "duration": 2.88,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5e6a094a0befb1820e686f78dbcc7b785fc0eb19723fce0fed6a614561760ba1",
+          "bytes": 35181,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-neutral-rest.male.12c32cdd88fe.mp3",
+          "duration": 3.024,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1a85d02dbc8e89cc718ae34ab3a006b1d0d9b3d59fd098b477b12193ea070c31",
+          "bytes": 36909,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-arrival-message": {
+      "text": "晓得。到了发个消息。",
+      "sha256": "a60427c68f7f941ccb23a05739b875d18d35da7d6ebb47050b98b97cbf31cae5",
+      "speaker": "外公",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-neutral-arrival-message.default.c6b548633b75.mp3",
+          "duration": 2.976,
+          "voiceId": "zh-CN-YunyangNeural",
+          "profileId": "grandpa",
+          "rate": "-8%",
+          "pitch": "-4Hz",
+          "audioSha256": "85ee4e0e1730482567fe4b3c7beb2d429a7b6eaf0f17d3a91a09764c8402aa95",
+          "bytes": 36333,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-neutral-next-time": {
+      "text": "好，下次回来再陪您过早。",
+      "sha256": "415819c63be249aa10877b1682ee8ae7b0838bb49207f8f0c2bb9234208aa2c9",
+      "speaker": "阿遥",
+      "scene": "endingNeutral",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-neutral-next-time.female.de18f5080345.mp3",
+          "duration": 3.24,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "37c5ff81d4171662560d762b015301a96492fbc1a0c2aabb36c228e33a54b82c",
+          "bytes": 39501,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-neutral-next-time.male.499424b69224.mp3",
+          "duration": 3.24,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "9465e1d6421b83b1f14b0ac75b7e52edddbd08144b6b6cdb7c0c241eb9f73ef1",
+          "bytes": 39501,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-xu-question": {
+      "text": "阿遥，社区这边你还过来吗？",
+      "sha256": "fc2a3aa3bd4d11fc1f86c738938002c686896fddc0b2ebfd4b756322e2713a37",
+      "speaker": "小许",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-regret-xu-question.default.d22088c78f49.mp3",
+          "duration": 3.264,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "ea798de5bb7eab0337e98bea0174d10c94bd1a262e973f19ee1f4575a795d5eb",
+          "bytes": 39789,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-unfinished": {
+      "text": "还没。我临时得走了，没顾上。",
+      "sha256": "b635d75590ae2b2e8b8d9fe48c5d4644960326989495d66e13d3f3d8ddf4adec",
+      "speaker": "阿遥",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-regret-unfinished.female.11774c4f4757.mp3",
+          "duration": 3.96,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "b5957e623b7520eb78fe00a329ff63221b85791dca4444693d8b08e33a2308d6",
+          "bytes": 48141,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-regret-unfinished.male.27af3340032d.mp3",
+          "duration": 4.032,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "98784bdb7fc9bf7e38a074e11c7ca5f1bd24e61d2a3dbdf64c3982c691c134a9",
+          "bytes": 49005,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-handover": {
+      "text": "好，知道了。我另安排人。",
+      "sha256": "22cead5095a01a682dfebe17c26d8389a5cb95e54397325bd50c28644b8f3539",
+      "speaker": "小许",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-regret-handover.default.71b5dfa274f0.mp3",
+          "duration": 3.48,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "community",
+          "rate": "-1%",
+          "pitch": "+2Hz",
+          "audioSha256": "5231f72bcd900bd6e094632fd5a4f84cef8ffaff9fada7b7337054d752868adf",
+          "bytes": 42381,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-meal-message": {
+      "text": "还来吃饭不？你的豆皮留着呢。",
+      "sha256": "5769f3e9e45171ab9df7928a9f6dab6501cdfcc738242bf9ddcb5b23abe3531c",
+      "speaker": "蔡姨",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-regret-meal-message.default.e402d1107dea.mp3",
+          "duration": 3.504,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "ed10fda92c098811d64413a5ce7a68d6db548bde7f21f93175f2556097e5d5c5",
+          "bytes": 42669,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-missed-meal": {
+      "text": "蔡姨，我赶不上了。改天吧。",
+      "sha256": "1ebd7c5b5c9bbe25611042351c31f510706f8907182850ee68088be68d70e254",
+      "speaker": "阿遥",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-regret-missed-meal.female.49fe3ae6d041.mp3",
+          "duration": 3.816,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "e51a916be244823e09f0aefbc617bbb958ff365334a0cb7717a67efbed945ebf",
+          "bytes": 46413,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-regret-missed-meal.male.3cda4fb47a36.mp3",
+          "duration": 4.296,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "1701a64b1748421f7ae337cff95f8db09dbddfc6ef58f53b86efb16520178002",
+          "bytes": 52173,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-goodbye": {
+      "text": "行。路上慢点。",
+      "sha256": "086786b230c4c13670c63d557c30f193c47b95279ab2e109caf9548b2f26bd23",
+      "speaker": "蔡姨",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "default": {
+          "url": "/media/story-voice/ending-regret-goodbye.default.7d76684f38ec.mp3",
+          "duration": 2.592,
+          "voiceId": "zh-CN-XiaoxiaoNeural",
+          "profileId": "chef",
+          "rate": "+3%",
+          "pitch": "-3Hz",
+          "audioSha256": "428f6b5d03f7471c035f1e8f5745cadcb701c122dc95a4f03b8982240af9ad50",
+          "bytes": 31725,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    },
+    "ending-regret-left-meal": {
+      "text": "好。……那份您吃了吧。",
+      "sha256": "c846ad131a4dc32f06911d275dae39ffbd843fbde70d8efc464c23a9d7062acb",
+      "speaker": "阿遥",
+      "scene": "endingRegret",
+      "time": "present",
+      "variants": {
+        "female": {
+          "url": "/media/story-voice/ending-regret-left-meal.female.cb78c060e2da.mp3",
+          "duration": 3.12,
+          "voiceId": "zh-CN-XiaoyiNeural",
+          "profileId": "ayao-female",
+          "rate": "-3%",
+          "pitch": "-2Hz",
+          "audioSha256": "5d69ef8c1a3226144deccd00e4635ca34ab09d7eaa5ef6bcc66fe30bb53ade9c",
+          "bytes": 38061,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        },
+        "male": {
+          "url": "/media/story-voice/ending-regret-left-meal.male.4eac47cabfe6.mp3",
+          "duration": 3.36,
+          "voiceId": "zh-CN-YunxiNeural",
+          "profileId": "ayao-male",
+          "rate": "-5%",
+          "pitch": "-2Hz",
+          "audioSha256": "bda29939cf756453d7f5c6dbe1ed3c983afd818f675d8ec76a47f3d8e43cb04d",
+          "bytes": 40941,
+          "provider": "microsoft-edge-read-aloud",
+          "clientVersion": "7.2.8"
+        }
+      }
+    }
+  },
+  "coverage": {
+    "expectedLines": 169,
+    "availableLines": 169,
+    "expectedVariants": 233,
+    "availableVariants": 233
+  }
+}

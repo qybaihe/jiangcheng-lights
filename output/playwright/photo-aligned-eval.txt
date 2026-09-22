@@ -1,0 +1,74 @@
+### Result
+{
+  "photo": {
+    "photoId": "shop",
+    "valid": true,
+    "ready": true,
+    "inPosition": true,
+    "facing": true,
+    "distance": 1.7999999999999983,
+    "heightError": 0,
+    "yawError": 6.795077578392039e-8,
+    "pitchError": 2.4414062577138296e-8,
+    "recognizedCount": 3,
+    "anchors": [
+      {
+        "id": "sign",
+        "title": "陆记的木招牌",
+        "recognized": true,
+        "error": 0.12706912430420408,
+        "visible": true,
+        "target": {
+          "x": -0.01971944926651791,
+          "y": 0.06988524285198829
+        },
+        "current": {
+          "x": -0.0027161591513050138,
+          "y": 0.19581161211869574
+        }
+      },
+      {
+        "id": "window",
+        "title": "二楼左边的木窗",
+        "recognized": true,
+        "error": 0.16925990320549764,
+        "visible": true,
+        "target": {
+          "x": -0.30008770588131023,
+          "y": 0.25773035925075255
+        },
+        "current": {
+          "x": -0.35176289872724203,
+          "y": 0.4189091087106928
+        }
+      },
+      {
+        "id": "desk",
+        "title": "门前那张修理桌",
+        "recognized": true,
+        "error": 0.10473116749320455,
+        "visible": true,
+        "target": {
+          "x": 0.08815574681468069,
+          "y": -0.5485360581122688
+        },
+        "current": {
+          "x": 0.16422381541908684,
+          "y": -0.620524018100624
+        }
+      }
+    ],
+    "match": 94,
+    "message": "三处线索都对上了。按下快门，收好这一刻。"
+  },
+  "mode": "first",
+  "position": {
+    "x": -12.35290827451296,
+    "y": 0.13,
+    "z": 21.234934633000726
+  }
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({photo:__JIANGCHENG__.getPlayfulLife().photo.evaluation,mode:__JIANGCHENG__.getWorld().cameraMode,position:__JIANGCHENG__.getWorld().position}))');
+```

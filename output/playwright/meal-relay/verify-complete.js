@@ -1,0 +1,35 @@
+async (page) => {
+ await page.reload();
+ if(!(await page.getByRole('button',{name:/01 林婆婆.*封好了/}).count()))throw new Error('reload lost sealed box');
+ await page.getByRole('button',{name:/02 陈姐/}).click();
+ await page.getByRole('button',{name:'三鲜豆皮',exact:true}).click();
+ await page.getByRole('button',{name:'撒在上面',exact:true}).click();
+ await page.getByRole('group',{name:'辣椒的放法',exact:true}).getByRole('button',{name:'小碟另放',exact:true}).click();
+ await page.getByRole('button',{name:'小许',exact:true}).click();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ if(!(await page.getByRole('status').textContent()).includes('名字'))throw new Error('wrong name not caught');
+ if(await page.getByRole('button',{name:'三鲜豆皮',exact:true}).getAttribute('aria-pressed')!=='true')throw new Error('correction erased food');
+ await page.getByRole('button',{name:'陈姐',exact:true}).click();
+ await page.screenshot({path:'output/playwright/meal-relay/packing-chen.png'});
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ await page.getByRole('button',{name:/03 小许/}).click();
+ await page.getByRole('button',{name:'藕汤',exact:true}).click();
+ await page.getByRole('button',{name:'撒在上面',exact:true}).click();
+ await page.getByRole('button',{name:'不放辣',exact:true}).click();
+ await page.getByRole('button',{name:'小许',exact:true}).click();
+ await page.getByRole('button',{name:'核对这份，封好盒',exact:true}).click();
+ if(!(await page.getByRole('button',{name:'提起保温篮，去交接',exact:true}).count()))throw new Error('missing departure');
+ const progress=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('meal-test')));
+ if(Object.values(progress.rounds.evening.boxes).some(box=>!box.sealed||box.delivered))throw new Error('packing should not deliver');
+ await page.getByRole('button',{name:'提起保温篮，去交接',exact:true}).click();
+ await page.screenshot({path:'output/playwright/meal-relay/delivery-hud.png'});
+ await page.getByRole('button',{name:'陈姐 西巷接力点'}).click();
+ if(!(await page.locator('#events').textContent()).includes('meal-west'))throw new Error('missing route callback');
+ await page.getByRole('button',{name:'打开分装台'}).click();
+ await page.setViewportSize({width:390,height:844});
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);
+ if(overflow)throw new Error('mobile overflow');
+ await page.screenshot({path:'output/playwright/meal-relay/packing-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1440,height:1000});
+ console.log('Reload, wrong-label local correction, all 3 sealed, no fake delivery, HUD navigation, 390px responsiveness: passed.');
+}

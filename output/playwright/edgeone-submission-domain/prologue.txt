@@ -1,0 +1,4 @@
+### Ran Playwright code
+```js
+await (async (page) => {await page.waitForFunction(()=>{const v=document.querySelector("#cinematic");return v&&v.videoWidth===1920&&!v.paused&&v.currentTime>0.5},null,{timeout:45000});console.log(JSON.stringify(await page.evaluate(()=>{const v=document.querySelector("#cinematic");return {origin:location.origin,width:v.videoWidth,height:v.videoHeight,time:v.currentTime,paused:v.paused,rate:v.playbackRate}})));})(page);
+```

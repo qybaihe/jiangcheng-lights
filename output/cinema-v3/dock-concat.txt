@@ -1,0 +1,3 @@
+file '/Users/baihe/Documents/ChatGPT/腾讯云游戏开发大赛/output/cinema-v3/pieces/D01.mp4'
+file '/Users/baihe/Documents/ChatGPT/腾讯云游戏开发大赛/output/cinema-v3/pieces/D02.mp4'
+file '/Users/baihe/Documents/ChatGPT/腾讯云游戏开发大赛/output/cinema-v3/pieces/D03.mp4'

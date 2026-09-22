@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>热食接力 UI 验收</title><style>html{background:#314e42}body{margin:0;min-height:100vh;display:grid;place-items:center;background:linear-gradient(#27463755,#274637bb),url('/media/arrival.webp') center/cover fixed;font-family:Arial}main{box-sizing:border-box;background:#fff9e9;width:min(1120px,94vw);padding:28px 32px;border:1px solid #ecdfbf;border-radius:16px;box-shadow:0 25px 120px #192b3b55;margin:30px 0}.control{position:fixed;top:3px;left:12px;display:flex;gap:10px;z-index:20}button{font:inherit}.control button{font-size:12px;background:#fff9e9;border:0;padding:4px 12px;border-radius:4px}#events{position:fixed;bottom:6px;left:18px;color:#f5e9c5;font-size:12px}.meal-hud{bottom:30px!important}#events:empty{display:none}body:has(main:not([hidden])) #hud{display:none}</style>
+<div class="control"><button id="show-packing">打开分装台</button><button id="show-hud">查看配送 HUD</button><button id="reset">重置样例</button></div><main><div id="packing"></div></main><div id="hud"></div><pre id="events"></pre>
+<script type="module">
+import {mountMealPacking,mountMealHUD} from '/src/ui/meal-relay.js';
+import {normalizeMealProgress} from '/src/meal-relay.js';
+let progress=normalizeMealProgress(JSON.parse(sessionStorage.getItem('meal-test')||'null')),packing,hud;
+const event=text=>document.querySelector('#events').textContent=text;
+function open(){document.querySelector('main').hidden=false;packing?.();packing=mountMealPacking(document.querySelector('#packing'),{progress,onChange(next,result){progress=next;sessionStorage.setItem('meal-test',JSON.stringify(next));hud?.update(next);event(result.code+': '+result.message);},onReady(next){progress=next;document.querySelector('main').hidden=true;event('ready: 回到 3D 世界亲手配送');},onCancel(next){progress=next;document.querySelector('main').hidden=true;event('cancel: 分装已保存');}});}
+hud=mountMealHUD(document.querySelector('#hud'),{progress,onNavigate:target=>event('导航: '+target)});
+document.querySelector('#show-packing').onclick=open;document.querySelector('#show-hud').onclick=()=>document.querySelector('main').hidden=true;document.querySelector('#reset').onclick=()=>{sessionStorage.removeItem('meal-test');location.reload()};open();
+</script>

@@ -1,0 +1,37 @@
+```json
+{
+  "audioAccessible": true,
+  "excerpts": [
+    {
+      "index": 1,
+      "heardChineseText": "本来就想划一划，结果还认真比起赛来了。",
+      "fullHeardPinyinWithTones": "běn lái jiù xiǎng huá yī huá, jié guǒ hái rèn zhēn bǐ qǐ sài lái le.",
+      "delivery": "Natural, clear, slightly amused",
+      "anyUnclearSyllables": false,
+      "clippedSyllablesOrNoises": false
+    },
+    {
+      "index": 2,
+      "heardChineseText": "快下雨了，我得回去看看。婆婆有人接没有？蔡姨的饭送到了没？",
+      "fullHeardPinyinWithTones": "kuài xià yǔ le, wǒ děi huí qù kàn kàn. pó po yǒu rén jiē méi yǒu? cài yí de fàn sòng dào le méi?",
+      "delivery": "Concerned, caring, slightly urgent",
+      "anyUnclearSyllables": false,
+      "clippedSyllablesOrNoises": false
+    },
+    {
+      "index": 3,
+      "heardChineseText": "听见她说平安，我才松了口气。要不，就再住两天吧。",
+      "fullHeardPinyinWithTones": "tīng jiàn tā shuō píng ān, wǒ cái sōng le kǒu qì. yào bù, jiù zài zhù liǎng tiān ba.",
+      "delivery": "Relieved, gentle, suggesting tone",
+      "anyUnclearSyllables": false,
+      "clippedSyllablesOrNoises": false
+    }
+  ],
+  "exactLastSentenceAsHeard": {
+    "chineseText": "要不，就再住两天吧。",
+    "pinyinWithTones": "yào bù, jiù zài zhù liǎng tiān ba."
+  },
+  "confidence": 0.99,
+  "uncertainties": null
+}
+```

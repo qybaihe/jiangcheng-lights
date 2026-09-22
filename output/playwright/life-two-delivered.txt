@@ -1,0 +1,84 @@
+### Result
+{
+  "state": {
+    "version": 1,
+    "rounds": {
+      "evening": {
+        "started": true,
+        "boxes": {
+          "lin": {
+            "food": "noodles",
+            "scallion": "none",
+            "chili": "none",
+            "label": "lin",
+            "sealed": true,
+            "delivered": true
+          },
+          "chen": {
+            "food": "doupi",
+            "scallion": "on",
+            "chili": "side",
+            "label": "chen",
+            "sealed": true,
+            "delivered": true
+          },
+          "xu": {
+            "food": "soup",
+            "scallion": "on",
+            "chili": "none",
+            "label": "xu",
+            "sealed": true,
+            "delivered": false
+          }
+        }
+      },
+      "morning": {
+        "started": false,
+        "boxes": {
+          "lin": {
+            "food": null,
+            "scallion": null,
+            "chili": null,
+            "label": null,
+            "sealed": false,
+            "delivered": false
+          },
+          "chen": {
+            "food": null,
+            "scallion": null,
+            "chili": null,
+            "label": null,
+            "sealed": false,
+            "delivered": false
+          },
+          "xu": {
+            "food": null,
+            "scallion": null,
+            "chili": null,
+            "label": null,
+            "sealed": false,
+            "delivered": false
+          }
+        }
+      }
+    }
+  },
+  "flags": [
+    "storyV3",
+    "prologueSeen",
+    "received",
+    "radio",
+    "granny",
+    "chefRequested"
+  ],
+  "position": {
+    "x": -15.330820429134281,
+    "y": 0.6,
+    "z": 1.373676153804285
+  },
+  "modal": null
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({state:__JIANGCHENG__.getState().meals,flags:__JIANGCHENG__.getState().flags,position:__JIANGCHENG__.getWorld().position,modal:__JIANGCHENG__.getModal()}))');
+```

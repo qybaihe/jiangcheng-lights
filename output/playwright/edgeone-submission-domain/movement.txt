@@ -1,0 +1,4 @@
+### Ran Playwright code
+```js
+await (async (page) => {const before=await page.evaluate(()=>__JIANGCHENG__.getWorld());await page.keyboard.down("w");await page.waitForTimeout(600);await page.keyboard.up("w");console.log(JSON.stringify({before,after:await page.evaluate(()=>__JIANGCHENG__.getWorld())}));})(page);
+```

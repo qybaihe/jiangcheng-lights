@@ -1,0 +1,18 @@
+```json
+{
+  "audioAccessible": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.4,
+      "exactChineseWords": "快下雨了，我得回去看看。我屋有人接没有？蔡姨的饭送到了没？",
+      "heardPinyinForUncertainWords": "wǒ wū yǒu rén jiē méi yǒu"
+    }
+  ],
+  "maskedOrCutWords": [],
+  "conversationalDelivery": true,
+  "voiceConsistency": true,
+  "backgroundBalance": "clear voice over gentle background music",
+  "uncertainties": "我屋有人接没有"
+}
+```

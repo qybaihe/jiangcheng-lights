@@ -1,0 +1,124 @@
+```json
+{
+  "audioAccessible": true,
+  "heardCues": [
+    {
+      "index": 1,
+      "heardChineseText": "我叫阿遥",
+      "heardNamesPinyin": "Ā Yáo",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Warm, natural narration introduction."
+    },
+    {
+      "index": 2,
+      "heardChineseText": "这次回武汉，本来只打算住一晚。",
+      "heardNamesPinyin": "Wǔhàn",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Calm and narrative tone."
+    },
+    {
+      "index": 3,
+      "heardChineseText": "外公在姨妈家休养，还惦记着铺子里的东西，让我替他给街坊送回去。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Smooth, conversational pace."
+    },
+    {
+      "index": 4,
+      "heardChineseText": "先去找林婆婆，借辆车，还是走小时候那条路。",
+      "heardNamesPinyin": "Lín pópo",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Expressive and clear."
+    },
+    {
+      "index": 5,
+      "heardChineseText": "她一眼就认出了我，还翻出我小时候画的画。原来，她一直留着。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Warm and nostalgic."
+    },
+    {
+      "index": 6,
+      "heardChineseText": "蔡姨忙不过来，我就去杂货铺帮她把东西带齐。",
+      "heardNamesPinyin": "Cài yí",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Friendly and helpful tone."
+    },
+    {
+      "index": 7,
+      "heardChineseText": "开车到了江边，我又停了下来。那张老照片，还是头一回见。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Reflective and wonder-filled."
+    },
+    {
+      "index": 8,
+      "heardChineseText": "我还借了条小船，桨一划开，连赶路的事都忘了。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Lighthearted and cheerful."
+    },
+    {
+      "index": 9,
+      "heardChineseText": "本来就想划一会，结果，还认真比起赛来了。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Slightly playful and energetic."
+    },
+    {
+      "index": 10,
+      "heardChineseText": "快下雨了，我得回去看看，婆婆有人接没有，蔡姨的饭送到了没。",
+      "heardNamesPinyin": "Cài yí",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Concerned and urgent narrative tone."
+    },
+    {
+      "index": 11,
+      "heardChineseText": "听见她说平安，我才松了口气。要不，就再住两天吧。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Relieved, warm, and comforting."
+    },
+    {
+      "index": 12,
+      "heardChineseText": "这一趟带回来的，好像比送出去的还多。小时候是他们照顾我，这回，换我给他们留盏灯。",
+      "heardNamesPinyin": "",
+      "startIntact": true,
+      "endIntact": true,
+      "anyCutOrDistortion": false,
+      "delivery": "Warm, emotional, and deeply caring."
+    }
+  ],
+  "oneConsistentSpeaker": true,
+  "missingOrDuplicateCue": false,
+  "backgroundMusicOrNoise": false,
+  "transitionClicksOrChoppedBreaths": false,
+  "firstWordsAsHeard": "我叫阿遥",
+  "finalWordsAsHeard": "这回，换我给他们留盏灯。",
+  "overallSpeechNaturalness": "Highly natural, expressive, with excellent pacing, warmth, and narration flow.",
+  "issues": "None. The audio consists of clean, dry narration recordings separated by silence.",
+  "confidence": "high"
+}
+```

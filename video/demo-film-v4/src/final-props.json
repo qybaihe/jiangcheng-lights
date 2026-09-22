@@ -1,0 +1,737 @@
+{
+  "title": "江城有灯 · 大字硬字幕参赛版",
+  "kind": "final",
+  "duration": 118,
+  "readyForFinal": true,
+  "gameAudio": false,
+  "lockedMix": "final/audio--v2-approved-soundtrack.m4a",
+  "shots": [
+    {
+      "id": "C01-wuhan-river",
+      "type": "cg",
+      "duration": 4.5,
+      "src": "final/cinema-upscale-v1--prologue-1080p.mp4",
+      "sourceIn": 0,
+      "title": "汉口江岸 · 返程",
+      "from": 0
+    },
+    {
+      "id": "C02-enter-lifen",
+      "type": "cg",
+      "duration": 2.5,
+      "src": "final/cinema-upscale-v1--prologue-1080p.mp4",
+      "sourceIn": 14.625,
+      "title": "晴川里 · 一条虚构的武汉老巷",
+      "from": 4.5
+    },
+    {
+      "id": "R01-grandpa",
+      "type": "game",
+      "duration": 4,
+      "src": "final/story--01-grandpa-phone.mp4",
+      "sourceIn": 0.8,
+      "title": "外公托我，给街坊送几件东西",
+      "detail": "回到陆记修理铺 · 领取委托",
+      "chapter": "01",
+      "from": 7,
+      "gameVolume": 0
+    },
+    {
+      "id": "R02-radio",
+      "type": "game",
+      "duration": 5,
+      "src": "final/story--02-radio-repair.mp4",
+      "sourceIn": 1,
+      "title": "先把林婆婆的收音机修好",
+      "detail": "转动铜线 · 测试连接",
+      "chapter": "01",
+      "from": 11,
+      "gameVolume": 0.55
+    },
+    {
+      "id": "N01-borrow-bike",
+      "type": "game",
+      "from": 16,
+      "duration": 2.2,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 1.2,
+      "chapter": "02",
+      "title": "借辆车，去找林婆婆",
+      "detail": "靠近自行车 · 按 F 借骑",
+      "gameVolume": 0.3
+    },
+    {
+      "id": "N02-find-on-map",
+      "type": "game",
+      "from": 18.2,
+      "duration": 2.8,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 4.5,
+      "chapter": "02",
+      "title": "地图上找到林婆婆的小院",
+      "detail": "选定目标 · 沿路前往",
+      "gameVolume": 0.4
+    },
+    {
+      "id": "N03-ride-to-granny",
+      "type": "game",
+      "from": 21,
+      "duration": 6.5,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 9.2333333333,
+      "chapter": "02",
+      "title": "骑进老巷，走小时候那条路",
+      "detail": "沿北向小巷骑行 · 前往林婆婆家",
+      "gameVolume": 0.55
+    },
+    {
+      "id": "N04a-dismount",
+      "type": "game",
+      "from": 27.5,
+      "duration": 1.3,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 15.7666666667,
+      "chapter": "02",
+      "title": "停好车，再走进小院",
+      "detail": "停稳 · 按 F 下车",
+      "gameVolume": 0.4
+    },
+    {
+      "id": "N04b-walk-to-granny",
+      "type": "game",
+      "from": 28.8,
+      "duration": 2.2,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 17.7333333333,
+      "chapter": "02",
+      "title": "就在前面，婆婆还坐在老地方",
+      "detail": "步行最后几步 · 找到林婆婆",
+      "gameVolume": 0.4
+    },
+    {
+      "id": "N05a-granny-welcome",
+      "type": "game",
+      "from": 31,
+      "duration": 1.8,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 22.8666666667,
+      "chapter": "02",
+      "title": "她一眼就认出了我",
+      "detail": "留在 3D 街区里交谈",
+      "gameVolume": 0
+    },
+    {
+      "id": "N05b-radio-delivery",
+      "type": "game",
+      "from": 32.8,
+      "duration": 1.7,
+      "src": "final/supplement--bike-to-granny-chain.mp4",
+      "sourceIn": 28.4,
+      "chapter": "02",
+      "title": "把修好的收音机，送回婆婆身边",
+      "detail": "交付委托 · 开启童年记忆",
+      "gameVolume": 0
+    },
+    {
+      "id": "R04-memory",
+      "type": "game",
+      "duration": 4.5,
+      "src": "final/story--04-childhood-drawing.mp4",
+      "sourceIn": 1.55,
+      "title": "她一直留着，我小时候画的画",
+      "detail": "交换画页 · 找回旧时记忆",
+      "chapter": "02",
+      "from": 34.5,
+      "gameVolume": 0.45
+    },
+    {
+      "id": "R05-supplies",
+      "type": "game",
+      "duration": 4,
+      "src": "final/story--05-collect-promised-supplies.mp4",
+      "sourceIn": 0.15,
+      "title": "蔡姨忙不过来，我再跑一趟",
+      "detail": "杂货铺 · 按约领取物资",
+      "chapter": "02",
+      "from": 39,
+      "gameVolume": 0.3
+    },
+    {
+      "id": "P01-meal-packing",
+      "type": "game",
+      "duration": 4,
+      "src": "final/capture--02-meal-packing.mp4",
+      "sourceIn": 1,
+      "title": "把热饭装好，再跑一趟",
+      "detail": "热食接力 · 按口味装盒 / 贴名字封盒",
+      "chapter": "02",
+      "from": 43,
+      "gameVolume": 0
+    },
+    {
+      "id": "R08-car",
+      "type": "game",
+      "duration": 4.5,
+      "src": "final/car-v1--source-usable-1080p30.mp4",
+      "sourceIn": 1,
+      "title": "开车，到江边走走",
+      "detail": "自由探索 · 街巷小事",
+      "chapter": "03",
+      "from": 47,
+      "gameVolume": 0.5
+    },
+    {
+      "id": "P02-photo-river",
+      "type": "game",
+      "duration": 3,
+      "src": "final/capture--01-river-photo-alignment.mp4",
+      "sourceIn": 2,
+      "title": "站回旧照片里的那个位置",
+      "detail": "旧照对景 · 对齐钟楼与桥影",
+      "chapter": "03",
+      "from": 51.5,
+      "gameVolume": 0
+    },
+    {
+      "id": "R10-oars",
+      "type": "game",
+      "duration": 6.5,
+      "src": "final/boat-v1--source-1080p30.mp4",
+      "sourceIn": 8.8,
+      "title": "借条小船，把赶路的事放一放",
+      "detail": "自由探索 · 亲手划桨",
+      "chapter": "03",
+      "from": 54.5,
+      "gameVolume": 0.5
+    },
+    {
+      "id": "R12-last-gates",
+      "type": "game",
+      "duration": 3.5,
+      "src": "final/boat-v1--source-1080p30.mp4",
+      "sourceIn": 33.75,
+      "title": "本来只想划一会儿……",
+      "detail": "近岸桨影 · 通过最后航标",
+      "chapter": "03",
+      "from": 61,
+      "gameVolume": 0.5
+    },
+    {
+      "id": "R13-gold",
+      "type": "game",
+      "duration": 2.5,
+      "src": "final/boat-v1--source-1080p30.mp4",
+      "sourceIn": 37.5,
+      "title": "结果，还认真比起赛来了",
+      "detail": "八道航标 · 真实金章成绩",
+      "chapter": "03",
+      "from": 64.5,
+      "gameVolume": 0.4
+    },
+    {
+      "id": "R14-road-race",
+      "type": "game",
+      "duration": 4,
+      "src": "final/car-v1--source-usable-1080p30.mp4",
+      "sourceIn": 18.8,
+      "title": "换条路，再试一圈",
+      "detail": "顺路计时 · 沿标记挑战",
+      "chapter": "03",
+      "from": 67,
+      "gameVolume": 0.5
+    },
+    {
+      "id": "R15-dock",
+      "type": "game",
+      "duration": 2,
+      "src": "final/story--07-uncle-zhou-at-river.mp4",
+      "sourceIn": 1,
+      "title": "快下雨了，我得回去看看",
+      "detail": "周伯 · 江边联络",
+      "chapter": "04",
+      "from": 71,
+      "gameVolume": 0
+    },
+    {
+      "id": "P03-meal-handoff",
+      "type": "game",
+      "duration": 4,
+      "src": "final/capture--03-meal-community-delivery.mp4",
+      "sourceIn": 5.666666666666667,
+      "title": "把蔡姨的热饭，送到街坊手里",
+      "detail": "热食接力 · 带餐前往 / 当面交付",
+      "chapter": "04",
+      "from": 73,
+      "gameVolume": 0
+    },
+    {
+      "id": "R17-report",
+      "type": "game",
+      "duration": 3,
+      "src": "final/story--10-observe-safe-distance.mp4",
+      "sourceIn": 1.4,
+      "title": "留在干燥通道，报清位置",
+      "detail": "保持距离 · 联系社区",
+      "chapter": "04",
+      "from": 77,
+      "gameVolume": 0
+    },
+    {
+      "id": "R18-receipt",
+      "type": "game",
+      "duration": 7.3,
+      "src": "final/story--11-community-receipt.mp4",
+      "sourceIn": 0,
+      "title": "等到这一句，才放下心",
+      "detail": "小许 · 完整回执原声",
+      "chapter": "04",
+      "gameVolume": 1.1,
+      "from": 80
+    },
+    {
+      "id": "R19-choice",
+      "type": "game",
+      "duration": 3,
+      "src": "final/story--21-choice-held.mp4",
+      "sourceIn": 0.8,
+      "title": "要不，就再住两天吧",
+      "detail": "实际选择 · 决定归途",
+      "chapter": "05",
+      "from": 87.3,
+      "gameVolume": 0
+    },
+    {
+      "id": "R20-true",
+      "type": "game",
+      "duration": 1.8,
+      "src": "final/story--17-ending-true.mp4",
+      "sourceIn": 1,
+      "title": "灯下有你",
+      "detail": "真结局 · 把约定做到最后",
+      "chapter": "05",
+      "from": 90.3,
+      "gameVolume": 0
+    },
+    {
+      "id": "R21-endings",
+      "type": "game",
+      "duration": 3.2,
+      "src": "final/story--18-four-earned-endings.mp4",
+      "sourceIn": 0.4,
+      "title": "不同的选择，留下不同的归途",
+      "detail": "四种结局 · 真实解锁记录",
+      "chapter": "05",
+      "from": 92.1,
+      "gameVolume": 0.25
+    },
+    {
+      "id": "R22-gallery",
+      "type": "game",
+      "duration": 5.7,
+      "src": "final/story--19-true-ending-art.mp4",
+      "sourceIn": 0.2,
+      "title": "这一趟带回来的，比送出去的还多",
+      "detail": "江城画廊 · 收藏走过的故事",
+      "chapter": "05",
+      "from": 95.3,
+      "gameVolume": 0.25
+    },
+    {
+      "id": "A01-making-of",
+      "type": "evidence",
+      "duration": 8,
+      "src": "final/imagegen--demo-ending-keyframe-v1.png",
+      "sourceIn": 0,
+      "secondary": "final/aigc--demo-final-ending-seedance2-v1.mp4",
+      "waveform": [
+        0.0008,
+        0.027,
+        0.1777,
+        0.546,
+        0.4223,
+        0.5803,
+        0.8215,
+        0.6642,
+        0.3583,
+        0.3897,
+        0.3255,
+        0.5969,
+        0.6274,
+        0.1259,
+        0.5456,
+        0.1186,
+        0.0089,
+        0.0009,
+        0.0006,
+        0.0006,
+        0.0007,
+        0.0007,
+        0.0007,
+        0.0007,
+        0.0006,
+        0.0005,
+        0.0004,
+        0.0702,
+        0.7881,
+        0.9206,
+        0.6935,
+        0.2902,
+        0.179,
+        0.5396,
+        0.871,
+        0.5812,
+        0.0223,
+        0.0028,
+        0.0013,
+        0.0013,
+        0.0014,
+        0.001,
+        0.1197,
+        0.787,
+        0.4849,
+        0.5068,
+        0.567,
+        1,
+        0.3327,
+        0.4072,
+        0.3415,
+        0.1376,
+        0.2204,
+        0.2518,
+        0.7201,
+        0.4378,
+        0.3674,
+        0.0949,
+        0.3037,
+        0.2612,
+        0.2729,
+        0.1587,
+        0.0058,
+        0.0009
+      ],
+      "from": 101,
+      "waveformSource": {
+        "path": "output/demo-film-v2/narration/V03.wav",
+        "sha256": "92beb136c44b9ac36f3b120b1db85bb3e6443f75d1ddbd47d7495b011cca2cbe",
+        "method": "decoded float32 PCM, 64 RMS bins, display-normalized"
+      }
+    },
+    {
+      "id": "C03-leave-a-light",
+      "type": "cg",
+      "duration": 9,
+      "src": "final/aigc--demo-final-ending-seedance2-v1.mp4",
+      "sourceIn": 0,
+      "closing": true,
+      "from": 109
+    }
+  ],
+  "captions": [
+    {
+      "from": 0.61,
+      "duration": 0.91,
+      "text": "我是阿遥。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 2.363,
+      "duration": 2.773,
+      "text": "这次回武汉，本来只打算住一晚。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 7.31,
+      "duration": 1.631,
+      "text": "外公在姨妈家休养，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 9.238,
+      "duration": 1.673,
+      "text": "还惦记着铺子里的东西，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 11.346,
+      "duration": 1.721,
+      "text": "让我替他给街坊送回去。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 16.61,
+      "duration": 1.199,
+      "text": "先去找林婆婆。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 18.557,
+      "duration": 2.726,
+      "text": "借辆车，还是走小时候那条路。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 31.31,
+      "duration": 1.481,
+      "text": "她一眼就认出了我，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 33.277,
+      "duration": 1.796,
+      "text": "还翻出我小时候画的画。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 35.74,
+      "duration": 1.773,
+      "text": "原来，她一直留着。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 39.31,
+      "duration": 1.234,
+      "text": "蔡姨忙不过来，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 40.939,
+      "duration": 2.636,
+      "text": "我就去杂货铺，帮她把东西带齐。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 47.31,
+      "duration": 2.619,
+      "text": "开车到了江边，我又停了下来。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 50.776,
+      "duration": 2.515,
+      "text": "那张老照片，还是头一回见。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 54.91,
+      "duration": 1.383,
+      "text": "我还借了条小船。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 56.732,
+      "duration": 2.57,
+      "text": "桨一划开，连赶路的事都忘了。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 63.81,
+      "duration": 1.285,
+      "text": "本来就想划一划，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 65.462,
+      "duration": 2.255,
+      "text": "结果，还认真比起赛来了。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 71.31,
+      "duration": 2.112,
+      "text": "快下雨了，我得回去看看。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 73.935,
+      "duration": 1.18,
+      "text": "婆婆有人接没有？",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 75.578,
+      "duration": 1.351,
+      "text": "蔡姨的饭送到了没？",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 80,
+      "duration": 5.55,
+      "text": "到了，跟陈姐坐里面。饭也到了，周伯刚报了平安。",
+      "who": "小许",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 86.61,
+      "duration": 2.775,
+      "text": "听见她说平安，我才松了口气。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 90.042,
+      "duration": 2.07,
+      "text": "要不，就再住两天吧。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 96.11,
+      "duration": 1.32,
+      "text": "这一趟带回来的，",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 97.567,
+      "duration": 1.648,
+      "text": "好像比送出去的还多。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 109.61,
+      "duration": 2.059,
+      "text": "小时候，是他们照应我。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    },
+    {
+      "from": 112.165,
+      "duration": 2.251,
+      "text": "这回，换我给他们留盏灯。",
+      "who": "阿遥",
+      "presentation": "subtitle"
+    }
+  ],
+  "voice": [
+    {
+      "id": "V01",
+      "from": 0.5,
+      "duration": 4.696,
+      "src": "final/narration--V01.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V02",
+      "from": 7.2,
+      "duration": 5.927,
+      "src": "final/narration--V02.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V03",
+      "from": 16.5,
+      "duration": 4.843,
+      "src": "final/narration--V03.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V04",
+      "from": 31.2,
+      "duration": 6.373,
+      "src": "final/narration--V04.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V05",
+      "from": 39.2,
+      "duration": 4.435,
+      "src": "final/narration--V05.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V06",
+      "from": 47.2,
+      "duration": 6.151,
+      "src": "final/narration--V06.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V07",
+      "from": 54.8,
+      "duration": 4.562,
+      "src": "final/narration--V07.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V08",
+      "from": 63.7,
+      "duration": 4.077,
+      "src": "final/narration--V08.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V09",
+      "from": 71.2,
+      "duration": 5.789,
+      "src": "final/narration--V09.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V10",
+      "from": 86.5,
+      "duration": 5.672,
+      "src": "final/narration--V10.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V11",
+      "from": 96,
+      "duration": 3.275,
+      "src": "final/narration--V11.wav",
+      "volume": 0.95
+    },
+    {
+      "id": "V12",
+      "from": 109.5,
+      "duration": 4.976,
+      "src": "final/narration--V12.wav",
+      "volume": 0.95
+    }
+  ],
+  "sounds": [
+    {
+      "from": 14.6,
+      "duration": 1.2,
+      "src": "final/sfx--repair-complete.mp3",
+      "volume": 0.3
+    },
+    {
+      "from": 54.5,
+      "duration": 6.5,
+      "src": "final/sfx--river-water.mp3",
+      "volume": 0.3
+    },
+    {
+      "from": 92.2,
+      "duration": 1.5,
+      "src": "final/sfx--memory-collect.mp3",
+      "volume": 0.25
+    }
+  ],
+  "music": "final/audio--score-118s-v2.wav",
+  "effects": "final/media--cinema-v3-prologue-effects.mp3",
+  "logo": "final/media--game-logo-v1-transparent.webp",
+  "subtitleRevision": "v4-visible-safe-area"
+}

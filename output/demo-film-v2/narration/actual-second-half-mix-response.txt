@@ -1,0 +1,43 @@
+```json
+{
+  "audioAccessible": true,
+  "segments": [
+    {
+      "start": 4.14,
+      "end": 8.16,
+      "exactChineseWords": "本来就想划一会，结果还认真比赛来了。",
+      "heardPinyinForUncertainWords": "běn lái jiù xiǎng huá yī huì, jié guǒ hái rèn zhēn bǐ sài lái le"
+    },
+    {
+      "start": 11.23,
+      "end": 17.15,
+      "exactChineseWords": "快下雨了，我得回去看看，我爸有人接没有，菜啊饭送到了没。"
+    },
+    {
+      "start": 20.07,
+      "end": 25.56,
+      "exactChineseWords": "到了，跟陈姐坐里面，饭也到了，周伯刚报了平安。"
+    },
+    {
+      "start": 26.69,
+      "end": 32.17,
+      "exactChineseWords": "听见他说平安，我才松了口气。要不，就再住两天吧。"
+    },
+    {
+      "start": 36.19,
+      "end": 39.86,
+      "exactChineseWords": "这一趟带回来的，好像比送出去的还多。"
+    },
+    {
+      "start": 49.62,
+      "end": 54.43,
+      "exactChineseWords": "小时候是他们照应我，这回换我给他们留盏灯。"
+    }
+  ],
+  "maskedOrCutWords": "None",
+  "conversationalDelivery": "Highly natural, warm, and reflective voiceover acting, featuring realistic conversational pauses.",
+  "voiceConsistency": "Maintains excellent voice quality and volume level throughout, representing two female characters clearly.",
+  "backgroundBalance": "Background piano music is mixed beautifully and does not interfere with voice clarity.",
+  "uncertainties": "None"
+}
+```

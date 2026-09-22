@@ -1,0 +1,207 @@
+### Result
+{
+  "state": {
+    "version": 1,
+    "started": true,
+    "races": {
+      "version": 1,
+      "courses": {
+        "boat": {
+          "completions": 0,
+          "bestSeconds": null,
+          "lastSeconds": null,
+          "bestMedal": null
+        },
+        "car": {
+          "completions": 0,
+          "bestSeconds": null,
+          "lastSeconds": null,
+          "bestMedal": null
+        }
+      }
+    },
+    "vehicleGuides": {
+      "version": 1,
+      "seen": []
+    },
+    "wuhanVisits": [],
+    "adventure": {
+      "found": []
+    },
+    "props": {
+      "version": 1,
+      "bicycleUnlocked": false,
+      "bikePosition": {
+        "x": -21,
+        "z": 20,
+        "yaw": 0
+      },
+      "readEditions": [],
+      "notes": [],
+      "ferryRides": 0
+    },
+    "cars": {
+      "version": 1,
+      "vehicles": {
+        "prop-car-sedan": {
+          "x": -14.8,
+          "z": 23.8,
+          "yaw": 1.5707963267948966
+        },
+        "prop-car-van": {
+          "x": 6.8,
+          "z": -18.4,
+          "yaw": -1.5707963267948966
+        }
+      }
+    },
+    "residents": {
+      "version": 1,
+      "met": [],
+      "heard": {}
+    },
+    "photos": {
+      "version": 1,
+      "completed": [
+        "shop"
+      ]
+    },
+    "meals": {
+      "version": 1,
+      "rounds": {
+        "evening": {
+          "started": true,
+          "boxes": {
+            "lin": {
+              "food": "noodles",
+              "scallion": "none",
+              "chili": "none",
+              "label": "lin",
+              "sealed": true,
+              "delivered": true
+            },
+            "chen": {
+              "food": "doupi",
+              "scallion": "on",
+              "chili": "side",
+              "label": "chen",
+              "sealed": true,
+              "delivered": true
+            },
+            "xu": {
+              "food": "soup",
+              "scallion": "on",
+              "chili": "none",
+              "label": "xu",
+              "sealed": true,
+              "delivered": true
+            }
+          }
+        },
+        "morning": {
+          "started": false,
+          "boxes": {
+            "lin": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "chen": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "xu": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            }
+          }
+        }
+      }
+    },
+    "storyChoices": {},
+    "flags": [
+      "storyV3",
+      "prologueSeen",
+      "received",
+      "radio",
+      "granny",
+      "chefRequested",
+      "chef"
+    ],
+    "supplies": [
+      "box",
+      "water",
+      "battery"
+    ],
+    "lore": [],
+    "position": {
+      "x": 10.2226144203662,
+      "z": -2.715569865679067
+    },
+    "seconds": 666.2855999999429,
+    "milestones": {
+      "prologueSeen": 20.664899999976235,
+      "received": 26.150399999976205,
+      "radio": 109.71719999998741,
+      "granny": 230.38460000001658,
+      "chefRequested": 417.68510000002556,
+      "chef": 663.5531999999669
+    },
+    "settings": {
+      "sound": true,
+      "soundDefaultsVersion": 2,
+      "reduced": false,
+      "quality": "high",
+      "avatarId": "female",
+      "musicVolume": 0.48,
+      "voiceVolume": 0.9,
+      "effectsVolume": 0.6,
+      "voiceAuto": true,
+      "cameraMode": "street"
+    },
+    "photoInvited": true,
+    "photoTarget": null,
+    "mealNarrative": true,
+    "mealStoryReady": true,
+    "mealRound": null
+  },
+  "world": {
+    "position": {
+      "x": 10.2226144203662,
+      "y": 0.13,
+      "z": -2.715569865679067
+    },
+    "mode": "street",
+    "blocked": false,
+    "shadow": {
+      "updates": 1,
+      "requests": 1,
+      "renderedFrames": 665,
+      "lastReason": "initial-static-scene",
+      "dirty": false,
+      "mode": "static-cache",
+      "mapSize": 4096,
+      "dynamicContactShadows": 10,
+      "trackedAlphaTextures": 0
+    }
+  },
+  "quest": "江边，有个人在等你",
+  "modal": null,
+  "photo": null,
+  "version": "/assets/index-ktQyT0vp.js"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({state:__JIANGCHENG__.getState(),world:{position:__JIANGCHENG__.getWorld().position,mode:__JIANGCHENG__.getWorld().cameraMode,blocked:__JIANGCHENG__.getWorld().blocked,shadow:__JIANGCHENG__.getWorld().shadow},quest:document.querySelector("#quest-title").innerText,modal:__JIANGCHENG__.getModal(),photo:__JIANGCHENG__.getPlayfulLife().photo,version:document.querySelector("script[type=module][src]").getAttribute("src")}))');
+```

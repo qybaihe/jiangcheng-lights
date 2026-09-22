@@ -1,0 +1,49 @@
+.welcome-avatar{position:absolute;right:7%;top:28%;width:370px;max-width:35vw;animation:fade-up .8s .2s both}
+.avatar-picker{color:#34594f}
+.welcome-avatar .avatar-picker{background:#f3efdfed;border:1px solid #fff8e4b0;padding:25px 24px 20px;border-radius:5px;box-shadow:0 18px 65px #102f303d;backdrop-filter:blur(15px)}
+.avatar-picker-heading>span{font-size:8px;letter-spacing:2.3px;color:#8b937b}
+.avatar-picker-heading h3{font:400 21px/1.5 var(--serif);letter-spacing:1px;margin:9px 0 19px}
+.avatar-options{border:0;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;min-width:0}
+.avatar-option{position:relative;display:block;cursor:pointer;min-width:0}
+.avatar-option input{position:absolute;opacity:0;width:1px;height:1px}
+.avatar-card{display:block;overflow:hidden;border:1px solid #c8cfbc;border-radius:3px;background:#ecebdd;transition:border-color .18s,box-shadow .18s,transform .18s}
+.avatar-card-art{display:block;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#f7f0da,#d6dfc9);aspect-ratio:1/.98;border-bottom:1px solid #bbc9b855}
+.avatar-card-art:before{content:'阿 遥';position:absolute;right:9px;top:12px;writing-mode:vertical-rl;font:12px var(--serif);letter-spacing:4px;color:#63827669}
+.avatar-card-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;transition:transform .25s}
+.avatar-selection-mark{position:absolute;right:8px;bottom:8px;width:21px;height:21px;border-radius:50%;display:grid;place-items:center;color:#fff5d8;background:#3c6558;border:1px solid #faf4dc;font-size:12px;opacity:0}
+.avatar-card-label{display:flex;justify-content:space-between;align-items:center;gap:5px;padding:11px 10px 0}
+.avatar-card-label strong{font:400 16px var(--serif);letter-spacing:1px;white-space:nowrap}
+.avatar-choice-state{font-size:9px;color:#7f8b75}
+.avatar-description{display:block;padding:7px 10px 12px;font-size:9px;line-height:1.7;color:#829078;white-space:nowrap;letter-spacing:0}
+.avatar-option input:checked+.avatar-card{border-color:#496f5b;box-shadow:0 0 0 1px #496f5b;background:#f9f4e5}
+.avatar-option input:checked+.avatar-card .avatar-selection-mark{opacity:1}
+.avatar-option input:checked+.avatar-card .avatar-choice-state{color:#3f6958}
+.avatar-option input:focus-visible+.avatar-card{outline:3px solid #bf914e;outline-offset:4px}
+.avatar-option:hover input:not(:disabled)+.avatar-card img{transform:scale(1.035)}
+.avatar-option input:disabled+.avatar-card{cursor:wait}
+.avatar-option.loading .avatar-card{border-color:#b48b4e}
+.avatar-option.loading .avatar-choice-state{color:#99723f}
+.avatar-picker-status{min-height:18px;font-size:11px;line-height:1.7;margin:17px 0 0;color:#527361}
+.avatar-picker-note{font-size:9px;line-height:1.9;margin:5px 0 0;color:#8a947c}
+.avatar-picker.has-error .avatar-picker-status{color:#9e6545}
+.avatar-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.settings-panel .avatar-picker{padding:0 0 23px;border-bottom:1px solid #ccd1b9}
+.settings-panel .avatar-picker-heading>span{display:none}
+.settings-panel .avatar-picker-heading h3{font-size:19px;margin-top:0;margin-bottom:14px}
+.settings-panel .avatar-options{max-width:470px;gap:15px}
+.settings-panel .avatar-card{position:relative;min-height:108px;padding-left:88px}
+.settings-panel .avatar-card-art{position:absolute;inset:0 auto 0 0;width:80px;height:100%;aspect-ratio:auto;border:0;background:#dbe2ce}
+.settings-panel .avatar-card-art img{object-position:center 20%}
+.settings-panel .avatar-card-art:before{display:none}
+.settings-panel .avatar-selection-mark{width:17px;height:17px;right:5px;bottom:5px;font-size:10px}
+.settings-panel .avatar-card-label{display:block;padding:21px 8px 0}
+.settings-panel .avatar-choice-state{display:block;margin-top:9px}
+.settings-panel .avatar-description{padding:7px 8px 12px;font-size:8px;white-space:normal}
+.settings-panel .avatar-picker-status{margin-top:12px}
+@media(min-width:1700px){.welcome-avatar{right:10%;top:29%;width:405px}.welcome-avatar .avatar-picker{padding:29px 29px 23px}.avatar-card-art{aspect-ratio:1/1.08}}
+@media(max-height:800px) and (min-width:901px){.welcome-avatar{top:22%;width:330px}.welcome-avatar .avatar-picker{padding:19px 19px 16px}.avatar-card-art{aspect-ratio:1/.86}.avatar-picker-heading h3{font-size:19px;margin-bottom:14px}.avatar-picker-status{margin-top:12px}.avatar-description{font-size:8px}}
+@media(max-width:1100px) and (min-width:901px){.welcome-avatar{right:4%;width:300px}.welcome-avatar .avatar-picker{padding:18px 16px}.hero{left:5%;max-width:49%}.hero h1{font-size:86px}.avatar-description{font-size:8px}}
+@media(max-width:900px){.welcome{overflow-y:auto;padding:120px 7% 25px}.welcome-art,.welcome-shade,.welcome-grain{position:fixed}.welcome .hero{position:relative;top:auto;left:auto;max-width:none;animation:none}.welcome .hero h1{font-size:80px}.welcome-avatar{position:relative;right:auto;top:auto;width:380px;max-width:100%;margin:27px 0 28px;animation:none}.welcome-avatar .avatar-picker{padding:20px}.avatar-card-art{aspect-ratio:1/.85}.welcome .welcome-bottom{position:relative;left:auto;right:auto;bottom:auto;padding-top:20px}.welcome .welcome-bottom>.chapter-preview{display:none}.welcome .hero-actions{margin-top:24px}}
+@media(max-width:600px){.welcome{padding:101px 7% 25px}.welcome .hero h1{font-size:69px}.welcome .hero>.eyebrow{font-size:7px;letter-spacing:1.4px}.welcome .title-lockup{margin-top:18px}.welcome-avatar{margin-top:22px}.welcome-avatar .avatar-picker{padding:17px}.avatar-picker-heading h3{font-size:18px}.avatar-card-art{aspect-ratio:1/.85}.avatar-description{font-size:8px}.avatar-picker-note{font-size:8px}.settings-panel .avatar-options{gap:9px}.settings-panel .avatar-card{padding-left:0;padding-top:115px}.settings-panel .avatar-card-art{width:100%;height:115px}.settings-panel .avatar-card-label{display:flex;padding:12px 9px 0}.settings-panel .avatar-choice-state{margin:0}.settings-panel .avatar-description{padding:8px 9px 12px;min-height:36px}}
+@media(prefers-reduced-motion:reduce){.welcome-avatar,.avatar-card,.avatar-card-art img{animation:none;transition:none}}
+.reduce-motion .welcome-avatar,.reduce-motion .avatar-card,.reduce-motion .avatar-card-art img{animation:none;transition:none}

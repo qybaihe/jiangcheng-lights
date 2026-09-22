@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "tracks": {
+    "explore": {
+      "url": "/media/audio/bgm-explore.ogg",
+      "fallbackUrl": "/media/audio/bgm-explore.mp3",
+      "duration": 67.5,
+      "title": "江风里的慢步",
+      "loop": true,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "model": "not exposed by endpoint",
+        "requestSha256": "b52a8f83af4e1a6db21321579f0e37466221ecebf21bd638b188c6fa3976c3da",
+        "sourceSha256": "807b0d61522904dd992bef81918ec0080de04c30c8412737d1fdf608d8b1e595",
+        "generatedDuration": 72.0,
+        "generatedAt": "2026-09-10T08:29:57Z",
+        "version": "v1"
+      },
+      "loudness": {
+        "integratedLUFS": -23.01,
+        "truePeakDbTP": -6.9,
+        "rangeLU": 3.3
+      },
+      "bytes": 1260100,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 1.5,
+      "sourceTrimEndSeconds": 3,
+      "processing": "circular seam overlap and loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "acoustic guitar",
+          "shaker"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 67.5,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -6.9,
+          "loopBoundaryStepDbFS": -45.42,
+          "silenceEventsBelowMinus55dB": []
+        },
+        "loopSeamAudible": false,
+        "loopSeamEvidence": "There is no audible click, pop, drop out, or tempo disruption at the 7-second boundary. The transition is perfectly seamless and would not be distracting during quiet dialogue."
+      },
+      "sourceTrimStartSeconds": 0,
+      "containerDuration": 67.507,
+      "fallbackBytes": 1351244,
+      "sha256": "f76908e9ac7200929976d8a98c806d474e9f70bd772d9fc9389c97fbd2fee7f0",
+      "fallbackSha256": "ce0ecd383f1e1108dae9d84e09f7c13c2d8dbc6825d07b7f159c7a205a4a9f5c"
+    },
+    "memory": {
+      "url": "/media/audio/bgm-memory.ogg",
+      "fallbackUrl": "/media/audio/bgm-memory.mp3",
+      "duration": 70.5,
+      "title": "有人替你留一碗",
+      "loop": true,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "model": "not exposed by endpoint",
+        "requestSha256": "461e612e031dea6031e46b873c77db9672bda279c1d13e7980278d8c52c51b35",
+        "sourceSha256": "4763f05524b1da31b91b2115e92d414acde712015137d5b7969348bbdf9887b7",
+        "generatedDuration": 72.0,
+        "generatedAt": "2026-09-10T08:31:42Z",
+        "version": "v1"
+      },
+      "loudness": {
+        "integratedLUFS": -23.0,
+        "truePeakDbTP": -7.06,
+        "rangeLU": 3.5
+      },
+      "bytes": 1273279,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 1.5,
+      "sourceTrimEndSeconds": 0,
+      "processing": "circular seam overlap and loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "piano",
+          "synthesizer pad"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 70.5,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -7.07,
+          "loopBoundaryStepDbFS": -53.67,
+          "silenceEventsBelowMinus55dB": []
+        },
+        "loopSeamAudible": false,
+        "loopSeamEvidence": "The transition at exactly 7 seconds is exceptionally clean and seamless. There are absolutely no digital clicks, pops, dropouts, tempo hitches, or sudden loudness jumps. The join is entirely natural and would not be distracting at all during quiet dialogue."
+      },
+      "sourceTrimStartSeconds": 0,
+      "containerDuration": 70.507,
+      "fallbackBytes": 1411244,
+      "sha256": "aaa91351f92632670361a73fec6eb5836ff3bce99f23dc9010cad770d70f6cf2",
+      "fallbackSha256": "918d689e9914ae686487570f9bddfdd502c06bc2d9f2d258a6b456c9faec171a"
+    },
+    "ending": {
+      "url": "/media/audio/bgm-ending.ogg",
+      "fallbackUrl": "/media/audio/bgm-ending.mp3",
+      "duration": 70.5,
+      "title": "灯下还有一个位置",
+      "loop": true,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "version": "v2",
+        "model": "not exposed by endpoint",
+        "requestSha256": "31777fa1264bd0abffadf3628cc96063c3a0b4ef80235638e127eadda1262fc7",
+        "sourceSha256": "0201f83247fd47393e28ce6af1b5eeb516ffe30a4ed3cb79e1a9bc925ee17765",
+        "generatedDuration": 72.0,
+        "generatedAt": "2026-09-10T08:34:56Z"
+      },
+      "loudness": {
+        "integratedLUFS": -22.99,
+        "truePeakDbTP": -7.65,
+        "rangeLU": 6.9
+      },
+      "bytes": 1311144,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 1.5,
+      "sourceTrimEndSeconds": 0,
+      "processing": "circular seam overlap and loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "piano",
+          "synthesizer strings",
+          "ambient pad"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 70.5,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -7.65,
+          "loopBoundaryStepDbFS": -45.73,
+          "silenceEventsBelowMinus55dB": []
+        },
+        "loopSeamAudible": false,
+        "loopSeamEvidence": "At exactly 7.0 seconds, the transition is extremely smooth. There are no clicks, pops, digital dropouts, sudden silence, or volume jumps. The fading reverb tail of the first cycle is mixed cleanly with the restart of the progression, making it completely non-distracting and ideal for a continuous loop."
+      },
+      "sourceTrimStartSeconds": 0,
+      "containerDuration": 70.507,
+      "fallbackBytes": 1411244,
+      "sha256": "d648948624165fe49ceccfb263f94c2f439bda3574c09f3bad70c65ace679127",
+      "fallbackSha256": "11614672a0bb798bcfcd12b131be8ba0fcadf8479bc9d14142a3e01521fca141"
+    }
+  },
+  "sfx": {
+    "page": {
+      "url": "/media/audio/sfx-page.ogg",
+      "fallbackUrl": "/media/audio/sfx-page.mp3",
+      "duration": 1.2,
+      "title": "翻过一页旧相册",
+      "loop": false,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "version": "v1",
+        "model": "not exposed by endpoint",
+        "requestSha256": "6adafda0d043040b62da4468d3eeac6fb302ead7e51b00028ac4a84890d8b8c6",
+        "sourceSha256": "9753dc24b0c2405ada3e7d4948570035c674f5b268850ee38fdae9f5ecdb8d05",
+        "generatedDuration": 4.0,
+        "generatedAt": "2026-09-10T08:34:25Z"
+      },
+      "loudness": {
+        "integratedLUFS": -22.01,
+        "truePeakDbTP": -10.7,
+        "rangeLU": 0.0
+      },
+      "bytes": 14501,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 0,
+      "sourceTrimStartSeconds": 1.35,
+      "sourceTrimEndSeconds": 1.45,
+      "processing": "loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "rustling paper",
+          "friction sound"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 1.2,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -10.7,
+          "loopBoundaryStepDbFS": -69.8,
+          "silenceEventsBelowMinus55dB": []
+        }
+      },
+      "containerDuration": 1.206,
+      "fallbackBytes": 25004,
+      "sha256": "51249613d1e022a20cd9d50d52c27288f702996fa33381beaee34629b1cd975d",
+      "fallbackSha256": "ca43f2f60516c5501f9de6cefa8b6de3de982fe0897ad3dcfdcef662b40f94d2"
+    },
+    "rain": {
+      "url": "/media/audio/sfx-rain.ogg",
+      "fallbackUrl": "/media/audio/sfx-rain.mp3",
+      "duration": 10.5,
+      "title": "檐外的小雨",
+      "loop": true,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "version": "v2",
+        "model": "not exposed by endpoint",
+        "requestSha256": "dcc92ffe8a2b25d69854b512cbe63bf149d523011aa368e6514bd6c206674bd5",
+        "sourceSha256": "939670561bca54bbe354675bfeda6d40fc68e44c84a7328d4064cf0c7c030787",
+        "generatedDuration": 12.0,
+        "generatedAt": "2026-09-10T08:36:00Z"
+      },
+      "loudness": {
+        "integratedLUFS": -28.22,
+        "truePeakDbTP": -3.01,
+        "rangeLU": 2.1
+      },
+      "bytes": 173795,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 1.5,
+      "sourceTrimStartSeconds": 0,
+      "sourceTrimEndSeconds": 0,
+      "processing": "circular seam overlap and loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "rain"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 10.5,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -3.1,
+          "loopBoundaryStepDbFS": -36.6,
+          "silenceEventsBelowMinus55dB": []
+        },
+        "loopSeamAudible": false,
+        "loopSeamEvidence": "There is no click, gap, silence, or sudden change in volume at the 7-second seam; the loop join is extremely clean and would not be distracting."
+      },
+      "containerDuration": 10.507,
+      "fallbackBytes": 211244,
+      "sha256": "e301659255b2cf092347f1f306770fb0e9b18e1c5c0b49b4328a2d62cd01194f",
+      "fallbackSha256": "efa2f6d96b800121fbf8d002a16dc063ffce5f4e1cee52d884d643f7198c1299"
+    },
+    "radio": {
+      "url": "/media/audio/sfx-radio.ogg",
+      "fallbackUrl": "/media/audio/sfx-radio.mp3",
+      "duration": 0.7,
+      "containerDuration": 0.707,
+      "title": "收音机旋钮的轻轻一格",
+      "loop": false,
+      "source": {
+        "kind": "api-generated",
+        "provider": "text_to_audio",
+        "version": "v2",
+        "model": "not exposed by endpoint",
+        "requestSha256": "82569aa8e93d92aaa8e6a0b92dca869521a7d55a72fa41b8ed8a6417e27bfe4b",
+        "sourceSha256": "a8a8c979812c4a266befcb8bc28f7d466a4095868b3a3f3cf66d2ecb8b02c329",
+        "generatedDuration": 3.0,
+        "generatedAt": "2026-09-10T08:37:36Z"
+      },
+      "loudness": {
+        "integratedLUFS": -24.93,
+        "truePeakDbTP": -2.93,
+        "rangeLU": 0.0
+      },
+      "bytes": 10204,
+      "codec": "opus",
+      "sampleRate": 48000,
+      "channels": 2,
+      "circularCrossfadeSeconds": 0,
+      "sourceTrimStartSeconds": 0.2,
+      "sourceTrimEndSeconds": 2.1,
+      "processing": "source trim, edge fades and loudness normalization",
+      "qa": {
+        "measured": true,
+        "humanListened": false,
+        "modelAssistedListening": true,
+        "audibleSources": [
+          "mechanical switch",
+          "plastic button click"
+        ],
+        "audibleHumanVoice": false,
+        "obviousRepeatedShortLoop": false,
+        "signal": {
+          "decodedDuration": 0.7,
+          "clippedSampleCount": 0,
+          "samplePeakDbFS": -3.07,
+          "loopBoundaryStepDbFS": -98.64,
+          "silenceEventsBelowMinus55dB": []
+        }
+      },
+      "fallbackBytes": 15404,
+      "sha256": "8a90ea092e689e630fcd9418150543ba892bb975daf8c95ec387dd1a5caf6f24",
+      "fallbackSha256": "6fce22f702c5714dbd5a059ed17b7d13607f7134dd1beb59d7ca50e10b119524"
+    }
+  },
+  "updatedAt": "2026-09-10T08:39:14Z"
+}

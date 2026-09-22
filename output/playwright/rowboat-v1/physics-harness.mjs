@@ -1,0 +1,25 @@
+import {chromium} from '@playwright/test';
+import {writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+const OUT=new URL('./',import.meta.url);const browser=await chromium.launch({headless:true,channel:'chrome'});const context=await browser.newContext({viewport:{width:1440,height:900},deviceScaleFactor:1});const page=await context.newPage(),errors=[];
+page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+await context.route('**/__rowboat_test__',r=>r.fulfill({contentType:'text/html',body:`<!doctype html><html><head><style>*{box-sizing:border-box}body{margin:0}canvas{display:block;width:100vw;height:100vh}#test{position:fixed;top:15px;left:15px;color:#fff;background:#213c35cf;padding:8px;font:15px sans-serif;z-index:10}#status{position:fixed;bottom:24px;left:24px;color:#f7edd2;background:#294d41e6;padding:16px;font:20px sans-serif;z-index:10}</style></head><body><canvas id="world" tabindex="0"></canvas><div id="test">TEST ONLY · Physical input traversal · Not competition footage</div><div id="status"></div><script type="module">import {World} from '/src/world.js';import {createRaceSession} from '/src/neighborhood-races.js';import {createRaceMarkers} from '/src/race-markers.js';window.session=null;window.snapshot=null;window.gates=[];window.w=new World(document.getElementById('world'),{onFrame(dt){if(!window.session)return;const state=w.getPropState();const previous=window.snapshot?.checkpointsPassed;window.snapshot=window.session.update(dt,{...state.boatPosition,mode:state.mode});window.markers?.update(window.snapshot);if(previous!==snapshot.checkpointsPassed)window.gates.push({index:snapshot.checkpointsPassed,elapsed:snapshot.elapsed,position:{...state.boatPosition}});document.getElementById('status').textContent=snapshot.status+' · '+snapshot.checkpointsPassed+'/8 · '+snapshot.elapsed.toFixed(1)+' s';}});await w.heroReady;await w.residentAvatarsReady;w.start();w.setPosition({x:35,z:-21.8});window.markers=createRaceMarkers(w);window.beginRace=()=>{session=createRaceSession('boat');snapshot=session.snapshot();};window.ready=true;</script></body></html>`}));
+await page.goto('http://127.0.0.1:4193/__rowboat_test__');await page.waitForFunction(()=>window.ready,null,{timeout:90000});await page.waitForTimeout(1000);
+await page.evaluate(()=>{w.startPropInteraction('prop-rowboat');w.thirdYaw=-Math.PI/2-.5;w.lastManualLook=10000;w.thirdPitch=.44;});await page.waitForTimeout(400);await page.screenshot({path:fileURLToPath(new URL('female-front-refined-water.png',OUT))});
+const checkPose=()=>page.evaluate(()=>{const r=w.player.userData.rig,b=w.propInteractions.boat;w.player.updateWorldMatrix(true,true);b.updateWorldMatrix(true,true);return {avatar:w.avatarStatus.id,hipHeight:r.hipHeight,handErrors:r.hands.map((hand,i)=>hand.getWorldPosition(hand.position.clone()).distanceTo(b.userData.rig.oars[i].handle.getWorldPosition(hand.position.clone()))),position:w.player.position.toArray()};});
+const femalePose=await checkPose();await page.evaluate(()=>w.setAvatar('male'));await page.waitForFunction(()=>w.avatarStatus.id==='male'&&w.avatarStatus.state==='ready');await page.waitForTimeout(300);const malePose=await checkPose();await page.screenshot({path:fileURLToPath(new URL('male-front-refined-water.png',OUT))});
+await page.evaluate(()=>{w.thirdYaw=Math.PI-w.propInteractions.boat.rotation.y-.18;w.lastManualLook=-100;w.thirdPitch=.25;beginRace();});
+let held=new Set(),shot=0;
+async function keys(next){for(const key of held)if(!next.has(key))await page.keyboard.up(key);for(const key of next)if(!held.has(key))await page.keyboard.down(key);held=next;}
+const started=Date.now();let sample;while(Date.now()-started<170000){
+ sample=await page.evaluate(()=>({race:snapshot,prop:w.getPropState()}));
+ if(['finished','cancelled'].includes(sample.race.status))break;
+ if(sample.race.status==='countdown'){await keys(new Set());await page.waitForTimeout(150);continue;}
+ const cp=sample.race.nextCheckpoint,p=sample.prop.boatPosition,yaw=sample.prop.boatYaw,desired=Math.atan2(cp.x-p.x,cp.z-p.z),diff=Math.atan2(Math.sin(desired-yaw),Math.cos(desired-yaw));
+ const next=new Set();if(Math.abs(diff)<.30)next.add('w');if(diff>.047)next.add('a');if(diff<-.047)next.add('d');await keys(next);
+ if(sample.race.checkpointsPassed>=shot*2&&shot<4){await page.screenshot({path:fileURLToPath(new URL(`race-physical-gate-${sample.race.checkpointsPassed}.png`,OUT))});shot++;}
+ await page.waitForTimeout(90);
+}
+await keys(new Set());await page.screenshot({path:fileURLToPath(new URL('race-physical-result.png',OUT))});
+const report=await page.evaluate(()=>({result:snapshot,gates,prop:w.getPropState(),shadow:w.getShadowStats()}));
+await writeFile(new URL('physics-race-report.json',OUT),JSON.stringify({scope:'Isolated test-only World; keyboard inputs drive normal physics. No boat position or race result writes after boarding.',femalePose,malePose,...report,errors},null,2));console.log(JSON.stringify({femalePose,malePose,result:report.result,errors},null,2));await browser.close();

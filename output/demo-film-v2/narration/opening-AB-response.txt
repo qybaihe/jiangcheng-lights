@@ -1,0 +1,25 @@
+{
+  "audioAccessible": true,
+  "A": {
+    "heardText": "本来，只打算在武汉住一晚。外公在姨妈家修养，托阿遥回来，给街坊送几件东西。",
+    "voiceAgePresentation": "Young adult (20-25)",
+    "cadence": "Slow, highly deliberate, with rigid and robotic pauses between syntactic chunks.",
+    "breathiness": "Very low, clean but artificial and dry.",
+    "announcerOrPromoQuality": "High. Sounds like a formal, clinical, or automated documentary narrator.",
+    "friendTellingOwnDayQuality": "Very low. Stiff and unnatural, lacking emotional flow or conversational rhythm.",
+    "articulation": "Extremely crisp, overly articulated, and standardized."
+  },
+  "B": {
+    "heardText": "我是阿遥。这次回武汉，本来只打算住一晚。外公在姨妈家修养，还惦记着铺子里的东西，让我替他给街坊送回去。",
+    "voiceAgePresentation": "Young adult (20-25)",
+    "cadence": "Flowing, natural conversational pace with realistic emotional phrasing and pauses.",
+    "breathiness": "Moderate-to-high, has a distinct breathy and intimate texture.",
+    "announcerOrPromoQuality": "Low-medium. Avoids the formal announcer style, but has a slight 'vlog' or dramatic reading style.",
+    "friendTellingOwnDayQuality": "High. Feels like a real person recounting a personal story directly to a listener.",
+    "articulation": "Clear but relaxed, with natural syllable linking."
+  },
+  "moreNaturalEverydayVoice": "B",
+  "reasonsWithConcreteAudibleMoments": "Clip B is vastly more natural. Clip A features robotic, rigid gaps—such as the jarring pause after '本来' (0:00-0:01) and '外公在' (0:03-0:04)—which sound artificial and clinical. In contrast, Clip B flows smoothly from the start ('我是阿遥', 0:09-0:10) with realistic conversational micro-inflections, natural pitch variation, and realistic breath support that sounds like an actual human sharing an update.",
+  "doesEitherSoundWhisperyOrOverPerformed": "Yes. Clip A is heavily over-performed with a stiff, sterile, and clinical narrator cadence. Clip B, while much more natural, is somewhat whispery and breathy, leaning into an intimate, dramatic storytelling style rather than a dry, normal-volume casual conversation.",
+  "recommendationToImproveTheLessConversationalOne": "To make Clip A conversational, the speaker needs to abandon the rigid, rhythmic pause patterns and speed up the delivery to match normal speech. They should connect phrases naturally (e.g., speaking '本来只打算...' as a single continuous thought instead of pausing after '本来'), lower the projection to a casual speaking level, and allow for subtle, imperfect colloquial inflections rather than hyper-articulating every syllable."
+}

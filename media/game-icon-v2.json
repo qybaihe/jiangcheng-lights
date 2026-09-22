@@ -1,0 +1,293 @@
+{
+  "id": "game-icon-v2",
+  "status": "accepted",
+  "gameTitle": "江城有灯",
+  "generatedAt": "2026-09-12T04:24:12.889327+00:00",
+  "generator": {
+    "model": "gpt-image-2",
+    "mode": "User-requested Image2 API; existing tools/media.py loopback adapter invokes installed bundled imagegen CLI",
+    "cli": "/Users/baihe/.codex/skills/.system/imagegen/scripts/image_gen.py",
+    "operation": "generate",
+    "quality": "high",
+    "requestedSize": "1024x1024",
+    "requestedFormat": "png",
+    "requestCount": 1,
+    "reportedGenerationSeconds": 130.5,
+    "inputImageCount": 0,
+    "newSDKCreated": false,
+    "skillScriptModified": false
+  },
+  "prompt": {
+    "path": "media/prompts/game-icon-v2.txt",
+    "sha256": "cb09b4051ce06d2177392e28e15e111ec8ca8e9ddef3a6c058ed105306c77a93",
+    "text": "Use case: stylized-concept\nAsset type: 正式 1:1 正方形游戏应用图标，1024×1024，游戏《江城有灯》。这是一枚全新设计的图形图标，不是从横向中文 Logo 裁切的字，不是海报，不是图标展示样机。\nPrimary request: 以「汉口老巷里依然亮着的修理铺窗灯」为唯一记忆点，设计一枚精致、温暖、能一眼辨识的动漫微缩修理铺图标。图形与原有品牌的深青墨色、奶油金、汉口青瓦屋檐、琥珀四格小窗、简短江水曲线属于同一家族，但不含任何文字。\nSubject: 一间被高度提炼的微缩老修理铺近景，轻微三分之四角度，简洁的青绿色木框、奶油灰小段墙面、短而优美的汉口青瓦屋檐。中央偏下是一扇非常醒目的大四格琥珀色发光窗，窗是绝对视觉焦点；窗下只以厚实简单的木质窗台暗示老木工作台，最多保留一个小巧工具形状。屋檐和暖窗的形状必须在缩成 16px 和 32px 时仍清楚，不以精细杂物讲故事。\nStyle/medium: 高品质温情动漫游戏图标，精巧微缩立体感与手绘动画质感结合，厚实清楚的外轮廓、少量大色块、柔润质地、克制高光，像用心打磨过的收藏级小场景。光照柔和通透，不是写实建筑照片，也不是廉价扁平剪贴画。\nComposition/framing: 原生完整 1:1 方形画面，所有像素不透明。背景铺满画布一直到四边和四个直角。主体近景居中，整体占画面约 78–84%，四周仅留适度呼吸空间；完整屋檐和窗台不碰边、不裁断。中央暖窗约占画面宽 35%，用大的暖光块形成强烈辨识度。画面下部以一笔短而舒展的浅金色江水弧线托住主体，不延伸成复杂风景。只做一枚图标，绝不多方案拼图。\nLighting/mood: 暮色中的深青绿与一盏始终亮着的温柔灯光，有人情味、希望和回家的感觉。暖光明亮但收束，不把整幅图蒙上发光雾。明暗对比足够，缩小后屋檐、窗框、四格暖窗依然成形。\nColor palette: 深青墨 #234F49、浓青绿 #143E39 的满版背景和屋檐；奶油色 #F7F0DF 的少量墙面与反光；暖琥珀金 #DCA24D 至柔亮奶油金的窗光。色彩有层次但克制，不用红灯笼或正红色主色。背景可以有细腻的青绿明暗渐变，不加背景街景。\nText: 完全无文字。无中文、无英文、无字母、无数字、无店名、无标牌文字。\nConstraints: 完整直角正方形，不自带圆角，不画圆角外框，不透明大边，不加白色外边距，不画外部投影底座，不做 app 图标所在手机界面的截图。平台会自行处理圆角。画面精简聚焦，大轮廓优先于微小纹理，暖窗是唯一主焦点。\nAvoid: 汉字「灯」、四字标题、碎文字、水印、商标、人物、人物脸、手、猫、密集工具、繁杂店铺陈列、黄鹤楼地标、大桥、天际线、山水远景、完整街道、霓虹、赛博朋克、恐怖、过暗漆黑、过量颗粒、细碎线条、透明角、圆角遮罩、圆形徽章、悬浮卡片、多图拼贴。\n"
+  },
+  "referenceInspection": [
+    {
+      "path": "public/media/game-logo-v1.webp",
+      "role": "Inspected by assistant for color / story / material consistency; not submitted as API image input",
+      "sha256": "98aa55ce4a107df57af9b4622b69ec9ee35b32a9a301442a00730ff58ed3a6d2"
+    },
+    {
+      "path": "public/media/repair-facade.webp",
+      "role": "Inspected by assistant for color / story / material consistency; not submitted as API image input",
+      "sha256": "5bf2864598f96c61070a6efd7f83cc081d516605e0b5240bf33b72aedd79d6f4"
+    },
+    {
+      "path": "public/media/story-v2-cg-ending-reopen.webp",
+      "role": "Inspected by assistant for color / story / material consistency; not submitted as API image input",
+      "sha256": "f346bc831c0edff875a7c38f3fa1e97a63b9ed675136075592c927f1549d5f56"
+    }
+  ],
+  "original": {
+    "path": "output/imagegen/game-icon-v2.png",
+    "width": 1024,
+    "height": 1024,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 1341293,
+    "sha256": "8ad6b1ccb1f20ef5b2caea1ff6ec93356fbeebcc97ff93e8b484b2ac54aa7123",
+    "retainedUnmodified": true
+  },
+  "exports": [
+    {
+      "path": "public/media/game-icon-v2.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 1294228,
+      "sha256": "372490229c89fdc18310e114e60fb40023656c66dc5dc27b8ade4e26c2f26aff",
+      "url": "/media/game-icon-v2.png",
+      "role": "1024px lossless, full-square app-icon master"
+    },
+    {
+      "path": "public/media/game-icon-v2.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "WEBP",
+      "mode": "RGB",
+      "bytes": 166662,
+      "sha256": "fbbc9791d16af4e8d8606248b31a727763316911e4f718dcffcfea0e2adba32f",
+      "url": "/media/game-icon-v2.webp",
+      "role": "1024px web-delivery counterpart"
+    },
+    {
+      "path": "public/media/game-icon-v2-16.png",
+      "width": 16,
+      "height": 16,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 671,
+      "sha256": "65b3b87467f92d0ee9f990550c4f9041f0e398b4d758f4ca5f1e74bde83bfa1d",
+      "url": "/media/game-icon-v2-16.png",
+      "role": "16px native browser-tab proof and favicon fallback"
+    },
+    {
+      "path": "public/media/game-icon-v2-32.png",
+      "width": 32,
+      "height": 32,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 2153,
+      "sha256": "aa5267f09e674f9d0570591485540ca4de9ad074896ef85f63a535a5afbda697",
+      "url": "/media/game-icon-v2-32.png",
+      "role": "32px browser favicon"
+    },
+    {
+      "path": "public/media/game-icon-v2-64.png",
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 7332,
+      "sha256": "75e7c5c4379367b9ce750788c01ab79a16fbf9d3371059d492d9cea94739f5fb",
+      "url": "/media/game-icon-v2-64.png",
+      "role": "64px high-density browser favicon"
+    },
+    {
+      "path": "public/media/game-icon-v2-128.png",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 25889,
+      "sha256": "e667c9b9809af5bc361ebdc1d4aeb0b3d5d9afc1caa635e50ece7850169d970d",
+      "url": "/media/game-icon-v2-128.png",
+      "role": "128px high-density icon / launcher"
+    },
+    {
+      "path": "public/media/game-icon-v2-180.png",
+      "width": 180,
+      "height": 180,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 47601,
+      "sha256": "6af4d0b10d284e685fec87989b06426062e6507ba7022c9484f2ed5cbb308945",
+      "url": "/media/game-icon-v2-180.png",
+      "role": "180px Apple touch icon"
+    },
+    {
+      "path": "public/media/game-icon-v2-192.png",
+      "width": 192,
+      "height": 192,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 53469,
+      "sha256": "d7a3e8f96c1b8058c383a3385474fbec43e095e232b091f07da126dddc7ae7f4",
+      "url": "/media/game-icon-v2-192.png",
+      "role": "192px web app manifest icon; purpose any"
+    },
+    {
+      "path": "public/media/game-icon-v2-512.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGB",
+      "bytes": 332969,
+      "sha256": "420604d23ba463244280c0aaf5ece170c239fb2e502000b0f5787a324b2587d2",
+      "url": "/media/game-icon-v2-512.png",
+      "role": "512px web app manifest icon; purpose any"
+    },
+    {
+      "path": "public/media/game-icon-v2.ico",
+      "width": 256,
+      "height": 256,
+      "format": "ICO",
+      "mode": "RGB",
+      "bytes": 135157,
+      "sha256": "5308da5304499e55eff1113d12c25245fcd7fdd0a9c32111fb611e0cd3cbcff8",
+      "embeddedSizes": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "url": "/media/game-icon-v2.ico",
+      "role": "Versioned ICO with 16/32/48/64/128/256px embedded sizes"
+    },
+    {
+      "path": "public/favicon.ico",
+      "width": 256,
+      "height": 256,
+      "format": "ICO",
+      "mode": "RGB",
+      "bytes": 135157,
+      "sha256": "5308da5304499e55eff1113d12c25245fcd7fdd0a9c32111fb611e0cd3cbcff8",
+      "embeddedSizes": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "url": "/favicon.ico",
+      "role": "Conventional /favicon.ico endpoint; byte-identical alias"
+    }
+  ],
+  "transform": {
+    "script": "output/icon-v2/export_icon.py",
+    "operations": [
+      "Convert to RGB after opaque-alpha check",
+      "PNG/WebP encoding",
+      "Full-image LANCZOS resize, no crop",
+      "Multi-size ICO container"
+    ],
+    "sourcePixelsPreservedInMasterPNG": true,
+    "crop": null,
+    "preRoundedCorners": false,
+    "transparentMargin": false,
+    "manifestPurpose": "any",
+    "note": "Only image encoding and full-square resizing. Source and 1024px delivery PNG have identical RGB pixels. OS handles the optional rounded mask."
+  },
+  "review": {
+    "contactSheet": {
+      "path": "output/icon-v2/review.jpg",
+      "width": 1220,
+      "height": 1010,
+      "format": "JPEG",
+      "mode": "RGB",
+      "bytes": 477382,
+      "sha256": "9bc230019c40ab7943121d7f32e6cff4a074dec34de6020bf7baa7c0b53da333"
+    },
+    "platformMaskPreview": {
+      "path": "output/icon-v2/platform-mask-review.jpg",
+      "width": 800,
+      "height": 330,
+      "format": "JPEG",
+      "mode": "RGB",
+      "bytes": 99894,
+      "sha256": "340ffabba9cb65ae6e80f347359a4b59ec36ff3c69df7baf877508992e5e33a1"
+    },
+    "visuallyInspectedWith": "view_image",
+    "checkedNativeSizes": [
+      16,
+      32,
+      64,
+      128,
+      180,
+      512
+    ],
+    "checkedSurfaces": [
+      "#F7F0DF light cream",
+      "#142E2B dark teal"
+    ],
+    "observations": [
+      "Single amber four-pane window is the main focal point; teal roof and warm window read at 32px.",
+      "At 16px the silhouette and central warm lamp remain the identifying features; internal tools are intentionally not relied on.",
+      "No title, tiny lettering, watermark, pre-rounded outer corners, transparent margin, or crop.",
+      "512px and 180px retain warm miniature woodwork and roof materials; deep/cream surfaces keep the same family identity.",
+      "OS rounded-square preview preserves the full main subject. Circle stress test preserves the warm window but trims noncritical peripheral roof/river detail; no maskable manifest claim."
+    ],
+    "secondGenerationNeeded": false
+  },
+  "scope": {
+    "newGameIconOnly": true,
+    "existingLogoCGVideoAudioRegenerated": false,
+    "consumingCodeEdits": "Delegated to parent agent; this subtask did not edit index.html, src/main.js, or CSS"
+  },
+  "credentials": {
+    "source": ".env via existing adapter",
+    "printed": false,
+    "storedInManifest": false
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "game-logo-v1",
+  "status": "accepted",
+  "exactTitle": "江城有灯",
+  "generatedAt": "2026-09-12T03:55:28.205139+00:00",
+  "generator": {
+    "model": "gpt-image-2",
+    "mode": "explicitly requested Image2 gateway via existing tools/media.py adapter and installed imagegen CLI",
+    "cli": "/Users/baihe/.codex/skills/.system/imagegen/scripts/image_gen.py",
+    "operation": "generate",
+    "quality": "high",
+    "requestedSize": "2048x768",
+    "requestedFormat": "png",
+    "requestCount": 1,
+    "newSDKCreated": false
+  },
+  "prompt": {
+    "path": "media/prompts/game-logo-v1.txt",
+    "sha256": "aece276e945a4f7104da34de6721058862f77273926ae75a7834d3953ee5575e",
+    "text": "Use case: logo-brand\nAsset type: 正式横向中文游戏标题 Logo，用于一款武汉老巷、社区互助、温情轻冒险的高品质 3D 动漫游戏开始页。不是海报、不是场景图。\nPrimary request: 设计一枚精致、原创、完整可用的横向中文标题标志「江城有灯」。四字必须从左到右同一行，准确写作：江、城、有、灯。中文字形的基本结构完整、清楚，没有替换字、缺笔或多余文字。\nStyle/medium: 有生命力的手绘中文标题字，温暖、含蓄、略有冒险感；饱满而轻巧的笔画，介于文艺电影标题与精美动漫游戏标题之间。精心设计字间距、粗细和字形呼应。清晰的实色轮廓，适合缩到 320 像素宽依然一眼读出四个字，不使用纤细复杂书法。\nComposition: 单一横向标志，四字是绝对主角，占画布宽约 80%。保留充足整齐的外边距。把江水的一个短而舒展的曲线和老屋的小段屋檐、一个亮着灯的四格小窗，克制地融合在字标的整体轮廓中。小窗是唯一温暖的视觉焦点，装饰不能替代或遮住任何汉字笔画。屋檐和江水总面积少于文字的五分之一；不画整栋房子，不画风景。\nColor palette: 纯净一致的浅奶油色背景 #F7F0DF，深青墨色 #234F49 标题字，暖琥珀金 #DCA24D 小窗。仅少量浅金点缀。色调要清新、明亮、温柔，不要阴暗肃穆。\nText (verbatim): \"江城有灯\"\nConstraints: 只出现这四个中文字，不加英文、小字、副标题、印章、标语、年份或商标。背景必须为纯色、均匀、无纸纹无颗粒，便于后期准确去底。字标边缘干净，无投影、无发光雾、无大面积渐变。轻微手绘笔触可以留在墨字内部，主要实色轮廓必须清晰。完整图案不触碰画布边缘。\nAvoid: 旅游宣传海报、黄鹤楼剪影拼贴、天际线、复杂江景、人物、船只、大桥照片、山水画、3D 凸字、金属字体、霓虹、奇幻武侠书法、过度飞白、难认异体字、水印、展示样机、多方案拼图。\n"
+  },
+  "original": {
+    "path": "output/imagegen/game-logo-v1.png",
+    "width": 2048,
+    "height": 768,
+    "mode": "RGB",
+    "bytes": 535688,
+    "sha256": "225f51d0e2f1cb7129f1bf5203ee31cf2dcb5ed4cebfd25f7663755115d297d7",
+    "retainedUnmodified": true
+  },
+  "exports": [
+    {
+      "url": "/media/game-logo-v1.webp",
+      "role": "main: dark teal lettering on uniform warm cream",
+      "format": "WEBP",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGB",
+      "bytes": 156552,
+      "sha256": "98aa55ce4a107df57af9b4622b69ec9ee35b32a9a301442a00730ff58ed3a6d2"
+    },
+    {
+      "url": "/media/game-logo-v1.png",
+      "role": "lossless PNG counterpart of main",
+      "format": "PNG",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGB",
+      "bytes": 225335,
+      "sha256": "6d31e37de0113805e7b2eeb710bce1bc7edf4b04a71fc18c6e4320a5969a0567"
+    },
+    {
+      "url": "/media/game-logo-v1-transparent.webp",
+      "role": "dark teal lettering, post-extracted transparent background",
+      "format": "WEBP",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGBA",
+      "bytes": 186038,
+      "sha256": "a812bdc9f7deec386ecfe16e5f50f2e4f12785a47de568ceb1c09b1e76df8343"
+    },
+    {
+      "url": "/media/game-logo-v1-transparent.png",
+      "role": "PNG counterpart of transparent lettering",
+      "format": "PNG",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGBA",
+      "bytes": 264661,
+      "sha256": "cac87e83373895fbed8901a8c2c7a81a3b0a6180f6ca764f51fe54a7cae83b6b"
+    },
+    {
+      "url": "/media/game-logo-v1-dark.webp",
+      "role": "light lettering on transparent background for dark scenes",
+      "format": "WEBP",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGBA",
+      "bytes": 65748,
+      "sha256": "a2c2d635ae8753d9ff3863f276b4c41eaecb42ab21d47b4f465008b4728986aa"
+    },
+    {
+      "url": "/media/game-logo-v1-dark.png",
+      "role": "PNG counterpart of dark-surface variant",
+      "format": "PNG",
+      "width": 1522,
+      "height": 443,
+      "mode": "RGBA",
+      "bytes": 127154,
+      "sha256": "e9cdf04855ff86c78a867d2d6df5526e5166d9afcbf7383b4e83ff20fe652a72"
+    },
+    {
+      "url": "/media/game-logo-v1-mark.webp",
+      "role": "square final-character and window mark, transparent",
+      "format": "WEBP",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 54990,
+      "sha256": "bd16ad6eec633e8342b408f4766f3052ee56aaaa8dd3e9beb010de0bc61e3d49"
+    },
+    {
+      "url": "/media/game-logo-v1-mark.png",
+      "role": "PNG counterpart of square mark",
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 78749,
+      "sha256": "f7ae483e774bb2e62c8c76eea16744680a33d0f60835719d22e66e0e1a93dc2d"
+    },
+    {
+      "url": "/media/game-logo-v1-mark-dark.webp",
+      "role": "light-ink square mark for dark surfaces",
+      "format": "WEBP",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 13188,
+      "sha256": "c46a74bf8c8cc49ba5f7674ed3032c7828cd8e14c41bf7b832502c1d73532eb6"
+    },
+    {
+      "url": "/media/game-logo-v1-mark-dark.png",
+      "role": "PNG counterpart of dark-surface square mark",
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 26866,
+      "sha256": "7e4706df5e5e2f944210e0cac8e6c7abeb10662f88310646845749d84c010aa0"
+    },
+    {
+      "url": "/media/game-logo-v1-mark-128.png",
+      "role": "128 px mark",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 10747,
+      "sha256": "67e3ad84a01aca7c10ddd9570efc5390fc045413eda9db033476169730333bd5"
+    },
+    {
+      "url": "/media/game-logo-v1-mark-64.png",
+      "role": "64 px mark",
+      "format": "PNG",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "bytes": 4022,
+      "sha256": "46c60e1ef92cfcb60af0c0003f9769fd971ee868987def4a5a5a240038165b3a"
+    },
+    {
+      "url": "/media/game-logo-v1-mark-32.png",
+      "role": "32 px mark",
+      "format": "PNG",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "bytes": 1449,
+      "sha256": "41cfaa57b3c8ae1a1bf2c950419abb9e8c1dabc0cac7ba810c8062e5a979c0b2"
+    }
+  ],
+  "derivation": {
+    "source": "output/imagegen/game-logo-v1.png",
+    "backgroundEstimate": [
+      251.0,
+      245.0,
+      228.0
+    ],
+    "inkEstimate": [
+      32.0,
+      87.0,
+      85.0
+    ],
+    "goldEstimate": [
+      227.0,
+      168.0,
+      71.0
+    ],
+    "contentBounds": [
+      308,
+      203,
+      1734,
+      550
+    ],
+    "cropWithPadding": [
+      260,
+      155,
+      1782,
+      598
+    ],
+    "outputSize": [
+      1522,
+      443
+    ],
+    "matteMethod": "Two generated ink/gold color-line projections, remove cream noise and unpremultiply edge colors; no glyph redraw.",
+    "alphaNote": "Postprocessed extraction from opaque Image2 original, not native generated transparency.",
+    "darkMethod": "Same alpha and pixel shapes, deterministic light-ink/amber recolor.",
+    "markMethod": "Crop generated final character with its roof/window; remove isolated 12px-wide fragment of previous character at crop edge; no new symbol drawing.",
+    "transparentPixels": 1408548,
+    "totalPixels": 1572864
+  },
+  "qa": {
+    "status": "passed",
+    "reviewMethod": [
+      "agent visual inspection of actual generated image, four glyph structures, background composites, 320 px and 160 px readability",
+      "offline macOS Vision OCR via JXA; accurate level, zh-Hans/en-US, language correction disabled",
+      "Pillow full decode plus exact pixel comparison of PNG and lossless WebP counterparts"
+    ],
+    "ocrReport": "output/logo-v1/ocr.json",
+    "ocrExactTextAtWidths": [
+      "original 2048",
+      "main 1522",
+      "320",
+      "160"
+    ],
+    "visualProof": "output/logo-v1/size-and-background-review.jpg",
+    "roundTripChecks": [
+      {
+        "variant": "main",
+        "losslessWebpRoundTrip": true
+      },
+      {
+        "variant": "-transparent",
+        "losslessWebpRoundTrip": true
+      },
+      {
+        "variant": "-dark",
+        "losslessWebpRoundTrip": true
+      },
+      {
+        "variant": "-mark",
+        "losslessWebpRoundTrip": true
+      },
+      {
+        "variant": "-mark-dark",
+        "losslessWebpRoundTrip": true
+      }
+    ],
+    "findings": [
+      "Exactly the four intended Chinese characters; no extra slogan or English.",
+      "Warm window and roof are decorative additions; all title glyphs remain legible.",
+      "No complex scene or tourism-poster composition.",
+      "Transparent matte inspected on cream and dark surfaces; cropped preceding-character fragment removed from icon only."
+    ],
+    "recommendedMinimumTitleWidth": 160,
+    "recommendedMinimumDetailedMarkWidth": 64,
+    "icon32": "Recognisable coarse mark; fine roof/window details naturally reduce at favicon size."
+  },
+  "usage": {
+    "main": "/media/game-logo-v1.webp",
+    "overLightScene": "/media/game-logo-v1-transparent.webp",
+    "overDarkScene": "/media/game-logo-v1-dark.webp",
+    "mark": "/media/game-logo-v1-mark.webp",
+    "markOnDark": "/media/game-logo-v1-mark-dark.webp"
+  },
+  "scope": "Asset generation/export/provenance only; no game page, scene, CSS, or runtime code was changed."
+}

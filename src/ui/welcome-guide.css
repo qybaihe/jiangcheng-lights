@@ -1,0 +1,18 @@
+/* The invitation is part of the title page, not another blocking tutorial. */
+.welcome .hero-actions{flex-wrap:wrap;gap:10px 20px}
+.welcome-window-start{min-height:48px;padding:10px 4px;background:none;border:0;border-bottom:1px solid #d9c79b65;color:#f0e5c9;font:12px/1.5 var(--serif);cursor:pointer}
+.welcome-window-start:hover{color:#fff8e8;border-color:#eed49a}
+.welcome .hero-actions .film-button{min-height:48px;padding-inline:3px}
+.welcome-play-guide{display:grid;grid-template-columns:1fr 1.1fr 1.3fr;gap:16px;max-width:555px;margin:23px 0 0;padding:15px 0 0;border-top:1px solid #c5cbb340;color:#e6dfca;list-style:none}
+.welcome-play-guide li{display:grid;grid-template-columns:20px 1fr;column-gap:7px;align-content:start}
+.welcome-play-guide .guide-step{display:grid;place-items:center;width:19px;height:19px;border:1px solid #c6b9918c;border-radius:50%;color:#e8c686;font:10px/1 ui-monospace,monospace}
+.welcome-play-guide strong{font:500 11px/1.7 var(--serif);letter-spacing:.5px}
+.welcome-play-guide small{grid-column:2;display:block;font-size:9px;line-height:1.8;color:#cccbb6;margin-top:3px}
+.welcome .save-note{margin-top:14px}
+#fullscreen[aria-pressed=true],.playing #header #fullscreen[aria-pressed=true]{color:#99722f;background:#eddbac}
+#fullscreen:disabled{opacity:.45;cursor:default}
+.welcome-window-start:focus-visible{outline:2px solid #edcf91;outline-offset:5px}
+.welcome button:disabled{cursor:wait}
+@media(max-height:760px) and (min-width:901px){.welcome .hero{top:18%}.welcome .title-lockup.generated-title{margin-top:18px}.welcome .game-logo-subtitle{margin-top:12px}.welcome .generated-title~.hero-tagline{margin-top:20px}.welcome-play-guide{margin-top:15px;padding-top:11px;gap:11px;max-width:490px}.welcome-play-guide small{font-size:9px}.welcome .hero-actions{gap:8px 15px}.welcome .save-note{margin-top:10px}}
+@media(max-width:900px){.welcome-play-guide{max-width:510px;margin-top:18px}}
+@media(max-width:600px){.welcome-play-guide{grid-template-columns:1fr;gap:7px;padding-top:10px;margin-top:10px}.welcome-play-guide li{grid-template-columns:19px auto 1fr;gap:7px;align-items:center}.welcome-play-guide small{grid-column:3;margin:0}.welcome-play-guide strong{font-size:10px}.welcome-play-guide small{font-size:8px}.welcome .hero-actions{gap:4px 13px}.welcome-window-start{font-size:11px}}

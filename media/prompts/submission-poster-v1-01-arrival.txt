@@ -1,0 +1,22 @@
+Use case: ads-marketing
+Asset type: finished premium Chinese indie-game competition promotional poster, landscape 16:9, full bleed, final art AND all Chinese typography generated together.
+Primary request: Create the beautiful opening key visual for the existing game 江城有灯. This is a warm, story-rich anime illustrated poster about returning to Wuhan, not a gameplay screenshot. Sophisticated theatrical composition and refined print design, a real art director's work rather than a template.
+
+Input images: Image 1 is the established heroine identity and costume reference: 阿遥, a young adult woman, short chestnut-brown bob, warm brown eyes, ivory cardigan with forest-green ribbon details over black lace-trimmed top, dark green skirt, black tights, beige canvas cross-body satchel with a small flower. Preserve her face, age and recognizable outfit. Image 2 is the Wuhan river / 江汉关 clock-tower architectural and light reference, not a layout to copy. Image 3 is the existing four-character game logo and letterform reference; use exact legible Chinese 江城有灯, dark teal brush lettering with a subtle golden lamp accent, no black background from the reference.
+
+Scene: A luminous afternoon in a fictional Hankou-style 里分 lane opening toward the blue-green Yangtze. From the shaded threshold of an old green-painted repair shop, a subtly curved cobblestone path, stair, weathered brick walls, green wooden windows and small potted plants lead to sunlit river sky. 江汉关 clock tower is clearly recognizable beyond the lane; a small white-and-blue ferry crosses the distant water. This is an artistic Wuhan neighborhood, not a cartographically exact city reconstruction. Tiny neighbours greet each other near the breakfast shop in the midground. One practical warm brass desk lamp sits on the repair-shop bench. No fantasy castle, no Japanese torii, no Shanghai tower.
+Heroine: In the right foreground, attractive, thoughtful, warmly smiling 阿遥 is shown from mid-thigh up in a natural three-quarter turn, walking back into the lane, carrying one old brown repaired radio carefully in both hands. Elegant realistic anime proportions and natural hands, detailed cloth and hair, no childlike/chibi proportions. Her body and radio must not overlap any headline. Small canvas satchel visible. She looks toward someone in the lane, not a vacant fashion pose.
+Composition: Heroine on the right 45 percent, cinematic deep background center. Left 45 percent has organically calm pale-sunlit wall/sky reserved for an excellent editorial typography hierarchy; not a rectangular UI card. Dynamic but gentle low eye-level perspective, sense of stepping into an adventure. Large beautiful title upper left, generous quiet spacing. All text and faces at least 90 pixels from the 2048x1152 canvas edges. Full poster frame, no mockup, no surrounding wall, no outer border.
+Style/medium: Finest contemporary hand-painted anime game key art, detailed painterly architecture with clean delicately shaded character drawing. Warm sunlit ivory, jade/teal greens, river blue, honey-gold light. Subtle paper grain only, extremely clear image, joyful and tender, not sepia all over or gray-brown. Highlights luminous, shadows readable. No photorealistic people, no plastic 3D dolls, no over-saturated neon.
+
+Text (verbatim, simplified Chinese):
+Small overline above title: "武汉老巷 · 3D叙事探索"
+Very large artistic title: "江城有灯"
+Medium headline below title: "这一趟，不只是送东西。"
+Two short body lines with clean elegant Chinese Song-style type, large enough to read on a 1080p display:
+"我是阿遥。回到武汉，替外公送还几件旧物。"
+"没想到，这条巷子也替我留着一盏灯。"
+Small restrained bottom-left feature line: "街巷探索 / 旧物解谜 / 邻里故事 / 多重结局"
+Tiny but readable bottom-right label: "游戏主题海报"
+
+Typography: Render every quoted string exactly once with perfect accurate simplified Chinese, excellent kerning and consistent baseline. Dark deep teal lettering on light negative space, warm ivory only if on deep shadow. Title substantially larger than all other copy; body minimum approximately 30px at generated resolution. All copy belongs to the illustration's finished print layout, no computer-added appearance. Do not display quotation marks or English prompt labels. Do not add any other text, illegible shop signs, random calligraphy, prize badges, organizer logos, release dates, QR codes or watermarks. Background signboards may be plain without writing. Avoid crowding and generic multi-panel infographic design.

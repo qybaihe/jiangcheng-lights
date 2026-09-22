@@ -1,0 +1,86 @@
+{
+  "version": "story-v3-trial-1",
+  "updated_at": "2026-09-12T00:19:15.989775+08:00",
+  "scope": "序章前半场画面试片；完整约32秒序章尚未完成；未接入游戏",
+  "script": {
+    "path": "docs/江城有灯-剧本审阅稿-v3.md",
+    "status": "awaiting-user-review",
+    "sha256": "54405fd92ae9891bf8fedb2e473841a996cd785e5b3b7d53f72890edfe1b1763"
+  },
+  "image": {
+    "status": "generated-and-visually-reviewed",
+    "model": "gpt-image-2",
+    "pipeline": "existing tools/media.py adapter -> installed imagegen CLI",
+    "prompt": "media/prompts/cinema-v3-prologue-ferry-start.txt",
+    "references": [
+      {
+        "path": "public/media/cinema-c01-start-v1.webp",
+        "role": "architecture/composition only; removed woman"
+      },
+      {
+        "path": "public/media/story-v2-cg-granny-bamboo.webp",
+        "role": "illustration style only; no subject reuse"
+      }
+    ],
+    "original": "output/imagegen/cinema-v3-prologue-ferry-start.png",
+    "asset": "public/media/cinema-v3-prologue-ferry-start.webp",
+    "sha256": "b602abd05391dafacfa04c74c5c0c656da806c08836e87feb1d68facd7d5c1b8",
+    "review": "Removed locked female protagonist; one Jianghanguan shoreline; bright anime background; no bridge insertion."
+  },
+  "video": {
+    "name": "cinema-v3-prologue-ferry-v1",
+    "status": "succeeded",
+    "requested_duration": 15,
+    "ratio": "16:9",
+    "requested_resolution": "720p",
+    "generate_audio": false,
+    "mode": "first-frame only; three edited shots within one generation",
+    "prompt": "media/prompts/cinema-v3-prologue-ferry-v1-video.txt",
+    "first_frame": "public/media/cinema-v3-prologue-ferry-start.webp",
+    "request_sha256": "2092d02892cb82d272902968b5ac6ff0d169fe8275afb976bc471b99b9ac5bda",
+    "planned_output": "public/media/cinema-v3-prologue-ferry-v1.mp4",
+    "verified_returned_model": "dreamina-seedance-2.0-260128",
+    "technical_review": {
+      "status": "passed",
+      "duration": 15.041667,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "audio": false,
+      "full_decode": true,
+      "report": "output/script-review-v3/prologue-trial-tech.json"
+    },
+    "visual_review": {
+      "status": "needs-revision; not approved for game integration",
+      "report": "output/script-review-v3/prologue-trial-review.md",
+      "method": "0.5s sampled frames, denser hand/action frames and scene cut detection; no claim of real-time full-speed playback review",
+      "actual_cuts_seconds": [
+        5.375,
+        12.333333
+      ],
+      "issues": [
+        "Key insert occupies ~6.96s, destination shot only ~2.71s; intended timing not followed",
+        "Key flips on open palm without convincing finger contact, exaggerated glints and letter-like engraving",
+        "Returning shore shot changes adjacent skyline/building layout; tower cap exits frame near end"
+      ]
+    },
+    "output": "public/media/cinema-v3-prologue-ferry-v1.mp4",
+    "bytes": 7224644,
+    "sha256": "d67e16a217731881ec77abd2d5b563bc9d50f7395211ceaf0ba7deddb0edfd47",
+    "receipt": "output/script-review-v3/seedance-trial-receipt.json"
+  },
+  "not_done": [
+    "P04-P06序章后半场",
+    "正式对白定稿与TTS",
+    "尾声及其他新影片",
+    "运行版本v3接入"
+  ],
+  "credentials": "Not included; read only by offline production tools.",
+  "generation_summary": {
+    "image_requests": 1,
+    "video_requests": 1,
+    "video_task_complete": true,
+    "new_game_integration": false,
+    "automatic_retake_submitted": false
+  }
+}

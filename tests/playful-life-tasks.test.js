@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {activeMealRound,playfulObjective,photoPoint,mealPoint} from '../src/playful-life-tasks.js';
+import {freshState,objective} from '../src/story.js';
+import {startMealRelay,MEAL_ROUNDS,transitionMeal} from '../src/meal-relay.js';
+const pick=s=>playfulObjective(s,objective(s));
+const prepared=()=>({...freshState(),started:true,flags:['received','radio','granny','chefRequested'],supplies:['box','water','battery']});
+test('new activities never replace a fresh mainline objective or mark old saves completed',()=>{const s=freshState();assert.deepEqual(pick(s),objective(s));assert.equal(activeMealRound(s),null);assert.deepEqual(s.photos.completed,[]);});
+test('a committed delivery uses the real packing task before three boxes are ready',()=>{const s=prepared();s.mealStoryReady=true;assert.equal(pick(s).target,'chef');s.meals=startMealRelay(null).progress;assert.equal(pick(s).action,'meal-pack');});
+test('sealed boxes guide to an authored recipient stop, not an unknown route string',()=>{const s=prepared();s.meals=startMealRelay(null).progress;for(const item of MEAL_ROUNDS.evening.orders){for(const field of ['food','scallion','chili','label'])s.meals=transitionMeal(s.meals,{type:'pack',roundId:'evening',orderId:item.id,field,value:field==='label'?item.id:item[field]}).progress;s.meals=transitionMeal(s.meals,{type:'seal',orderId:item.id}).progress;}const task=pick(s);assert.equal(task.target,'meal-west');assert.equal(mealPoint(task.target).receiver,'陈姐');assert.equal(task.action,'meal-deliver');});
+test('a photo remains optional and can be paused without changing story flags',()=>{const s=prepared();s.photoTarget='river';const before=[...s.flags];assert.equal(pick(s).target,'photo-river');assert.ok(Number.isFinite(photoPoint('river').x));s.photoTarget=null;assert.deepEqual(pick(s),objective(s));assert.deepEqual(s.flags,before);});
+test('storm and an ended run take precedence over an interrupted optional activity',()=>{const s=prepared();s.meals=startMealRelay(null).progress;s.photoTarget='shop';s.flags.push('chef','dock','prepared','checked');assert.equal(activeMealRound(s),null);assert.deepEqual(pick(s),objective(s));s.runEnded=true;assert.deepEqual(pick(s),objective(s));});
+test('next-morning packing is distinct from an unfinished evening record',()=>{const s=prepared();s.flags.push('checked','ending','postlude');s.meals=startMealRelay(startMealRelay(null).progress,'morning').progress;s.mealRound='morning';assert.equal(activeMealRound(s),'morning');assert.equal(pick(s).roundId,'morning');assert.equal(s.meals.rounds.evening.started,true);});
+test('malformed activity selectors do not produce a phantom objective',()=>{const s=freshState();s.photoTarget='__proto__';s.mealRound='constructor';assert.deepEqual(pick(s),objective(s));assert.equal(activeMealRound(s),null);});
+test('unknown photo route selectors are rejected instead of reading the object prototype',()=>{for(const id of ['__proto__','constructor','missing',null,undefined])assert.equal(photoPoint(id),null);});

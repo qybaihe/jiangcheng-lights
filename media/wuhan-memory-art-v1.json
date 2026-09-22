@@ -1,0 +1,1152 @@
+{
+  "version": 1,
+  "total": 44,
+  "style": {
+    "palette": "青绿树影、暖米白纸张、浅杏阳光、温润红砖、少量靛蓝；柔和但清亮，不做浓褐色旧照片滤镜。",
+    "treatment": "明亮温暖的手绘动漫电影场景，细腻水彩/水粉背景，日常人物自然比例；旧相册的轻微褪色、纸纤维和极细颗粒，画面完整清晰。横屏16:9。",
+    "history": "人物往事均为虚构，不标具体年份，不把虚构晴川里绘制成真实街区地图；只画符合武汉生活的物件与空间，不拼贴黄鹤楼等无关地标。"
+  },
+  "items": [
+    {
+      "id": "granny-table",
+      "title": "留一只凳子",
+      "chapter": "林婆婆 · 一碗面的位置",
+      "kind": "main",
+      "flag": "granny",
+      "movie": "granny",
+      "brief": "屋檐下，年轻些的林婆婆把一碗面推到疲惫的陆师傅面前，矮竹凳留出一个空位。武汉里分天井、木窗、搪瓷盆，浅金傍晚。关心是递碗的动作，不是哭泣。",
+      "fallbackImage": "/media/story-v2-cg-granny-table.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "林婆婆 · 一碗面的位置",
+      "image": "/media/wuhan-memories-v1/granny-table.webp",
+      "url": "/media/wuhan-memories-v1/granny-table.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "屋檐下，年轻些的林婆婆把一碗面推到疲惫的陆师傅面前，矮竹凳留出一个空位。武汉里分天井、木窗、搪瓷盆，浅金傍晚。关心是递碗的动作，不是哭泣。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。",
+      "trigger": {
+        "cgId": "granny-table",
+        "flag": "granny",
+        "movie": "granny"
+      }
+    },
+    {
+      "id": "granny-bamboo",
+      "title": "蒲扇没有停",
+      "chapter": "林婆婆 · 午后的竹床",
+      "kind": "main",
+      "flag": "granny",
+      "movie": "granny",
+      "brief": "小阿遥蜷在天井竹床上睡熟，年轻些的林婆婆轻摇蒲扇，陆师傅在旁把声音放轻。竹床之间留路，通风砖和晾衣绳投下柔软影子，盛夏但不昏黄。",
+      "fallbackImage": "/media/story-v2-cg-granny-bamboo.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "林婆婆 · 午后的竹床",
+      "image": "/media/wuhan-memories-v1/granny-bamboo.webp",
+      "url": "/media/wuhan-memories-v1/granny-bamboo.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "小阿遥蜷在天井竹床上睡熟，年轻些的林婆婆轻摇蒲扇，陆师傅在旁把声音放轻。竹床之间留路，通风砖和晾衣绳投下柔软影子，盛夏但不昏黄。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "cgId": "granny-bamboo",
+        "flag": "granny",
+        "movie": "granny"
+      }
+    },
+    {
+      "id": "chef-lamp",
+      "title": "天亮以前",
+      "chapter": "蔡姨 · 第一盏摊灯",
+      "kind": "main",
+      "flag": "chef",
+      "movie": "chef",
+      "brief": "年轻蔡姨在黎明的武汉过早摊忙碌，陆师傅递来修好的绿色台灯；两盏小灯照亮芝麻酱碗、竹面篓、铝锅，摊外天空青蓝。热气与动作交织，不是单独拍点灯。",
+      "fallbackImage": "/media/story-v2-cg-chef-lamp.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "蔡姨 · 第一盏摊灯",
+      "image": "/media/wuhan-memories-v1/chef-lamp.webp",
+      "url": "/media/wuhan-memories-v1/chef-lamp.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "年轻蔡姨在黎明的武汉过早摊忙碌，陆师傅递来修好的绿色台灯；两盏小灯照亮芝麻酱碗、竹面篓、铝锅，摊外天空青蓝。热气与动作交织，不是单独拍点灯。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。",
+      "trigger": {
+        "cgId": "chef-lamp",
+        "flag": "chef",
+        "movie": "chef"
+      }
+    },
+    {
+      "id": "chef-extra-bowl",
+      "title": "先盛小饭盒",
+      "chapter": "蔡姨 · 留着一口热的",
+      "kind": "main",
+      "flag": "chef",
+      "movie": "chef",
+      "brief": "蔡姨先给红盖有一点白色磕痕的小饭盒盛热食，桌边小阿遥踮脚看；厨房窗外是武汉里分木门与晒衣。重心在手、饭盒、被记住的一个人的份量。",
+      "fallbackImage": "/media/story-v2-cg-chef-extra-bowl.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "蔡姨 · 留着一口热的",
+      "image": "/media/wuhan-memories-v1/chef-extra-bowl.webp",
+      "url": "/media/wuhan-memories-v1/chef-extra-bowl.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "蔡姨先给红盖有一点白色磕痕的小饭盒盛热食，桌边小阿遥踮脚看；厨房窗外是武汉里分木门与晒衣。重心在手、饭盒、被记住的一个人的份量。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "cgId": "chef-extra-bowl",
+        "flag": "chef",
+        "movie": "chef"
+      }
+    },
+    {
+      "id": "dock-shared-box",
+      "title": "箱子的另一边",
+      "chapter": "周伯 · 江边的往事",
+      "kind": "main",
+      "flag": "dock",
+      "movie": "dock",
+      "brief": "年轻些的轮渡工周伯先点头询问，再与陆师傅一人托住旧工具箱的一侧，站在干燥的武汉轮渡候船棚内；远处单层老轮渡、柔青江水和武汉长江大桥钢桁架虚景。",
+      "fallbackImage": "/media/story-v2-cg-dock-shared-box.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "周伯 · 江边的往事",
+      "image": "/media/wuhan-memories-v1/dock-shared-box.webp",
+      "url": "/media/wuhan-memories-v1/dock-shared-box.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "年轻些的轮渡工周伯先点头询问，再与陆师傅一人托住旧工具箱的一侧，站在干燥的武汉轮渡候船棚内；远处单层老轮渡、柔青江水和武汉长江大桥钢桁架虚景。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。",
+      "trigger": {
+        "cgId": "dock-shared-box",
+        "flag": "dock",
+        "movie": "dock"
+      }
+    },
+    {
+      "id": "xu-first-shift",
+      "title": "第一场值班的雨",
+      "chapter": "小许 · 第一次值夜班",
+      "kind": "main",
+      "flag": "towel",
+      "movie": "towel",
+      "brief": "刚参加社区工作的小许是年轻女性，雨夜在明亮屋内核名单；街坊的手把蓝边干毛巾放在桌角，小许抬头微笑。窗外雨线，暖米白灯光和青绿窗框，不能画成年代久远的历史人物。",
+      "fallbackImage": "/media/story-v2-cg-xu-first-shift.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "小许刚来社区的那一年",
+      "caption": "小许 · 第一次值夜班",
+      "image": "/media/wuhan-memories-v1/xu-first-shift.webp",
+      "url": "/media/wuhan-memories-v1/xu-first-shift.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "刚参加社区工作的小许是年轻女性，雨夜在明亮屋内核名单；街坊的手把蓝边干毛巾放在桌角，小许抬头微笑。窗外雨线，暖米白灯光和青绿窗框，不能画成年代久远的历史人物。",
+      "characterAppearance": "小许：年轻女性，不是男性，栗色利落短发、杏橘外衣和玉绿长裤，工作牌；刚到社区也是成年女性，近年记忆，不是上世纪人物。",
+      "trigger": {
+        "cgId": "xu-first-shift",
+        "flag": "towel",
+        "movie": "towel"
+      }
+    },
+    {
+      "id": "ending-reopen",
+      "title": "门是一起开的",
+      "chapter": "外公 · 修理铺重新开门",
+      "kind": "main",
+      "flag": "ending",
+      "movie": "ending",
+      "brief": "修理铺重新开门的那天，年轻些的陆师傅、林婆婆、蔡姨、周伯一起把木桌摆正，靠窗留一个角给小阿遥。武汉里分门洞外有竹床、修理工具和过早饭盒；多人自然群像。",
+      "fallbackImage": "/media/story-v2-cg-ending-reopen.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "外公 · 修理铺重新开门",
+      "image": "/media/wuhan-memories-v1/ending-reopen.webp",
+      "url": "/media/wuhan-memories-v1/ending-reopen.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "修理铺重新开门的那天，年轻些的陆师傅、林婆婆、蔡姨、周伯一起把木桌摆正，靠窗留一个角给小阿遥。武汉里分门洞外有竹床、修理工具和过早饭盒；多人自然群像。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "cgId": "ending-reopen",
+        "flag": "ending",
+        "movie": "ending"
+      }
+    },
+    {
+      "id": "ending-lamplit-child",
+      "title": "那盏灯照着谁",
+      "chapter": "外公 · 灯下的孩子",
+      "kind": "main",
+      "flag": "ending",
+      "movie": "ending",
+      "brief": "修理铺暖灯下，小阿遥低头写作业，桌角放红盖饭盒，陆师傅修理物件，街坊在门边轻声说话；窗外青绿色夏夜。孩子被日常生活温柔环绕，不做煽情流泪特写。",
+      "fallbackImage": "/media/story-v2-cg-ending-lamplit-child.webp",
+      "place": "晴川里 · 旧物记忆",
+      "era": "阿遥小时候",
+      "caption": "外公 · 灯下的孩子",
+      "image": "/media/wuhan-memories-v1/ending-lamplit-child.webp",
+      "url": "/media/wuhan-memories-v1/ending-lamplit-child.webp",
+      "location": "晴川里 · 旧物记忆",
+      "visualBrief": "修理铺暖灯下，小阿遥低头写作业，桌角放红盖饭盒，陆师傅修理物件，街坊在门边轻声说话；窗外青绿色夏夜。孩子被日常生活温柔环绕，不做煽情流泪特写。",
+      "characterAppearance": "陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "cgId": "ending-lamplit-child",
+        "flag": "ending",
+        "movie": "ending"
+      }
+    },
+    {
+      "id": "resident-granny-bamboo-bed",
+      "kind": "resident",
+      "residentId": "granny",
+      "topicId": "bamboo-bed",
+      "title": "竹床上的小规矩",
+      "chapter": "林婆婆 · 街坊旧事",
+      "caption": "一张竹床，怎样坐下半条巷子。",
+      "place": "里分天井",
+      "era": "从前的夏夜",
+      "brief": "竹床交错摆在武汉里分天井，林婆婆轻收双脚给迟来的邻居让位，孩子在床底找玻璃弹珠。蒲扇、布席、木门；从略低视角看一张竹床容下许多亲切身影。",
+      "lines": [
+        "从前夏天热，我们把竹床搬到天井里，先拿湿布擦一遍。",
+        "谁家先坐下，谁就替后来的人留个角，不用专门开口。",
+        "小孩子在床底找滚走的玻璃弹珠，上头的人还当他们睡着了。",
+        "如今一听竹床响，我总想把脚缩回来，怕挡了谁。"
+      ],
+      "personName": "林婆婆",
+      "image": "/media/wuhan-memories-v1/resident-granny-bamboo-bed.webp",
+      "url": "/media/wuhan-memories-v1/resident-granny-bamboo-bed.webp",
+      "location": "里分天井",
+      "visualBrief": "竹床交错摆在武汉里分天井，林婆婆轻收双脚给迟来的邻居让位，孩子在床底找玻璃弹珠。蒲扇、布席、木门；从略低视角看一张竹床容下许多亲切身影。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。",
+      "trigger": {
+        "residentId": "granny",
+        "topicId": "bamboo-bed",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-granny-radio-dial",
+      "kind": "resident",
+      "residentId": "granny",
+      "topicId": "radio-dial",
+      "title": "旋钮要慢慢拧",
+      "chapter": "林婆婆 · 街坊旧事",
+      "caption": "比节目先来的，是熟悉的沙沙声。",
+      "place": "木窗旁",
+      "era": "旧日午后",
+      "brief": "林婆婆慢慢转收音机旋钮，陈姐从木窗外探头搭话，电台被两人的笑容打断。绿色收音机、竹椅、明亮窗光；用神情而非文字表现沙沙声。",
+      "lines": [
+        "我以前找电台，先把旋钮拧过头，再一点点往回退。",
+        "陈姐在窗外听见沙沙响，就问我是不是又没找准。",
+        "有时节目已经开了头，我还忙着跟她搭话，半句都没听进耳朵。",
+        "收音机开着，屋里像多了个不催你说话的人。"
+      ],
+      "personName": "林婆婆",
+      "image": "/media/wuhan-memories-v1/resident-granny-radio-dial.webp",
+      "url": "/media/wuhan-memories-v1/resident-granny-radio-dial.webp",
+      "location": "木窗旁",
+      "visualBrief": "林婆婆慢慢转收音机旋钮，陈姐从木窗外探头搭话，电台被两人的笑容打断。绿色收音机、竹椅、明亮窗光；用神情而非文字表现沙沙声。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。",
+      "trigger": {
+        "residentId": "granny",
+        "topicId": "radio-dial",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-granny-enamel-cup",
+      "kind": "resident",
+      "residentId": "granny",
+      "topicId": "enamel-cup",
+      "title": "搪瓷缸底下的记号",
+      "chapter": "林婆婆 · 街坊旧事",
+      "caption": "借出去的东西，总有回来的办法。",
+      "place": "巷口门洞",
+      "era": "从前一个夏天",
+      "brief": "林婆婆与陈姐在武汉里分门口比对两只缸底都有小蓝点的白搪瓷缸，旁边一壶绿豆汤已经分匀，两人忍俊不禁。近景带暖砖色门框。",
+      "lines": [
+        "巷子里借个碗、借只缸子，是常有的事。",
+        "我怕拿混，就在搪瓷缸底下点了个小小的蓝点。",
+        "后来发现陈姐也点蓝点，我们俩站在门口比了半天。",
+        "最后一人拿一个，里面的绿豆汤倒是分得很匀。"
+      ],
+      "personName": "林婆婆",
+      "image": "/media/wuhan-memories-v1/resident-granny-enamel-cup.webp",
+      "url": "/media/wuhan-memories-v1/resident-granny-enamel-cup.webp",
+      "location": "巷口门洞",
+      "visualBrief": "林婆婆与陈姐在武汉里分门口比对两只缸底都有小蓝点的白搪瓷缸，旁边一壶绿豆汤已经分匀，两人忍俊不禁。近景带暖砖色门框。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。",
+      "trigger": {
+        "residentId": "granny",
+        "topicId": "enamel-cup",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-chef-first-noodles",
+      "kind": "resident",
+      "residentId": "chef",
+      "topicId": "first-noodles",
+      "title": "头一回拌热干面",
+      "chapter": "蔡姨 · 街坊旧事",
+      "caption": "手忙脚乱，也是从一碗面开始的。",
+      "place": "蔡记过早摊",
+      "era": "蔡姨年轻的时候",
+      "brief": "年轻蔡姨面对自己拌得不匀的一碗热干面，筷子挑进碗底，老师傅在旁不急着批评；芝麻酱、竹面篓、铝壶与清晨烟气，生活喜感。",
+      "lines": [
+        "我年轻时帮人看摊，头一碗热干面，酱和面各在各的地方。",
+        "师傅没骂我，叫我自己吃，吃到底下咸得直找水。",
+        "后来我学会先把筷子挑进去，连碗底也照顾到。",
+        "现在看人只拌上面，我那只手就忍不住想伸过去。"
+      ],
+      "personName": "蔡姨",
+      "image": "/media/wuhan-memories-v1/resident-chef-first-noodles.webp",
+      "url": "/media/wuhan-memories-v1/resident-chef-first-noodles.webp",
+      "location": "蔡记过早摊",
+      "visualBrief": "年轻蔡姨面对自己拌得不匀的一碗热干面，筷子挑进碗底，老师傅在旁不急着批评；芝麻酱、竹面篓、铝壶与清晨烟气，生活喜感。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。",
+      "trigger": {
+        "residentId": "chef",
+        "topicId": "first-noodles",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-chef-doupi-edge",
+      "kind": "resident",
+      "residentId": "chef",
+      "topicId": "doupi-edge",
+      "title": "豆皮的边角归谁",
+      "chapter": "蔡姨 · 街坊旧事",
+      "caption": "锅边那一圈，早有人惦记。",
+      "place": "豆皮锅边",
+      "era": "前些年的一个清早",
+      "brief": "金黄三鲜豆皮在大平锅中分成方块，蔡姨将最脆的一角留在锅铲上，头发有一撮翘起的罗娟在摊边伸手期待。绿围裙、青绿门面、第一缕阳光。",
+      "lines": [
+        "豆皮一出锅，总有人先盯边角，觉得那一口脆得有意思。",
+        "罗娟问过我，能不能替她留一块，我叫她先起得来再说。",
+        "第二天她真早到了，头发还翘着，进门先指锅边。",
+        "我没忍住笑，差点把她要的那块分给后头的人。"
+      ],
+      "personName": "蔡姨",
+      "image": "/media/wuhan-memories-v1/resident-chef-doupi-edge.webp",
+      "url": "/media/wuhan-memories-v1/resident-chef-doupi-edge.webp",
+      "location": "豆皮锅边",
+      "visualBrief": "金黄三鲜豆皮在大平锅中分成方块，蔡姨将最脆的一角留在锅铲上，头发有一撮翘起的罗娟在摊边伸手期待。绿围裙、青绿门面、第一缕阳光。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n罗娟：年轻女性，深色短发、赭黄色针织开衫、通勤包。",
+      "trigger": {
+        "residentId": "chef",
+        "topicId": "doupi-edge",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-chef-breakfast-orders",
+      "kind": "resident",
+      "residentId": "chef",
+      "topicId": "breakfast-orders",
+      "title": "不用开口的老主顾",
+      "chapter": "蔡姨 · 街坊旧事",
+      "caption": "过早的花样多，记法也各不同。",
+      "place": "蔡记门前",
+      "era": "熟客每天都来的早晨",
+      "brief": "贺师傅折好报纸后伸手接碗，蔡姨看见这个熟悉动作就笑了，桌上热干面、面窝和不装太满的豆浆。重点是熟客之间无需开口的默契。",
+      "lines": [
+        "有人早上就认热干面，有人隔几天换豆皮、面窝，换着吃。",
+        "我最初记不住脸，只记得这个少一点辣，那个豆浆别装太满。",
+        "贺师傅总把报纸折好才端碗，折纸声一响，我就晓得是他。",
+        "后来他换了眼镜，我还是听那一声认出来的。"
+      ],
+      "personName": "蔡姨",
+      "image": "/media/wuhan-memories-v1/resident-chef-breakfast-orders.webp",
+      "url": "/media/wuhan-memories-v1/resident-chef-breakfast-orders.webp",
+      "location": "蔡记门前",
+      "visualBrief": "贺师傅折好报纸后伸手接碗，蔡姨看见这个熟悉动作就笑了，桌上热干面、面窝和不装太满的豆浆。重点是熟客之间无需开口的默契。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。",
+      "trigger": {
+        "residentId": "chef",
+        "topicId": "breakfast-orders",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-dock-ticket-pocket",
+      "kind": "resident",
+      "residentId": "dock",
+      "topicId": "ticket-pocket",
+      "title": "衣袋里留下的船票",
+      "chapter": "周伯 · 街坊旧事",
+      "caption": "洗衣服前，得先翻翻口袋。",
+      "place": "家中晾衣处",
+      "era": "还留纸船票的时候",
+      "brief": "周伯从晾着的衬衣口袋里掏出一团洗过的纸船票，窗台放着几张压平的旧票；海蓝布帽、搪瓷缸、竹晾衣竿，窗外轮渡远影。船票不含可读班次或虚构官方标志。",
+      "lines": [
+        "以前坐完轮渡，我常把纸船票往衬衣口袋里一塞。",
+        "回家忘了掏，洗完晾出来，口袋里就粘着一小团纸。",
+        "后来学乖了，进门先放在柜上，倒越攒越多。",
+        "贺师傅说可以拿去做书签，我说先别急，这几张还有肥皂味。"
+      ],
+      "personName": "周伯",
+      "image": "/media/wuhan-memories-v1/resident-dock-ticket-pocket.webp",
+      "url": "/media/wuhan-memories-v1/resident-dock-ticket-pocket.webp",
+      "location": "家中晾衣处",
+      "visualBrief": "周伯从晾着的衬衣口袋里掏出一团洗过的纸船票，窗台放着几张压平的旧票；海蓝布帽、搪瓷缸、竹晾衣竿，窗外轮渡远影。船票不含可读班次或虚构官方标志。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。",
+      "trigger": {
+        "residentId": "dock",
+        "topicId": "ticket-pocket",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-dock-arriving-shore",
+      "kind": "resident",
+      "residentId": "dock",
+      "topicId": "arriving-shore",
+      "title": "快靠岸的那阵安静",
+      "chapter": "周伯 · 街坊旧事",
+      "caption": "人还没下船，心已经往家走了。",
+      "place": "轮渡客舱",
+      "era": "一次寻常的归程",
+      "brief": "武汉老轮渡客舱内，年轻些的周伯看着大家在船将靠岸时安静收包；母亲理孩子衣领、居民稳住菜篮，大家仍坐稳，窗外码头轮廓和清亮江水。",
+      "lines": [
+        "我爱看船快靠岸的时候，刚才还说笑的人，都开始摸自己的包。",
+        "有人把菜提稳，有人替孩子理一理领子。",
+        "我年轻时总急，后来才觉得，在座位上多坐片刻也好。",
+        "等船停稳了再走，岸上的那碗饭又不会长脚。"
+      ],
+      "personName": "周伯",
+      "image": "/media/wuhan-memories-v1/resident-dock-arriving-shore.webp",
+      "url": "/media/wuhan-memories-v1/resident-dock-arriving-shore.webp",
+      "location": "轮渡客舱",
+      "visualBrief": "武汉老轮渡客舱内，年轻些的周伯看着大家在船将靠岸时安静收包；母亲理孩子衣领、居民稳住菜篮，大家仍坐稳，窗外码头轮廓和清亮江水。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。",
+      "trigger": {
+        "residentId": "dock",
+        "topicId": "arriving-shore",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-dock-river-hat",
+      "kind": "resident",
+      "residentId": "dock",
+      "topicId": "river-hat",
+      "title": "那顶总戴不正的帽子",
+      "chapter": "周伯 · 街坊旧事",
+      "caption": "江风不按人的意思吹。",
+      "place": "江边候船棚",
+      "era": "前些年的傍晚",
+      "brief": "周伯坐在栏内干燥候船棚，旧海蓝布帽被转头动作带歪，宋远一边画速写一边笑；江风吹起衣角，远景是武汉长江大桥钢桁架。",
+      "lines": [
+        "我有顶旧布帽，出门前戴得正正的，到江边就歪。",
+        "以前还怪镜子挂斜了，后来发现，是我总朝着船来的方向扭头。",
+        "宋远想给我画张像，我让他把帽子画正一点。",
+        "他偏说歪着才像，我一看，倒还真是。"
+      ],
+      "personName": "周伯",
+      "image": "/media/wuhan-memories-v1/resident-dock-river-hat.webp",
+      "url": "/media/wuhan-memories-v1/resident-dock-river-hat.webp",
+      "location": "江边候船棚",
+      "visualBrief": "周伯坐在栏内干燥候船棚，旧海蓝布帽被转头动作带歪，宋远一边画速写一边笑；江风吹起衣角，远景是武汉长江大桥钢桁架。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。\n宋远：年轻男性，棕色短发、牛仔蓝夹克、速写本；童年旧画可只拍画不出现错误年龄。",
+      "trigger": {
+        "residentId": "dock",
+        "topicId": "river-hat",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-community-first-notice",
+      "kind": "resident",
+      "residentId": "community",
+      "topicId": "first-notice",
+      "title": "第一张通知写太满了",
+      "chapter": "小许 · 街坊旧事",
+      "caption": "大字和空白，都是后来学的。",
+      "place": "社区门前",
+      "era": "小许刚来的时候",
+      "brief": "年轻女社区工作人员小许摊着一张写得太密的通知，戴眼镜的贺师傅帮她留空白，林婆婆站远一点比划字的大小；纸面只有模糊笔迹，不生成可读文字。",
+      "lines": [
+        "我刚来时写通知，恨不得把每句话都塞进一张纸。",
+        "林婆婆站远了看，问我这是通知，还是考眼睛。",
+        "贺师傅帮我把字放大，又留了几块空白，我起初还嫌浪费。",
+        "后来有人看一眼就找对地方，我才晓得空着也有用。"
+      ],
+      "personName": "小许",
+      "image": "/media/wuhan-memories-v1/resident-community-first-notice.webp",
+      "url": "/media/wuhan-memories-v1/resident-community-first-notice.webp",
+      "location": "社区门前",
+      "visualBrief": "年轻女社区工作人员小许摊着一张写得太密的通知，戴眼镜的贺师傅帮她留空白，林婆婆站远一点比划字的大小；纸面只有模糊笔迹，不生成可读文字。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n小许：年轻女性，不是男性，栗色利落短发、杏橘外衣和玉绿长裤，工作牌；刚到社区也是成年女性，近年记忆，不是上世纪人物。\n贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。",
+      "trigger": {
+        "residentId": "community",
+        "topicId": "first-notice",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-community-spare-chair",
+      "kind": "resident",
+      "residentId": "community",
+      "topicId": "spare-chair",
+      "title": "先搬一张空椅子",
+      "chapter": "小许 · 街坊旧事",
+      "caption": "认识街坊，不只靠一张名单。",
+      "place": "里分天井",
+      "era": "小许刚认门牌时",
+      "brief": "陈姐把一张空竹椅挪到街坊之间，小许合上名册坐下来听，林婆婆手拿蒲扇，猫在椅腿间探头；正午阴凉、暖米白墙面、青绿树影。",
+      "lines": [
+        "我刚认门牌那阵，喊人总要先低头看本子。",
+        "陈姐叫我把本子合上，搬张椅子坐到她们旁边。",
+        "坐了一会儿，谁家猫躲着谁，谁的袖子又长了，我全听到了。",
+        "第二回再碰面，名字反倒不用翻了。"
+      ],
+      "personName": "小许",
+      "image": "/media/wuhan-memories-v1/resident-community-spare-chair.webp",
+      "url": "/media/wuhan-memories-v1/resident-community-spare-chair.webp",
+      "location": "里分天井",
+      "visualBrief": "陈姐把一张空竹椅挪到街坊之间，小许合上名册坐下来听，林婆婆手拿蒲扇，猫在椅腿间探头；正午阴凉、暖米白墙面、青绿树影。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n小许：年轻女性，不是男性，栗色利落短发、杏橘外衣和玉绿长裤，工作牌；刚到社区也是成年女性，近年记忆，不是上世纪人物。\n陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。",
+      "trigger": {
+        "residentId": "community",
+        "topicId": "spare-chair",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-community-clock-reminder",
+      "kind": "resident",
+      "residentId": "community",
+      "topicId": "clock-reminder",
+      "title": "忘了看手机的傍晚",
+      "chapter": "小许 · 街坊旧事",
+      "caption": "钟声一来，才发现纸上全是圈。",
+      "place": "社区小屋",
+      "era": "一个忘了看手机的傍晚",
+      "brief": "小许伏案改表格听钟声抬头，程岚已抱书在门边安静等候；窗外以远小轮廓暗示江汉关钟楼。现代手机留在桌上，避免把年轻小许画成几十年前。",
+      "lines": [
+        "有回我整理旧表格，低着头，把约好的晚饭都忘了。",
+        "窗外听见江汉关的钟声，我才抬头找手机。",
+        "程岚已经在门口等着，说不催，怕我把刚改的地方又抄错。",
+        "现在她约我吃饭，会先叫我把笔帽盖上。"
+      ],
+      "personName": "小许",
+      "image": "/media/wuhan-memories-v1/resident-community-clock-reminder.webp",
+      "url": "/media/wuhan-memories-v1/resident-community-clock-reminder.webp",
+      "location": "社区小屋",
+      "visualBrief": "小许伏案改表格听钟声抬头，程岚已抱书在门边安静等候；窗外以远小轮廓暗示江汉关钟楼。现代手机留在桌上，避免把年轻小许画成几十年前。",
+      "characterAppearance": "小许：年轻女性，不是男性，栗色利落短发、杏橘外衣和玉绿长裤，工作牌；刚到社区也是成年女性，近年记忆，不是上世纪人物。\n程岚：年轻女性，黑色齐耳短发、玉绿背心和长裙、书册；童年片段换为同特征小女孩，母亲是另外一位朴素成年女性。",
+      "trigger": {
+        "residentId": "community",
+        "topicId": "clock-reminder",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker0-pillow-patch",
+      "kind": "resident",
+      "residentId": "walker0",
+      "topicId": "pillow-patch",
+      "title": "竹床上的花布补丁",
+      "chapter": "陈姐 · 街坊旧事",
+      "caption": "小小一块布，总有人嫌它不够大。",
+      "place": "天井竹床",
+      "era": "旧日暑夜",
+      "brief": "年轻些的陈姐缝一块印小花的枕套大补丁，孩子把玻璃弹珠放入新口袋，林婆婆在竹床另一边笑；手工针脚与布纹清晰，轻松生活片段。",
+      "lines": [
+        "以前天热睡竹床，枕头套磨破了，拿块花布补上还能用。",
+        "有个孩子嫌补丁小，说看不全上头那朵花。",
+        "我索性缝个大口袋，他把弹珠全装进去，一翻身就哗啦响。",
+        "后来还是拆了，不然整条巷子都要跟着他醒。"
+      ],
+      "personName": "陈姐",
+      "image": "/media/wuhan-memories-v1/resident-walker0-pillow-patch.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker0-pillow-patch.webp",
+      "location": "天井竹床",
+      "visualBrief": "年轻些的陈姐缝一块印小花的枕套大补丁，孩子把玻璃弹珠放入新口袋，林婆婆在竹床另一边笑；手工针脚与布纹清晰，轻松生活片段。",
+      "characterAppearance": "林婆婆：年长女性，温和圆脸、铜框眼镜，银灰短发、紫灰针织背心和长裙；童年回忆中减龄约十余岁，头发灰黑，仍保持可辨识脸型。\n陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。",
+      "trigger": {
+        "residentId": "walker0",
+        "topicId": "pillow-patch",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker0-umbrella-stitch",
+      "kind": "resident",
+      "residentId": "walker0",
+      "topicId": "umbrella-stitch",
+      "title": "舍不得换的旧伞",
+      "chapter": "陈姐 · 街坊旧事",
+      "caption": "认一把伞，有时靠的是针脚。",
+      "place": "木檐下",
+      "era": "那把伞还常用时",
+      "brief": "陈姐把修好的旧伞撑在干燥屋檐内，伞面上一道深色歪针脚很清楚，宋远捧速写本好奇看；其他折伞靠墙，温柔雨后漫反射，不阴沉。",
+      "lines": [
+        "我有把伞，伞面松过线，自己沿着原来的针眼缝了一遍。",
+        "线用得深了些，撑开像多了条歪歪的路。",
+        "有回收伞时几把放一处，别人都在看伞柄，我一眼就找着了。",
+        "宋远说这条路有意思，我说你试过缝直，就不觉得有意思了。"
+      ],
+      "personName": "陈姐",
+      "image": "/media/wuhan-memories-v1/resident-walker0-umbrella-stitch.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker0-umbrella-stitch.webp",
+      "location": "木檐下",
+      "visualBrief": "陈姐把修好的旧伞撑在干燥屋檐内，伞面上一道深色歪针脚很清楚，宋远捧速写本好奇看；其他折伞靠墙，温柔雨后漫反射，不阴沉。",
+      "characterAppearance": "陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。\n宋远：年轻男性，棕色短发、牛仔蓝夹克、速写本；童年旧画可只拍画不出现错误年龄。",
+      "trigger": {
+        "residentId": "walker0",
+        "topicId": "umbrella-stitch",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker0-recognise-clothes",
+      "kind": "resident",
+      "residentId": "walker0",
+      "topicId": "recognise-clothes",
+      "title": "我是怎么认出你的",
+      "chapter": "陈姐 · 街坊旧事",
+      "caption": "衣裳会变，有些小动作还在。",
+      "place": "里分巷口",
+      "era": "故人重逢的一天",
+      "brief": "陈姐在缝纫桌旁抬手招呼刚到巷口的熟人，对方无意识地拽左袖口；陈姐视线从袖口移到脸上，旧缝纫机与碎花布，暖光穿过天井。",
+      "lines": [
+        "做衣裳久了，我见人先看肩膀，再看袖口。",
+        "有人小时候老爱拽左边袖子，长大穿衬衣，还是那个动作。",
+        "林婆婆说我净记这些没用的，我说比只记个名字牢。",
+        "这不，街坊走到巷口，还没出声，我手已经抬起来了。"
+      ],
+      "personName": "陈姐",
+      "image": "/media/wuhan-memories-v1/resident-walker0-recognise-clothes.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker0-recognise-clothes.webp",
+      "location": "里分巷口",
+      "visualBrief": "陈姐在缝纫桌旁抬手招呼刚到巷口的熟人，对方无意识地拽左袖口；陈姐视线从袖口移到脸上，旧缝纫机与碎花布，暖光穿过天井。",
+      "characterAppearance": "陈姐：中年女性，深棕长发、玫瑰色背心和长裙，针线包；较早回忆减龄，亲切但非老妇。",
+      "trigger": {
+        "residentId": "walker0",
+        "topicId": "recognise-clothes",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker1-ticket-bookmark",
+      "kind": "resident",
+      "residentId": "walker1",
+      "topicId": "ticket-bookmark",
+      "title": "船票夹在哪一页",
+      "chapter": "贺师傅 · 街坊旧事",
+      "caption": "不起眼的纸片，替人记住读到哪里。",
+      "place": "装订桌前",
+      "era": "借书的那些年",
+      "brief": "戴眼镜的贺师傅打开旧书，纸船票夹在一页旁，旁边茶缸和装订针线；另一人的手在归还书，票上只有不可读的小笔记，过江的记忆藏在很小的纸片中。",
+      "lines": [
+        "我看旧书，喜欢拿用过的船票当书签，薄，不把书脊顶坏。",
+        "周伯那几张带肥皂味的，我可没收，我要的是平平整整的。",
+        "有次借书给人，书还回来，票上多写了句“这页好看”。",
+        "我就从那一页又看了一遍，倒像和人隔空聊了个天。"
+      ],
+      "personName": "贺师傅",
+      "image": "/media/wuhan-memories-v1/resident-walker1-ticket-bookmark.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker1-ticket-bookmark.webp",
+      "location": "装订桌前",
+      "visualBrief": "戴眼镜的贺师傅打开旧书，纸船票夹在一页旁，旁边茶缸和装订针线；另一人的手在归还书，票上只有不可读的小笔记，过江的记忆藏在很小的纸片中。",
+      "characterAppearance": "贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。",
+      "trigger": {
+        "residentId": "walker1",
+        "topicId": "ticket-bookmark",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker1-paper-margin",
+      "kind": "resident",
+      "residentId": "walker1",
+      "topicId": "paper-margin",
+      "title": "报纸总要留一点边",
+      "chapter": "贺师傅 · 街坊旧事",
+      "caption": "纸上的热闹，有一部分留给读的人。",
+      "place": "小印刷间",
+      "era": "赶印街坊小报的日子",
+      "brief": "贺师傅在整齐的老排字工作台旁看蔡姨在报纸留白处补一小句，蔡姨持铅笔神气地笑；纸字不清晰，金属活字格、绿灯罩、木窗和红砖。",
+      "lines": [
+        "排字的时候，边上要留空，不是字越挤越像回事。",
+        "蔡姨读小报，常在旁边补一句自己的话，字比印的还神气。",
+        "我起初替纸心疼，后来觉得，这才像有人真看了。",
+        "自己那张我倒舍不得写，就在边角折个小小的记号。"
+      ],
+      "personName": "贺师傅",
+      "image": "/media/wuhan-memories-v1/resident-walker1-paper-margin.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker1-paper-margin.webp",
+      "location": "小印刷间",
+      "visualBrief": "贺师傅在整齐的老排字工作台旁看蔡姨在报纸留白处补一小句，蔡姨持铅笔神气地笑；纸字不清晰，金属活字格、绿灯罩、木窗和红砖。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。",
+      "trigger": {
+        "residentId": "walker1",
+        "topicId": "paper-margin",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker1-customs-bell",
+      "kind": "resident",
+      "residentId": "walker1",
+      "topicId": "customs-bell",
+      "title": "抬头听见江汉关",
+      "chapter": "贺师傅 · 街坊旧事",
+      "caption": "工作台前，也有属于江边的声音。",
+      "place": "临江印刷间",
+      "era": "贺师傅当班的时候",
+      "brief": "年轻些的贺师傅从活字排版桌抬头伸腰，旁边老师傅默默推来茶缸；窗外远小的江汉关钟楼轮廓，青灰砖和暮色金光。不要出现全城不合理拼接。",
+      "lines": [
+        "以前干活一忙，只顾眼前那行字，窗外亮着暗着都没留意。",
+        "偶尔听见江汉关的钟声，手上会停一下，才发现腰坐僵了。",
+        "旁边的师傅不用问，就把茶缸往我这边推一点。",
+        "现在不赶那一版纸了，听见钟声，还是会想喝口茶。"
+      ],
+      "personName": "贺师傅",
+      "image": "/media/wuhan-memories-v1/resident-walker1-customs-bell.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker1-customs-bell.webp",
+      "location": "临江印刷间",
+      "visualBrief": "年轻些的贺师傅从活字排版桌抬头伸腰，旁边老师傅默默推来茶缸；窗外远小的江汉关钟楼轮廓，青灰砖和暮色金光。不要出现全城不合理拼接。",
+      "characterAppearance": "贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。",
+      "trigger": {
+        "residentId": "walker1",
+        "topicId": "customs-bell",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker2-morning-detour",
+      "kind": "resident",
+      "residentId": "walker2",
+      "topicId": "morning-detour",
+      "title": "总会绕到早点铺",
+      "chapter": "罗娟 · 街坊旧事",
+      "caption": "赶时间，也有舍不得省的一小段。",
+      "place": "蔡记门口",
+      "era": "罗娟搬来之后",
+      "brief": "通勤的罗娟本要走向巷口，却带笑转入蔡记，蔡姨隔着氤氲蒸汽抬头招呼；通勤包与街巷电线，熟悉的武汉过早生活。",
+      "lines": [
+        "我上班有条更近的路，可一到巷口，脚还是往蔡记拐。",
+        "不全是饿，有时候就想听蔡姨问一句，今天又这么早啊。",
+        "周末睡醒再去，她又问，今天怎么这晚。",
+        "两句话都一样亲热，叫人觉得自己真在这条巷子住着。"
+      ],
+      "personName": "罗娟",
+      "image": "/media/wuhan-memories-v1/resident-walker2-morning-detour.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker2-morning-detour.webp",
+      "location": "蔡记门口",
+      "visualBrief": "通勤的罗娟本要走向巷口，却带笑转入蔡记，蔡姨隔着氤氲蒸汽抬头招呼；通勤包与街巷电线，熟悉的武汉过早生活。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n罗娟：年轻女性，深色短发、赭黄色针织开衫、通勤包。",
+      "trigger": {
+        "residentId": "walker2",
+        "topicId": "morning-detour",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker2-crispy-corner",
+      "kind": "resident",
+      "residentId": "walker2",
+      "topicId": "crispy-corner",
+      "title": "为了豆皮早起一回",
+      "chapter": "罗娟 · 街坊旧事",
+      "caption": "起得早，未必装得出从容。",
+      "place": "豆皮摊的小桌",
+      "era": "某个不用上班的清晨",
+      "brief": "头发翘起的罗娟终于坐下，面前是脆边金黄豆皮，手机安静放在桌边，蔡姨在锅前笑；这一回不赶时间，阳光明亮，表现松弛而非冲刺。",
+      "lines": [
+        "我跟蔡姨说想留豆皮的脆边，她叫我先起得来再说。",
+        "我还真较上劲，隔天一醒就跑，连头发翘着都没发现。",
+        "拿到豆皮，坐下来才看见手机里同事问我，今天不是休息吗。",
+        "那顿倒吃得慢，连碗边掉的米粒都一粒粒夹干净了。"
+      ],
+      "personName": "罗娟",
+      "image": "/media/wuhan-memories-v1/resident-walker2-crispy-corner.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker2-crispy-corner.webp",
+      "location": "豆皮摊的小桌",
+      "visualBrief": "头发翘起的罗娟终于坐下，面前是脆边金黄豆皮，手机安静放在桌边，蔡姨在锅前笑；这一回不赶时间，阳光明亮，表现松弛而非冲刺。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n罗娟：年轻女性，深色短发、赭黄色针织开衫、通勤包。",
+      "trigger": {
+        "residentId": "walker2",
+        "topicId": "crispy-corner",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker2-guest-breakfast",
+      "kind": "resident",
+      "residentId": "walker2",
+      "topicId": "guest-breakfast",
+      "title": "带外地朋友过早",
+      "chapter": "罗娟 · 街坊旧事",
+      "caption": "想把喜欢的都摆给他，结果点多了。",
+      "place": "蔡记过早桌",
+      "era": "朋友来武汉那回",
+      "brief": "罗娟与一位外地朋友面对点得太满的一小桌武汉过早：热干面、方块三鲜豆皮、圆环面窝；两人相视笑起来，蔡姨端水，友好而不奢侈铺张。",
+      "lines": [
+        "有个外地朋友来武汉，我带他过早，样样都想让他尝。",
+        "热干面、豆皮、面窝摆了一桌，他问我是不是还有人没到。",
+        "我这才晓得自己点多了，赶紧叫他慢慢吃，别为了捧场硬撑。",
+        "后来他再来，会自己挑一两样，剩下的说留给下回。"
+      ],
+      "personName": "罗娟",
+      "image": "/media/wuhan-memories-v1/resident-walker2-guest-breakfast.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker2-guest-breakfast.webp",
+      "location": "蔡记过早桌",
+      "visualBrief": "罗娟与一位外地朋友面对点得太满的一小桌武汉过早：热干面、方块三鲜豆皮、圆环面窝；两人相视笑起来，蔡姨端水，友好而不奢侈铺张。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n罗娟：年轻女性，深色短发、赭黄色针织开衫、通勤包。",
+      "trigger": {
+        "residentId": "walker2",
+        "topicId": "guest-breakfast",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker3-two-operas",
+      "kind": "resident",
+      "residentId": "walker3",
+      "topicId": "two-operas",
+      "title": "汉剧和黄梅戏，别认串了",
+      "chapter": "程岚 · 街坊旧事",
+      "caption": "都能爱听，不必把它们叫成一回事。",
+      "place": "家中木窗边",
+      "era": "程岚学戏的时候",
+      "brief": "童年程岚听母亲哼唱，母亲温柔指点，桌上旧磁带与收音机，窗外武汉天井；不画具体戏服或剧目以免混淆汉剧黄梅戏，用亲子聆听呈现。",
+      "lines": [
+        "我小时候跟着妈妈哼戏，只记得好听，常把戏种叫错。",
+        "妈妈说，汉剧和黄梅戏是不同的戏种，唱腔、韵味各有自己的样子。",
+        "在武汉听到一段戏，也别光凭地方就认定它是什么。",
+        "现在遇到不熟的，我先问唱的哪一出，比硬猜少闹笑话。"
+      ],
+      "personName": "程岚",
+      "image": "/media/wuhan-memories-v1/resident-walker3-two-operas.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker3-two-operas.webp",
+      "location": "家中木窗边",
+      "visualBrief": "童年程岚听母亲哼唱，母亲温柔指点，桌上旧磁带与收音机，窗外武汉天井；不画具体戏服或剧目以免混淆汉剧黄梅戏，用亲子聆听呈现。",
+      "characterAppearance": "程岚：年轻女性，黑色齐耳短发、玉绿背心和长裙、书册；童年片段换为同特征小女孩，母亲是另外一位朴素成年女性。",
+      "trigger": {
+        "residentId": "walker3",
+        "topicId": "two-operas",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker3-hummed-melody",
+      "kind": "resident",
+      "residentId": "walker3",
+      "topicId": "hummed-melody",
+      "title": "妈妈没唱完的一句",
+      "chapter": "程岚 · 街坊旧事",
+      "caption": "记住的有时不是唱词，是停下来的地方。",
+      "place": "家中厨房外",
+      "era": "程岚小时候",
+      "brief": "小程岚正跟母亲哼唱，母亲听到锅盖轻响转身去厨房，孩子愣一下又笑；温润铝锅、浅绿木柜、窗外晾衣，旋律被生活接过去。",
+      "lines": [
+        "妈妈做家务爱哼戏，唱到起劲，锅盖一响，人就跑进厨房。",
+        "我跟着学的那一句，老在同一个地方断掉。",
+        "后来真听了完整的一段，反而觉得后头那截陌生。",
+        "林婆婆听我说完，笑得很，说她也有被水壶打断的曲子。"
+      ],
+      "personName": "程岚",
+      "image": "/media/wuhan-memories-v1/resident-walker3-hummed-melody.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker3-hummed-melody.webp",
+      "location": "家中厨房外",
+      "visualBrief": "小程岚正跟母亲哼唱，母亲听到锅盖轻响转身去厨房，孩子愣一下又笑；温润铝锅、浅绿木柜、窗外晾衣，旋律被生活接过去。",
+      "characterAppearance": "程岚：年轻女性，黑色齐耳短发、玉绿背心和长裙、书册；童年片段换为同特征小女孩，母亲是另外一位朴素成年女性。",
+      "trigger": {
+        "residentId": "walker3",
+        "topicId": "hummed-melody",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker3-walking-beat",
+      "kind": "resident",
+      "residentId": "walker3",
+      "topicId": "walking-beat",
+      "title": "散步的时候别抢拍",
+      "chapter": "程岚 · 街坊旧事",
+      "caption": "小许总说，等我把这一拍走完。",
+      "place": "雨后主巷",
+      "era": "与小许熟起来之后",
+      "brief": "成年程岚和女性小许并肩在武汉红砖主巷散步，程岚手指刚要轻轻打拍，小许笑着看她，路边书窗与梧桐叶影；不画戏台和旅游打卡人群。",
+      "lines": [
+        "我练戏时会轻轻打拍子，走在路上也忘不了。",
+        "小许跟我散步，发现我到路口才说半句话，到了巷尾又接上。",
+        "她问我，是在聊天，还是在等锣鼓。",
+        "如今我们一块走，我先收住手，免得把人家的话也打成拍子。"
+      ],
+      "personName": "程岚",
+      "image": "/media/wuhan-memories-v1/resident-walker3-walking-beat.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker3-walking-beat.webp",
+      "location": "雨后主巷",
+      "visualBrief": "成年程岚和女性小许并肩在武汉红砖主巷散步，程岚手指刚要轻轻打拍，小许笑着看她，路边书窗与梧桐叶影；不画戏台和旅游打卡人群。",
+      "characterAppearance": "小许：年轻女性，不是男性，栗色利落短发、杏橘外衣和玉绿长裤，工作牌；刚到社区也是成年女性，近年记忆，不是上世纪人物。\n程岚：年轻女性，黑色齐耳短发、玉绿背心和长裙、书册；童年片段换为同特征小女孩，母亲是另外一位朴素成年女性。",
+      "trigger": {
+        "residentId": "walker3",
+        "topicId": "walking-beat",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker4-wind-sketch",
+      "kind": "resident",
+      "residentId": "walker4",
+      "topicId": "wind-sketch",
+      "title": "江风怎么画进本子",
+      "chapter": "宋远 · 街坊旧事",
+      "caption": "看不见的风，总会碰着点什么。",
+      "place": "江边栏内",
+      "era": "宋远刚学画的时候",
+      "brief": "青年宋远坐在干燥栏内把江风画进速写本，周伯歪帽、行人微扬衣角在画面中形成呼应；水面留明亮纸色，远处武汉长江大桥。",
+      "lines": [
+        "我头一回画江边，只顾把房子画整齐，画完总觉得太静。",
+        "后来抬头看，周伯的帽檐歪着，旁边人的衣角也不肯垂下去。",
+        "我把这几处留下，纸上才像有了风。",
+        "周伯要我把帽子画正，我说正了倒不像您，他看完也笑了。"
+      ],
+      "personName": "宋远",
+      "image": "/media/wuhan-memories-v1/resident-walker4-wind-sketch.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker4-wind-sketch.webp",
+      "location": "江边栏内",
+      "visualBrief": "青年宋远坐在干燥栏内把江风画进速写本，周伯歪帽、行人微扬衣角在画面中形成呼应；水面留明亮纸色，远处武汉长江大桥。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。\n宋远：年轻男性，棕色短发、牛仔蓝夹克、速写本；童年旧画可只拍画不出现错误年龄。",
+      "trigger": {
+        "residentId": "walker4",
+        "topicId": "wind-sketch",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker4-bridge-space",
+      "kind": "resident",
+      "residentId": "walker4",
+      "topicId": "bridge-space",
+      "title": "桥影下面留点空",
+      "chapter": "宋远 · 街坊旧事",
+      "caption": "画江，不是把纸涂得满满的。",
+      "place": "江边写生处",
+      "era": "旧画和新画之间",
+      "brief": "成年宋远把童年涂满水面的旧画与现在留白的长江大桥速写放在膝上，贺师傅指向纸面空白；镜头看纸与手，背后真实钢桁架桥影淡淡呼应。",
+      "lines": [
+        "小时候画长江大桥，我把桥下也一笔一笔涂满。",
+        "长大再翻，桥是有了，江倒像堵墙，船也没地方走。",
+        "如今画到水面，我会留几块纸的本色，不急着补。",
+        "贺师傅看了说，和他排字一个道理，空一点，人才能喘口气。"
+      ],
+      "personName": "宋远",
+      "image": "/media/wuhan-memories-v1/resident-walker4-bridge-space.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker4-bridge-space.webp",
+      "location": "江边写生处",
+      "visualBrief": "成年宋远把童年涂满水面的旧画与现在留白的长江大桥速写放在膝上，贺师傅指向纸面空白；镜头看纸与手，背后真实钢桁架桥影淡淡呼应。",
+      "characterAppearance": "贺师傅：中老年男性，灰鬓短发、眼镜、栗棕工作背心和旧挎包；印刷间早期回忆减龄，非书生汉服。\n宋远：年轻男性，棕色短发、牛仔蓝夹克、速写本；童年旧画可只拍画不出现错误年龄。",
+      "trigger": {
+        "residentId": "walker4",
+        "topicId": "bridge-space",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "resident-walker4-repair-stool",
+      "kind": "resident",
+      "residentId": "walker4",
+      "topicId": "repair-stool",
+      "title": "画一张太小的板凳",
+      "chapter": "宋远 · 街坊旧事",
+      "caption": "巷子的样子，不只在屋顶上。",
+      "place": "陆师傅铺前",
+      "era": "外公还在铺里忙的时候",
+      "brief": "宋远坐在小巷里画一张边角缺了一小块的矮板凳，陆师傅在修理铺门边俯身看画；旧台灯、螺丝盒、磨亮木纹，画面核心是被认真看见的日常。",
+      "lines": [
+        "我画过你外公铺门口的小板凳，凳面磨得亮，边上却缺一小块。",
+        "他看见了，问我怎么专挑这点不齐整的画。",
+        "我说，换张新凳子放这儿，我反倒不一定认得了。",
+        "等他回来，我还想请他坐一坐，这回把人也画进去。"
+      ],
+      "personName": "宋远",
+      "image": "/media/wuhan-memories-v1/resident-walker4-repair-stool.webp",
+      "url": "/media/wuhan-memories-v1/resident-walker4-repair-stool.webp",
+      "location": "陆师傅铺前",
+      "visualBrief": "宋远坐在小巷里画一张边角缺了一小块的矮板凳，陆师傅在修理铺门边俯身看画；旧台灯、螺丝盒、磨亮木纹，画面核心是被认真看见的日常。",
+      "characterAppearance": "宋远：年轻男性，棕色短发、牛仔蓝夹克、速写本；童年旧画可只拍画不出现错误年龄。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。",
+      "trigger": {
+        "residentId": "walker4",
+        "topicId": "repair-stool",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "lore-clock",
+      "kind": "lore",
+      "loreId": "clock",
+      "title": "钟声喊人回家",
+      "chapter": "江城拾光",
+      "caption": "江汉关的钟声",
+      "place": "江汉关的钟声",
+      "era": "童年的傍晚",
+      "brief": "小阿遥在武汉里分巷口玩，外公在修理铺门口招手，远处江汉关钟楼仅小比例轮廓；孩子明明听见仍恋恋不舍，重点是被喊回家的温暖。",
+      "image": "/media/wuhan-memories-v1/lore-clock.webp",
+      "url": "/media/wuhan-memories-v1/lore-clock.webp",
+      "location": "江汉关的钟声",
+      "visualBrief": "小阿遥在武汉里分巷口玩，外公在修理铺门口招手，远处江汉关钟楼仅小比例轮廓；孩子明明听见仍恋恋不舍，重点是被喊回家的温暖。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "loreId": "clock"
+      }
+    },
+    {
+      "id": "lore-noodles",
+      "kind": "lore",
+      "loreId": "noodles",
+      "title": "底下，还有",
+      "chapter": "江城拾光",
+      "caption": "武汉人的过早",
+      "place": "武汉人的过早",
+      "era": "一碗面的记忆",
+      "brief": "近景小阿遥的筷子挑进热干面碗底，蔡姨温柔指向碗底芝麻酱；身后武汉过早摊的锅气和木凳，漂亮食物质感而非广告摄影。",
+      "image": "/media/wuhan-memories-v1/lore-noodles.webp",
+      "url": "/media/wuhan-memories-v1/lore-noodles.webp",
+      "location": "武汉人的过早",
+      "visualBrief": "近景小阿遥的筷子挑进热干面碗底，蔡姨温柔指向碗底芝麻酱；身后武汉过早摊的锅气和木凳，漂亮食物质感而非广告摄影。",
+      "characterAppearance": "蔡姨：中年女性，栗棕短发、暖色开衫、茶绿围裙；阿遥童年时约三四十岁，朴素亲切，切勿画成老奶奶。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "loreId": "noodles"
+      }
+    },
+    {
+      "id": "lore-ferry",
+      "kind": "lore",
+      "loreId": "ferry",
+      "title": "手心里的船票",
+      "chapter": "江城拾光",
+      "caption": "江上的轮渡",
+      "place": "江上的轮渡",
+      "era": "小时候过江",
+      "brief": "小阿遥坐在武汉轮渡靠窗位置，把攥得微皱的纸船票摊在手心给外公看；身边书包安好，窗外青绿江水，票上文字不可读。",
+      "image": "/media/wuhan-memories-v1/lore-ferry.webp",
+      "url": "/media/wuhan-memories-v1/lore-ferry.webp",
+      "location": "江上的轮渡",
+      "visualBrief": "小阿遥坐在武汉轮渡靠窗位置，把攥得微皱的纸船票摊在手心给外公看；身边书包安好，窗外青绿江水，票上文字不可读。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "loreId": "ferry"
+      }
+    },
+    {
+      "id": "lore-bridge",
+      "kind": "lore",
+      "loreId": "bridge",
+      "title": "还没数完的桥影",
+      "chapter": "江城拾光",
+      "caption": "武汉长江大桥",
+      "place": "武汉长江大桥",
+      "era": "童年的船窗前",
+      "brief": "轮渡窗框内，小阿遥伸指认真数武汉长江大桥钢桁架的节奏，身旁外公把一只饭盒递来；桥与水都有留白，蓝绿清透天空。",
+      "image": "/media/wuhan-memories-v1/lore-bridge.webp",
+      "url": "/media/wuhan-memories-v1/lore-bridge.webp",
+      "location": "武汉长江大桥",
+      "visualBrief": "轮渡窗框内，小阿遥伸指认真数武汉长江大桥钢桁架的节奏，身旁外公把一只饭盒递来；桥与水都有留白，蓝绿清透天空。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "loreId": "bridge"
+      }
+    },
+    {
+      "id": "lore-brick",
+      "kind": "lore",
+      "loreId": "brick",
+      "title": "留在地上的竹床印",
+      "chapter": "江城拾光",
+      "caption": "里分与竹床",
+      "place": "里分与竹床",
+      "era": "夏天的天井",
+      "brief": "武汉里分天井的竹床脚在砖地留下浅印，街坊将竹床往边上挪给过路的人留出中间小路，近景是蒲扇和浅花布，空间真实温暖。",
+      "image": "/media/wuhan-memories-v1/lore-brick.webp",
+      "url": "/media/wuhan-memories-v1/lore-brick.webp",
+      "location": "里分与竹床",
+      "visualBrief": "武汉里分天井的竹床脚在砖地留下浅印，街坊将竹床往边上挪给过路的人留出中间小路，近景是蒲扇和浅花布，空间真实温暖。",
+      "characterAppearance": "",
+      "trigger": {
+        "loreId": "brick"
+      }
+    },
+    {
+      "id": "lore-photo",
+      "kind": "lore",
+      "loreId": "photo",
+      "title": "相片没有留下的对岸",
+      "chapter": "江城拾光",
+      "caption": "轮渡合影",
+      "place": "轮渡合影",
+      "era": "那次坐船的时候",
+      "brief": "小阿遥指向轮渡窗外，年轻些的外公站后面手垫在窗框尖角，两人头发被江风吹向同一边，前景留半张椅子，像构图略歪却珍贵的家庭快照。",
+      "image": "/media/wuhan-memories-v1/lore-photo.webp",
+      "url": "/media/wuhan-memories-v1/lore-photo.webp",
+      "location": "轮渡合影",
+      "visualBrief": "小阿遥指向轮渡窗外，年轻些的外公站后面手垫在窗框尖角，两人头发被江风吹向同一边，前景留半张椅子，像构图略歪却珍贵的家庭快照。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "loreId": "photo"
+      }
+    },
+    {
+      "id": "adventure-kite-tools",
+      "kind": "adventure",
+      "adventureId": "kite-tools",
+      "title": "旧燕子的左翅",
+      "chapter": "江风来信",
+      "caption": "修理铺背后的工具巷",
+      "place": "修理铺背后的工具巷",
+      "era": "小时候",
+      "brief": "小阿遥笨拙地给旧燕子风筝左翅缝补一条歪线，外公在修理铺门边扶住竹骨，蓝布尾巴被风抬起；武汉红砖里分与青绿木门，浅杏阳光。",
+      "image": "/media/wuhan-memories-v1/adventure-kite-tools.webp",
+      "url": "/media/wuhan-memories-v1/adventure-kite-tools.webp",
+      "location": "修理铺背后的工具巷",
+      "visualBrief": "小阿遥笨拙地给旧燕子风筝左翅缝补一条歪线，外公在修理铺门边扶住竹骨，蓝布尾巴被风抬起；武汉红砖里分与青绿木门，浅杏阳光。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "adventureId": "kite-tools",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "adventure-kite-courtyard",
+      "kind": "adventure",
+      "adventureId": "kite-courtyard",
+      "title": "借给老陆，先用着",
+      "chapter": "江风来信",
+      "caption": "院后的北街",
+      "place": "院后的北街",
+      "era": "一个准备出门的傍晚",
+      "brief": "周伯在武汉天井廊下把手电递给年轻些的陆师傅，小阿遥在旁抱着蓝尾燕子风筝等待；灯罩下系一截蓝布，人物手势自然，重点是邻里借灯。",
+      "image": "/media/wuhan-memories-v1/adventure-kite-courtyard.webp",
+      "url": "/media/wuhan-memories-v1/adventure-kite-courtyard.webp",
+      "location": "院后的北街",
+      "visualBrief": "周伯在武汉天井廊下把手电递给年轻些的陆师傅，小阿遥在旁抱着蓝尾燕子风筝等待；灯罩下系一截蓝布，人物手势自然，重点是邻里借灯。",
+      "characterAppearance": "周伯：年长男性，灰白短发、海蓝布帽、藏蓝工作背心和浅衬衫；旧日码头回忆中是壮年工人，保留轮廓与帽子。\n陆师傅：阿遥的外公，朴素武汉修理师傅，浅棕灰短发、旧浅蓝衬衫，温和瘦脸；童年回忆是中年男人，不画已故或受灾形象。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "adventureId": "kite-courtyard",
+        "on": "final-line-acknowledged"
+      }
+    },
+    {
+      "id": "adventure-kite-terrace",
+      "kind": "adventure",
+      "adventureId": "kite-terrace",
+      "title": "武汉的星星会走路",
+      "chapter": "江风来信",
+      "caption": "听风台栏内",
+      "place": "听风台栏内",
+      "era": "童年的江风里",
+      "brief": "外公与小阿遥并肩站在牢固栏杆内，看武汉长江大桥桥灯和江上缓行船灯，阿遥抬手把船灯当作星星；清透蓝绿暮色配暖金点光，人物绝不站在栏杆外。",
+      "image": "/media/wuhan-memories-v1/adventure-kite-terrace.webp",
+      "url": "/media/wuhan-memories-v1/adventure-kite-terrace.webp",
+      "location": "听风台栏内",
+      "visualBrief": "外公与小阿遥并肩站在牢固栏杆内，看武汉长江大桥桥灯和江上缓行船灯，阿遥抬手把船灯当作星星；清透蓝绿暮色配暖金点光，人物绝不站在栏杆外。",
+      "characterAppearance": "外公：阿遥的外公即陆师傅，朴素修理师傅，旧浅蓝衬衫；童年是中年，现时仍在外地休养。\n阿遥：儿童阿遥约6至9岁，短发、中性朴素浅米色短袖与蓝绿短裤，可适配男女主角选择；不要画成人主角或婴儿。",
+      "trigger": {
+        "adventureId": "kite-terrace",
+        "on": "final-line-acknowledged"
+      }
+    }
+  ]
+}

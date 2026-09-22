@@ -1,0 +1,87 @@
+### Result
+{
+  "photo": {
+    "photoId": "shop",
+    "status": "aligning",
+    "hintLevel": 0,
+    "attempts": 1,
+    "evaluation": {
+      "photoId": "shop",
+      "valid": true,
+      "ready": false,
+      "inPosition": false,
+      "facing": false,
+      "distance": 21.12754822603188,
+      "heightError": 0.47,
+      "yawError": 0.7640046746777375,
+      "pitchError": 0.22,
+      "recognizedCount": 0,
+      "anchors": [
+        {
+          "id": "sign",
+          "title": "陆记的木招牌",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": -0.01971944926651791,
+            "y": 0.06988524285198829
+          },
+          "current": {
+            "x": 0.5963194239364746,
+            "y": -0.1432640174457837
+          }
+        },
+        {
+          "id": "window",
+          "title": "二楼左边的木窗",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": -0.30008770588131023,
+            "y": 0.25773035925075255
+          },
+          "current": {
+            "x": 0.9563390908604515,
+            "y": -0.4376820956210767
+          }
+        },
+        {
+          "id": "desk",
+          "title": "门前那张修理桌",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": 0.08815574681468069,
+            "y": -0.5485360581122688
+          },
+          "current": {
+            "x": 0.5598607940049359,
+            "y": 0.2691040546633081
+          }
+        }
+      ],
+      "match": 0,
+      "message": "先去修理铺南侧的巷口，不要只在原地转镜头。"
+    },
+    "result": null,
+    "feedback": "先去修理铺南侧的巷口，不要只在原地转镜头。",
+    "cancelReason": null
+  },
+  "completed": {
+    "version": 1,
+    "completed": []
+  },
+  "position": {
+    "x": -16.142270327299023,
+    "y": 0.6,
+    "z": 2.2824979647911947
+  },
+  "mode": "first"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({photo:__JIANGCHENG__.getPlayfulLife().photo,completed:__JIANGCHENG__.getState().photos,position:__JIANGCHENG__.getWorld().position,mode:__JIANGCHENG__.getWorld().cameraMode}))');
+```

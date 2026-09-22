@@ -1,0 +1,69 @@
+{
+  "status": "duration-confirmed-118s; expanded game features code-integrated, runtime QA and capture pending",
+  "theme": "这一趟，不只是送东西。",
+  "duration": {
+    "latestUserWording": "约2分钟的参赛片，不是2小时，就做2分钟就可以。",
+    "previousCompetitionLimitSeconds": 120,
+    "decision": 118,
+    "confirmed": true,
+    "note": "用户已澄清为约2分钟，不制作2小时版本；118秒/3540帧，1920×1080，30fps，MP4，目标小于500MB。"
+  },
+  "requiredCoverage": [
+    {
+      "id": "wuhan",
+      "priority": "primary",
+      "direction": "武汉贯穿返乡、过早、里分、轮渡记忆、沿江探索与街坊故事，不仅是片头地标。",
+      "evidence": "当前实机点位、已查证地域素材、既有 CG；区分真实武汉文化和虚构晴川里。"
+    },
+    {
+      "id": "ai",
+      "priority": "primary",
+      "direction": "用已落地的制作素材展示 Image2 美术、Seedance CG、AI 配音/配乐与超分。",
+      "evidence": "原图、生成片段、分轨、前后对照和生成记录；不显示密钥，不暗示尚未实现的实时 AI NPC。"
+    },
+    {
+      "id": "bicycle",
+      "direction": "真实借车/上车、转向骑行、按铃和停车，沿武汉生活街巷取景。",
+      "evidence": "当前版本真实输入与画面反馈。"
+    },
+    {
+      "id": "car",
+      "direction": "真实上车、主路驾驶、抵达新区后停车下车，把交通与武汉探索串起来。",
+      "evidence": "当前版本真实输入与画面反馈。"
+    },
+    {
+      "id": "rowboat",
+      "direction": "从码头借真正可操控的木船，展示人物落座、划桨、转向和近岸水面回响，与原自动渡船清楚区分。",
+      "evidence": "新功能完成且回归通过后，录下正常输入与船体反馈；不使用Seedance航行CG代替。",
+      "status": "code-integrated; runtime-validation-and-capture-pending"
+    },
+    {
+      "id": "neighborhood-races",
+      "direction": "桨影水上计时与燕归路驾驶计时均展示入口、顺序标记、终点成绩；用街坊邀请串到城市探索。",
+      "evidence": "新功能实机完整一圈、成绩记录、可选纪念画；不冒领主线物资或结局资格。",
+      "status": "code-integrated; runtime-validation-and-capture-pending"
+    },
+    {
+      "id": "endings",
+      "direction": "展示选择影响归途，以已实际完成的不同分支片段说明，不仅排列四张插画。",
+      "evidence": "合法剧情节点、选择、分支反馈与实际解锁记录。"
+    },
+    {
+      "id": "gallery",
+      "direction": "展示成就/结局完成后解锁，再实际打开、分类、查看收藏画。",
+      "evidence": "真实解锁链，不通过注入收藏数据伪造完成。",
+      "countNote": "本轮已追加2幅Image2活动图，代码画廊共53位；已生成并目检，真实解锁链仍待实机验收与录制。"
+    }
+  ],
+  "preserve": [
+    "清楚的任务注释",
+    "真实解谜输入与反馈",
+    "温情主线",
+    "3D 世界内对话",
+    "CG 与实机来源区分",
+    "现有30秒风格样片不覆盖",
+    "原自动渡船与新手动木船并存",
+    "小游戏不改动主线与四结局条件"
+  ],
+  "productionGate": "Duration is confirmed. The boat and both timed courses are code-integrated; complete runtime regression, capture authentic story/transport/endings/gallery evidence, then prepare final narration, subtitles and the 118-second render. No pending source may be marked completed."
+}

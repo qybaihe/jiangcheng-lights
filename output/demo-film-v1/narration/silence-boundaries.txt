@@ -1,0 +1,15 @@
+  Duration: 00:00:10.50, bitrate: 1152 kb/s
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 0
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 0.512625 | silence_duration: 0.512625
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 1.052625
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 1.635188 | silence_duration: 0.582562
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 3.984312
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 6.055438 | silence_duration: 2.071125
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 6.920542
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 7.404646 | silence_duration: 0.484104
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 8.086875
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 8.380396 | silence_duration: 0.293521
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 9.089313
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 9.236229 | silence_duration: 0.146917
+[Parsed_silencedetect_0 @ 0x781b044900] silence_start: 9.492938
+[Parsed_silencedetect_0 @ 0x781b044900] silence_end: 10.5 | silence_duration: 1.007062

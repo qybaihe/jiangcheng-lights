@@ -1,0 +1,13 @@
+### Result
+{
+  "width": 1920,
+  "height": 1080,
+  "time": 12.434471,
+  "paused": false,
+  "rate": 1.15,
+  "source": "/media/cinema-upscale-v1/prologue-1080p.mp4"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ((()=>{const v=document.querySelector("#cinematic");return {width:v.videoWidth,height:v.videoHeight,time:v.currentTime,paused:v.paused,rate:v.playbackRate,source:new URL(v.currentSrc).pathname}})())');
+```

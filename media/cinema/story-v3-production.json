@@ -1,0 +1,898 @@
+{
+  "version": 3,
+  "state": "silent_masters_ready",
+  "model": "Ark Seedance 2.0, existing authorized endpoint",
+  "imageModel": "gpt-image-2 through existing tools/media.py and bundled imagegen CLI",
+  "audio": false,
+  "scenes": [
+    {
+      "id": "prologue",
+      "title": "门还没修",
+      "status": "silent_master_ready",
+      "silentUrl": "/media/cinema-v3-prologue.mp4",
+      "targetSeconds": 31,
+      "shots": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "plannedTimeline": [
+        {
+          "shotId": "P01",
+          "start": 0,
+          "end": 5,
+          "memoryCG": null
+        },
+        {
+          "shotId": "P02",
+          "start": 5,
+          "end": 9,
+          "memoryCG": null
+        },
+        {
+          "shotId": "P03",
+          "start": 9,
+          "end": 14,
+          "memoryCG": null
+        },
+        {
+          "shotId": "P04",
+          "start": 14,
+          "end": 24,
+          "memoryCG": null
+        },
+        {
+          "shotId": "P05",
+          "start": 24,
+          "end": 31,
+          "memoryCG": null
+        }
+      ],
+      "aspect": "16:9",
+      "nativeResolution": "720p",
+      "dialogueAudioOwner": "root",
+      "scope": "silent visual master only",
+      "duration": 29.25,
+      "timeline": [
+        {
+          "shotId": "P01",
+          "start": 0,
+          "end": 5,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-ferry-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        },
+        {
+          "shotId": "P02",
+          "start": 5,
+          "end": 9.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p02-v1.mp4",
+          "sourceIn": 1.0,
+          "sourceOut": 5.25
+        },
+        {
+          "shotId": "P03",
+          "start": 9.25,
+          "end": 14.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        },
+        {
+          "shotId": "P04",
+          "start": 14.25,
+          "end": 24.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p04-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "P05",
+          "start": 24.25,
+          "end": 29.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p05-v1.mp4",
+          "sourceIn": 3.0,
+          "sourceOut": 8.0
+        }
+      ],
+      "silentSha256": "9e78b2ea342da9e5514a90ee84bb749e3345cdd12580011a5a0bc1a4d4fef77e",
+      "resolution": "1280x720",
+      "audio": false
+    },
+    {
+      "id": "granny",
+      "title": "一碗面，一张竹床",
+      "status": "silent_master_ready",
+      "silentUrl": "/media/cinema-v3-granny.mp4",
+      "targetSeconds": 32,
+      "shots": [
+        "G01",
+        "G02",
+        "G03"
+      ],
+      "plannedTimeline": [
+        {
+          "shotId": "G01",
+          "start": 0,
+          "end": 15,
+          "memoryCG": "granny-table"
+        },
+        {
+          "shotId": "G02",
+          "start": 15,
+          "end": 25,
+          "memoryCG": "granny-bamboo"
+        },
+        {
+          "shotId": "G03",
+          "start": 25,
+          "end": 32,
+          "memoryCG": null
+        }
+      ],
+      "aspect": "16:9",
+      "nativeResolution": "720p",
+      "dialogueAudioOwner": "root",
+      "scope": "silent visual master only",
+      "duration": 33.0,
+      "timeline": [
+        {
+          "shotId": "G01",
+          "start": 0,
+          "end": 15,
+          "memoryCG": "granny-table",
+          "source": "public/media/cinema-v3-granny-g01-v2.mp4",
+          "sourceIn": 0,
+          "sourceOut": 15
+        },
+        {
+          "shotId": "G02",
+          "start": 15,
+          "end": 25,
+          "memoryCG": "granny-bamboo",
+          "source": "public/media/cinema-v3-granny-g02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "G03",
+          "start": 25,
+          "end": 33.0,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-granny-g03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 8.0
+        }
+      ],
+      "silentSha256": "949d74c49388d5db5ecd295aef47de45e750ce3c97ddd8aee543432c26426006",
+      "resolution": "1280x720",
+      "audio": false
+    },
+    {
+      "id": "chef",
+      "title": "红盖子的饭盒",
+      "status": "silent_master_ready",
+      "silentUrl": "/media/cinema-v3-chef.mp4",
+      "targetSeconds": 33,
+      "shots": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "plannedTimeline": [
+        {
+          "shotId": "C01",
+          "start": 0,
+          "end": 14,
+          "memoryCG": "chef-lamp"
+        },
+        {
+          "shotId": "C02",
+          "start": 14,
+          "end": 28,
+          "memoryCG": "chef-extra-bowl"
+        },
+        {
+          "shotId": "C03",
+          "start": 28,
+          "end": 33,
+          "memoryCG": "chef-extra-bowl"
+        }
+      ],
+      "aspect": "16:9",
+      "nativeResolution": "720p",
+      "dialogueAudioOwner": "root",
+      "scope": "silent visual master only",
+      "duration": 30.5,
+      "timeline": [
+        {
+          "shotId": "C01",
+          "start": 0,
+          "end": 14,
+          "memoryCG": "chef-lamp",
+          "source": "public/media/cinema-v3-chef-c01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 14
+        },
+        {
+          "shotId": "C02",
+          "start": 14,
+          "end": 25.5,
+          "memoryCG": "chef-extra-bowl",
+          "source": "public/media/cinema-v3-chef-c02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 11.5
+        },
+        {
+          "shotId": "C03",
+          "start": 25.5,
+          "end": 30.5,
+          "memoryCG": "chef-extra-bowl",
+          "source": "public/media/cinema-v3-chef-c03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        }
+      ],
+      "silentSha256": "7f9083827dd14c258be36a78489e68aa7ec175e873dc36dad123d31800948aed",
+      "resolution": "1280x720",
+      "audio": false
+    },
+    {
+      "id": "dock",
+      "title": "箱子的另一边",
+      "status": "silent_master_ready",
+      "silentUrl": "/media/cinema-v3-dock.mp4",
+      "targetSeconds": 28,
+      "shots": [
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "plannedTimeline": [
+        {
+          "shotId": "D01",
+          "start": 0,
+          "end": 10,
+          "memoryCG": "dock-shared-box"
+        },
+        {
+          "shotId": "D02",
+          "start": 10,
+          "end": 20,
+          "memoryCG": "dock-shared-box"
+        },
+        {
+          "shotId": "D03",
+          "start": 20,
+          "end": 28,
+          "memoryCG": "dock-shared-box"
+        }
+      ],
+      "aspect": "16:9",
+      "nativeResolution": "720p",
+      "dialogueAudioOwner": "root",
+      "scope": "silent visual master only",
+      "duration": 28,
+      "timeline": [
+        {
+          "shotId": "D01",
+          "start": 0,
+          "end": 10,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "D02",
+          "start": 10,
+          "end": 20,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "D03",
+          "start": 20,
+          "end": 28,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 8
+        }
+      ],
+      "silentSha256": "9e2555aae9a9ebf499d5c6b18dbf9fd3359297848b147a53d5003fa6a85f23f2",
+      "resolution": "1280x720",
+      "audio": false
+    },
+    {
+      "id": "ending",
+      "title": "那天你也在",
+      "status": "silent_master_ready",
+      "silentUrl": "/media/cinema-v3-ending.mp4",
+      "targetSeconds": 40,
+      "shots": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "plannedTimeline": [
+        {
+          "shotId": "E01",
+          "start": 0,
+          "end": 12,
+          "memoryCG": "ending-reopen"
+        },
+        {
+          "shotId": "E02",
+          "start": 12,
+          "end": 22,
+          "memoryCG": "ending-reopen"
+        },
+        {
+          "shotId": "E03",
+          "start": 22,
+          "end": 32,
+          "memoryCG": "ending-lamplit-child"
+        },
+        {
+          "shotId": "E04",
+          "start": 32,
+          "end": 40,
+          "memoryCG": "ending-lamplit-child"
+        }
+      ],
+      "aspect": "16:9",
+      "nativeResolution": "720p",
+      "dialogueAudioOwner": "root",
+      "scope": "silent visual master only",
+      "duration": 34.125,
+      "timeline": [
+        {
+          "shotId": "E01",
+          "start": 0,
+          "end": 12,
+          "memoryCG": "ending-reopen",
+          "source": "public/media/cinema-v3-ending-e01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 12
+        },
+        {
+          "shotId": "E02",
+          "start": 12,
+          "end": 17.75,
+          "memoryCG": "ending-reopen",
+          "source": "public/media/cinema-v3-ending-e02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5.75
+        },
+        {
+          "shotId": "E03",
+          "start": 17.75,
+          "end": 26.75,
+          "memoryCG": "ending-lamplit-child",
+          "source": "public/media/cinema-v3-ending-e03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 9.0
+        },
+        {
+          "shotId": "E04",
+          "start": 26.75,
+          "end": 34.125,
+          "memoryCG": "ending-lamplit-child",
+          "source": "public/media/cinema-v3-ending-e04-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 7.375
+        }
+      ],
+      "silentSha256": "0c528daacd2132e5dcf0c5ac8fa6bd639fafef9a0fa16c8803d88a3693f18d40",
+      "resolution": "1280x720",
+      "audio": false
+    }
+  ],
+  "shots": [
+    {
+      "id": "P01",
+      "scene": "prologue",
+      "title": "汉口江面",
+      "name": "cinema-v3-prologue-p01-v1",
+      "source": "public/media/cinema-v3-prologue-ferry-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-prologue-ferry-start.png",
+      "prompt": "media/prompts/cinema-v3-prologue-p01-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 0,
+      "usedSeconds": 5,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "reuse": true
+    },
+    {
+      "id": "P02",
+      "scene": "prologue",
+      "title": "回家的钥匙",
+      "name": "cinema-v3-prologue-p02-v1",
+      "source": "public/media/cinema-v3-prologue-p02-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-prologue-p02-start.png",
+      "prompt": "media/prompts/cinema-v3-prologue-p02-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 1.0,
+      "usedSeconds": 4.25,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "frameName": "cinema-v3-prologue-p02-start",
+      "imageReferences": [
+        "output/imagegen/cinema-v3-prologue-ferry-start.png"
+      ],
+      "requestSha256": "4e5589ef7f91091bee1d0131fb789ae6cf4550ccbf94fa307ae0839b5dad3848",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "5bf0088133f27bb0a868619289e5f84c3df0df6166ee26e836b3b274492cd59c",
+      "actionNotes": [
+        {
+          "sourceTime": 2.167,
+          "action": "收握钥匙完成；root视频辅助审查"
+        },
+        {
+          "sourceTime": 4.333,
+          "action": "手开始退出画面；root视频辅助审查"
+        },
+        {
+          "sourceTime": 5.167,
+          "action": "手完全退出，接下一岸线镜头；root视频辅助审查"
+        }
+      ],
+      "technicalReview": "passed",
+      "reviewMethod": "technical full decode + root independent actual-video model review and sampled-frame review"
+    },
+    {
+      "id": "P03",
+      "scene": "prologue",
+      "title": "同一岸线近一些",
+      "name": "cinema-v3-prologue-p03-v1",
+      "source": "public/media/cinema-v3-prologue-p03-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/prologue-shore-nearer.png",
+      "prompt": "media/prompts/cinema-v3-prologue-p03-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 0,
+      "usedSeconds": 5,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "requestSha256": "8ec20f5b01184ece1e51c521ba6a7f57ee32b6e11d1e3497e5363a95bba0558f",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "4e37785c4fe7cb9c843cabccb3383c56e42f91a5c1d808b75c88d229d09a3838",
+      "technicalReview": "passed",
+      "actionNotes": [
+        {
+          "sourceTime": 0,
+          "action": "同一江汉关岸线，钟楼塔冠完整"
+        },
+        {
+          "sourceTime": 5,
+          "action": "小轮渡持续向左，楼群顺序无变"
+        }
+      ],
+      "reviewMethod": "technical full decode + 1s sampled frames + root independent sampled-frame review"
+    },
+    {
+      "id": "P04",
+      "scene": "prologue",
+      "title": "里分日常",
+      "name": "cinema-v3-prologue-p04-v1",
+      "source": "public/media/cinema-v3-prologue-p04-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-prologue-p04-start.png",
+      "prompt": "media/prompts/cinema-v3-prologue-p04-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 10,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "frameName": "cinema-v3-prologue-p04-start",
+      "imageReferences": [
+        "public/media/repair-facade.webp",
+        "output/imagegen/story-v2-cg-granny-table-r3.png"
+      ],
+      "requestSha256": "484fec1636be3dc6da058a5cdc2fb3f38f493c8fcc323fb7ebad4ba684e8511f",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "73eafc8f2c1d09e21b5013ca3d76d72525e208780fa3c1667c2351333ca1b8a2",
+      "technicalReview": "passed",
+      "rootReview": "0–4s clears chair, 4–10s advances through lived-in lane; full 10s accepted."
+    },
+    {
+      "id": "P05",
+      "scene": "prologue",
+      "title": "门前的来电",
+      "name": "cinema-v3-prologue-p05-v1",
+      "source": "public/media/cinema-v3-prologue-p05-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-prologue-p05-start.png",
+      "prompt": "media/prompts/cinema-v3-prologue-p05-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 3.0,
+      "usedSeconds": 5.0,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "frameName": "cinema-v3-prologue-p05-start",
+      "imageReferences": [
+        "public/media/repair-facade.webp"
+      ],
+      "requestSha256": "64799603220a019253a70e75b036718ce16f0369e0f75bea31e388a900581b94",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "3fa5a4134051474689bffb2f32df8b11ba60055595494dea2b493d92f38db0f2",
+      "technicalReview": "passed",
+      "rootReview": "Keep 3–8s: door approach and real hand-key-to-lock action, then live 3D call."
+    },
+    {
+      "id": "G01",
+      "scene": "granny",
+      "title": "面先吃，孩子我接",
+      "name": "cinema-v3-granny-g01-v2",
+      "source": "public/media/cinema-v3-granny-g01-v2.mp4",
+      "firstFrame": "output/cinema-v3/frames/granny-table.png",
+      "prompt": "media/prompts/cinema-v3-granny-g01-v2-video.txt",
+      "requestSeconds": 15,
+      "in": 0,
+      "usedSeconds": 15,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "granny-table",
+      "priorAttempts": [
+        {
+          "name": "cinema-v3-granny-g01-v1",
+          "source": "public/media/cinema-v3-granny-g01-v1.mp4",
+          "prompt": "media/prompts/cinema-v3-granny-g01-v1-video.txt",
+          "requestSha256": "7210176b70e42f80a0746b87601524ff9cf555628c7e59772a5f0f72d295c732",
+          "sourceSha256": "9e57f317cca9ae66f22025fe526926e3214261ad6b2a002b8bb0b1920bcc1a2f",
+          "actualModel": "dreamina-seedance-2.0-260128",
+          "visualReview": "rejected",
+          "reason": "At 6s reverse angle duplicates a second granny and changes grandfather hair; only 0-5s is coherent, too short for the approved dialogue.",
+          "evidence": "output/cinema-audio-v3/visual-proof/G01-source/contact.jpg"
+        }
+      ],
+      "requestSha256": "18de14bda8af4ffee5362b660886d4aea2f967d702bcf019ba31665ba03b2e0b",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "d4542e6dad7a5a621c407d3ed6a9a117d574665db8d29c9b4a590e661a4e566d",
+      "technicalReview": "passed",
+      "rootReview": "v2 fixed two-person frame all15s, no duplicated granny or hair drift; complete hand gesture and chopstick response."
+    },
+    {
+      "id": "G02",
+      "scene": "granny",
+      "title": "竹床上的午睡",
+      "name": "cinema-v3-granny-g02-v1",
+      "source": "public/media/cinema-v3-granny-g02-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/granny-bamboo.png",
+      "prompt": "media/prompts/cinema-v3-granny-g02-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 10,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "granny-bamboo",
+      "requestSha256": "6a7d4bee14142945aecb404db16b6ff0f1efb46a5689fc6360d5d05da8bb2199",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "1fd0839e20c58631a0069d5f48ede0a8c398104a8889bedcf0c0789e695cc1da",
+      "technicalReview": "passed",
+      "actionNotes": [
+        {
+          "sourceTime": 0,
+          "action": "婆婆摇扇，孩子熟睡"
+        },
+        {
+          "sourceTime": 2.667,
+          "action": "硬切到孩子手与作业本"
+        },
+        {
+          "sourceTime": 3.5,
+          "action": "婆婆手进入近景，接触铅笔"
+        },
+        {
+          "sourceTime": 7.9,
+          "action": "笔离开孩子手，孩子不醒"
+        },
+        {
+          "sourceTime": 10,
+          "action": "铅笔落在作业本上"
+        }
+      ],
+      "reviewMethod": "technical full decode + 1s sampled frames + root independent video-model assisted review; no human-review claim"
+    },
+    {
+      "id": "G03",
+      "scene": "granny",
+      "title": "先洗了手",
+      "name": "cinema-v3-granny-g03-v1",
+      "source": "public/media/cinema-v3-granny-g03-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-granny-g03-start.png",
+      "prompt": "media/prompts/cinema-v3-granny-g03-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 0,
+      "usedSeconds": 8.0,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": null,
+      "frameName": "cinema-v3-granny-g03-start",
+      "imageReferences": [
+        "output/imagegen/story-v2-cg-granny-table-r3.png",
+        "output/imagegen/story-v2-cg-granny-bamboo.png"
+      ],
+      "requestSha256": "bd3a017c1b9d20a4e65898718a090fbc5b12338c5182123a160b29496f8c0ee6",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "8aaa97da9a1d369c29b3d28cbd17152a4f5ac18687fcbbe60c2ee82c3c0b6bc9",
+      "technicalReview": "passed",
+      "rootReview": "Keep all 8s: hands washed, tap fully closed and water stops before he leaves."
+    },
+    {
+      "id": "C01",
+      "scene": "chef",
+      "title": "天亮前的灯",
+      "name": "cinema-v3-chef-c01-v1",
+      "source": "public/media/cinema-v3-chef-c01-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/chef-lamp.png",
+      "prompt": "media/prompts/cinema-v3-chef-c01-v1-video.txt",
+      "requestSeconds": 15,
+      "in": 0,
+      "usedSeconds": 14,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "chef-lamp",
+      "requestSha256": "3f87df36c23fea4b4622fdfafa123d578a6976556f45552b6cd52f3a31d61c2d",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "b1e555a002bf5a55cfeafd37b80f039df58d1141521c506e534a24fbd0fd6742",
+      "technicalReview": "passed",
+      "rootReview": "Lamp illuminates money, counting and two-person response; 0–14s accepted."
+    },
+    {
+      "id": "C02",
+      "scene": "chef",
+      "title": "小饭盒先留好",
+      "name": "cinema-v3-chef-c02-v1",
+      "source": "public/media/cinema-v3-chef-c02-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/chef-food.png",
+      "prompt": "media/prompts/cinema-v3-chef-c02-v1-video.txt",
+      "requestSeconds": 15,
+      "in": 0,
+      "usedSeconds": 11.5,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "chef-extra-bowl",
+      "requestSha256": "7fb59e0399c9af0c71ddbcd24c01557b2331bd4fc8cf2bc8ec2a0090091c3ab6",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "e193fcc6384b8708a203c624ca0315bc93d0270353564ee5ad30d158226017ab",
+      "technicalReview": "passed",
+      "rootReview": "Accepted 0–11.5s; exclude later money-hand motion."
+    },
+    {
+      "id": "C03",
+      "scene": "chef",
+      "title": "红盖上的白点",
+      "name": "cinema-v3-chef-c03-v1",
+      "source": "public/media/cinema-v3-chef-c03-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/chef-lunchbox-c02-close.png",
+      "prompt": "media/prompts/cinema-v3-chef-c03-v1-video.txt",
+      "requestSeconds": 5,
+      "in": 0,
+      "usedSeconds": 5,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "chef-extra-bowl",
+      "anchorProvenance": {
+        "source": "public/media/cinema-v3-chef-c02-v1.mp4",
+        "time": 11.0,
+        "crop": [
+          432,
+          477,
+          864,
+          720
+        ],
+        "sourceSize": [
+          1280,
+          720
+        ],
+        "review": "Root accepted exact crop; prominent money-hand remains still and camera reframes toward box/lid."
+      },
+      "requestSha256": "b3d1e1ea0a4338c2a0c02e8ab6d396de610768b0a33d1893d4d783c5fc635b23",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "860a2ea822a23f74a75608c448b4006110cfb1a8f820a0510ff7544b54c83231",
+      "technicalReview": "passed",
+      "rootReview": "Full5s: cash and hands remain still, camera approaches same cream lunchbox and scuffed red lid."
+    },
+    {
+      "id": "D01",
+      "scene": "dock",
+      "title": "还没想好去哪儿",
+      "name": "cinema-v3-dock-d01-v1",
+      "source": "public/media/cinema-v3-dock-d01-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-dock-d01-start-r2.png",
+      "prompt": "media/prompts/cinema-v3-dock-d01-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 10,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "dock-shared-box",
+      "frameName": "cinema-v3-dock-d01-start-r2",
+      "imageReferences": [
+        "output/imagegen/story-v2-cg-dock-shared-box.png"
+      ],
+      "priorFirstFrame": "output/imagegen/cinema-v3-dock-d01-start.png",
+      "requestSha256": "b67fdaaaaf0d3e28980405757c2bca0c2fc904ba8395a8d593df1557a2676e49",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "9465104c8844638db8d77b0a75ccc8c40907980a447e22a78b78b9da8bb7d3b8",
+      "technicalReview": "passed",
+      "rootReview": "Both people stay in position; asks destination, grandfather looks toward river and lowers gaze; full10s accepted."
+    },
+    {
+      "id": "D02",
+      "scene": "dock",
+      "title": "托住箱子另一边",
+      "name": "cinema-v3-dock-d02-v1",
+      "source": "public/media/cinema-v3-dock-d02-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-dock-d02-start-r2.png",
+      "prompt": "media/prompts/cinema-v3-dock-d02-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 10,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "dock-shared-box",
+      "frameName": "cinema-v3-dock-d02-start-r2",
+      "imageReferences": [
+        "output/imagegen/story-v2-cg-dock-shared-box.png"
+      ],
+      "priorFirstFrame": "output/imagegen/cinema-v3-dock-d02-start.png",
+      "requestSha256": "c70de27a3df69a0ffda5e9def1b8a0ce5f0768fd62f67d053f2771e5bb005da6",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "8ae13b8c82d31653d2ecf3eaeea29815751555bb31d0208c2b1503ea7e01bfd2",
+      "technicalReview": "passed",
+      "rootReview": "Offers help first, supports box at4–5s; identity, barrier and box continuous; full10s accepted."
+    },
+    {
+      "id": "D03",
+      "scene": "dock",
+      "title": "一起回巷子",
+      "name": "cinema-v3-dock-d03-v1",
+      "source": "public/media/cinema-v3-dock-d03-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/dock-walk.png",
+      "prompt": "media/prompts/cinema-v3-dock-d03-v1-video.txt",
+      "requestSeconds": 8,
+      "in": 0,
+      "usedSeconds": 8,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "dock-shared-box",
+      "requestSha256": "7f20e70af97d15e5c1eb2eaf0ed33c3e72299882d3f3a10a3b9820606fb84af8",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "107758f1110663768f33f2ba1a22e2ddce0ea3c1b80b58fa873cdfbc16892094",
+      "technicalReview": "passed",
+      "rootReview": "Box carried towards lane, characters and bridge stable; full 8s accepted."
+    },
+    {
+      "id": "E01",
+      "scene": "ending",
+      "title": "书包边的重新开门",
+      "name": "cinema-v3-ending-e01-v1",
+      "source": "public/media/cinema-v3-ending-e01-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-ending-e01-start.png",
+      "prompt": "media/prompts/cinema-v3-ending-e01-v1-video.txt",
+      "requestSeconds": 12,
+      "in": 0,
+      "usedSeconds": 12,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "ending-reopen",
+      "frameName": "cinema-v3-ending-e01-start",
+      "imageReferences": [
+        "output/imagegen/story-v2-cg-ending-reopen-r2.png",
+        "output/imagegen/story-v2-cg-ending-lamplit-child.png"
+      ],
+      "requestSha256": "44526ebacc8ae55a2bb3b17cbfe3e346df99b43b2c6e2f6409c1ae0f682589a9",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "b14dead5e5212e8e6e68b94472a4e60550fd08ecdb81569c747baeeceeb20239",
+      "technicalReview": "passed"
+    },
+    {
+      "id": "E02",
+      "scene": "ending",
+      "title": "留饭，铺好桌角",
+      "name": "cinema-v3-ending-e02-v1",
+      "source": "public/media/cinema-v3-ending-e02-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-ending-e02-start-r2.png",
+      "prompt": "media/prompts/cinema-v3-ending-e02-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 5.75,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "ending-reopen",
+      "frameName": "cinema-v3-ending-e02-start-r2",
+      "imageReferences": [
+        "output/imagegen/cinema-v3-ending-e02-start.png",
+        "output/imagegen/cinema-v3-ending-e01-start.png"
+      ],
+      "priorFirstFrame": "output/imagegen/cinema-v3-ending-e02-start.png",
+      "requestSha256": "a6c99102d7e504d1b332f3dd3a91b2c7606dfa187f370937125fcca278b39c18",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "07a1ae8cace7d784bafe284a18255bfaf8f4b3520b66217bac9a4cd7a673651d",
+      "technicalReview": "passed",
+      "rootReview": "Keep0–5.75s: blue cloth placed and red-lid cream box held in background; exclude6s close angle where cream box turns all red."
+    },
+    {
+      "id": "E03",
+      "scene": "ending",
+      "title": "孩子坐到灯下",
+      "name": "cinema-v3-ending-e03-v1",
+      "source": "public/media/cinema-v3-ending-e03-v1.mp4",
+      "firstFrame": "output/imagegen/cinema-v3-ending-e03-start-r2.png",
+      "prompt": "media/prompts/cinema-v3-ending-e03-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 9.0,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "ending-lamplit-child",
+      "frameName": "cinema-v3-ending-e03-start-r2",
+      "imageReferences": [
+        "output/imagegen/cinema-v3-ending-e03-start.png",
+        "output/imagegen/cinema-v3-ending-e02-start.png"
+      ],
+      "priorFirstFrame": "output/imagegen/cinema-v3-ending-e03-start.png",
+      "requestSha256": "30f7c8a72909a0b4d7f8cecec5aa072501ef491527fb92060842f240d8073a33",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "c6742c54473b3f89da53be2ca0a9059f18f55969bc2341c762d9445fabda34a1",
+      "technicalReview": "passed",
+      "rootReview": "0–9s completes child sitting and opening notebook; exclude9–10s duplicate head-turn before E04 question."
+    },
+    {
+      "id": "E04",
+      "scene": "ending",
+      "title": "明天还在这里",
+      "name": "cinema-v3-ending-e04-v1",
+      "source": "public/media/cinema-v3-ending-e04-v1.mp4",
+      "firstFrame": "output/cinema-v3/frames/ending-child.png",
+      "prompt": "media/prompts/cinema-v3-ending-e04-v1-video.txt",
+      "requestSeconds": 10,
+      "in": 0,
+      "usedSeconds": 7.375,
+      "status": "accepted",
+      "frameReview": "accepted",
+      "visualReview": "accepted",
+      "memoryCG": "ending-lamplit-child",
+      "requestSha256": "817933079a42c527c92e2cf7aacc1e4c85d9bec6c5e91f2c28403c1ef8cd5b4e",
+      "actualModel": "dreamina-seedance-2.0-260128",
+      "sourceSha256": "cf5f5333025545aed52fc5c2bdc6eed30e9be7a18fa448f2b3d829684c9fcc01",
+      "technicalReview": "passed",
+      "rootReview": "Accepted 0–7.375s; exclude incomplete stool insert after 7.5s."
+    }
+  ],
+  "durationSecondsTotal": 154.875,
+  "silentMastersCompletedAt": "2026-09-11T17:30:07.166941+00:00"
+}

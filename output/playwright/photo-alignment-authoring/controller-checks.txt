@@ -1,0 +1,44 @@
+### Result
+[
+  {
+    "check": "cancel-callback",
+    "reason": "player-cancelled"
+  },
+  {
+    "check": "escape-restores-mode-position-focus",
+    "passed": true
+  },
+  {
+    "check": "aspect",
+    "width": 1920,
+    "height": 1080,
+    "passed": true,
+    "anchors": 3
+  },
+  {
+    "check": "aspect",
+    "width": 1440,
+    "height": 900,
+    "passed": true,
+    "anchors": 3
+  },
+  {
+    "check": "aspect",
+    "width": 2560,
+    "height": 1080,
+    "passed": true,
+    "anchors": 3
+  },
+  {
+    "check": "keyboard-hint",
+    "passed": true
+  },
+  {
+    "check": "cancel-callback",
+    "reason": "player-cancelled"
+  }
+]
+### Ran Playwright code
+```js
+await page.evaluate('() => (photoAuthoring.uiChecks)');
+```

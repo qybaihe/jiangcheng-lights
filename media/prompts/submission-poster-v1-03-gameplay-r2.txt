@@ -1,0 +1,22 @@
+Use case: precise-object-edit
+Asset type: correction of an already finished landscape16:9 Chinese game promotional poster. Produce the complete finished2048x1152 poster, with every original design element retained except the tightly scoped corrections below.
+Input image1 is the edit target. Preserve its exact canvas, upper typography strip, lower footer, split-panel layout, colours, logo, right-hand food-packing scene, both women's faces and outfits, and the left heroine's face/body/hands/photo-holding gesture. This is NOT a redesign. The current large text and the right food-packing picture are already correct.
+
+Required correction ONLY in the left illustrated panel (approximately x0–1030,y265–1060 on the2048x1152 image):
+1. Remove the suspension bridge and bridge towers/cables entirely from both the real alley view and the little sepia photograph. Do not substitute another bridge. The left scene is now a lovingly detailed Wuhan Hankou repair-shop courtyard, green-painted wooden windows, old warm-grey bricks, and a narrow stone passage. No identifiable bridge, no extra river vista.
+2. The old photograph and current scene must visibly show the SAME THREE LANDMARKS in the SAME relative arrangement, not mirrored. Landmark A is a faded vertical wooden sign reading exactly 修理铺, hanging immediately LEFT of landmark B, a recognizable six-pane green wooden window. Landmark C is a small worn wooden repair worktable directly BELOW that same window, with a small old radio and a few ordinary hand tools. Include all three in both the photo and the present view. Thus from left to right the sign comes before the window, and the worktable is under the window, BOTH in the little photo AND in the scene behind it. The narrow stone lane recedes toward the far-left. The perspective and relative silhouette of the same three objects should convincingly match, while the small photograph is warm sepia and aged and the real objects are fresh teal/brick colours. The photograph may be slightly lower than the actual objects so the player can compare them. Do not make the photo a reverse view of the other side of the street.
+3. Keep 阿遥's original attractive face, ivory cardigan, green bows, short brown hair, canvas satchel, two hands and natural photo-holding pose unchanged. The small photo stays in her hands and is not floating. Preserve the overall original appealing composition. Introduce no game UI or glowing AR overlays.
+4. Lock the entire right illustrated panel exactly: 蔡姨 in green apron and orange shirt, 阿遥 packing the enamel box, delicious hot-dry noodles, square golden 三鲜豆皮, food containers and the 不放葱 note. Do not change any of those.
+
+All original typography must remain clearly rendered and unchanged, with exact simplified Chinese:
+江城有灯
+每件小事，都亲手完成
+对上旧照片，也记住每个人的口味。
+旧照对景
+热食接力
+不放葱
+修好收音机 · 拼回旧童画 · 把热食送到手中
+游戏主题海报
+Only new environment text allowed is 修理铺 on the same vertical sign in the scene and its photograph. Delete the previous 过早 text on that one sign when replacing it. No other new text, awards, extra labels, dates or watermark.
+
+Same exquisite bright hand-painted anime illustration and teal-on-ivory print design as the source. Preserve the quality of the faces and food, the light, textures and the visual balance. Return the entire completed poster, not a crop or side-by-side before/after.

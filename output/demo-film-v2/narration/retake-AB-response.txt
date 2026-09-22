@@ -1,0 +1,26 @@
+{
+  "audioAccessible": true,
+  "A": {
+    "heardText": "我是阿遥。这次回武汉，本来只打算住一晚。外公在姨妈家修养，还惦记着铺子里的东西，让我替他给街坊送回去。",
+    "voiceConsistency": "Highly consistent in tone, volume, and quality throughout the clip.",
+    "normalSpeakingVersusWhisper": "Normal speaking volume with full, clear vowel phonation and good resonance.",
+    "cadenceAndPauses": "Natural and fluent cadence, with appropriate pauses that sound like natural speaking breaks.",
+    "howConversational": "Highly conversational, sounding exactly like a young adult casually telling a story to a friend.",
+    "overPerformance": "None. The delivery is grounded and realistic without sounding like an announcer or actor.",
+    "prosCons": "Pros: Very clear pronunciation, natural conversational flow, and excellent volume. Cons: None."
+  },
+  "B": {
+    "heardText": "我是阿遥。这次回武汉，本来只打算住一晚。外公在姨妈家修养，还惦记着铺子里的东西，让我替他给街坊送回去。",
+    "voiceConsistency": "Consistent, but consistently breathy and low-energy.",
+    "normalSpeakingVersusWhisper": "Leans heavily toward an intimate whisper, with a lot of breathiness and less substantial vowel phonation.",
+    "cadenceAndPauses": "Slower and more deliberate, with slightly dramatic pauses.",
+    "howConversational": "Less casually conversational; sounds more like an intimate podcast narration or a whispery vlog voiceover.",
+    "overPerformance": "Overly stylized to sound soft and intimate, which detracts from a normal conversational tone.",
+    "prosCons": "Pros: Gentle and pleasant tone. Cons: Too breathy, lacks the energy of a normal speaking voice, and sounds too whispered."
+  },
+  "preferredForYoungAdultTellingHerOwnDayToFriend": "A",
+  "reasonsWithSpecificAudibleMoments": "Clip A is preferred because it fits the requirement of a normal conversational volume with clear, substantial vowel phonation. For example, the opening line '我是阿遥' (0.01 - 1.20) and the phrase '本来只打算住一晚' (2.90 - 5.10) are spoken with a natural, bright, and outgoing tone. In contrast, Clip B is far too whispery and breathy; the same opening '我是阿遥' (12.95 - 14.10) and '本来只打算住一晚' (15.20 - 17.30) are delivered in an intimate, low-volume sighing style that sounds like an aesthetic narrator rather than a relaxed friend speaking at a normal volume.",
+  "isDifferenceMeaningful": true,
+  "anyMispronouncedOrMissingWords": "No, both clips feature accurate pronunciation of all words.",
+  "anyBackgroundSounds": "No background sounds are present in either clip."
+}

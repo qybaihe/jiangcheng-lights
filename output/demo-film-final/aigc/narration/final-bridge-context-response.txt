@@ -1,0 +1,36 @@
+```json
+{
+  "audioAccessible": true,
+  "spokenSegments": [
+    {
+      "start": 0,
+      "end": 3.2,
+      "text": "也在桥影下，停下来听一段往事",
+      "voiceDescription": "Warm, gentle female narrator speaking Mandarin Chinese"
+    },
+    {
+      "start": 3.2,
+      "end": 5.4,
+      "text": "就往桥上看，我也跟着",
+      "voiceDescription": "Softer, slightly more distant female voice speaking Mandarin Chinese"
+    },
+    {
+      "start": 5.7,
+      "end": 8,
+      "text": "借一只小木船，亲手",
+      "voiceDescription": "Warm, gentle female narrator speaking Mandarin Chinese"
+    }
+  ],
+  "simultaneousVoiceIssues": [],
+  "sentenceOrWordCutoffs": [
+    {
+      "at": 5.4,
+      "description": "The second female voice is cut off mid-sentence after '跟着' (gēnzhe), leaving the phrase incomplete before the main narrator resumes.",
+      "severity": "moderate"
+    }
+  ],
+  "musicContinuity": "The gentle acoustic background music plays throughout but exhibits a minor volume dip/transition point around 0:05.5.",
+  "transitionQuality": "The transition at 0:05.5 is somewhat jarring due to the abrupt voice cutoff of the secondary speaker.",
+  "confidence": 0.95
+}
+```

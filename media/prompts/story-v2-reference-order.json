@@ -1,0 +1,217 @@
+{
+  "status": "reference-order-only; not a submission queue",
+  "nativeCgSize": "1536x1024",
+  "nativeCgAspect": "3:2",
+  "presentationCrop": "optional centered 1536x864 / 16:9; keep vertical 8% crop margins and bottom 25% dialogue-safe foreground",
+  "portraitSize": "1024x1536",
+  "masters": {
+    "female": "output/imagegen/story-v2-portrait-female.png",
+    "male": "output/imagegen/story-v2-portrait-male.png",
+    "granny": "output/imagegen/story-v2-portrait-granny.png",
+    "chef": "output/imagegen/story-v2-portrait-chef.png",
+    "dock": "output/imagegen/story-v2-portrait-dock.png",
+    "xu": "output/imagegen/story-v2-portrait-xu.png",
+    "grandfather": "output/imagegen/story-v2-portrait-grandfather-r2.png"
+  },
+  "masterPolicy": "Use visually accepted anime masters. Grandfather r2 is intended; the first photographic grandfather draft is not a CG reference. Paths for not-yet-generated assets are expected destinations, not a claim that files exist. If a retake is accepted later, update that logical master before generation.",
+  "cg": [
+    {
+      "id": "granny-table",
+      "prompt": "media/prompts/story-v2-cg-granny-table.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "granny-bamboo",
+      "prompt": "media/prompts/story-v2-cg-granny-bamboo.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 2,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不能将她缩成儿童"
+        }
+      ]
+    },
+    {
+      "id": "chef-lamp",
+      "prompt": "media/prompts/story-v2-cg-chef-lamp.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "chef-extra-bowl",
+      "prompt": "media/prompts/story-v2-cg-chef-extra-bowl.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风；现场无孩子和阿遥"
+        }
+      ]
+    },
+    {
+      "id": "dock-shared-box",
+      "prompt": "media/prompts/story-v2-cg-dock-shared-box.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "dock",
+          "path": "output/imagegen/story-v2-portrait-dock.png",
+          "role": "角色身份，十五年前52岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "xu-first-shift",
+      "prompt": "media/prompts/story-v2-cg-xu-first-shift.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "xu",
+          "path": "output/imagegen/story-v2-portrait-xu.png",
+          "role": "角色身份，一年前27岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，一年前73岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "ending-reopen",
+      "prompt": "media/prompts/story-v2-cg-ending-reopen.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 3,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 4,
+          "id": "dock",
+          "path": "output/imagegen/story-v2-portrait-dock.png",
+          "role": "角色身份，十五年前52岁"
+        }
+      ]
+    },
+    {
+      "id": "ending-lamplit-child",
+      "prompt": "media/prompts/story-v2-cg-ending-lamplit-child.txt",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 3,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 4,
+          "id": "cg:granny-bamboo",
+          "path": "output/imagegen/story-v2-cg-granny-bamboo.png",
+          "role": "只取儿童发长、衣领与比例，不复制竹床、午后光或睡姿"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "status": "succeeded",
+  "requests": [
+    {
+      "shot_id": "C04",
+      "job_name": "cinema-c04-v2",
+      "state": "succeeded",
+      "prompt_path": "media/prompts/cinema-c04-v2-video.txt",
+      "first_frame": "public/media/cinema-c04-start-v1.webp",
+      "last_frame": "public/media/cinema-c04-end-v1.webp",
+      "generation_duration": 8,
+      "edit_target_duration": 8,
+      "ratio": "16:9",
+      "resolution": "720p",
+      "generate_audio": false,
+      "edit_rule": "Complete the action within the edit target, then hold. Verify the result before trimming at original speed; no implied successful generation.",
+      "reason": "Original 15s take pushed bowl too far then pulled back. Retake uses small monotonic movement over native 8 seconds.",
+      "result": {
+        "model": "dreamina-seedance-2.0-260128",
+        "duration": 8,
+        "ratio": "16:9",
+        "resolution": "720p",
+        "framespersecond": 24,
+        "generate_audio": false,
+        "seed": 72532,
+        "created_at": 1788868137,
+        "updated_at": 1788868319,
+        "bytes": 2191647,
+        "sha256": "8dd5ffc1d011557e11692a23041671b8c92dcef6be7142d1cb03972d2ab522de"
+      },
+      "source_path": "public/media/cinema-c04-v2.mp4"
+    }
+  ],
+  "last_checked_at": "2026-09-08T11:52:18.657403+00:00",
+  "notes": "Actual submitted first/last-frame video tasks. Result metadata is from the provider; visual acceptance is recorded separately. No API credentials or delivery URLs are stored here."
+}

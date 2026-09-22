@@ -1,0 +1,4 @@
+### Ran Playwright code
+```js
+await (async (page) => {await page.waitForFunction(()=>[...document.querySelectorAll("img")].filter(i=>i.src.includes("playful-life-v1")).length===2&&[...document.querySelectorAll("img")].filter(i=>i.src.includes("playful-life-v1")).every(i=>i.naturalWidth===1920),null,{timeout:30000});console.log(JSON.stringify(await page.evaluate(()=>({origin:location.origin,images:[...document.querySelectorAll("img")].filter(i=>i.src.includes("playful-life-v1")).map(i=>({path:new URL(i.src).pathname,width:i.naturalWidth,height:i.naturalHeight})),state:__JIANGCHENG__.getState(),residents:__JIANGCHENG__.getResidentAvatars()}))));})(page);
+```

@@ -1,0 +1,208 @@
+### Page
+- Page URL: http://127.0.0.1:4187/
+- Page Title: 江城有灯 · 灯火会记得每一个人
+### Snapshot
+```yaml
+- generic [ref=f8e2]:
+  - generic "可探索的武汉晴川里三维街区" [ref=f8e3]
+  - text: 阿 遥 阿 遥
+  - banner:
+    - link "返回主画面" [ref=f8e75] [cursor=pointer]:
+      - /url: "#"
+      - img "江城有灯" [ref=f8e124]
+    - generic [ref=f8e77]:
+      - button "关闭声音" [ref=f8e82] [cursor=pointer]
+      - button "街区地图 M" [ref=f8e85] [cursor=pointer]
+      - button "记忆手账 J" [ref=f8e88] [cursor=pointer]
+      - button "全屏游玩" [ref=f8e91] [cursor=pointer]
+      - button "设置" [ref=f8e94] [cursor=pointer]
+      - button "成就画廊" [ref=f8e97] [cursor=pointer]: ◇
+      - button "巷中生活：骑车、驾驶、划船与小赛" [ref=f8e98] [cursor=pointer]:
+        - text: ⌂
+        - generic [ref=f8e99]: 巷中生活
+  - generic:
+    - complementary [ref=f8e127]:
+      - generic [ref=f8e128]: 二 · 街坊的名字
+      - heading "把名字和口味装好 · 0/3" [level=2] [ref=f8e673]
+      - paragraph [ref=f8e132]: 照着三张便签分装热食，核对后逐份封盒。
+      - button "沿路引路" [ref=f8e133] [cursor=pointer]
+    - generic:
+      - generic: 修理铺
+      - generic: 林婆婆
+      - generic:
+        - generic: 蔡记过早
+        - generic: 当前委托
+      - generic: 周伯
+      - generic: 社区小屋
+    - generic:
+      - generic: 晴川里 · 蔡记过早
+      - generic: 江城拾光 0/6 · 街坊互助 1/3
+    - generic [ref=f8e136]:
+      - button "跟随视角 ▾" [ref=f8e137] [cursor=pointer]
+      - button "第一人称" [ref=f8e138] [cursor=pointer]
+    - generic [ref=f8e139]:
+      - generic [ref=f8e140]:
+        - generic [ref=f8e141]: W
+        - generic [ref=f8e142]: A
+        - generic [ref=f8e143]: S
+        - generic [ref=f8e144]: D
+        - text: 行走
+      - generic [ref=f8e145]:
+        - generic [ref=f8e146]: Shift
+        - text: 跑步
+      - generic [ref=f8e147]:
+        - generic [ref=f8e148]: 空格
+        - text: 跳跃
+      - generic [ref=f8e149]:
+        - generic [ref=f8e150]: E
+        - text: 交谈
+      - generic [ref=f8e151]: 拖动视角 · 滚轮缩放
+      - button "?" [ref=f8e152] [cursor=pointer]
+    - button "打开街区地图" [ref=f8e153] [cursor=pointer]:
+      - img [ref=f8e154]:
+        - generic [ref=f8e165]:
+          - generic "院门前 · 可步行" [ref=f8e166]
+          - generic "面铺门前 · 可步行" [ref=f8e169]
+          - generic "工具巷 · 可步行" [ref=f8e172]
+          - generic "过早小巷 · 可步行" [ref=f8e175]
+          - generic "小院缓坡 · 可步行" [ref=f8e178]
+          - generic "借用工具棚" [ref=f8e186]
+          - generic "院墙" [ref=f8e190]
+          - generic "工具巷院墙" [ref=f8e193]
+          - generic "坡边扶手" [ref=f8e196]
+          - generic "坡边扶手" [ref=f8e198]
+          - generic "过早小巷院墙" [ref=f8e200]
+        - generic [ref=f8e284]:
+          - generic "晴川里门楼 · 门廊下可通行" [ref=f8e285]
+          - generic "望江木廊 · 门廊下可通行" [ref=f8e289]
+          - generic "门柱" [ref=f8e293]
+          - generic "门柱" [ref=f8e295]
+          - generic "门柱" [ref=f8e297]
+          - generic "门柱" [ref=f8e299]
+          - generic "听风台缓坡 · 缓坡步行可达" [ref=f8e301]
+          - generic "听风台 · 高于街面 1.8 米" [ref=f8e307]
+          - generic "坡道西侧护栏"
+          - generic "坡道东侧护栏"
+          - generic "台边护栏"
+          - generic "台边护栏"
+          - generic "望江栏杆"
+          - generic "坡口西栏"
+          - generic "坡口东栏"
+        - generic [ref=f8e362]:
+          - generic "滨江路 · 连续车行宽路" [ref=f8e367]
+          - generic "燕归路 · 连续车行宽路" [ref=f8e370]
+          - generic "轮渡回车路 · 连续车行宽路" [ref=f8e373]
+          - generic "里分横巷 · 步行街巷" [ref=f8e376]
+          - generic "过早巷 · 步行街巷" [ref=f8e379]
+          - generic "桥影小广场 · 步行街巷" [ref=f8e382]
+          - generic "候船广场 · 步行街巷" [ref=f8e385]
+          - generic "街坊市集 · 步行街巷" [ref=f8e388]
+          - generic "里分街旁停车位 · 停好再下车" [ref=f8e391]: P
+          - generic "渡口内侧停车位 · 停好再下车" [ref=f8e394]: P
+          - generic "市集旁停车位 · 停好再下车" [ref=f8e397]: P
+          - generic "桥影下 · 净空 6 米；桥柱处绕行" [ref=f8e470]
+      - generic [ref=f8e513]:
+        - text: 晴川里
+        - generic [ref=f8e516]: M
+  - status:
+    - generic: 正走向 蔡记过早 · 方向键可中断
+  - dialog "照着便签，留一口热的" [ref=f8e679]:
+    - generic [ref=f8e680]:
+      - generic [ref=f8e681]:
+        - generic [ref=f8e682]: 蔡记过早 · 读便签 / 分装 / 亲手交接
+        - heading "照着便签，留一口热的" [level=2] [ref=f8e683]
+      - button "关闭" [active] [ref=f8e684] [cursor=pointer]
+    - region "热食接力分装台" [ref=f8e688]:
+      - generic [ref=f8e689]:
+        - generic [ref=f8e690]:
+          - text: 傍晚 · 蔡记过早铺 · 街坊小便签
+          - heading "一口热的" [level=3] [ref=f8e691]
+          - paragraph [ref=f8e692]: 蔡姨已经把热食做好了。照着街坊的便签分三份，装好再沿主巷交给接应的人。
+        - generic [ref=f8e693]:
+          - strong [ref=f8e694]: 0 / 3
+          - text: 已核对封盒
+      - navigation "选择一份街坊便签" [ref=f8e695]:
+        - button "01 林婆婆 陈姐接应 · 待分装" [pressed] [ref=f8e696] [cursor=pointer]:
+          - generic [ref=f8e697]: "01"
+          - generic [ref=f8e698]:
+            - strong [ref=f8e699]: 林婆婆
+            - generic [ref=f8e700]: 陈姐接应 · 待分装
+        - button "02 陈姐 陈姐接应 · 待分装" [ref=f8e703] [cursor=pointer]:
+          - generic [ref=f8e704]: "02"
+          - generic [ref=f8e705]:
+            - strong [ref=f8e706]: 陈姐
+            - generic [ref=f8e707]: 陈姐接应 · 待分装
+        - button "03 小许 小许接应 · 待分装" [ref=f8e710] [cursor=pointer]:
+          - generic [ref=f8e711]: "03"
+          - generic [ref=f8e712]:
+            - strong [ref=f8e713]: 小许
+            - generic [ref=f8e714]: 小许接应 · 待分装
+      - generic [ref=f8e717]:
+        - complementary [ref=f8e718]:
+          - text: 蔡姨记下的口味
+          - heading "给林婆婆" [level=4] [ref=f8e720]
+          - paragraph [ref=f8e721]: 还是热干面，不放葱，也不放辣。名字贴在盒上，陈姐会替我接。
+          - generic [ref=f8e722]:
+            - generic [ref=f8e723]: 这份交给
+            - strong [ref=f8e724]: 陈姐
+            - generic [ref=f8e725]: 西巷接力点
+          - generic [ref=f8e726]: 记得，名字别贴反了。—— 蔡姨
+          - generic [ref=f8e728]: 晴川里 · 热食接力
+        - generic [ref=f8e729]:
+          - generic [ref=f8e730]:
+            - generic [ref=f8e731]: 把一份心意，慢慢装好。
+            - generic [ref=f8e732]: 第 1 份 / 共 3 份
+          - generic [ref=f8e733]:
+            - generic [ref=f8e735]:
+              - paragraph [ref=f8e737]: 等一口热的
+              - generic [ref=f8e738]: 从右边选好热食
+            - generic [ref=f8e739]:
+              - generic [ref=f8e740]: 葱花
+              - generic [ref=f8e745]: 辣椒
+            - generic [ref=f8e750]:
+              - generic [ref=f8e751]: 这一份给
+              - strong [ref=f8e752]: 还没贴名字
+          - generic "本盒已选内容" [ref=f8e753]:
+            - generic [ref=f8e754]: 还没选热食
+            - generic [ref=f8e755]: 葱花：还没选
+            - generic [ref=f8e756]: 辣椒：还没选
+          - paragraph [ref=f8e757]: 装错了，只改那一项。没有倒计时，慢一点也没关系。
+        - generic [ref=f8e758]:
+          - group "01 选一份热食" [ref=f8e759]:
+            - generic [ref=f8e761]:
+              - button "热干面" [ref=f8e762] [cursor=pointer]:
+                - strong [ref=f8e779]: 热干面
+              - button "三鲜豆皮" [ref=f8e780] [cursor=pointer]:
+                - strong [ref=f8e804]: 三鲜豆皮
+              - button "藕汤" [ref=f8e805] [cursor=pointer]:
+                - strong [ref=f8e832]: 藕汤
+          - group "02 照顾好口味" [ref=f8e833]:
+            - generic [ref=f8e835]:
+              - generic [ref=f8e845]: 葱花
+              - group "葱花的放法" [ref=f8e846]:
+                - button "不放葱" [ref=f8e847] [cursor=pointer]
+                - button "撒在上面" [ref=f8e848] [cursor=pointer]
+                - button "小碟另放" [ref=f8e849] [cursor=pointer]
+            - generic [ref=f8e850]:
+              - generic [ref=f8e860]: 辣椒
+              - group "辣椒的放法" [ref=f8e861]:
+                - button "不放辣" [ref=f8e862] [cursor=pointer]
+                - button "拌在里面" [ref=f8e863] [cursor=pointer]
+                - button "小碟另放" [ref=f8e864] [cursor=pointer]
+          - group "03 贴上名字" [ref=f8e865]:
+            - generic [ref=f8e867]:
+              - button "林婆婆" [ref=f8e868] [cursor=pointer]
+              - button "陈姐" [ref=f8e869] [cursor=pointer]
+              - button "小许" [ref=f8e870] [cursor=pointer]
+      - generic [ref=f8e871]:
+        - status [ref=f8e872]:
+          - paragraph [ref=f8e873]: 先读左边的便签。装什么、怎么放、给谁，确认好了再封盒。
+        - generic [ref=f8e874]:
+          - button "先收好，待会儿继续" [ref=f8e875] [cursor=pointer]
+          - button "核对这份，封好盒" [ref=f8e876] [cursor=pointer]
+      - generic [ref=f8e879]:
+        - generic [ref=f8e880]: 读便签
+        - generic [ref=f8e882]: 分装封盒
+        - generic [ref=f8e884]: 沿主巷亲手交接
+        - generic [ref=f8e885]: 可步行、骑车或开车 · 抵达后下车交接
+```

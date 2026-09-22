@@ -1,0 +1,18 @@
+### Result
+{"start":{"x":1,"y":0.13,"z":21},"samples":[{"position":{"x":1.004182288005602,"y":0.13,"z":20.99442361599253},"remaining":2,"near":null},{"position":{"x":1.3547368960000314,"y":0.13,"z":20.52701747199996},"remaining":2,"near":null},{"position":{"x":1.7615128959513935,"y":0.13,"z":19.984649472064813},"remaining":2,"near":null},{"position":{"x":2.2700848958541178,"y":0.13,"z":19.306553472194516},"remaining":2,"near":null},{"position":{"x":2.686040895927073,"y":0.13,"z":18.75194547209724},"remaining":2,"near":null},{"position":{"x":3.1560568958784345,"y":0.13,"z":18.125257472162097},"remaining":2,"near":null},{"position":{"x":3.494084895975708,"y":0.13,"z":17.674553472032397},"remaining":2,"near":null},{"position":{"x":3.6876808960486627,"y":0.13,"z":17.41642547193512},"remaining":2,"near":null},{"position":{"x":4.310391896878433,"y":0.13,"z":16.75526882937128},"remaining":1,"near":null},{"position":{"x":4.979740573876862,"y":0.13,"z":16.227515086673645},"remaining":1,"near":null},{"position":{"x":5.691273970081741,"y":0.13,"z":15.66650043794765},"remaining":1,"near":null},{"position":{"x":6.3584867120594,"y":0.13,"z":15.140430791656133},"remaining":1,"near":null},{"position":{"x":7.070821083976639,"y":0.13,"z":14.578784606715113},"remaining":1,"near":null},{"position":{"x":7.738567809550352,"y":0.13,"z":14.052293936447546},"remaining":1,"near":"chef"},{"position":{"x":8.31713924275529,"y":0.13,"z":13.596114295275935},"remaining":1,"near":"chef"},{"position":{"x":8.727207793864215,"y":0.13,"z":13.272792206135787},"remaining":0,"near":"chef"}],"modal":"panel"}
+### Ran Playwright code
+```js
+await (async page => {
+ await page.getByRole('button',{name:'街区地图 M'}).click();
+ await page.locator('#map-destination').selectOption('chef');
+ await page.screenshot({path:'output/playwright/meal-relay-migration/map-to-chef.png'});
+ const start=await page.evaluate(()=>__JIANGCHENG__.getWorld().position), samples=[];
+ await page.locator('#map-go').click();
+ for(let n=0;n<180;n++){const sample=await page.evaluate(()=>({position:__JIANGCHENG__.getWorld().position,remaining:__JIANGCHENG__.getWorld().remainingRoute,near:__JIANGCHENG__.getNearest()}));samples.push(sample);if(sample.remaining===0&&Math.hypot(sample.position.x-10,sample.position.z-12)<3.2)break;await page.waitForTimeout(250);}
+ const end=samples.at(-1);if(Math.hypot(end.position.x-10,end.position.z-12)>=3.2)throw new Error('did not physically reach chef');
+ await page.screenshot({path:'output/playwright/meal-relay-migration/male-at-chef.png'});
+ await page.keyboard.press('e');
+ return {start,samples,modal:await page.evaluate(()=>__JIANGCHENG__.getModal())};
+}
+)(page);
+```

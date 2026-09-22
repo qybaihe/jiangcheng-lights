@@ -1,0 +1,192 @@
+```json
+{
+  "audioAccessible": true,
+  "spokenSegments": [
+    {
+      "start": 0.5,
+      "end": 2.1,
+      "heardChineseText": "我是阿遥",
+      "heardNamePinyin": "ā yáo",
+      "delivery": "warm, introductory",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 2.1,
+      "end": 5.1,
+      "heardChineseText": "这次回武汉，本来只打算住一晚",
+      "heardNamePinyin": "wǔ hàn",
+      "delivery": "reflective, conversational",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 5.1,
+      "end": 11.8,
+      "heardChineseText": "外公在姨妈家修养，还惦记着铺子里的东西，让我替他给街坊送回去",
+      "heardNamePinyin": "",
+      "delivery": "narrative, warm",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 12.7,
+      "end": 14.3,
+      "heardChineseText": "先去找林婆婆",
+      "heardNamePinyin": "lín pó po",
+      "delivery": "soft, storytelling",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 14.3,
+      "end": 17.4,
+      "heardChineseText": "借辆车，还是走小时候那条路",
+      "heardNamePinyin": "",
+      "delivery": "nostalgic, gentle",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 17.8,
+      "end": 24.7,
+      "heardChineseText": "她一眼就认出了我，还翻出我小时候画的画。原来，她一直留着",
+      "heardNamePinyin": "",
+      "delivery": "moved, warm, slightly slow-paced",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 25.7,
+      "end": 30.3,
+      "heardChineseText": "蔡姨忙不过来，我就去杂货铺帮她把东西带齐",
+      "heardNamePinyin": "cài yí",
+      "delivery": "helpful, narrative",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 31.0,
+      "end": 34.2,
+      "heardChineseText": "开车到了江边，我又停了下来",
+      "heardNamePinyin": "",
+      "delivery": "thoughtful, calm",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 34.8,
+      "end": 37.8,
+      "heardChineseText": "那张老照片，还是头一回见",
+      "heardNamePinyin": "",
+      "delivery": "gentle, reminiscent",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 38.7,
+      "end": 43.7,
+      "heardChineseText": "我还借了条小船，桨一划开，连赶路的事都忘了",
+      "heardNamePinyin": "",
+      "delivery": "playful, lighthearted",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 44.2,
+      "end": 48.3,
+      "heardChineseText": "本来就想划一会，结果，还认真比起赛来了",
+      "heardNamePinyin": "",
+      "delivery": "smiling tone, cheerful",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 49.0,
+      "end": 55.2,
+      "heardChineseText": "快下雨了，我得回去看看。婆婆有人接没有，蔡姨的饭送到了没",
+      "heardNamePinyin": "cài yí",
+      "delivery": "slightly rushed, caring, concerned",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 55.6,
+      "end": 58.4,
+      "heardChineseText": "听见她说平安，我才松了口气",
+      "heardNamePinyin": "",
+      "delivery": "relieved, gentle",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 58.7,
+      "end": 101.3,
+      "heardChineseText": "要不，就再住几天吧",
+      "heardNamePinyin": "",
+      "delivery": "decisive, warm",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 101.3,
+      "end": 105.2,
+      "heardChineseText": "这一趟带回来的，好像比送出去的还多",
+      "heardNamePinyin": "",
+      "delivery": "reflective, emotional",
+      "intelligibility": "clear"
+    },
+    {
+      "start": 105.7,
+      "end": 110.0,
+      "heardChineseText": "小时候是他们照应我，这回，换我给他们留盏灯",
+      "heardNamePinyin": "",
+      "delivery": "affectionate, resolute, soft ending",
+      "intelligibility": "clear"
+    }
+  ],
+  "voiceConsistency": {
+    "sameSpeaker": true,
+    "description": "The entire clip is spoken by a single young adult female speaker who delivers standard Chinese Mandarin. Her voice is warm, clear, and maintains a consistent tone and timbre suited for storytelling or character monologue."
+  },
+  "musicOrSinging": null,
+  "environmentalSounds": [],
+  "clippedWordsOrDistortion": [],
+  "naturalness": {
+    "ratingOutOf10": 8,
+    "description": "The speaker delivers her lines very cleanly with natural-sounding breath pauses and emotional nuances. However, the rhythm is slightly deliberate and structured, sounding like a character voice-over, promo, or game monologue rather than a completely spontaneous, unscripted conversation between friends.",
+    "specificUnnaturalMoments": [],
+    "soundsLikeCharacterChatOrPromo": "Yes, it strongly resembles a character promo, backstory monologue, or game character introduction."
+  },
+  "silenceGaps": [
+    {
+      "start": 11.8,
+      "end": 12.7
+    },
+    {
+      "start": 24.7,
+      "end": 25.7
+    },
+    {
+      "start": 30.3,
+      "end": 31.0
+    },
+    {
+      "start": 34.2,
+      "end": 34.8
+    },
+    {
+      "start": 37.8,
+      "end": 38.7
+    },
+    {
+      "start": 43.7,
+      "end": 44.2
+    },
+    {
+      "start": 48.3,
+      "end": 49.0
+    },
+    {
+      "start": 55.2,
+      "end": 55.6
+    },
+    {
+      "start": 58.4,
+      "end": 58.7
+    },
+    {
+      "start": 105.2,
+      "end": 105.7
+    }
+  ],
+  "confidence": "high",
+  "uncertainties": "None. The speech is extremely clear and standard."
+}
+```

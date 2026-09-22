@@ -1,0 +1,27 @@
+.dialogue-audio{display:flex;align-items:center;gap:12px;margin:8px 0 10px;min-height:25px}
+.dialogue-audio>button{border:1px solid #b8b99899;border-radius:3px;padding:5px 9px;font-size:10px;color:#5c755c;background:#e9e8d699}
+.dialogue-audio>button.speaking{border-color:#78957b;color:#315c49;background:#dce7d4}
+.dialogue-audio>span{color:#919a83;font-size:9px;letter-spacing:.5px}
+.dialogue-audio button:disabled{opacity:.45}
+.audio-preferences{margin-top:20px;padding:19px 0 6px;border-top:1px solid #c9cdb38a}
+.audio-preferences-heading{display:flex;justify-content:space-between;align-items:center;gap:15px;font:14px var(--serif);color:#476b55;margin-bottom:12px}
+.audio-preferences-heading button{border:1px solid #b7bca08c;border-radius:4px;padding:7px 11px;font:10px/1.5 inherit;white-space:nowrap}
+.audio-channel{display:grid;grid-template-columns:1fr minmax(90px,170px) 38px;align-items:center;gap:18px;padding:10px 0}
+.audio-channel strong{display:block;font-size:12px;font-weight:500}
+.audio-channel small{display:block;margin-top:5px;font-size:10px;color:#8a987e}
+.audio-channel input{width:100%;accent-color:#60846a}
+.audio-channel output{font:11px Georgia;color:#708367;text-align:right}
+.voice-auto{display:flex;align-items:center;gap:11px;margin:13px 0 5px;font-size:12px}
+.voice-auto input{accent-color:#60846a;width:16px;height:16px}
+.voice-auto small{display:block;font-size:10px;color:#8a987e;margin-top:6px}
+.ending-actions{flex-wrap:wrap}
+.ending-actions .text-button{font-size:11px}
+@media(max-width:600px){.dialogue-audio{gap:8px;margin:4px 0 9px}.dialogue-audio>span{font-size:8px}.dialogue-audio>button{font-size:9px}.audio-channel{grid-template-columns:1fr 90px 30px;gap:10px}.audio-channel small{font-size:9px;line-height:1.6}.audio-preferences-heading{font-size:12px}.voice-auto small{font-size:9px;line-height:1.7}}
+
+/* A small brass listening tab, never an automatic scene transition. */
+.town-voice{display:flex;align-items:center;gap:10px;margin:8px 0 4px;min-height:24px;color:#71867b;font:10px/1.5 var(--sans, sans-serif)}
+.town-voice button{padding:3px 10px;border:1px solid #9ba99880;border-radius:12px;background:#eee7cf99;color:#436c5a;font-size:10px;white-space:nowrap;cursor:pointer}
+.town-voice button.speaking{background:#dde9d6;border-color:#668b78;color:#315b4c}
+.town-voice button:disabled{opacity:.5;cursor:default}
+.town-voice button:focus-visible{outline:2px solid #658975;outline-offset:3px}
+.resident-chat-line-panel .town-voice{margin-top:10px}

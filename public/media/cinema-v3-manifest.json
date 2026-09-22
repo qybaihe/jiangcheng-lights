@@ -1,0 +1,1280 @@
+{
+  "version": 3,
+  "publishedAt": "2026-09-12T12:22:12+00:00",
+  "format": "silent video clock with independent music/effects/voice stems",
+  "scenes": {
+    "prologue": {
+      "id": "prologue",
+      "title": "门还没修",
+      "url": "/media/cinema-upscale-v1/prologue-1080p.mp4",
+      "poster": "/media/cinema-upscale-v1/prologue-1080p.jpg",
+      "duration": 29.25,
+      "resolution": "1920x1080",
+      "fps": 24,
+      "silentSha256": "05f361dd33dc480c26faf2526a42eab36101824bf6739a65e741a9f1d8e600bf",
+      "stems": {
+        "music": "/media/cinema-v3-prologue-music.mp3",
+        "effects": "/media/cinema-v3-prologue-effects.mp3",
+        "voice": "/media/opening-narration-v1/prologue-voice.mp3"
+      },
+      "cues": [
+        {
+          "id": "opening-return",
+          "text": "离开武汉以后，阿遥很少再坐这趟轮渡。",
+          "start": 0.5,
+          "visualEnd": 5,
+          "shotIds": [
+            "P01"
+          ],
+          "visualAnchor": "阿遥乘轮渡面对江汉关与汉口江岸，建立回武汉的时间与地点。",
+          "evidence": [
+            "output/cinema-audio-v3/visual-proof/prologue/P01-0.120.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P01-3.293.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P01-4.880.jpg"
+          ],
+          "who": "旁白",
+          "end": 4.77,
+          "audioUrl": "/media/opening-narration-v1/opening-return.mp3",
+          "audioSha256": "27e96e149caa31205a3dfc79670529caba52539f2c913d3a276fbbdb60291e8f",
+          "duration": 4.27,
+          "encodedDuration": 4.27,
+          "sourceIn": 0.25,
+          "sourceOut": 4.52,
+          "loudness": {
+            "integratedLufs": -19.44,
+            "truePeakDbtp": -3.01
+          }
+        },
+        {
+          "id": "opening-errand",
+          "text": "外公在姨妈家休养，托阿遥回来，给街坊送几件东西。",
+          "start": 5.3,
+          "visualEnd": 14.25,
+          "shotIds": [
+            "P02",
+            "P03"
+          ],
+          "visualAnchor": "手中的修理铺钥匙与渡船江景，说明这趟回来的委托；不把外公写成逝者。",
+          "evidence": [
+            "output/cinema-audio-v3/visual-proof/prologue/P02-5.120.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P02-7.793.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P03-10.957.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P03-14.130.jpg"
+          ],
+          "who": "旁白",
+          "end": 11.92,
+          "audioUrl": "/media/opening-narration-v1/opening-errand.mp3",
+          "audioSha256": "3a314ce9914fb68dcf33a587dc6179cec99487ded3cca8845cf222ea64cb58dd",
+          "duration": 6.62,
+          "encodedDuration": 6.62,
+          "sourceIn": 5.15,
+          "sourceOut": 11.77,
+          "loudness": {
+            "integratedLufs": -19.45,
+            "truePeakDbtp": -2.59
+          }
+        },
+        {
+          "id": "opening-one-night",
+          "text": "原本想着，明天就走。",
+          "start": 16,
+          "visualEnd": 24.25,
+          "shotIds": [
+            "P04"
+          ],
+          "visualAnchor": "走进生活气息仍在的里份小巷，说出短暂停留的原本打算；门锁段留白。",
+          "evidence": [
+            "output/cinema-audio-v3/visual-proof/prologue/P04-14.370.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P04-17.623.jpg",
+            "output/cinema-audio-v3/visual-proof/prologue/P04-20.877.jpg"
+          ],
+          "who": "旁白",
+          "end": 18.51,
+          "audioUrl": "/media/opening-narration-v1/opening-one-night.mp3",
+          "audioSha256": "18d44e3729261fb043607a1a3729669d086315efec809a4f0e50a3d5c9f763f5",
+          "duration": 2.51,
+          "encodedDuration": 2.51,
+          "sourceIn": 13.08,
+          "sourceOut": 15.59,
+          "loudness": {
+            "integratedLufs": -19.8,
+            "truePeakDbtp": -2.38
+          }
+        }
+      ],
+      "previewUrl": "/media/opening-polish-v1/prologue-mixed-1080p.mp4",
+      "previewSha256": "e1a4d62530cf1b27bb15cc20824f77efc6de9728e59d1f69a89e4eef8a9c136f",
+      "shots": [
+        {
+          "shotId": "P01",
+          "start": 0,
+          "end": 5,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-ferry-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        },
+        {
+          "shotId": "P02",
+          "start": 5,
+          "end": 9.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p02-v1.mp4",
+          "sourceIn": 1.0,
+          "sourceOut": 5.25
+        },
+        {
+          "shotId": "P03",
+          "start": 9.25,
+          "end": 14.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        },
+        {
+          "shotId": "P04",
+          "start": 14.25,
+          "end": 24.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p04-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "P05",
+          "start": 24.25,
+          "end": 29.25,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-prologue-p05-v1.mp4",
+          "sourceIn": 3.0,
+          "sourceOut": 8.0
+        }
+      ],
+      "voiceLineIds": [
+        "opening-return",
+        "opening-errand",
+        "opening-one-night"
+      ],
+      "music": {
+        "source": "/media/audio/bgm-explore.ogg",
+        "sourceSha256": "f76908e9ac7200929976d8a98c806d474e9f70bd772d9fc9389c97fbd2fee7f0",
+        "kind": "reused_existing_music",
+        "cue": "explore"
+      },
+      "effects": [
+        {
+          "url": "/media/cinema-v3-sfx-water-v2-pcm.wav",
+          "sha256": "12e96e6809950c2fc813c25d11ea0be894820c54b7a10c078a321146380ff6c6",
+          "review": "accepted",
+          "reviewEvidence": "output/story-audio/qa/cinema-v3-water-v2-listening.json",
+          "losslessRewrapEvidence": "output/cinema-audio-v3/qa/effects-lossless-rewrap.json",
+          "start": 0,
+          "duration": 14.25,
+          "sourceIn": 0,
+          "sourceDuration": 12,
+          "gainDb": 4.45,
+          "loop": true,
+          "fadeIn": 0.65,
+          "fadeOut": 0.8,
+          "visualAnchor": "On ferry facing the river; continuous water across key insert."
+        },
+        {
+          "url": "/media/cinema-v3-sfx-breeze-v2-pcm.wav",
+          "sha256": "fec68a3450b258ebd8bd4048dc2f64153b95b9c258389bfaee57026b1258f07b",
+          "review": "accepted",
+          "reviewEvidence": "output/story-audio/qa/cinema-v3-breeze-v2-listening.json",
+          "losslessRewrapEvidence": "output/cinema-audio-v3/qa/effects-lossless-rewrap.json",
+          "start": 14.25,
+          "duration": 15,
+          "sourceIn": 0,
+          "sourceDuration": 7,
+          "gainDb": 12.95,
+          "loop": true,
+          "fadeIn": 0.65,
+          "fadeOut": 0.8,
+          "visualAnchor": "Quiet dry brick alley and closed shop door; no invented unlocking or footstep effect."
+        }
+      ],
+      "mix": {
+        "defaultGains": {
+          "music": 0.48,
+          "effects": 0.6,
+          "voice": 0.9
+        },
+        "musicDuckFloor": 0.4,
+        "effectsDuckFloor": 0.65,
+        "attack": 0.18,
+        "release": 0.4,
+        "previewTrim": 1.0
+      },
+      "qa": {
+        "builtAt": "2026-09-12T12:22:12+00:00",
+        "fullDecode": true,
+        "voiceTextMatchesReleasedManifest": true,
+        "cueMapSha256": "41b3a095179a933a2e728ab2a8e500f64aca022dee45ad18eff582b1a1f5587f",
+        "stems": {
+          "music": {
+            "sha256": "fe036368620c3e72c537bf44141e5d32cc9109f9bd4839725fd6ee255c284ddd",
+            "duration": 29.25,
+            "loudness": {
+              "integratedLufs": -24.12,
+              "truePeakDbtp": -7.15,
+              "loudnessRange": 5.0
+            },
+            "samplePeak": 0.45116472244262695
+          },
+          "effects": {
+            "sha256": "d05847ca6bf7955e04db2c07288a6c2a5b3602764dd7ab9c81c1b0bd9566f4e5",
+            "duration": 29.25,
+            "loudness": {
+              "integratedLufs": -36.9,
+              "truePeakDbtp": -19.08,
+              "loudnessRange": 7.5
+            },
+            "samplePeak": 0.11523356288671494
+          },
+          "voice": {
+            "sha256": "5268306cd9ca2561aee6babe3e3454025621ac1c1c506f4a06fd2441429677f8",
+            "duration": 29.25,
+            "loudness": {
+              "integratedLufs": -19.95,
+              "truePeakDbtp": -2.86
+            },
+            "samplePeak": 0.7165361642837524
+          }
+        },
+        "mixedLoudness": {
+          "integratedLufs": -23.8,
+          "truePeakDbtp": -6.58,
+          "loudnessRange": 10.9
+        },
+        "sourceVoiceManifestSha256": "41b3a095179a933a2e728ab2a8e500f64aca022dee45ad18eff582b1a1f5587f",
+        "finalReview": {
+          "status": "accepted",
+          "method": "AI-super-resolution sampled frame review and model-assisted narration listening; not a claim of human full-video viewing",
+          "visualEvidence": "output/qa/cinema-upscale-v1/prologue/review.json",
+          "listeningEvidence": "output/qa/opening-narration-v1/stem-at-115-listening.json",
+          "mixedListeningEvidence": "output/qa/opening-polish-v1/final-mix-listening.json",
+          "mixedListeningSourceSha256": "e1a4d62530cf1b27bb15cc20824f77efc6de9728e59d1f69a89e4eef8a9c136f",
+          "syncEvidence": "output/qa/opening-narration-v1/acceptance.json",
+          "listeningSourceSha256": "5268306cd9ca2561aee6babe3e3454025621ac1c1c506f4a06fd2441429677f8",
+          "finding": "Three concise background lines at source-clock cues; 1.15x preserves pitch; all fit the existing film and the door-lock shot remains without narration."
+        },
+        "sourceVoiceManifest": "/media/opening-narration-v1/manifest.json"
+      },
+      "narrationManifest": "/media/opening-narration-v1/manifest.json",
+      "voiceDucking": true,
+      "defaultPlaybackRate": 1.15,
+      "upscale": {
+        "model": "realesr-animevideov3",
+        "modelScale": 2,
+        "inferenceResolution": "2560x1440",
+        "outputResolution": "1920x1080",
+        "postprocess": "Lanczos downsample 1440p to 1080p; no interpolation or retiming",
+        "engine": "Real-ESRGAN ncnn Vulkan v0.2.0, arm64, Apple GPU via MoltenVK",
+        "sourceSha256": "9e78b2ea342da9e5514a90ee84bb749e3345cdd12580011a5a0bc1a4d4fef77e",
+        "frameCount": 702,
+        "sourceUnchanged": true,
+        "fullDecode": true,
+        "reviewEvidence": "output/qa/cinema-upscale-v1/prologue/review.json",
+        "licenseFiles": [
+          "/media/cinema-upscale-v1/LICENSE-ncnn.txt",
+          "/media/cinema-upscale-v1/LICENSE-Real-ESRGAN.txt"
+        ]
+      }
+    },
+    "granny": {
+      "id": "granny",
+      "title": "一碗面，一张竹床",
+      "url": "/media/cinema-upscale-v1/granny-1080p.mp4",
+      "poster": "/media/cinema-upscale-v1/granny-1080p.jpg",
+      "duration": 33.0,
+      "resolution": "1920x1080",
+      "fps": 24,
+      "silentSha256": "009c971e1b794dc66bdb1fb116ccc794a008612a97460295cfcbfbeaf38cc17a",
+      "stems": {
+        "music": "/media/cinema-v3-granny-music.mp3",
+        "effects": "/media/cinema-v3-granny-effects.mp3",
+        "voice": "/media/cinema-v3-granny-voice.mp3"
+      },
+      "cues": [
+        {
+          "id": "granny-memory-entry",
+          "who": "林婆婆",
+          "text": "面要坨了，先吃。",
+          "start": 0.25,
+          "end": 2.674,
+          "audioUrl": "/media/story-voice/granny-memory-entry.default.5e0e5bdb1954.mp3",
+          "audioSha256": "7437725183af3439693e55f3eb1ff09a375862631c0274d6a856832c7804e21c",
+          "shotIds": [
+            "G01"
+          ],
+          "visualAnchor": "Granny has just set the noodle bowl in front of grandfather; both are in the same stable two-person shot."
+        },
+        {
+          "id": "granny-memory-child-pickup",
+          "who": "外公",
+          "text": "下午还得接阿遥……",
+          "start": 2.75,
+          "end": 4.862,
+          "audioUrl": "/media/story-voice/granny-memory-child-pickup.default.1ef395e0ad70.mp3",
+          "audioSha256": "7612dd73895b5e1cbc011c012e17f5fa15b61de5a20eb49868461c9da2649511",
+          "shotIds": [
+            "G01"
+          ],
+          "visualAnchor": "Grandfather answers across the bowl before her offer; the bowl is already served."
+        },
+        {
+          "id": "granny-memory-offer",
+          "who": "林婆婆",
+          "text": "我去接。让孩子来我这儿写，行不行？",
+          "start": 4.98,
+          "end": 9.42,
+          "audioUrl": "/media/story-voice/granny-memory-offer.default.83f3671c9043.mp3",
+          "audioSha256": "bae88c74ea80661808758976533cc70efdd53e07d27beef8bb683d8e512c9f44",
+          "shotIds": [
+            "G01"
+          ],
+          "visualAnchor": "Granny gestures toward the alley around 4–6 seconds, offering to pick up the child; the same two people remain in frame."
+        },
+        {
+          "id": "granny-memory-consent",
+          "who": "外公",
+          "text": "行。就是话有点多。",
+          "start": 9.5,
+          "end": 12.476,
+          "audioUrl": "/media/story-voice/granny-memory-consent.default.aeb8b8bfbaa7.mp3",
+          "audioSha256": "c271b062b0ee85a303c0c804fc8c9ab45fc429f2631cd7ae1c9d4032d287765f",
+          "shotIds": [
+            "G01"
+          ],
+          "visualAnchor": "Grandfather accepts while they exchange a small smile, before taking his chopsticks."
+        },
+        {
+          "id": "granny-memory-humor",
+          "who": "林婆婆",
+          "text": "还怕我嫌吵啊？",
+          "start": 12.55,
+          "end": 14.422,
+          "audioUrl": "/media/story-voice/granny-memory-humor.default.cf89b079d4e4.mp3",
+          "audioSha256": "dfa51ed0823e8dabb9a54890d1e7b69756102a85270caef6526d7b5da1d636ee",
+          "shotIds": [
+            "G01"
+          ],
+          "visualAnchor": "Granny gives the gentle rejoinder as grandfather relaxes and picks up chopsticks."
+        },
+        {
+          "id": "granny-memory-bamboo",
+          "who": "外公",
+          "text": "我抱回去。",
+          "start": 20.2,
+          "end": 21.664,
+          "audioUrl": "/media/story-voice/granny-memory-bamboo.default.73039979b983.mp3",
+          "audioSha256": "42272d06e3e15d5063197b38aeb9d8de5abbbe96ffc158d3c06584bf500378a8",
+          "shotIds": [
+            "G02"
+          ],
+          "visualAnchor": "Grandfather speaks from outside frame while granny carefully releases the pencil from the sleeping child; no invented visible arrival."
+        },
+        {
+          "id": "granny-memory-wash-hands",
+          "who": "林婆婆",
+          "text": "洗了手再抱，一手的油。",
+          "start": 21.95,
+          "end": 24.806,
+          "audioUrl": "/media/story-voice/granny-memory-wash-hands.default.a474f40bde3b.mp3",
+          "audioSha256": "486a61c56446c1940aedd00012b0be0b266421b433abb0fc4693ec97fafc7a32",
+          "shotIds": [
+            "G02"
+          ],
+          "visualAnchor": "Granny responds before the actual cut to grandfather washing his hands, while finishing the quiet pencil action."
+        }
+      ],
+      "previewUrl": "/media/cinema-upscale-v1/granny-1080p-mixed.mp4",
+      "previewSha256": "75dfa7e16c4ec20b23dc5baca95c91acf922e7450a175c26fbd94079ebbc037e",
+      "shots": [
+        {
+          "shotId": "G01",
+          "start": 0,
+          "end": 15,
+          "memoryCG": "granny-table",
+          "source": "public/media/cinema-v3-granny-g01-v2.mp4",
+          "sourceIn": 0,
+          "sourceOut": 15
+        },
+        {
+          "shotId": "G02",
+          "start": 15,
+          "end": 25,
+          "memoryCG": "granny-bamboo",
+          "source": "public/media/cinema-v3-granny-g02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "G03",
+          "start": 25,
+          "end": 33.0,
+          "memoryCG": null,
+          "source": "public/media/cinema-v3-granny-g03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 8.0
+        }
+      ],
+      "voiceLineIds": [
+        "granny-memory-entry",
+        "granny-memory-child-pickup",
+        "granny-memory-offer",
+        "granny-memory-consent",
+        "granny-memory-humor",
+        "granny-memory-bamboo",
+        "granny-memory-wash-hands"
+      ],
+      "music": {
+        "source": "/media/audio/bgm-memory.ogg",
+        "sourceSha256": "aaa91351f92632670361a73fec6eb5836ff3bce99f23dc9010cad770d70f6cf2",
+        "kind": "reused_existing_music",
+        "cue": "memory"
+      },
+      "effects": [
+        {
+          "url": "/media/cinema-v3-sfx-breeze-v2-pcm.wav",
+          "sha256": "fec68a3450b258ebd8bd4048dc2f64153b95b9c258389bfaee57026b1258f07b",
+          "review": "accepted",
+          "reviewEvidence": "output/story-audio/qa/cinema-v3-breeze-v2-listening.json",
+          "losslessRewrapEvidence": "output/cinema-audio-v3/qa/effects-lossless-rewrap.json",
+          "start": 0,
+          "duration": 33.0,
+          "sourceIn": 0,
+          "sourceDuration": 7,
+          "gainDb": 12.95,
+          "loop": true,
+          "fadeIn": 0.9,
+          "fadeOut": 1.2,
+          "visualAnchor": "Extremely low outdoor breeze only; the 8–11 second unidentified source friction is never used; no invented sink/coins/box handling foley."
+        }
+      ],
+      "mix": {
+        "defaultGains": {
+          "music": 0.48,
+          "effects": 0.6,
+          "voice": 0.9
+        },
+        "musicDuckFloor": 0.4,
+        "effectsDuckFloor": 0.65,
+        "attack": 0.18,
+        "release": 0.4,
+        "previewTrim": 1.0
+      },
+      "qa": {
+        "builtAt": "2026-09-11T17:28:23+00:00",
+        "fullDecode": true,
+        "voiceTextMatchesReleasedManifest": true,
+        "cueMapSha256": "49d0ed10c57876edd445eba3e60955a9e15c66ee27a4a8f57cd40cf2508103ef",
+        "stems": {
+          "music": {
+            "sha256": "8ed6032b2a6c37b4ee5abe6f06d373ab7dfb53b1c2fe52c591927b86707f5456",
+            "duration": 33.0,
+            "loudness": {
+              "integratedLufs": -25.96,
+              "truePeakDbtp": -9.88,
+              "loudnessRange": 9.5
+            },
+            "samplePeak": 0.32994988560676575
+          },
+          "effects": {
+            "sha256": "7b77c2cf715b2daf1f62453d252ce371e4a3b53a8f6d39645398aeb9858940d1",
+            "duration": 33.0,
+            "loudness": {
+              "integratedLufs": -41.38,
+              "truePeakDbtp": -27.46,
+              "loudnessRange": 4.6
+            },
+            "samplePeak": 0.04350659251213074
+          },
+          "voice": {
+            "sha256": "afe56742a25b573d7a5753ba97e793f1948e1bf82b4531740e853a203d6752d6",
+            "duration": 33.0,
+            "loudness": {
+              "integratedLufs": -20.29,
+              "truePeakDbtp": -6.12,
+              "loudnessRange": 6.3
+            },
+            "samplePeak": 0.507488489151001
+          }
+        },
+        "mixedLoudness": {
+          "integratedLufs": -23.51,
+          "truePeakDbtp": -6.57,
+          "loudnessRange": 8.2
+        },
+        "sourceVoiceManifestSha256": "590a12273a89f83beac4a61dc5f4225660ad77264fc00655c3d3e37498d240ba",
+        "finalReview": {
+          "status": "accepted",
+          "method": "Agent reviewed actual master frames and model-assisted audio observation; not human listening",
+          "listeningEvidence": "output/cinema-audio-v3/listening/granny-ee18da8d3d03.json",
+          "listeningSourceSha256": "ee18da8d3d03c3725fd3ce15098989c27d4540e1924317b958e135c1f0157c09",
+          "finding": "All 7 expected spoken segments heard as clear, without reported masking, glitches, overlaps or unintended vocals. Actual camera/action windows and full line coverage independently checked.",
+          "uncertainty": "Blind transcription can paraphrase or confuse near-sounding words and approximate times; exact subtitle/text/audio identity is verified separately from the released voice manifest, not inferred from the listening report."
+        }
+      },
+      "upscale": {
+        "model": "realesr-animevideov3",
+        "modelScale": 2,
+        "inferenceResolution": "2560x1440",
+        "outputResolution": "1920x1080",
+        "postprocess": "Lanczos downsample 1440p to 1080p; no interpolation or retiming",
+        "engine": "Real-ESRGAN ncnn Vulkan v0.2.0, arm64, Apple GPU via MoltenVK",
+        "sourceSha256": "949d74c49388d5db5ecd295aef47de45e750ce3c97ddd8aee543432c26426006",
+        "frameCount": 792,
+        "sourceUnchanged": true,
+        "fullDecode": true,
+        "reviewEvidence": "output/qa/cinema-upscale-v1/granny/review.json",
+        "licenseFiles": [
+          "/media/cinema-upscale-v1/LICENSE-ncnn.txt",
+          "/media/cinema-upscale-v1/LICENSE-Real-ESRGAN.txt"
+        ]
+      }
+    },
+    "chef": {
+      "id": "chef",
+      "title": "红盖子的饭盒",
+      "url": "/media/cinema-upscale-v1/chef-1080p.mp4",
+      "poster": "/media/cinema-upscale-v1/chef-1080p.jpg",
+      "duration": 30.5,
+      "resolution": "1920x1080",
+      "fps": 24,
+      "silentSha256": "6b3d6e5c7cea1ee8b8c30932dc11815b724d23503649ced33ddd84c1b436fc61",
+      "stems": {
+        "music": "/media/cinema-v3-chef-music.mp3",
+        "effects": "/media/cinema-v3-chef-effects.mp3",
+        "voice": "/media/cinema-v3-chef-voice.mp3"
+      },
+      "cues": [
+        {
+          "id": "chef-memory-entry",
+          "who": "蔡姨",
+          "text": "老陆，帮我照一下。",
+          "start": 0.3,
+          "end": 2.532,
+          "audioUrl": "/media/story-voice/chef-memory-entry.default.64fac27ab017.mp3",
+          "audioSha256": "98e8a8870e2d14c5e12865e835908639c8974f231f5dba7f7945b58dc4803382",
+          "shotIds": [
+            "C01"
+          ],
+          "visualAnchor": "Both are visible; grandfather positions the borrowed light to help Cai at the stall."
+        },
+        {
+          "id": "chef-memory-ask",
+          "who": "外公",
+          "text": "搁这儿？",
+          "start": 2.7,
+          "end": 3.9,
+          "audioUrl": "/media/story-voice/chef-memory-ask.default.150cd95e394c.mp3",
+          "audioSha256": "ada63198a473bafbbaa1d6a8a7061d7d8953ca9519cc159351a61a633a7b4b86",
+          "shotIds": [
+            "C01"
+          ],
+          "visualAnchor": "He checks the lamp placement while still next to the light."
+        },
+        {
+          "id": "chef-memory-borrow",
+          "who": "蔡姨",
+          "text": "天亮还你。",
+          "start": 8.0,
+          "end": 9.632,
+          "audioUrl": "/media/story-voice/chef-memory-borrow.default.e3932ceccf41.mp3",
+          "audioSha256": "8036b54afdd7da8cb3b5e85206b81917da425cf8ace05a181e571dbc716eb382",
+          "shotIds": [
+            "C01"
+          ],
+          "visualAnchor": "Cai says she will return the light over the end of the real coin-counting insert, continuing into the two-person view."
+        },
+        {
+          "id": "chef-memory-two-lamps",
+          "who": "外公",
+          "text": "留着用。阿遥写字有台灯。",
+          "start": 10.1,
+          "end": 13.412,
+          "audioUrl": "/media/story-voice/chef-memory-two-lamps.default.40f35df4784e.mp3",
+          "audioSha256": "628c8a2e29eafbf0e24a7992c12075571c633d1f78436ea240a2dccdf4c8710f",
+          "shotIds": [
+            "C01"
+          ],
+          "visualAnchor": "The two-person view has returned; grandfather replies while the useful light remains on the counter."
+        },
+        {
+          "id": "chef-memory-extra-bowl",
+          "who": "外公",
+          "text": "饭钱先记着，过两天……",
+          "start": 14.4,
+          "end": 16.944,
+          "audioUrl": "/media/story-voice/chef-memory-extra-bowl.default.e3b0573135dc.mp3",
+          "audioSha256": "543d35583669506dbcf416450373ca550fa051d5084722e9f635f00fdbb56617",
+          "shotIds": [
+            "C02"
+          ],
+          "visualAnchor": "Cai has the prepared meal in hand; grandfather speaks about paying while looking down at his money."
+        },
+        {
+          "id": "chef-memory-eat",
+          "who": "蔡姨",
+          "text": "先吃，锅里还热着。",
+          "start": 17.25,
+          "end": 19.722,
+          "audioUrl": "/media/story-voice/chef-memory-eat.default.1d2842688d18.mp3",
+          "audioSha256": "4428f27dcc6373610677dd20bb6dad9f2929530a3953dc730cd1df29bb4fd823",
+          "shotIds": [
+            "C02"
+          ],
+          "visualAnchor": "Cai sets the prepared meal down and gently interrupts his concern about payment."
+        },
+        {
+          "id": "chef-memory-child-onion",
+          "who": "外公",
+          "text": "阿遥那份别放葱。",
+          "start": 22.5,
+          "end": 24.636,
+          "audioUrl": "/media/story-voice/chef-memory-child-onion.default.85d707ec7ec6.mp3",
+          "audioSha256": "aad8cae81ca6cb778fd5e6feb85b4766b24699df3ec010d60d3d2ec9cec560f1",
+          "shotIds": [
+            "C02"
+          ],
+          "visualAnchor": "Grandfather reminds Cai about the child portion while she moves back toward the cooking area."
+        },
+        {
+          "id": "chef-memory-ready",
+          "who": "蔡姨",
+          "text": "晓得，早装好了。",
+          "start": 25.8,
+          "end": 28.056,
+          "audioUrl": "/media/story-voice/chef-memory-ready.default.fb2762b6b7cc.mp3",
+          "audioSha256": "beb6452bf26875bf8a654c22e69cff10089d5923164bb785cd38ccd67d60b35f",
+          "shotIds": [
+            "C03"
+          ],
+          "visualAnchor": "Her answer is heard over the actual settled pale lunchbox and matching red lid, not the rejected later money-handling shot."
+        }
+      ],
+      "previewUrl": "/media/cinema-upscale-v1/chef-1080p-mixed.mp4",
+      "previewSha256": "9635326b75ac149d27829b787be5ba2ff65db6fed8dc11bde878adb7a046aed3",
+      "shots": [
+        {
+          "shotId": "C01",
+          "start": 0,
+          "end": 14,
+          "memoryCG": "chef-lamp",
+          "source": "public/media/cinema-v3-chef-c01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 14
+        },
+        {
+          "shotId": "C02",
+          "start": 14,
+          "end": 25.5,
+          "memoryCG": "chef-extra-bowl",
+          "source": "public/media/cinema-v3-chef-c02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 11.5
+        },
+        {
+          "shotId": "C03",
+          "start": 25.5,
+          "end": 30.5,
+          "memoryCG": "chef-extra-bowl",
+          "source": "public/media/cinema-v3-chef-c03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5
+        }
+      ],
+      "voiceLineIds": [
+        "chef-memory-entry",
+        "chef-memory-ask",
+        "chef-memory-borrow",
+        "chef-memory-two-lamps",
+        "chef-memory-extra-bowl",
+        "chef-memory-eat",
+        "chef-memory-child-onion",
+        "chef-memory-ready"
+      ],
+      "music": {
+        "source": "/media/audio/bgm-memory.ogg",
+        "sourceSha256": "aaa91351f92632670361a73fec6eb5836ff3bce99f23dc9010cad770d70f6cf2",
+        "kind": "reused_existing_music",
+        "cue": "memory"
+      },
+      "effects": [
+        {
+          "url": "/media/cinema-v3-sfx-breeze-v2-pcm.wav",
+          "sha256": "fec68a3450b258ebd8bd4048dc2f64153b95b9c258389bfaee57026b1258f07b",
+          "review": "accepted",
+          "reviewEvidence": "output/story-audio/qa/cinema-v3-breeze-v2-listening.json",
+          "losslessRewrapEvidence": "output/cinema-audio-v3/qa/effects-lossless-rewrap.json",
+          "start": 0,
+          "duration": 30.5,
+          "sourceIn": 0,
+          "sourceDuration": 7,
+          "gainDb": 12.95,
+          "loop": true,
+          "fadeIn": 0.9,
+          "fadeOut": 1.2,
+          "visualAnchor": "Extremely low outdoor breeze only; the 8–11 second unidentified source friction is never used; no invented sink/coins/box handling foley."
+        }
+      ],
+      "mix": {
+        "defaultGains": {
+          "music": 0.48,
+          "effects": 0.6,
+          "voice": 0.9
+        },
+        "musicDuckFloor": 0.4,
+        "effectsDuckFloor": 0.65,
+        "attack": 0.18,
+        "release": 0.4,
+        "previewTrim": 1.0
+      },
+      "qa": {
+        "builtAt": "2026-09-11T17:28:29+00:00",
+        "fullDecode": true,
+        "voiceTextMatchesReleasedManifest": true,
+        "cueMapSha256": "f77d964b1d801d3bee4368218be99942ebdef30c83e208383cb4a151a8df887b",
+        "stems": {
+          "music": {
+            "sha256": "e3898ec0f3682431f69bb54896b39d6691ae0e08b3013895a097724273fbd162",
+            "duration": 30.5,
+            "loudness": {
+              "integratedLufs": -26.43,
+              "truePeakDbtp": -9.89,
+              "loudnessRange": 7.4
+            },
+            "samplePeak": 0.32994988560676575
+          },
+          "effects": {
+            "sha256": "cbeb1e14a1244405b5fa748521afb9f47eeffd0c1e94fb481e30a37f0b9915d5",
+            "duration": 30.5,
+            "loudness": {
+              "integratedLufs": -41.92,
+              "truePeakDbtp": -27.49,
+              "loudnessRange": 3.4
+            },
+            "samplePeak": 0.04350659251213074
+          },
+          "voice": {
+            "sha256": "2296fc6521b5fc3f9c9e73c3a670e0b66c5b3738f36744149aef2b7fd0234097",
+            "duration": 30.5,
+            "loudness": {
+              "integratedLufs": -20.22,
+              "truePeakDbtp": -5.67,
+              "loudnessRange": 5.7
+            },
+            "samplePeak": 0.5349488854408264
+          }
+        },
+        "mixedLoudness": {
+          "integratedLufs": -23.29,
+          "truePeakDbtp": -6.03,
+          "loudnessRange": 7.1
+        },
+        "sourceVoiceManifestSha256": "590a12273a89f83beac4a61dc5f4225660ad77264fc00655c3d3e37498d240ba",
+        "finalReview": {
+          "status": "accepted",
+          "method": "Agent reviewed actual master frames and model-assisted audio observation; not human listening",
+          "listeningEvidence": "output/cinema-audio-v3/listening/chef-3671bd9c6279.json",
+          "listeningSourceSha256": "3671bd9c6279cd8b61cc18beb3325f116865faaa10632cf497273c19643fe7d5",
+          "finding": "All 8 expected spoken segments heard as clear, without reported masking, glitches, overlaps or unintended vocals. Actual camera/action windows and full line coverage independently checked.",
+          "uncertainty": "Blind transcription can paraphrase or confuse near-sounding words and approximate times; exact subtitle/text/audio identity is verified separately from the released voice manifest, not inferred from the listening report."
+        }
+      },
+      "upscale": {
+        "model": "realesr-animevideov3",
+        "modelScale": 2,
+        "inferenceResolution": "2560x1440",
+        "outputResolution": "1920x1080",
+        "postprocess": "Lanczos downsample 1440p to 1080p; no interpolation or retiming",
+        "engine": "Real-ESRGAN ncnn Vulkan v0.2.0, arm64, Apple GPU via MoltenVK",
+        "sourceSha256": "7f9083827dd14c258be36a78489e68aa7ec175e873dc36dad123d31800948aed",
+        "frameCount": 732,
+        "sourceUnchanged": true,
+        "fullDecode": true,
+        "reviewEvidence": "output/qa/cinema-upscale-v1/chef/review.json",
+        "licenseFiles": [
+          "/media/cinema-upscale-v1/LICENSE-ncnn.txt",
+          "/media/cinema-upscale-v1/LICENSE-Real-ESRGAN.txt"
+        ]
+      }
+    },
+    "dock": {
+      "id": "dock",
+      "title": "箱子的另一边",
+      "url": "/media/cinema-upscale-v1/dock-1080p.mp4",
+      "poster": "/media/cinema-upscale-v1/dock-1080p.jpg",
+      "duration": 28.0,
+      "resolution": "1920x1080",
+      "fps": 24,
+      "silentSha256": "679248895d566679d27f74da848141b9cf0fd19e8e004e12c044a03c51b55fc7",
+      "stems": {
+        "music": "/media/cinema-v3-dock-music.mp3",
+        "effects": "/media/cinema-v3-dock-effects.mp3",
+        "voice": "/media/cinema-v3-dock-voice.mp3"
+      },
+      "cues": [
+        {
+          "id": "dock-memory-entry",
+          "who": "周伯",
+          "text": "老陆，去哪儿？",
+          "start": 5.15,
+          "end": 7.502,
+          "audioUrl": "/media/story-voice/dock-memory-entry.default.edca1ea72a8c.mp3",
+          "audioSha256": "cda74b479211326b7a29deeda42ae51e11f2bc8c3e25c7617fe9ab7232491649",
+          "shotIds": [
+            "D01"
+          ],
+          "visualAnchor": "Zhou speaks from outside frame as grandfather holds his box and turns toward the nearby pier."
+        },
+        {
+          "id": "dock-memory-job",
+          "who": "外公",
+          "text": "对岸问了个活。还没定。",
+          "start": 7.65,
+          "end": 10.77,
+          "audioUrl": "/media/story-voice/dock-memory-job.default.5b6c410274d0.mp3",
+          "audioSha256": "a395061aba921c1e0031bf15a4dbbbe97c487ffdc9a79d25bc187f8a1c37cc8d",
+          "shotIds": [
+            "D01",
+            "D02"
+          ],
+          "visualAnchor": "Grandfather answers while turning toward Zhou; line continues over the real cut revealing both men."
+        },
+        {
+          "id": "dock-memory-ask",
+          "who": "周伯",
+          "text": "我托一边？",
+          "start": 11.15,
+          "end": 13.118,
+          "audioUrl": "/media/story-voice/dock-memory-ask.default.ed20cc6f10b2.mp3",
+          "audioSha256": "db335ee212892eff1010e8006700834ca26c4cf54b97ab51eaeea1150fc5b085",
+          "shotIds": [
+            "D02"
+          ],
+          "visualAnchor": "Zhou asks before he extends both hands toward the lower edge of the box."
+        },
+        {
+          "id": "dock-memory-accepted",
+          "who": "外公",
+          "text": "好。托底下，纸壳软了。",
+          "start": 13.55,
+          "end": 16.79,
+          "audioUrl": "/media/story-voice/dock-memory-accepted.default.3e7441438b8f.mp3",
+          "audioSha256": "2a860f1ad6582830dafe5f908b05f663a35a631845f66edaf6c469d09de85a1c",
+          "shotIds": [
+            "D02"
+          ],
+          "visualAnchor": "Zhou supports the underside while grandfather still holds the other edge."
+        },
+        {
+          "id": "dock-memory-choice",
+          "who": "周伯",
+          "text": "坐船，还是回去？",
+          "start": 17.05,
+          "end": 19.882,
+          "audioUrl": "/media/story-voice/dock-memory-choice.default.067c08a59fa7.mp3",
+          "audioSha256": "84819b98d31604519f047056e051fb1c54cdb0f82bb8018597c0a730a66e9085",
+          "shotIds": [
+            "D02"
+          ],
+          "visualAnchor": "Both men now share the box and look toward the ferry, before choosing to leave."
+        },
+        {
+          "id": "dock-memory-return",
+          "who": "外公",
+          "text": "先回吧。我再想想。",
+          "start": 20.2,
+          "end": 22.984,
+          "audioUrl": "/media/story-voice/dock-memory-return.default.d5732f67ea9b.mp3",
+          "audioSha256": "ee29a51500df3e1948daa1e1d3f7200e414052ec3728caf695d61ed0b610cbdd",
+          "shotIds": [
+            "D03"
+          ],
+          "visualAnchor": "Grandfather gives the answer as both turn away from the ferry and start back together."
+        }
+      ],
+      "previewUrl": "/media/cinema-upscale-v1/dock-1080p-mixed.mp4",
+      "previewSha256": "b8188af064b326ff1dd8f7bf0359ae8dba3772271e60e278b03201e4a166cb44",
+      "shots": [
+        {
+          "shotId": "D01",
+          "start": 0,
+          "end": 10,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "D02",
+          "start": 10,
+          "end": 20,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 10
+        },
+        {
+          "shotId": "D03",
+          "start": 20,
+          "end": 28,
+          "memoryCG": "dock-shared-box",
+          "source": "public/media/cinema-v3-dock-d03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 8
+        }
+      ],
+      "voiceLineIds": [
+        "dock-memory-entry",
+        "dock-memory-job",
+        "dock-memory-ask",
+        "dock-memory-accepted",
+        "dock-memory-choice",
+        "dock-memory-return"
+      ],
+      "music": {
+        "source": "/media/audio/bgm-memory.ogg",
+        "sourceSha256": "aaa91351f92632670361a73fec6eb5836ff3bce99f23dc9010cad770d70f6cf2",
+        "kind": "reused_existing_music",
+        "cue": "memory"
+      },
+      "effects": [
+        {
+          "url": "/media/cinema-v3-sfx-water-v2-pcm.wav",
+          "sha256": "12e96e6809950c2fc813c25d11ea0be894820c54b7a10c078a321146380ff6c6",
+          "review": "accepted",
+          "reviewEvidence": "output/story-audio/qa/cinema-v3-water-v2-listening.json",
+          "losslessRewrapEvidence": "output/cinema-audio-v3/qa/effects-lossless-rewrap.json",
+          "start": 0,
+          "duration": 28,
+          "sourceIn": 0,
+          "sourceDuration": 12,
+          "gainDb": 4.45,
+          "loop": true,
+          "fadeIn": 0.7,
+          "fadeOut": 1,
+          "visualAnchor": "All three actual shots remain beside the river; shoreline water continues under box handover, not arbitrary handling foley."
+        }
+      ],
+      "mix": {
+        "defaultGains": {
+          "music": 0.48,
+          "effects": 0.6,
+          "voice": 0.9
+        },
+        "musicDuckFloor": 0.4,
+        "effectsDuckFloor": 0.65,
+        "attack": 0.18,
+        "release": 0.4,
+        "previewTrim": 1.0
+      },
+      "qa": {
+        "builtAt": "2026-09-11T17:23:34+00:00",
+        "fullDecode": true,
+        "voiceTextMatchesReleasedManifest": true,
+        "cueMapSha256": "5e06b7aafc2e27066ab79fd1aca2038c9b73919150c0b0b5d5dc50cd26af2588",
+        "stems": {
+          "music": {
+            "sha256": "253e5d2637a4c161e0e82024c9b9a8454a3e99ea75f3f6a97e3c56c26976d99f",
+            "duration": 28.0,
+            "loudness": {
+              "integratedLufs": -26.09,
+              "truePeakDbtp": -7.37,
+              "loudnessRange": 10.2
+            },
+            "samplePeak": 0.4428810477256775
+          },
+          "effects": {
+            "sha256": "c1c17095a1c80fbde97d2b390480a5fd96f3ca5b8779370fa6f1a25ed9e6c3ea",
+            "duration": 28.0,
+            "loudness": {
+              "integratedLufs": -37.02,
+              "truePeakDbtp": -21.83,
+              "loudnessRange": 3.6
+            },
+            "samplePeak": 0.08368609100580215
+          },
+          "voice": {
+            "sha256": "bbbe651b827b16bd156ee13de349fc8b1ef9403f427ab6cdc307bba93107b393",
+            "duration": 28.0,
+            "loudness": {
+              "integratedLufs": -20.15,
+              "truePeakDbtp": -5.58,
+              "loudnessRange": 2.7
+            },
+            "samplePeak": 0.5391483902931213
+          }
+        },
+        "mixedLoudness": {
+          "integratedLufs": -23.63,
+          "truePeakDbtp": -5.96,
+          "loudnessRange": 7.8
+        },
+        "sourceVoiceManifestSha256": "590a12273a89f83beac4a61dc5f4225660ad77264fc00655c3d3e37498d240ba",
+        "finalReview": {
+          "status": "accepted",
+          "method": "Agent reviewed actual master frames and model-assisted audio observation; not human listening",
+          "listeningEvidence": "output/cinema-audio-v3/listening/dock-0a52ec4aae95.json",
+          "listeningSourceSha256": "0a52ec4aae9565d76315c66273f8940c8f0c3a76d4114f26acefc1be895bcc16",
+          "finding": "All six spoken segments heard as clear, without reported masking, clicks, overlap or unintended vocals. Exact transcript coverage is separately guaranteed by released voice IDs/text/audio hashes, not the model approximate transcription.",
+          "uncertainty": "Blind model transcription has a few homophone/word ambiguities; it is not a verbatim ASR certificate."
+        }
+      },
+      "upscale": {
+        "model": "realesr-animevideov3",
+        "modelScale": 2,
+        "inferenceResolution": "2560x1440",
+        "outputResolution": "1920x1080",
+        "postprocess": "Lanczos downsample 1440p to 1080p; no interpolation or retiming",
+        "engine": "Real-ESRGAN ncnn Vulkan v0.2.0, arm64, Apple GPU via MoltenVK",
+        "sourceSha256": "9e2555aae9a9ebf499d5c6b18dbf9fd3359297848b147a53d5003fa6a85f23f2",
+        "frameCount": 672,
+        "sourceUnchanged": true,
+        "fullDecode": true,
+        "reviewEvidence": "output/qa/cinema-upscale-v1/dock/review.json",
+        "licenseFiles": [
+          "/media/cinema-upscale-v1/LICENSE-ncnn.txt",
+          "/media/cinema-upscale-v1/LICENSE-Real-ESRGAN.txt"
+        ]
+      }
+    },
+    "ending": {
+      "id": "ending",
+      "title": "那天你也在",
+      "url": "/media/cinema-upscale-v1/ending-1080p.mp4",
+      "poster": "/media/cinema-upscale-v1/ending-1080p.jpg",
+      "duration": 34.125,
+      "resolution": "1920x1080",
+      "fps": 24,
+      "silentSha256": "9227db2a3c042a56212cd670b8da68fd07aa752511b3ce60f80eb4d05f7251f3",
+      "stems": {
+        "music": "/media/cinema-v3-ending-music.mp3",
+        "effects": "/media/cinema-v3-ending-effects.mp3",
+        "voice": "/media/cinema-v3-ending-voice.mp3"
+      },
+      "cues": [
+        {
+          "id": "ending-memory-entry",
+          "who": "周伯",
+          "text": "还是靠窗？",
+          "start": 1.0,
+          "end": 2.968,
+          "audioUrl": "/media/story-voice/ending-memory-entry.default.7bfe80355a13.mp3",
+          "audioSha256": "01d760cece19dc4ede28723459ad35ac41123bf8ed77a82a86f659b544ddd6dc",
+          "shotIds": [
+            "E01"
+          ],
+          "visualAnchor": "Zhou and grandfather are carrying the same table toward the window as Zhou checks its position."
+        },
+        {
+          "id": "ending-memory-child-place",
+          "who": "外公",
+          "text": "嗯，给阿遥留个角。",
+          "start": 3.35,
+          "end": 5.606,
+          "audioUrl": "/media/story-voice/ending-memory-child-place.default.c614c4874496.mp3",
+          "audioSha256": "6de907ffb4ca0ad4fd2fb9c403628a34eb11b6bcfa1808ae272008194e684502",
+          "shotIds": [
+            "E01"
+          ],
+          "visualAnchor": "Grandfather answers while they carry the desk into place, leaving a corner for the child."
+        },
+        {
+          "id": "ending-memory-dinner",
+          "who": "蔡姨",
+          "text": "饭在这儿。你那份也装了，莫忘了。",
+          "start": 12.3,
+          "end": 16.236,
+          "audioUrl": "/media/story-voice/ending-memory-dinner.default.9bdb8651b672.mp3",
+          "audioSha256": "b7dffa3162d3ea95f7c1381651c6570db13773714dba7397ab45ba60fda92f16",
+          "shotIds": [
+            "E02"
+          ],
+          "visualAnchor": "In the real wide shot Cai is already holding the pale lunchbox with its red lid while the blue cloth is laid flat."
+        },
+        {
+          "id": "ending-memory-thanks",
+          "who": "外公",
+          "text": "好。",
+          "start": 16.416,
+          "end": 17.496,
+          "audioUrl": "/media/story-voice/ending-memory-thanks.default.affacced5110.mp3",
+          "audioSha256": "ce7f1477ab11a82c9da3ab845b8e0ad769f1e5111b2bac225afb5fd9d2ddc5c6",
+          "shotIds": [
+            "E02"
+          ],
+          "visualAnchor": "Grandfather answers with the food still clearly present; ends before the source box-color-drift shot that was cut."
+        },
+        {
+          "id": "ending-memory-child",
+          "who": "童年的阿遥",
+          "text": "外公，明天还在这里写？",
+          "start": 27.917,
+          "end": 31.229,
+          "audioUrl": "/media/story-voice/ending-memory-child.default.71cffa910c8c.mp3",
+          "audioSha256": "0263bc629e863e29afffee398f1659d152f8a77ac63ab794ed4e7a4c31fda0d8",
+          "shotIds": [
+            "E04"
+          ],
+          "visualAnchor": "The child raises their head at local 1.167 seconds and looks toward grandfather throughout the question."
+        },
+        {
+          "id": "ending-memory-promise",
+          "who": "外公",
+          "text": "还在这里。",
+          "start": 31.45,
+          "end": 32.938,
+          "audioUrl": "/media/story-voice/ending-memory-promise.default.9e2c17671178.mp3",
+          "audioSha256": "707497f267d6837a339b146ff17a5ef1fc5144fc430076af97ddc1c3e9ea8c43",
+          "shotIds": [
+            "E04"
+          ],
+          "visualAnchor": "Grandfather answers just as the child lowers their head and resumes writing; the shot ends after the writing settles."
+        }
+      ],
+      "previewUrl": "/media/cinema-upscale-v1/ending-1080p-mixed.mp4",
+      "previewSha256": "1e996e6f4378c1a2a3e4f2542b74d2c5de7dc096ac38db57fde58b10ec5213b0",
+      "shots": [
+        {
+          "shotId": "E01",
+          "start": 0,
+          "end": 12,
+          "memoryCG": "ending-reopen",
+          "source": "public/media/cinema-v3-ending-e01-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 12
+        },
+        {
+          "shotId": "E02",
+          "start": 12,
+          "end": 17.75,
+          "memoryCG": "ending-reopen",
+          "source": "public/media/cinema-v3-ending-e02-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 5.75
+        },
+        {
+          "shotId": "E03",
+          "start": 17.75,
+          "end": 26.75,
+          "memoryCG": "ending-lamplit-child",
+          "source": "public/media/cinema-v3-ending-e03-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 9.0
+        },
+        {
+          "shotId": "E04",
+          "start": 26.75,
+          "end": 34.125,
+          "memoryCG": "ending-lamplit-child",
+          "source": "public/media/cinema-v3-ending-e04-v1.mp4",
+          "sourceIn": 0,
+          "sourceOut": 7.375
+        }
+      ],
+      "voiceLineIds": [
+        "ending-memory-entry",
+        "ending-memory-child-place",
+        "ending-memory-dinner",
+        "ending-memory-thanks",
+        "ending-memory-child",
+        "ending-memory-promise"
+      ],
+      "music": {
+        "source": "/media/audio/bgm-ending.ogg",
+        "sourceSha256": "d648948624165fe49ceccfb263f94c2f439bda3574c09f3bad70c65ace679127",
+        "kind": "reused_existing_music",
+        "cue": "ending"
+      },
+      "effects": [],
+      "mix": {
+        "defaultGains": {
+          "music": 0.48,
+          "effects": 0.6,
+          "voice": 0.9
+        },
+        "musicDuckFloor": 0.4,
+        "effectsDuckFloor": 0.65,
+        "attack": 0.18,
+        "release": 0.4,
+        "previewTrim": 1.0
+      },
+      "qa": {
+        "builtAt": "2026-09-11T17:28:36+00:00",
+        "fullDecode": true,
+        "voiceTextMatchesReleasedManifest": true,
+        "cueMapSha256": "abb0025bd0fd43361410893e641d2b656e831336149a4975ded2eb9368efc3ee",
+        "stems": {
+          "music": {
+            "sha256": "2439c09a244748008285c54adeac391e07c9d2f7e9edbe1bccfca537da618029",
+            "duration": 34.125,
+            "loudness": {
+              "integratedLufs": -26.68,
+              "truePeakDbtp": -9.48,
+              "loudnessRange": 11.2
+            },
+            "samplePeak": 0.3444816470146179
+          },
+          "effects": {
+            "sha256": "c1e5755f87cd82a3bd58cfc969df63a3d22042d87855cdeaae0092487db43fe2",
+            "duration": 34.125,
+            "loudness": {
+              "integratedLufs": null,
+              "truePeakDbtp": null,
+              "loudnessRange": 0.0
+            },
+            "samplePeak": 0.0
+          },
+          "voice": {
+            "sha256": "c426787a6076898b4e039e11c7b8a5c1aae44a4954ca1fa2da0389cf39899114",
+            "duration": 34.125,
+            "loudness": {
+              "integratedLufs": -20.38,
+              "truePeakDbtp": -5.7,
+              "loudnessRange": 6.3
+            },
+            "samplePeak": 0.5352106690406799
+          }
+        },
+        "mixedLoudness": {
+          "integratedLufs": -24.35,
+          "truePeakDbtp": -6.41,
+          "loudnessRange": 11.4
+        },
+        "sourceVoiceManifestSha256": "590a12273a89f83beac4a61dc5f4225660ad77264fc00655c3d3e37498d240ba",
+        "finalReview": {
+          "status": "accepted",
+          "method": "Agent reviewed actual master frames and model-assisted audio observation; not human listening",
+          "listeningEvidence": "output/cinema-audio-v3/listening/ending-fa1eb46f40af.json",
+          "listeningSourceSha256": "fa1eb46f40af208266ff135e250735305d66ae91f97fe2a447b2a832eff127f5",
+          "finding": "All 6 expected spoken segments heard as clear, without reported masking, glitches, overlaps or unintended vocals. Actual camera/action windows and full line coverage independently checked.",
+          "uncertainty": "Blind transcription can paraphrase or confuse near-sounding words and approximate times; exact subtitle/text/audio identity is verified separately from the released voice manifest, not inferred from the listening report."
+        }
+      },
+      "upscale": {
+        "model": "realesr-animevideov3",
+        "modelScale": 2,
+        "inferenceResolution": "2560x1440",
+        "outputResolution": "1920x1080",
+        "postprocess": "Lanczos downsample 1440p to 1080p; no interpolation or retiming",
+        "engine": "Real-ESRGAN ncnn Vulkan v0.2.0, arm64, Apple GPU via MoltenVK",
+        "sourceSha256": "0c528daacd2132e5dcf0c5ac8fa6bd639fafef9a0fa16c8803d88a3693f18d40",
+        "frameCount": 819,
+        "sourceUnchanged": true,
+        "fullDecode": true,
+        "reviewEvidence": "output/qa/cinema-upscale-v1/ending/review.json",
+        "licenseFiles": [
+          "/media/cinema-upscale-v1/LICENSE-ncnn.txt",
+          "/media/cinema-upscale-v1/LICENSE-Real-ESRGAN.txt"
+        ]
+      }
+    }
+  },
+  "revision": "opening-polish-v1"
+}

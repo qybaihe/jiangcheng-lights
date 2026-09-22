@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {bundle} from '@remotion/bundler';
+import {selectComposition,renderMedia} from '@remotion/renderer';
+const here=path.dirname(fileURLToPath(import.meta.url)),out=path.resolve(here,'../../output/demo-film-v1');
+const inputProps=JSON.parse(fs.readFileSync(path.join(out,'final-props.json'),'utf8'));
+if(inputProps.readyForFinal!==true)throw Error('Unreviewed timeline');
+const browserExecutable='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const serveUrl=await bundle({entryPoint:path.join(here,'src/index.tsx'),rootDir:here,publicDir:path.join(here,'public'),outDir:path.join(here,'build')});
+const composition=await selectComposition({serveUrl,id:'CompetitionDemo',inputProps,browserExecutable});
+await renderMedia({serveUrl,composition,inputProps,browserExecutable,codec:'wav',audioCodec:'pcm-16',sampleRate:48000,enforceAudioTrack:true,concurrency:8,outputLocation:path.join(out,'final-clean-mix.wav'),onProgress:({progress})=>{if(progress===1)console.log('Audio complete')}});
+console.log(path.join(out,'final-clean-mix.wav'));

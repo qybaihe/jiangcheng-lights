@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "id": "opening-narration-v1",
+  "sceneId": "prologue",
+  "generatedAt": "2026-09-12T12:00:58+00:00",
+  "provider": "text_to_audio",
+  "model": "not exposed by endpoint",
+  "voice": {
+    "id": "opening-neutral-female-v1",
+    "type": "prompt-defined consistent dry narrator",
+    "fixedProviderSpeakerId": null,
+    "note": "Not a clone and not represented as an exact match to Xiaoxiao."
+  },
+  "requestSha256": "c0ee8e5c373d84305aa9f10225eb42f1ffa6fa863eac618af5eb8be45d73892e",
+  "scope": "Three new background-narration lines only; no approved dialogue, music, endings or film length changed.",
+  "sourceVideoUrl": "/media/cinema-v3-prologue.mp4",
+  "sourceVideoSha256": "9e78b2ea342da9e5514a90ee84bb749e3345cdd12580011a5a0bc1a4d4fef77e",
+  "timebase": "original video seconds; player playbackRate may change wall-clock duration only",
+  "duration": 29.25,
+  "suggestedPlaybackRate": 1.15,
+  "preservesPitch": true,
+  "stems": {
+    "voice": "/media/opening-narration-v1/prologue-voice.mp3"
+  },
+  "cues": [
+    {
+      "id": "opening-return",
+      "text": "离开武汉以后，阿遥很少再坐这趟轮渡。",
+      "start": 0.5,
+      "visualEnd": 5,
+      "shotIds": [
+        "P01"
+      ],
+      "visualAnchor": "阿遥乘轮渡面对江汉关与汉口江岸，建立回武汉的时间与地点。",
+      "evidence": [
+        "output/cinema-audio-v3/visual-proof/prologue/P01-0.120.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P01-3.293.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P01-4.880.jpg"
+      ],
+      "who": "旁白",
+      "end": 4.77,
+      "audioUrl": "/media/opening-narration-v1/opening-return.mp3",
+      "audioSha256": "27e96e149caa31205a3dfc79670529caba52539f2c913d3a276fbbdb60291e8f",
+      "duration": 4.27,
+      "encodedDuration": 4.27,
+      "sourceIn": 0.25,
+      "sourceOut": 4.52,
+      "loudness": {
+        "integratedLufs": -19.44,
+        "truePeakDbtp": -3.01
+      }
+    },
+    {
+      "id": "opening-errand",
+      "text": "外公在姨妈家休养，托阿遥回来，给街坊送几件东西。",
+      "start": 5.3,
+      "visualEnd": 14.25,
+      "shotIds": [
+        "P02",
+        "P03"
+      ],
+      "visualAnchor": "手中的修理铺钥匙与渡船江景，说明这趟回来的委托；不把外公写成逝者。",
+      "evidence": [
+        "output/cinema-audio-v3/visual-proof/prologue/P02-5.120.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P02-7.793.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P03-10.957.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P03-14.130.jpg"
+      ],
+      "who": "旁白",
+      "end": 11.92,
+      "audioUrl": "/media/opening-narration-v1/opening-errand.mp3",
+      "audioSha256": "3a314ce9914fb68dcf33a587dc6179cec99487ded3cca8845cf222ea64cb58dd",
+      "duration": 6.62,
+      "encodedDuration": 6.62,
+      "sourceIn": 5.15,
+      "sourceOut": 11.77,
+      "loudness": {
+        "integratedLufs": -19.45,
+        "truePeakDbtp": -2.59
+      }
+    },
+    {
+      "id": "opening-one-night",
+      "text": "原本想着，明天就走。",
+      "start": 16,
+      "visualEnd": 24.25,
+      "shotIds": [
+        "P04"
+      ],
+      "visualAnchor": "走进生活气息仍在的里份小巷，说出短暂停留的原本打算；门锁段留白。",
+      "evidence": [
+        "output/cinema-audio-v3/visual-proof/prologue/P04-14.370.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P04-17.623.jpg",
+        "output/cinema-audio-v3/visual-proof/prologue/P04-20.877.jpg"
+      ],
+      "who": "旁白",
+      "end": 18.51,
+      "audioUrl": "/media/opening-narration-v1/opening-one-night.mp3",
+      "audioSha256": "18d44e3729261fb043607a1a3729669d086315efec809a4f0e50a3d5c9f763f5",
+      "duration": 2.51,
+      "encodedDuration": 2.51,
+      "sourceIn": 13.08,
+      "sourceOut": 15.59,
+      "loudness": {
+        "integratedLufs": -19.8,
+        "truePeakDbtp": -2.38
+      }
+    }
+  ],
+  "qa": {
+    "fullDecode": true,
+    "stem": {
+      "duration": 29.25,
+      "bytes": 468909,
+      "sha256": "5268306cd9ca2561aee6babe3e3454025621ac1c1c506f4a06fd2441429677f8",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 324870,
+          "start_time": "0.023021",
+          "duration_ts": 412776000,
+          "duration": "29.250000",
+          "bit_rate": "128000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ]
+    },
+    "stemDecodedDuration": 29.25,
+    "stemLoudness": {
+      "integratedLufs": -19.95,
+      "truePeakDbtp": -2.86
+    },
+    "clippedSamples": 0,
+    "auditionListening": "output/qa/opening-narration-v1/audition-listening.json",
+    "cuts": "output/qa/opening-narration-v1/reviewed-cuts.json",
+    "noAdditionalVideoTime": true,
+    "visualFit": "all three cues within inspected source-shot windows; door-lock shot intentionally voice-free",
+    "effectiveRateListening": {
+      "path": "output/qa/opening-narration-v1/stem-at-115-listening.json",
+      "sha256": "8f2bfba2db501ded7a9ff53ffccb5ef6f09ede70104793e7df5ac4b80cea6306",
+      "rate": 1.15,
+      "pitchPreservingPreview": true,
+      "allWordsMatch": true,
+      "delivery": "natural; clear",
+      "note": "Actual stem rendered through ffmpeg atempo for editorial listening; runtime browser transport is verified separately."
+    }
+  },
+  "integration": {
+    "replaceOnly": [
+      "scenes.prologue.stems.voice",
+      "scenes.prologue.cues",
+      "scenes.prologue.voiceLineIds"
+    ],
+    "voiceLineIds": [
+      "opening-return",
+      "opening-errand",
+      "opening-one-night"
+    ],
+    "musicDucking": "runtime by cue windows; original music stem unchanged"
+  }
+}

@@ -1,0 +1,31 @@
+/* The centre of the landscape screen belongs to the street and its people. */
+@media (min-width: 901px) {
+  .playing #header {height:84px;padding:22px 30px;background:linear-gradient(#fffdf0cf,transparent)}
+  .playing #brand > span {font-size:17px;letter-spacing:3px}
+  .playing #brand small {font-size:6px}
+  .playing .quest {top:100px;left:28px;width:254px;padding:17px 18px;background:#fffbeee8;border-radius:14px;border:1px solid #fffdf5;box-shadow:0 4px 16px #29544512}
+  .playing .quest-chapter {font-size:10px;letter-spacing:1px;margin-bottom:9px}
+  .playing .quest h2 {font-size:16px;line-height:1.65}
+  .playing .quest > p {font-size:11px;line-height:1.85;margin:9px 0}
+  .playing .quest button {min-height:30px;font-size:11px}
+  .playing .route-guide {left:28px;top:308px;bottom:auto;transform:none;width:254px;gap:8px;padding:10px 11px;background:#fffbedde;border-radius:12px}
+  .playing .route-guide strong {font-size:11px;white-space:normal;line-height:1.55}
+  .playing .route-guide small {font-size:9px;white-space:normal;max-width:158px;line-height:1.65}
+  .playing .route-direction {width:24px;font-size:24px}
+  .playing .route-guide #route-distance {font-size:11px;margin-left:auto}
+  .playing .route-guide button {width:18px;flex-shrink:0}
+  .playing #minimap {top:100px;right:28px;bottom:auto;width:164px;border-radius:16px;box-shadow:0 4px 16px #29544518;background:#fffbeee8}
+  .playing .camera-toolbar {top:288px;right:28px;padding:4px;border-radius:10px;gap:0;background:#fffbeedc;max-width:240px;flex-wrap:wrap;justify-content:flex-end}
+  .playing .camera-toolbar > button {font-size:10px;padding:6px 9px;min-height:31px}
+  .playing .location-note {left:28px;bottom:112px;padding:10px 14px;border-radius:8px;background:#fffbead9}
+  .playing .location-note > span {font-size:14px;letter-spacing:2px}
+  .playing .location-note small {font-size:9px;margin-top:5px}
+  .playing .chapter-dots {display:none}
+  .playing .controls-hint {left:28px;bottom:26px;font-size:10px;gap:6px 12px;padding:10px 13px;background:#fffbeddb;border-radius:9px;display:grid;grid-template-columns:max-content max-content max-content;align-items:center}
+  .playing .controls-hint #help-btn {justify-self:end}
+  .playing .interaction {bottom:35px;border-radius:14px;padding:10px 17px 10px 10px;background:#fffbedf5;font-size:12px;gap:14px;box-shadow:0 5px 24px #234c3920}
+  .playing .interaction > kbd {border-radius:8px}
+  .playing .poi > span {font-size:11px;padding:7px 11px;border-radius:9px;background:#fff9eadd;border:1px solid #fffdf5;box-shadow:0 3px 10px #214b3820}
+  .playing .poi.target > span {background:#f5deacee;color:#514322;border-color:#fff0c9}
+  .playing .poi > b {margin-top:4px;font-size:9px;background:#3c6554cc;border-radius:4px;padding:3px 6px;color:#fff7df}
+}

@@ -1,0 +1,13 @@
+### Result
+{"samples":[{"p":{"x":-21.00037243781011,"y":0.13,"z":26.807056772762543},"route":2,"mode":"bicycle","near":null},{"p":{"x":-21.028285980400444,"y":0.13,"z":26.91838009185017},"route":2,"mode":"bicycle","near":null},{"p":{"x":-21.043950660712298,"y":0.13,"z":27.142184134112256},"route":2,"mode":"bicycle","near":null},{"p":{"x":-20.987030690930457,"y":0.13,"z":27.429230457791135},"route":2,"mode":"bicycle","near":null},{"p":{"x":-20.845982276324555,"y":0.13,"z":27.68910254043564},"route":2,"mode":"bicycle","near":null},{"p":{"x":-20.6269122248525,"y":0.13,"z":27.90002744653494},"route":2,"mode":"bicycle","near":null},{"p":{"x":-20.328674912430895,"y":0.13,"z":28.04108420569187},"route":2,"mode":"bicycle","near":null},{"p":{"x":-20.01835969167547,"y":0.13,"z":28.076290555974552},"route":2,"mode":"bicycle","near":null},{"p":{"x":-19.539403990006615,"y":0.13,"z":27.892796487521768},"route":2,"mode":"bicycle","near":null},{"p":{"x":-18.748496642378647,"y":0.13,"z":27.105103363614944},"route":2,"mode":"bicycle","near":null},{"p":{"x":-18.117118972100105,"y":0.13,"z":25.82019413126299},"route":2,"mode":"bicycle","near":null},{"p":{"x":-17.798458589008902,"y":0.13,"z":24.162537911530272},"route":2,"mode":"bicycle","near":null},{"p":{"x":-17.747277272867688,"y":0.13,"z":22.509424300447677},"route":2,"mode":"bicycle","near":null},{"p":{"x":-17.84778182201021,"y":0.13,"z":20.842569950138312},"route":2,"mode":"bicycle","near":null},{"p":{"x":-18.043809705151954,"y":0.13,"z":19.156696223158086},"route":2,"mode":"bicycle","near":null},{"p":{"x":-18.31536129037162,"y":0.13,"z":17.369779534118607},"route":2,"mode":"bicycle","near":null},{"p":{"x":-18.546428230513683,"y":0.13,"z":16.030552074208778},"route":0,"mode":"bicycle","near":null}],"end":{"p":{"x":-18.546428230513683,"y":0.13,"z":16.030552074208778},"route":0,"mode":"bicycle","near":null}}
+### Ran Playwright code
+```js
+await (async page=>{
+ await page.locator('#map').click();await page.locator('#map-destination').selectOption('meal-west');await page.locator('#map-go').click();
+ const samples=[];
+ for(let n=0;n<180;n++){const s=await page.evaluate(()=>({p:__JIANGCHENG__.getWorld().position,route:__JIANGCHENG__.getWorld().remainingRoute,mode:__JIANGCHENG__.getProps().runtime.mode,near:__JIANGCHENG__.getPlayfulLife().nearbyOrder}));samples.push(s);if(s.near==='lin'||(!s.route&&n>8))break;await page.waitForTimeout(250);}
+ const end=samples.at(-1);await page.screenshot({path:'output/playwright/meal-relay-vehicle/riding-route.png'});
+ return {samples,end};
+}
+)(page);
+```

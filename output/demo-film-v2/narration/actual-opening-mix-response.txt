@@ -1,0 +1,30 @@
+```json
+{
+  "audioAccessible": true,
+  "segments": [
+    {
+      "start": 0.7,
+      "end": 1.7,
+      "exactChineseWords": "我是阿遥",
+      "heardPinyinForUncertainWords": ""
+    },
+    {
+      "start": 2.1,
+      "end": 3.4,
+      "exactChineseWords": "这次回武汉",
+      "heardPinyinForUncertainWords": ""
+    },
+    {
+      "start": 3.7,
+      "end": 5.3,
+      "exactChineseWords": "本来只打算住一晚",
+      "heardPinyinForUncertainWords": ""
+    }
+  ],
+  "maskedOrCutWords": "",
+  "conversationalDelivery": "very natural and conversational tone with standard pronunciation",
+  "voiceConsistency": "completely consistent",
+  "backgroundBalance": "Features soft background piano music that is well-balanced and does not interfere with the clear vocals.",
+  "uncertainties": "The name '阿遥' is a phonetic transcription of 'ā yáo'."
+}
+```

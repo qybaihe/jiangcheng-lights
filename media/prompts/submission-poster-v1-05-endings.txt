@@ -1,0 +1,24 @@
+Use case: ads-marketing
+Asset type: finished premium Chinese indie-game four-endings-and-gallery poster, landscape16:9. All artwork, layout and exact Chinese typography must be generated together.
+Primary request: The final poster of 江城有灯, like opening a lovingly kept illustrated memory album. Four different endings are four emotional possibilities, not four action movies. Combine literary charm and extremely clear labels. Visually unified with reference1 but use a distinct beautifully designed tabletop/gallery composition.
+Input images: Image1 is the first approved poster, use its logo, typography family, sunny ivory/teal/gold palette and bright hand-painted anime art style only. Images2–5 are source story motifs for the four ending art prints, NOT a requirement to copy their photographic rendering. Image2: true ending, lamp, childhood drawing, a mended blue jacket on the repair bench, granny and 蔡姨 together in the doorway. Image3: good ending, a shared breakfast of Wuhan hot-dry noodles and golden square 三鲜豆皮 at a shop table, neighbours nearby. Image4: ordinary ending, canvas travel bag and brass key on a ferry seat by a river window looking toward 江汉关. Image5: regret ending, a wrapped cream-red meal box waits on an empty bamboo-chair table at a quietly rainy alley. Re-illustrate all four motifs as clear delicate anime paintings to match the series, avoiding the source images' stronger photographic/dark style.
+
+Layout: Warm luminous ivory paper, almost top-down but with subtle realistic perspective. Upper 28% is calm editorial title space with a small teal game logo upper left and a large refined Chinese literary headline, a short subtitle below. The main middle/lower composition features exactly FOUR large fine-art paper prints laid side by side across an open old linen-bound album or warm pale wooden desk. Each print is about425px wide and includes a generous matte ivory caption area, very slight alternating2-degree rotations, a tasteful small paper corner tab here and there, no excessive collage clutter. All four art images and labels must be fully visible and not overlap. They should read as four treasured illustrations, not app interface cards. Thin soft realistic paper shadows. Above/right edge a partial brass desk lamp pools gold light across the pages; a few unmarked small keepsakes may sit at the outer corners, never over words. A soft teal cloth and one old ferry-ticket shape without writing hint at the journey. Small bottom line unifies choices and gallery collection. All essential content80px away from canvas edges.
+The four prints from left to right:
+1) An intimate lively green-windowed repair shop, glowing brass lamp, children's crayon drawing and carefully mended dark blue coat on bench, granny and apron-wearing 蔡姨 together near doorway. Warm sunlit teal/gold, a sense of home.
+2) Morning light and steaming Wuhan breakfast, two bowls of sesame-coated dry noodles and square golden 三鲜豆皮, two people about to sit together. Fresh apricot/ivory palette, welcoming.
+3) A canvas bag and brass key on a dark blue ferry seat with river and 江汉关钟楼 through the window. Clear sky-blue/cream, a peaceful departure, not a train.
+4) One tied-up cream-and-red food box on a wooden table beside an empty bamboo stool; rain-glossed lane and warm lit windows outside. Muted jade/lavender with one amber light, quiet missed encounter, not tragedy or death.
+
+Text (verbatim, simplified Chinese):
+Upper-left small game logo: "江城有灯"
+Large main headline: "总有人，替你留一盏灯。"
+Subtitle: "四种结局，收藏这一趟的相遇。"
+Under the first print, large title: "灯下有你"; smaller category below: "真结局"
+Under the second print, large title: "明早见"; smaller category below: "好结局"
+Under the third print, large title: "顺路归来"; smaller category below: "平常结局"
+Under the fourth print, large title: "未赴的约"; smaller category below: "遗憾结局"
+One bottom feature sentence: "完成探索与结局，解锁画廊；重开故事，收藏仍在。"
+Small bottom-right label: "游戏主题海报"
+
+Typography: All exact simplified Chinese, each string once, no quote marks; main heading around80px, ending titles around46px, ending category34px, footer minimum30px on2048x1152. Carefully spell 未赴的约 and 顺路归来. Deep teal on ivory, excellent hierarchy and legibility, consistent logo with reference1. Do not add any other words, fake handwritten gibberish, numbers, movie runtime, play buttons, locks, medals, trophies, official award logos, QR codes, copyright lines or watermarks. No claim of four independent CG films. Do not add a fifth ending or a fifth art print.

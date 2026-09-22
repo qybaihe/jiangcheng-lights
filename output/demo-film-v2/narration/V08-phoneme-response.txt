@@ -1,0 +1,11 @@
+```json
+{
+  "audioAccessible": true,
+  "heardChineseText": "本来就想滑一滑",
+  "allSyllablesPinyinWithTones": "běn lái jiù xiǎng huá yi huár",
+  "lastThreeAudibleSyllablesIPAOrPinyin": "huá yi huár",
+  "isLastVowelRoundedAorDiphthongEi": false,
+  "isThereAudibleRhoticEnding": true,
+  "uncertainties": "The homophones '滑' (huá, to slide/scroll) and '划' (huá, to scratch/row) are indistinguishable in speech; the last syllable has an audible rhotic ending (erhua)."
+}
+```

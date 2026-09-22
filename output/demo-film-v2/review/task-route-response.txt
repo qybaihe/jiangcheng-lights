@@ -1,0 +1,57 @@
+```json
+{
+  "videoAccessible": true,
+  "observedActions": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "visibleAction": "The character mounts the bicycle and begins to ride."
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "visibleAction": "Riding forward down a narrow town street."
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "visibleAction": "A full-screen 2D map interface overlay is opened, navigated, and closed."
+    },
+    {
+      "start": 5.0,
+      "end": 11.5,
+      "visibleAction": "Riding down the narrow alleyway between buildings."
+    },
+    {
+      "start": 11.5,
+      "end": 12.8,
+      "visibleAction": "The bicycle comes to a stop and the character dismounts."
+    },
+    {
+      "start": 12.8,
+      "end": 15.0,
+      "visibleAction": "The character walks forward on foot towards an elderly female NPC."
+    },
+    {
+      "start": 15.0,
+      "end": 18.5,
+      "visibleAction": "Character triggers a dialogue screen and talks with the NPC."
+    },
+    {
+      "start": 18.5,
+      "end": 23.0,
+      "visibleAction": "A full-screen interactive storybook/drawing memory interface overlay appears."
+    }
+  ],
+  "directionContinuity": true,
+  "arrivalAndDismountVisible": true,
+  "actualNpcInteractionVisible": true,
+  "taskProgressVisible": true,
+  "disruptiveCollisionsOrStalls": [],
+  "overlaysLegible": true,
+  "dialogueOrSubtitleProblems": [],
+  "passOrRevise": "pass",
+  "confidence": 0.95,
+  "uncertainties": ""
+}
+```

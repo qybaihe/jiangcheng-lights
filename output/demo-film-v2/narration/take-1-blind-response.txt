@@ -1,0 +1,196 @@
+```json
+{
+  "audioAccessible": true,
+  "spokenSegments": [
+    {
+      "start": 0.0,
+      "end": 1.2,
+      "heardChineseText": "我是阿遥",
+      "heardNamePinyin": "Ā Yáo",
+      "delivery": "Gentle, self-introducing, soft and clear",
+      "intelligibility": "high"
+    },
+    {
+      "start": 1.2,
+      "end": 4.5,
+      "heardChineseText": "这次回武汉，本来只打算住一晚",
+      "heardNamePinyin": "",
+      "delivery": "Reflective, narrative, calm",
+      "intelligibility": "high"
+    },
+    {
+      "start": 5.0,
+      "end": 10.5,
+      "heardChineseText": "外公在姨妈家休养，还惦记着铺子里的东西，让我替他给街坊送回去",
+      "heardNamePinyin": "",
+      "delivery": "Breathy, gentle storytelling",
+      "intelligibility": "high"
+    },
+    {
+      "start": 11.0,
+      "end": 13.5,
+      "heardChineseText": "先去找林婆婆，借辆车",
+      "heardNamePinyin": "Lín pópo",
+      "delivery": "Slightly conversational, warm",
+      "intelligibility": "high"
+    },
+    {
+      "start": 14.0,
+      "end": 21.5,
+      "heardChineseText": "还是走小时候那条路，她一眼就认出了我，还翻出我小时候画的画，原来，她一直留着",
+      "heardNamePinyin": "",
+      "delivery": "Sentimental, slow pace, emotionally expressive",
+      "intelligibility": "high"
+    },
+    {
+      "start": 22.5,
+      "end": 29.5,
+      "heardChineseText": "蔡姨忙不过来，我就去杂货铺帮她把东西带齐，开车到了江边，我又停了下来",
+      "heardNamePinyin": "Cài yí",
+      "delivery": "Narrative, rhythmic, warm",
+      "intelligibility": "high"
+    },
+    {
+      "start": 30.0,
+      "end": 32.5,
+      "heardChineseText": "那张老照片，还是头一回见",
+      "heardNamePinyin": "",
+      "delivery": "Soft, thoughtful",
+      "intelligibility": "high"
+    },
+    {
+      "start": 33.0,
+      "end": 37.5,
+      "heardChineseText": "我还借了条小船，桨一划开，连赶路的事都忘了",
+      "heardNamePinyin": "",
+      "delivery": "Lively yet gentle, cheerful tone",
+      "intelligibility": "high"
+    },
+    {
+      "start": 38.0,
+      "end": 41.5,
+      "heardChineseText": "本来就想划一会，结果还认真比起赛来了",
+      "heardNamePinyin": "",
+      "delivery": "Amused, playful, warm narration",
+      "intelligibility": "high"
+    },
+    {
+      "start": 42.0,
+      "end": 47.5,
+      "heardChineseText": "快下雨了，我得回去看看，婆婆有人接没有，蔡姨饭送到了没",
+      "heardNamePinyin": "Cài yí",
+      "delivery": "Slightly rushed but still gentle, showing care",
+      "intelligibility": "high"
+    },
+    {
+      "start": 48.0,
+      "end": 50.5,
+      "heardChineseText": "听见她说平安，我才松了口气",
+      "heardNamePinyin": "",
+      "delivery": "Relieved, soft",
+      "intelligibility": "high"
+    },
+    {
+      "start": 51.0,
+      "end": 53.5,
+      "heardChineseText": "要不，就再住两天吧",
+      "heardNamePinyin": "",
+      "delivery": "Pensive, warm, deciding with a smile",
+      "intelligibility": "high"
+    },
+    {
+      "start": 54.0,
+      "end": 57.5,
+      "heardChineseText": "这一趟带回来的，好像比送出去的还多",
+      "heardNamePinyin": "",
+      "delivery": "Reflective, nostalgic",
+      "intelligibility": "high"
+    },
+    {
+      "start": 58.0,
+      "end": 59.5,
+      "heardChineseText": "小时候，是他们照应我",
+      "heardNamePinyin": "",
+      "delivery": "Emotional, deeply affectionate",
+      "intelligibility": "high"
+    },
+    {
+      "start": 60.0,
+      "end": 102.0,
+      "heardChineseText": "这回，换我给他们留盏灯",
+      "heardNamePinyin": "",
+      "delivery": "Warm, resolute, concluding gently",
+      "intelligibility": "high"
+    }
+  ],
+  "voiceConsistency": {
+    "sameSpeaker": true,
+    "description": "A single young adult female voice with a gentle, soothing, and slightly breathy delivery. Consistency is excellent throughout."
+  },
+  "musicOrSinging": "None",
+  "environmentalSounds": "Very faint, clean studio recording environment with no noticeable background noise.",
+  "clippedWordsOrDistortion": [],
+  "naturalness": {
+    "ratingOutOf10": 9,
+    "description": "Highly natural and expressive for its intended genre. It has a beautiful, reflective cadence with authentic breath pauses, typical of a well-produced cinematic vlog narration or character story promo.",
+    "specificUnnaturalMoments": [],
+    "soundsLikeCharacterChatOrPromo": "Sounds like character monologue narration, promo, or a warm storytelling voiceover rather than an informal, unscripted chat with a friend."
+  },
+  "silenceGaps": [
+    {
+      "start": 4.5,
+      "end": 5.0
+    },
+    {
+      "start": 10.5,
+      "end": 11.0
+    },
+    {
+      "start": 13.5,
+      "end": 14.0
+    },
+    {
+      "start": 21.5,
+      "end": 22.5
+    },
+    {
+      "start": 29.5,
+      "end": 30.0
+    },
+    {
+      "start": 32.5,
+      "end": 33.0
+    },
+    {
+      "start": 37.5,
+      "end": 38.0
+    },
+    {
+      "start": 41.5,
+      "end": 42.0
+    },
+    {
+      "start": 47.5,
+      "end": 48.0
+    },
+    {
+      "start": 50.5,
+      "end": 51.0
+    },
+    {
+      "start": 53.5,
+      "end": 54.0
+    },
+    {
+      "start": 57.5,
+      "end": 58.0
+    },
+    {
+      "start": 59.5,
+      "end": 60.0
+    }
+  ],
+  "confidence": "high",
+  "uncertainties": "None"
+}
+```

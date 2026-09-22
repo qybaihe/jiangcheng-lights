@@ -1,0 +1,33 @@
+.paper-panel.activity-panel {
+  --activity-ink:#284e43; --activity-muted:#727b67; --activity-gold:#ac8047;
+  width:min(1160px,100%); padding:28px 32px 30px; border-radius:20px;
+  background:radial-gradient(ellipse at 3% 0%,#fffef9 0,transparent 55%),#f9f5e8;
+  border:1px solid #fffdf1; box-shadow:0 28px 90px #173b3440,0 0 0 5px #fffdf51c;
+  color:var(--activity-ink); max-height:94dvh; scrollbar-gutter:stable;
+}
+.activity-panel .panel-head { margin-bottom:23px; padding-bottom:20px; border-bottom:1px solid #dedcc6; gap:20px; }
+.activity-panel .panel-head .eyebrow { color:#8c7c57; font-size:10px; letter-spacing:2px; }
+.activity-panel .panel-head h2 { margin-top:9px; font-size:28px; letter-spacing:1.5px; font-weight:500; }
+.activity-panel .panel-head .close { width:44px; height:44px; background:#fffdf5; border:1px solid #d8ddc9; }
+.activity-panel .panel-head .close:hover { background:#e8efde; }
+.activity-panel button { touch-action:manipulation; }
+.activity-panel .primary { min-height:48px; border-radius:9px; padding:13px 21px; font-size:13px; letter-spacing:.7px; background:#346b59; border:1px solid #457961; box-shadow:0 3px 0 #254f42,0 7px 15px #2a513b18; }
+.activity-panel .primary:hover:not(:disabled) { background:#427e66; }
+.activity-panel .primary:active:not(:disabled) { transform:translateY(2px); box-shadow:0 1px 0 #254f42; }
+.activity-panel button:focus-visible,.activity-panel summary:focus-visible { outline:3px solid #bd8741; outline-offset:4px; }
+.activity-panel #activity-root { min-width:0; }
+.activity-panel [data-activity-continue] { min-height:48px; }
+.activity-panel .puzzle-feedback { font-size:13px; line-height:1.8; }
+@media(max-width:760px){
+  .paper-panel.activity-panel { padding:20px; border-radius:16px; }
+  .activity-panel .panel-head h2 { font-size:24px; }
+}
+@media(max-width:600px){
+  .paper-panel.activity-panel { padding:18px 15px 20px; max-height:96dvh; scrollbar-gutter:auto; }
+  .activity-panel .panel-head { margin-bottom:17px; padding-bottom:16px; align-items:flex-start; gap:7px; }
+  .activity-panel .panel-head .eyebrow { font-size:8px; line-height:1.6; letter-spacing:1.2px; }
+  .activity-panel .panel-head h2 { font-size:21px; line-height:1.5; letter-spacing:.5px; }
+  .activity-panel .primary { min-height:48px; font-size:13px; }
+}
+@media(prefers-reduced-motion:reduce){.activity-panel *,.activity-panel *::before,.activity-panel *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.reduce-motion .activity-panel *,.reduce-motion .activity-panel *::before,.reduce-motion .activity-panel *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}

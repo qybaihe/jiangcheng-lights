@@ -1,0 +1,104 @@
+{
+  "title": "江城有灯",
+  "kind": "proof",
+  "duration": 30,
+  "gameAudio": true,
+  "music": "assets/bgm-ending.mp3",
+  "effects": "assets/prologue-effects.mp3",
+  "logo": "assets/game-logo.webp",
+  "shots": [
+    {
+      "id": "P01-wuhan-river",
+      "type": "cg",
+      "from": 0,
+      "duration": 5,
+      "src": "assets/prologue-1080p.mp4",
+      "sourceIn": 0,
+      "title": "汉口江岸 · 返程"
+    },
+    {
+      "id": "P02-return-to-the-alley",
+      "type": "cg",
+      "from": 5,
+      "duration": 3,
+      "src": "assets/prologue-1080p.mp4",
+      "sourceIn": 14.625,
+      "title": "晴川里 · 一条虚构的老巷"
+    },
+    {
+      "id": "R01-find-granny",
+      "type": "game",
+      "from": 8,
+      "duration": 12,
+      "src": "assets/navigation-capture.mp4",
+      "sourceIn": 0,
+      "title": "前往林婆婆的小院",
+      "detail": "打开地图 · 选择目标 · 按指引前往"
+    },
+    {
+      "id": "K01-leave-a-light",
+      "type": "keyframe",
+      "from": 20,
+      "duration": 10,
+      "src": "assets/closing-keyframe.png"
+    }
+  ],
+  "captions": [
+    {
+      "from": 0.6,
+      "duration": 3.8,
+      "text": "本来，只打算在武汉住一晚。",
+      "who": "旁白"
+    },
+    {
+      "from": 8.6,
+      "duration": 6.62,
+      "text": "外公在姨妈家休养，托阿遥回来，给街坊送几件东西。",
+      "who": "旁白"
+    },
+    {
+      "from": 22,
+      "duration": 3.56,
+      "text": "总有人，替你留一盏灯。",
+      "who": "旁白",
+      "presentation": "title"
+    }
+  ],
+  "voice": [
+    {
+      "from": 0.6,
+      "duration": 3.8,
+      "src": "assets/narration-opening.wav"
+    },
+    {
+      "from": 8.6,
+      "duration": 6.62,
+      "src": "assets/narration-errand.mp3"
+    },
+    {
+      "from": 22,
+      "duration": 3.56,
+      "src": "assets/narration-ending.wav"
+    }
+  ],
+  "annotations": [
+    {
+      "from": 8,
+      "duration": 2.807,
+      "text": "把修好的收音机，送回林婆婆家",
+      "detail": "沿主巷步行"
+    },
+    {
+      "from": 10.807,
+      "duration": 1.442,
+      "text": "地图：林婆婆的小院",
+      "detail": "点选目的地"
+    },
+    {
+      "from": 12.249,
+      "duration": 7.751,
+      "text": "跟着光点，前往林婆婆的小院",
+      "detail": "点击「走到这里」· 沿路自动前往"
+    }
+  ]
+}

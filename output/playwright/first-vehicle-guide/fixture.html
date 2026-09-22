@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>晴川里 · 首次载具指引 UI 验收</title><link rel="stylesheet" href="/src/style.css"><link rel="stylesheet" href="/src/ui/first-vehicle-guide.css"><style>body{min-height:100vh;background:#dae3cd url('/output/qa/wuhan-arrival-v1/production-smoke/production-smoke-manual-guidance.png') center/cover no-repeat}#fixture-mark{position:fixed;bottom:8px;left:12px;font-size:10px;background:#fbf3dce3;color:#53715c;padding:5px 9px}#world{width:0;height:0}#ack{position:fixed;top:20px;left:20px;padding:8px;background:#eee5ce}</style></head><body><canvas id="world" tabindex="-1"></canvas><div id="ack"></div><div id="fixture-mark">独立教学卡验收 · 背景为已有游戏截图</div><div id="overlay" class="first-vehicle-overlay"><div id="first-vehicle-guide-root"></div></div><script type="module">
+import {mountFirstVehicleGuide} from '/src/ui/first-vehicle-guide.js';
+import {firstVehicleGuideCandidate} from '/src/vehicle-guide-progress.js';
+const kind=new URLSearchParams(location.search).get('kind')??'bicycle';
+const prop=kind==='bicycle'?{id:'prop-bicycle',name:'巷口旧单车'}:kind==='van'?{id:'prop-car-van',name:'青绿社区小货车'}:{id:'prop-car-sedan',name:'暖黄小轿车'};
+const candidate=firstVehicleGuideCandidate({state:{props:{bicycleUnlocked:kind==='borrowed'}},nearby:prop,active:true});
+window.fixture={calls:[],leakedKeys:[],candidate};
+window.addEventListener('keydown',event=>fixture.leakedKeys.push(event.key));
+let ui=mountFirstVehicleGuide(document.querySelector('#first-vehicle-guide-root'),{candidate,onAcknowledge(kind,detail){fixture.calls.push({kind,...detail});ui.dispose();document.querySelector('#overlay').hidden=true;document.querySelector('#ack').textContent='只确认提示 · 未启动载具';document.querySelector('#world').focus();}});
+fixture.ui=ui;window.__ready=true;
+</script></body></html>

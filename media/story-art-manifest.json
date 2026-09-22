@@ -1,0 +1,317 @@
+{
+  "version": 2,
+  "portraits": 7,
+  "cgs": 8,
+  "records": [
+    {
+      "id": "female",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-female.png",
+      "prompt": "media/prompts/story-v2-portrait-female.txt",
+      "browser": "public/media/story-v2-portrait-female.webp",
+      "sha256": "59b5f346734cf7997242123d8d8caa87fd1bb798eef8c286820f4faeef558e3a",
+      "derivedHeadshot": "public/media/story-v2-headshot-female.webp"
+    },
+    {
+      "id": "male",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-male.png",
+      "prompt": "media/prompts/story-v2-portrait-male.txt",
+      "browser": "public/media/story-v2-portrait-male.webp",
+      "sha256": "f751a0f3baa94628fb8f774286b48f56e4ccc3d52bd1490c37f156e7f1eba281",
+      "derivedHeadshot": "public/media/story-v2-headshot-male.webp"
+    },
+    {
+      "id": "grandfather",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+      "prompt": "media/prompts/story-v2-portrait-grandfather-r2.txt",
+      "browser": "public/media/story-v2-portrait-grandfather.webp",
+      "sha256": "bc0956e405d2c4fbb14e52de7d6a3acc3041a6545da9e35b06beb0d8098470fe",
+      "derivedHeadshot": "public/media/story-v2-headshot-grandfather.webp"
+    },
+    {
+      "id": "granny",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-granny.png",
+      "prompt": "media/prompts/story-v2-portrait-granny.txt",
+      "browser": "public/media/story-v2-portrait-granny.webp",
+      "sha256": "a372d3a742859cc2a28897a40e466c07b8838d4aa1bd74b236ce427e8da46dcb",
+      "derivedHeadshot": "public/media/story-v2-headshot-granny.webp"
+    },
+    {
+      "id": "chef",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-chef.png",
+      "prompt": "media/prompts/story-v2-portrait-chef.txt",
+      "browser": "public/media/story-v2-portrait-chef.webp",
+      "sha256": "67bc68eb70490f54e279d4c2917c833e77aefdd6db2f05160240815d00b3293b",
+      "derivedHeadshot": "public/media/story-v2-headshot-chef.webp"
+    },
+    {
+      "id": "dock",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-dock.png",
+      "prompt": "media/prompts/story-v2-portrait-dock.txt",
+      "browser": "public/media/story-v2-portrait-dock.webp",
+      "sha256": "653972cc3d9d896b05384e5f0301ae07797d8b11e9a043c3795424047327a81f",
+      "derivedHeadshot": "public/media/story-v2-headshot-dock.webp"
+    },
+    {
+      "id": "xu",
+      "kind": "portrait",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-portrait-xu.png",
+      "prompt": "media/prompts/story-v2-portrait-xu.txt",
+      "browser": "public/media/story-v2-portrait-xu.webp",
+      "sha256": "8b5d07d611136aa4216aa8c83406c14475782fe4d9d5890aba2c22019843d666",
+      "derivedHeadshot": "public/media/story-v2-headshot-xu.webp"
+    },
+    {
+      "id": "granny-table",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-granny-table-r3.png",
+      "prompt": "media/prompts/story-v2-cg-granny-table.txt",
+      "browser": "public/media/story-v2-cg-granny-table.webp",
+      "sha256": "b37ccffef7bb861642e9b5dffa53e10669901a8d323d1cf310fa9dff857236db",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        }
+      ],
+      "postprocess": {
+        "kind": "local-pixel-retouch",
+        "script": "tools/retouch_story_bowl.py",
+        "changedPixels": 53,
+        "record": "output/qa/story-v2/granny-table-r3-retouch.json",
+        "note": "The generated r2 black dot was rejected; final r3 uses the original generated image with a tiny rim repair."
+      }
+    },
+    {
+      "id": "granny-bamboo",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-granny-bamboo.png",
+      "prompt": "media/prompts/story-v2-cg-granny-bamboo.txt",
+      "browser": "public/media/story-v2-cg-granny-bamboo.webp",
+      "sha256": "17f776590e2fe47388b0c76ee24d98a7b9154d18dad1fcc190ffd43029824ed0",
+      "references": [
+        {
+          "order": 1,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 2,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不能将她缩成儿童"
+        }
+      ]
+    },
+    {
+      "id": "chef-lamp",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-chef-lamp.png",
+      "prompt": "media/prompts/story-v2-cg-chef-lamp.txt",
+      "browser": "public/media/story-v2-cg-chef-lamp.webp",
+      "sha256": "d3432989dc8851f8acc381280d432ca043287caa45f61858c6743e150a711d56",
+      "references": [
+        {
+          "order": 1,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "chef-extra-bowl",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-chef-extra-bowl.png",
+      "prompt": "media/prompts/story-v2-cg-chef-extra-bowl.txt",
+      "browser": "public/media/story-v2-cg-chef-extra-bowl.webp",
+      "sha256": "8ba8560eb13fe908ca9d79bdf1b25883e5756038c4d06a03bc461149548aaaa6",
+      "references": [
+        {
+          "order": 1,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风；现场无孩子和阿遥"
+        }
+      ]
+    },
+    {
+      "id": "dock-shared-box",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-dock-shared-box.png",
+      "prompt": "media/prompts/story-v2-cg-dock-shared-box.txt",
+      "browser": "public/media/story-v2-cg-dock-shared-box.webp",
+      "sha256": "9f95f6fcecc5e2012f3ea29013582aec4dd5a32bcefe45653e84a318278800b4",
+      "references": [
+        {
+          "order": 1,
+          "id": "dock",
+          "path": "output/imagegen/story-v2-portrait-dock.png",
+          "role": "角色身份，十五年前52岁"
+        },
+        {
+          "order": 2,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "xu-first-shift",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-xu-first-shift.png",
+      "prompt": "media/prompts/story-v2-cg-xu-first-shift.txt",
+      "browser": "public/media/story-v2-cg-xu-first-shift.webp",
+      "sha256": "2db4594783636f026b702f2878ac81b1ecb000f15089870111e230271e0bca04",
+      "references": [
+        {
+          "order": 1,
+          "id": "xu",
+          "path": "output/imagegen/story-v2-portrait-xu.png",
+          "role": "角色身份，一年前27岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，一年前73岁"
+        },
+        {
+          "order": 3,
+          "id": "female",
+          "path": "output/imagegen/story-v2-portrait-female.png",
+          "role": "仅动画线条和平涂画风，不得画入女主"
+        }
+      ]
+    },
+    {
+      "id": "ending-reopen",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-ending-reopen-r2.png",
+      "prompt": "media/prompts/story-v2-cg-ending-reopen.txt",
+      "browser": "public/media/story-v2-cg-ending-reopen.webp",
+      "sha256": "f346bc831c0edff875a7c38f3fa1e97a63b9ed675136075592c927f1549d5f56",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 3,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 4,
+          "id": "dock",
+          "path": "output/imagegen/story-v2-portrait-dock.png",
+          "role": "角色身份，十五年前52岁"
+        }
+      ],
+      "revisionPrompt": "media/prompts/story-v2-cg-ending-reopen-r2.txt"
+    },
+    {
+      "id": "ending-lamplit-child",
+      "kind": "cg",
+      "generator": "gpt-image-2 via authorized Image2 gateway and bundled imagegen CLI",
+      "source": "output/imagegen/story-v2-cg-ending-lamplit-child.png",
+      "prompt": "media/prompts/story-v2-cg-ending-lamplit-child.txt",
+      "browser": "public/media/story-v2-cg-ending-lamplit-child.webp",
+      "sha256": "443b27a9c77e63bc5a39bee072076e7fa9669ca7e2d10ba4f931941941537b12",
+      "references": [
+        {
+          "order": 1,
+          "id": "grandfather",
+          "path": "output/imagegen/story-v2-portrait-grandfather-r2.png",
+          "role": "角色身份，十五年前54岁"
+        },
+        {
+          "order": 2,
+          "id": "granny",
+          "path": "output/imagegen/story-v2-portrait-granny.png",
+          "role": "角色身份，十五年前59岁"
+        },
+        {
+          "order": 3,
+          "id": "chef",
+          "path": "output/imagegen/story-v2-portrait-chef.png",
+          "role": "角色身份，十五年前39岁"
+        },
+        {
+          "order": 4,
+          "id": "cg:granny-bamboo",
+          "path": "output/imagegen/story-v2-cg-granny-bamboo.png",
+          "role": "只取儿童发长、衣领与比例，不复制竹床、午后光或睡姿"
+        }
+      ]
+    }
+  ]
+}

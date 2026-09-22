@@ -1,0 +1,30 @@
+✔ the meal game is authored as three named meals, two real handover stops, no countdown (0.827708ms)
+✔ undefined and hostile-shaped saves become a detached canonical fresh state (0.400334ms)
+✔ packing is gated by starting the round and state transitions never mutate callers (0.301458ms)
+✔ start and cancel preserve all partially packed selections (0.193667ms)
+✔ invalid rounds, choices and fabricated completion actions grant nothing (1.062625ms)
+✔ an empty box explains what is missing rather than wiping out preparation (0.177542ms)
+✔ each named order needs the correct food, explicit condiment choice, and label (0.325542ms)
+✔ removing one choice does not erase the other food, condiments or name (0.159583ms)
+✔ sealing is an explicit step and cannot be repeated or have contents altered (0.179958ms)
+✔ sealing all meals creates a delivery task, never an automatic completion (0.420709ms)
+✔ a sealed and delivered box survives JSON reload with matching recipe (0.338917ms)
+✔ corrupt contents revoke impossible seal and receipt while keeping usable selections (0.214417ms)
+✔ a stopped or invalid saved round cannot restore awarded boxes (0.509709ms)
+✔ unsealed food cannot be delivered even at the right recipient (0.212416ms)
+✔ wrong-location and stale remote clicks do not record a handover (0.341833ms)
+✔ cars, bicycles, boats, seated, flying and invalid positions cannot hand over (0.70475ms)
+✔ within the ground and distance tolerance a named box is handed over only once (0.60925ms)
+✔ the two handover stops may be visited in either order without losing task guidance (0.334459ms)
+✔ community becomes the remaining objective after the western meals are delivered (0.241083ms)
+✔ morning recipes are independent, persisted and use the same full loop (0.550875ms)
+✔ copying an evening recipe to a changed morning order does not bypass the new note (0.203667ms)
+✔ derived objectives cover new, partial, packed and complete state without external flags (0.297083ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 57.755792

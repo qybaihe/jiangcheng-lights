@@ -1,0 +1,83 @@
+### Result
+{
+  "photo": {
+    "photoId": "shop",
+    "status": "aligning",
+    "hintLevel": 0,
+    "attempts": 0,
+    "evaluation": {
+      "photoId": "shop",
+      "valid": true,
+      "ready": false,
+      "inPosition": true,
+      "facing": false,
+      "distance": 1.7999999999999983,
+      "heightError": 0,
+      "yawError": 2.3110852242007778,
+      "pitchError": 0.22,
+      "recognizedCount": 0,
+      "anchors": [
+        {
+          "id": "sign",
+          "title": "陆记的木招牌",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": -0.01971944926651791,
+            "y": 0.06988524285198829
+          },
+          "current": {
+            "x": 0.8976104374509796,
+            "y": -0.7163568525632459
+          }
+        },
+        {
+          "id": "window",
+          "title": "二楼左边的木窗",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": -0.30008770588131023,
+            "y": 0.25773035925075255
+          },
+          "current": {
+            "x": 0.35127520020529374,
+            "y": -0.7174782177422196
+          }
+        },
+        {
+          "id": "desk",
+          "title": "门前那张修理桌",
+          "recognized": false,
+          "error": null,
+          "visible": false,
+          "target": {
+            "x": 0.08815574681468069,
+            "y": -0.5485360581122688
+          },
+          "current": {
+            "x": 1.348872636291298,
+            "y": 0.5824766015860091
+          }
+        }
+      ],
+      "match": 19,
+      "message": "已认出 0 / 3 处。拖动画面，让窗、招牌或桥影回到照片的位置。"
+    },
+    "result": null,
+    "feedback": "",
+    "cancelReason": null
+  },
+  "position": {
+    "x": -12.35290827451296,
+    "y": 0.13,
+    "z": 21.234934633000726
+  },
+  "modal": null
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({photo:__JIANGCHENG__.getPlayfulLife().photo,position:__JIANGCHENG__.getWorld().position,modal:__JIANGCHENG__.getModal()}))');
+```

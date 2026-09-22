@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>游戏角色选角肖像</title><style>html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}</style><script type="module">
+import * as THREE from 'three';
+import {createCharacter} from '/src/characters.js';
+import {loadHeroAvatar} from '/src/avatar.js';
+import {updateTownLife} from '/src/town-life.js';
+const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});
+renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(2);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.setClearColor(0,0);document.body.append(renderer.domElement);
+const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(32,innerWidth/innerHeight,.01,30);
+camera.position.set(.24,1.17,3.30);camera.lookAt(0,.98,0);
+scene.add(new THREE.HemisphereLight('#dbede3','#b1b7a6',1.15));const sun=new THREE.DirectionalLight('#fff8ec',1.3);sun.position.set(-3.5,3.8,1.5);scene.add(sun);
+const player=createCharacter(null,'#fff','#000',true,'player');scene.add(player);
+const world={renderer,scene,camera,player,npcs:[],active:true,suspended:false,blocked:false,reduced:true,walking:false,elapsed:0,eyeHeight:1.65,moveSpeed:0,movementDistance:0,heightAt:()=>0,canWalk:()=>true,storyFlags:new Set(),playerMotion:{grounded:true,phase:'grounded',acceleration:0},callbacks:{}};
+const id=new URLSearchParams(location.search).get('avatar')||'female';
+const avatar=await loadHeroAvatar(world,id);
+if(world.avatarStatus.state!=='ready')throw new Error(JSON.stringify(world.avatarStatus));
+updateTownLife(world,0,0);avatar.update(0,0);scene.updateMatrixWorld(true);
+await renderer.compileAsync(scene,camera);renderer.render(scene,camera);
+window.__PORTRAIT__={ready:true,id:world.avatarStatus.id,metrics:world.avatarStatus};
+</script></html>

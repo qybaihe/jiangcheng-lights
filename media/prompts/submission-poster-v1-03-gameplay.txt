@@ -1,0 +1,22 @@
+Use case: ads-marketing
+Asset type: finished premium landscape 16:9 Chinese indie-game gameplay-features poster, all illustration and lettering generated together.
+Primary request: Third poster for 江城有灯. Show what players actually do through two rich story illustrations, not generic icons, not a screenshot or an infographic. The warmth comes from attending carefully to ordinary things.
+Input images: Image 1 is the approved hero poster, style/palette/logo/typography reference only, do not reuse its scene or words. Image 2 is the heroine identity: 阿遥, adult young woman, chestnut bob, ivory cardigan with forest-green bows, green skirt, black tights, beige floral satchel. Image 3 is 蔡姨, the established breakfast-shop owner: middle-aged Chinese woman, dark hair tied back, orange collared shirt, muted green apron, capable kind face. Preserve both identities. Image 4 is a food/old-lane reference showing the correct Wuhan hot-dry noodles and golden square 三鲜豆皮; re-paint it in the bright anime style, do not inherit photorealism or darkness.
+
+Composition: A beautiful editorial diptych on warm off-white paper, a very subtle hand-torn diagonal seam between two richly painted scenes. A clean upper strip about 24% of the height holds logo, a large headline and short subtitle. Below, the left 52% scene and right 48% scene are large and immersive, not bordered UI cards. Leave a small calm bottom margin for one feature line and signature. Clear breathing room, sensible reading order. Same refined teal Chinese typography as hero poster. Art and title should both be striking at thumbnail size.
+Left illustration, 旧照对景: a three-quarter over-the-shoulder view of 阿遥 standing in a sunlit old Wuhan alley facing a green wooden window, a tall plain shop-sign shape and the bridge silhouette beyond a lane opening. She holds up one worn sepia photograph with both hands so that the photograph's distinct window, wall edge and distant bridge visibly match the present-day view. The old picture has the very same recognizable arrangement but aged tones. Her face is visible in gentle partial profile, observant and engaged. No camera HUD, no AR, no machine-learning interface. Intent is moving through the real 3D street to find the matching perspective. Her hands and the photograph must be anatomically coherent.
+Right illustration, 热食接力: close three-quarter scene at 蔡姨's breakfast-shop wooden packing table. Same 阿遥 has set down her satchel and is carefully closing and labeling a cream enamel food box while 蔡姨 looks on and hands her a lid. Beautiful food detail: sesame-sauce-coated hot-dry noodles without soup, golden rectangular slices of Wuhan 三鲜豆皮 with sticky-rice filling, a small bowl of lotus-root soup with unmistakable lotus-root cross-sections. A few clean containers and paper order notes, separate small green-onion and chili dishes. This is packing cooked food for neighbours, NOT cooking at a stove or restaurant management. Small note clearly reads only 不放葱. Hands natural and not tangled. Steam catches the golden light. No pile of identical takeout boxes or delivery-company branding.
+
+Style: premium detailed hand-painted anime game art with adult proportions, bright jade/cream/golden palette consistent with reference 1. Highly readable clean linework, attractive honest human expressions, materials lovingly painted, no photorealistic human faces, no doll plastic, no gloomy all-brown image.
+
+Text (verbatim, simplified Chinese):
+Small logo top left: "江城有灯"
+Large headline: "每件小事，都亲手完成"
+Subtitle: "对上旧照片，也记住每个人的口味。"
+Clearly set above left scene: "旧照对景"
+Clearly set above right scene: "热食接力"
+Single readable note on right table: "不放葱"
+Bottom feature line: "修好收音机 · 拼回旧童画 · 把热食送到手中"
+Small bottom-right label: "游戏主题海报"
+
+All typography is part of the generated poster. Exact simplified Chinese characters, no missing or repeated text, headline about 80px, subtitle/body minimum30px, gameplay labels about42px at2048x1152. Safe margins80px around all outer text. Do not add quote marks, captions, numerical stats, puzzle UI, unreadable handwritten scribble, random signs, organizer logos, claims about real gameplay visuals, award symbols, QR codes or watermarks.

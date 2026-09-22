@@ -1,0 +1,27 @@
+### Result
+{
+  "photos": {
+    "version": 1,
+    "completed": [
+      "shop"
+    ]
+  },
+  "position": {
+    "x": -12.35290827451296,
+    "y": 0.13,
+    "z": 21.234934633000726
+  },
+  "cameraMode": "street",
+  "modal": null,
+  "flags": [
+    "storyV3",
+    "prologueSeen",
+    "received",
+    "radio",
+    "granny"
+  ]
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({photos:__JIANGCHENG__.getState().photos,position:__JIANGCHENG__.getWorld().position,cameraMode:__JIANGCHENG__.getWorld().cameraMode,modal:__JIANGCHENG__.getModal(),flags:__JIANGCHENG__.getState().flags}))');
+```

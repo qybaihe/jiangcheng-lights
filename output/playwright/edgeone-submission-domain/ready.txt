@@ -1,0 +1,4 @@
+### Ran Playwright code
+```js
+await (async (page) => {await page.waitForFunction(()=>window.__JIANGCHENG__?.getPresentation().loading.state==="complete",null,{timeout:60000});console.log(JSON.stringify(await page.evaluate(()=>({origin:location.origin,avatar:__JIANGCHENG__.getWorld().avatar,residents:__JIANGCHENG__.getResidentAvatars(),scripts:[...document.scripts].map(x=>new URL(x.src||location.href).pathname)}))));})(page);
+```

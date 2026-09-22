@@ -1,0 +1,739 @@
+### Result
+{
+  "world": {
+    "id": "female",
+    "state": "ready",
+    "source": "VRoid AvatarSample_A",
+    "url": "/models/ayao.vrm",
+    "height": 1.7799999999999998,
+    "eyeHeight": 1.614112770644804,
+    "hipHeight": 0.9846309916563889,
+    "upperLeg": 0.4148160467898304,
+    "lowerLeg": 0.46334411694298583,
+    "ankleHeight": 0.10647082792357268,
+    "soleFront": 0.16379531783073056,
+    "soleBack": -0.05392076039609801,
+    "soleHalfWidth": 0.04783137495393763,
+    "bodyRestY": 1.0910906871479793,
+    "sideMap": [
+      "right",
+      "left"
+    ],
+    "optimization": {
+      "before": {
+        "meshes": 90,
+        "skinnedMeshes": 90,
+        "estimatedDrawCalls": 99,
+        "triangles": 24854,
+        "declaredVertices": 664061
+      },
+      "after": {
+        "meshes": 21,
+        "skinnedMeshes": 21,
+        "estimatedDrawCalls": 30,
+        "triangles": 24854,
+        "declaredVertices": 84029
+      },
+      "savedDrawCalls": 69
+    },
+    "requestedId": "female"
+  },
+  "residents": {
+    "state": "loading",
+    "loaded": 7,
+    "total": 9,
+    "fallback": 0,
+    "concurrency": 1,
+    "progressive": true,
+    "fetches": 8,
+    "retries": 0,
+    "parses": 7,
+    "activeJobs": 1,
+    "peakConcurrent": 1,
+    "totalUpdates": 0,
+    "skippedUpdates": 0,
+    "sharedTextures": 180,
+    "textureLeases": 180,
+    "decodedImages": 180,
+    "residents": [
+      {
+        "id": "granny",
+        "name": "林婆婆",
+        "state": "ready",
+        "source": "VRoid 千駄ヶ谷渋 · elderly face adaptation",
+        "url": "/models/residents/granny.vrm",
+        "variant": "silver-knit",
+        "base": "Sendagaya_Shibu",
+        "description": "银灰短发 · 紫灰针织背心与长裙",
+        "targetHeight": 1.52,
+        "metrics": {
+          "height": 1.5200000000000002,
+          "eyeHeight": 1.3639637878427848,
+          "hipHeight": 0.819053781042933,
+          "upperLeg": 0.33152079986201366,
+          "lowerLeg": 0.390230719416464,
+          "ankleHeight": 0.09730226176445547,
+          "soleFront": 0.15359188272666668,
+          "soleBack": -0.05074404955450677,
+          "soleHalfWidth": 0.044910999761803475,
+          "bodyRestY": 0.9063130141479073,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 15,
+            "skinnedMeshes": 15,
+            "estimatedDrawCalls": 15,
+            "triangles": 34017,
+            "declaredVertices": 75237
+          },
+          "after": {
+            "meshes": 15,
+            "skinnedMeshes": 15,
+            "estimatedDrawCalls": 15,
+            "triangles": 34017,
+            "declaredVertices": 75237
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "细铜框眼镜",
+            "竹柄蒲扇"
+          ],
+          "drawCalls": 2,
+          "triangles": 2960,
+          "fit": {
+            "eyeY": 1.3639637878427844,
+            "faceZ": 0.086064091938713,
+            "torsoZ": 0.12483332312136053,
+            "height": 1.5200000000000002
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "chef",
+        "name": "蔡姨",
+        "state": "ready",
+        "source": "VRoid AvatarSample_A",
+        "url": "/models/residents/chef.vrm",
+        "variant": "tea-apron",
+        "base": "AvatarSample_A",
+        "description": "栗棕短发 · 暖色开衫与围裙",
+        "targetHeight": 1.62,
+        "metrics": {
+          "height": 1.6200000000000008,
+          "eyeHeight": 1.469023982272238,
+          "hipHeight": 0.8961248351030058,
+          "upperLeg": 0.3775292111233288,
+          "lowerLeg": 0.4216952075548523,
+          "ankleHeight": 0.09690041642482466,
+          "soleFront": 0.1490721431942604,
+          "soleBack": -0.04907395047285324,
+          "soleHalfWidth": 0.04353192551987585,
+          "bodyRestY": 0.9930151197638916,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "after": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "靛青围裙",
+            "棉布擦手巾"
+          ],
+          "drawCalls": 2,
+          "triangles": 1872,
+          "fit": {
+            "eyeY": 1.469023982272238,
+            "faceZ": 0.10628051217822332,
+            "torsoZ": 0.13235163738603806,
+            "height": 1.6200000000000008
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "dock",
+        "name": "周伯",
+        "state": "ready",
+        "source": "VRoid 桜田史也 · elderly face adaptation",
+        "url": "/models/residents/dock.vrm",
+        "variant": "dock-worker",
+        "base": "Sakurada_Fumiriya",
+        "description": "灰白短发 · 藏蓝背心与衬衫",
+        "targetHeight": 1.73,
+        "metrics": {
+          "height": 1.7299999999999998,
+          "eyeHeight": 1.5707613138741658,
+          "hipHeight": 0.9942161435347082,
+          "upperLeg": 0.4740022537178273,
+          "lowerLeg": 0.4106992585970664,
+          "ankleHeight": 0.10951463121981453,
+          "soleFront": 0.1911406836437622,
+          "soleBack": -0.05240451310211732,
+          "soleHalfWidth": 0.0503252574918162,
+          "bodyRestY": 1.1600611178624107,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 16,
+            "skinnedMeshes": 16,
+            "estimatedDrawCalls": 16,
+            "triangles": 39456,
+            "declaredVertices": 98486
+          },
+          "after": {
+            "meshes": 16,
+            "skinnedMeshes": 16,
+            "estimatedDrawCalls": 16,
+            "triangles": 39456,
+            "declaredVertices": 98486
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "旧海蓝布帽",
+            "蓝边搪瓷缸"
+          ],
+          "drawCalls": 2,
+          "triangles": 1486,
+          "fit": {
+            "eyeY": 1.570761313874166,
+            "faceZ": 0.09707345768992148,
+            "torsoZ": 0.1138840691560592,
+            "height": 1.7299999999999998
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "community",
+        "name": "小许",
+        "state": "ready",
+        "source": "VRoid AvatarSample_A",
+        "url": "/models/residents/community.vrm",
+        "variant": "community-volunteer",
+        "base": "AvatarSample_A",
+        "description": "栗色短发 · 杏橘外衣与玉绿长裤",
+        "targetHeight": 1.67,
+        "metrics": {
+          "height": 1.6699999999999997,
+          "eyeHeight": 1.514364228638665,
+          "hipHeight": 0.9237830090259381,
+          "upperLeg": 0.3891813472691105,
+          "lowerLeg": 0.43471049173864396,
+          "ankleHeight": 0.09989117001818357,
+          "soleFront": 0.15367313526815732,
+          "soleBack": -0.05058857857386723,
+          "soleHalfWidth": 0.04487550346802019,
+          "bodyRestY": 1.023663734571419,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "after": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "社区工作牌",
+            "木背夹板"
+          ],
+          "drawCalls": 2,
+          "triangles": 768,
+          "fit": {
+            "eyeY": 1.5143642286386647,
+            "faceZ": 0.10956077511940077,
+            "torsoZ": 0.13643646463912695,
+            "height": 1.6699999999999997
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "walker0",
+        "name": "陈姐",
+        "state": "queued",
+        "source": "VRoid 千駄ヶ谷篠",
+        "url": "/models/residents/walker0.vrm",
+        "variant": "daily-market",
+        "base": "Sendagaya_Shino",
+        "description": "深棕长发 · 玫瑰色背心与长裙",
+        "targetHeight": 1.65,
+        "metrics": null,
+        "optimization": null,
+        "attachments": null,
+        "updates": 0,
+        "lod": "pending",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ]
+      },
+      {
+        "id": "walker1",
+        "name": "贺师傅",
+        "state": "loading",
+        "source": "VRoid 桜田史也",
+        "url": "/models/residents/walker1.vrm",
+        "variant": "workday-jacket",
+        "base": "Sakurada_Fumiriya",
+        "description": "灰鬓短发 · 栗棕工作背心",
+        "targetHeight": 1.72,
+        "metrics": null,
+        "optimization": null,
+        "attachments": null,
+        "updates": 0,
+        "lod": "pending",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ]
+      },
+      {
+        "id": "walker2",
+        "name": "罗娟",
+        "state": "ready",
+        "source": "VRoid AvatarSample_A",
+        "url": "/models/residents/walker2.vrm",
+        "variant": "bookshop",
+        "base": "AvatarSample_A",
+        "description": "深色短发 · 赭黄色针织开衫",
+        "targetHeight": 1.66,
+        "metrics": {
+          "height": 1.6600000000000006,
+          "eyeHeight": 1.5052961793653794,
+          "hipHeight": 0.9182513742413516,
+          "upperLeg": 0.38685092003995414,
+          "lowerLeg": 0.4321074349018856,
+          "ankleHeight": 0.09929301929951179,
+          "soleFront": 0.15275293685337799,
+          "soleBack": -0.05028565295366443,
+          "soleHalfWidth": 0.04460678787839133,
+          "bodyRestY": 1.0175340116099134,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "after": {
+            "meshes": 17,
+            "skinnedMeshes": 17,
+            "estimatedDrawCalls": 17,
+            "triangles": 24854,
+            "declaredVertices": 82386
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "通勤手袋",
+            "黄铜扣"
+          ],
+          "drawCalls": 2,
+          "triangles": 924,
+          "fit": {
+            "eyeY": 1.5052961793653798,
+            "faceZ": 0.10890472261879802,
+            "torsoZ": 0.1356194846465255,
+            "height": 1.6600000000000006
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "walker3",
+        "name": "程岚",
+        "state": "ready",
+        "source": "VRoid 千駄ヶ谷渋",
+        "url": "/models/residents/walker3.vrm",
+        "variant": "commuter",
+        "base": "Sendagaya_Shibu",
+        "description": "黑色齐耳短发 · 玉绿背心与长裙",
+        "targetHeight": 1.64,
+        "metrics": {
+          "height": 1.6400000000000003,
+          "eyeHeight": 1.471645139514583,
+          "hipHeight": 0.8837159216515856,
+          "upperLeg": 0.3576934945879622,
+          "lowerLeg": 0.42103840779144797,
+          "ankleHeight": 0.10498401927217546,
+          "soleFront": 0.1657175576787719,
+          "soleBack": -0.054750158729862566,
+          "soleHalfWidth": 0.048456605006156395,
+          "bodyRestY": 0.9778640415806368,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 15,
+            "skinnedMeshes": 15,
+            "estimatedDrawCalls": 15,
+            "triangles": 34017,
+            "declaredVertices": 75237
+          },
+          "after": {
+            "meshes": 15,
+            "skinnedMeshes": 15,
+            "estimatedDrawCalls": 15,
+            "triangles": 34017,
+            "declaredVertices": 75237
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "布面书册",
+            "书签"
+          ],
+          "drawCalls": 1,
+          "triangles": 432,
+          "fit": {
+            "eyeY": 1.471645139514583,
+            "faceZ": 0.09228442543889948,
+            "torsoZ": 0.13468863354122718,
+            "height": 1.6400000000000003
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "walker4",
+        "name": "宋远",
+        "state": "ready",
+        "source": "VRoid AvatarSample_C",
+        "url": "/models/residents/walker4.vrm",
+        "variant": "camera-walk",
+        "base": "AvatarSample_C",
+        "description": "棕色短发 · 牛仔蓝夹克",
+        "targetHeight": 1.8,
+        "metrics": {
+          "height": 1.8000000000000003,
+          "eyeHeight": 1.6469020798861647,
+          "hipHeight": 0.99996649437149,
+          "upperLeg": 0.40163153732930096,
+          "lowerLeg": 0.4675582315248281,
+          "ankleHeight": 0.130776725517361,
+          "soleFront": 0.1959638019014934,
+          "soleBack": -0.05625956700201444,
+          "soleHalfWidth": 0.05085852597341013,
+          "bodyRestY": 1.1791488517197248,
+          "sideMap": [
+            "right",
+            "left"
+          ]
+        },
+        "optimization": {
+          "before": {
+            "meshes": 14,
+            "skinnedMeshes": 14,
+            "estimatedDrawCalls": 14,
+            "triangles": 26988,
+            "declaredVertices": 62419
+          },
+          "after": {
+            "meshes": 14,
+            "skinnedMeshes": 14,
+            "estimatedDrawCalls": 14,
+            "triangles": 26988,
+            "declaredVertices": 62419
+          },
+          "savedDrawCalls": 0
+        },
+        "attachments": {
+          "details": [
+            "随身速写本",
+            "铅笔"
+          ],
+          "drawCalls": 1,
+          "triangles": 716,
+          "fit": {
+            "eyeY": 1.6469020798861647,
+            "faceZ": 0.1132751830031431,
+            "torsoZ": 0.1365897807024865,
+            "height": 1.8000000000000003
+          }
+        },
+        "updates": 0,
+        "lod": "initial",
+        "springActive": false,
+        "springJoints": 0,
+        "visible": true,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "state": {
+    "version": 1,
+    "started": false,
+    "races": {
+      "version": 1,
+      "courses": {
+        "boat": {
+          "completions": 0,
+          "bestSeconds": null,
+          "lastSeconds": null,
+          "bestMedal": null
+        },
+        "car": {
+          "completions": 0,
+          "bestSeconds": null,
+          "lastSeconds": null,
+          "bestMedal": null
+        }
+      }
+    },
+    "vehicleGuides": {
+      "version": 1,
+      "seen": []
+    },
+    "wuhanVisits": [],
+    "adventure": {
+      "found": []
+    },
+    "props": {
+      "version": 1,
+      "bicycleUnlocked": false,
+      "bikePosition": null,
+      "readEditions": [],
+      "notes": [],
+      "ferryRides": 0
+    },
+    "cars": {
+      "version": 1,
+      "vehicles": {
+        "prop-car-sedan": {
+          "x": -14.8,
+          "z": 23.8,
+          "yaw": 1.5707963267948966
+        },
+        "prop-car-van": {
+          "x": 6.8,
+          "z": -18.4,
+          "yaw": -1.5707963267948966
+        }
+      }
+    },
+    "residents": {
+      "version": 1,
+      "met": [],
+      "heard": {}
+    },
+    "photos": {
+      "version": 1,
+      "completed": []
+    },
+    "meals": {
+      "version": 1,
+      "rounds": {
+        "evening": {
+          "started": false,
+          "boxes": {
+            "lin": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "chen": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "xu": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            }
+          }
+        },
+        "morning": {
+          "started": false,
+          "boxes": {
+            "lin": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "chen": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            },
+            "xu": {
+              "food": null,
+              "scallion": null,
+              "chili": null,
+              "label": null,
+              "sealed": false,
+              "delivered": false
+            }
+          }
+        }
+      }
+    },
+    "storyChoices": {},
+    "flags": [
+      "storyV3"
+    ],
+    "supplies": [],
+    "lore": [],
+    "position": {
+      "x": 1,
+      "z": 21
+    },
+    "seconds": 0,
+    "milestones": {},
+    "settings": {
+      "sound": true,
+      "soundDefaultsVersion": 2,
+      "reduced": false,
+      "quality": "high",
+      "avatarId": "female",
+      "musicVolume": 0.48,
+      "voiceVolume": 0.9,
+      "effectsVolume": 0.6,
+      "voiceAuto": true
+    }
+  },
+  "scripts": [
+    "/assets/index-Cj12P5EM.js"
+  ]
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (({world:__JIANGCHENG__.getWorld().avatar,residents:__JIANGCHENG__.getResidentAvatars(),state:__JIANGCHENG__.getState(),scripts:[...document.scripts].map(x=>new URL(x.src||location.href).pathname)}))');
+```

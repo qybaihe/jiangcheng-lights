@@ -1,0 +1,224 @@
+{
+  "title": "江城有灯 · 这一趟，不只是送东西。",
+  "stage": "complete: 118-second final MP4 exported, actual file and source ledger checked, visual review and audio patch review passed",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "seconds": 118,
+    "maxSeconds": 120,
+    "container": "mp4",
+    "targetMaxBytes": 500000000
+  },
+  "capturedGameplaySecondsPlanned": 94,
+  "segments": [
+    {
+      "id": "C01",
+      "from": 0,
+      "duration": 7,
+      "type": "seedance-cg",
+      "action": "轮渡望江汉关，走入武汉里分；建立返乡缘由",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R01",
+      "from": 7,
+      "duration": 9,
+      "type": "gameplay",
+      "action": "回陆记修理铺，接外公电话；真实旋转铜线、测试收音机成功",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R02",
+      "from": 16,
+      "duration": 9,
+      "type": "gameplay",
+      "action": "给林婆婆送收音机；交换童画碎片，回到3D对话",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R03",
+      "from": 25,
+      "duration": 9,
+      "type": "gameplay",
+      "action": "蔡记过早铺还灯；按约领取物资，再交给蔡姨核对",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R04",
+      "from": 34,
+      "duration": 7,
+      "type": "gameplay",
+      "action": "真实借自行车、转向骑行，沿里分街口经过武汉日常",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R05",
+      "from": 41,
+      "duration": 8,
+      "type": "gameplay",
+      "action": "上车驶入燕归路，停车后读桥影下旧合影；艺术压缩地标不冒充真实桥址",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R06",
+      "from": 49,
+      "duration": 9,
+      "type": "gameplay",
+      "action": "码头借小木船，人物落座、真实划桨转向、近岸江面航行；与自动渡船区分",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R07",
+      "from": 58,
+      "duration": 9,
+      "type": "gameplay",
+      "action": "桨影计时赛：倒数、依次穿浮标、完整一圈后记成绩",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R08",
+      "from": 67,
+      "duration": 7,
+      "type": "gameplay",
+      "action": "燕归路驾驶计时：顺序门、转弯、抵达终点，留下小赛道纪念",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R09",
+      "from": 74,
+      "duration": 14,
+      "type": "gameplay",
+      "action": "回到主线：周伯联络、社区核包、干地报告风险，最终核实街坊及物资到达",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R10",
+      "from": 88,
+      "duration": 6,
+      "type": "gameplay",
+      "action": "真实分支选择与已完成结局记录；说明四种归途，不伪造全解锁",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "R11",
+      "from": 94,
+      "duration": 7,
+      "type": "gameplay",
+      "action": "成就/结局解锁收藏，实际打开画廊、切换分类、查看一幅纪念画",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "A01",
+      "from": 101,
+      "duration": 8,
+      "type": "ai-production-evidence",
+      "action": "Image2原图与风格落地、Seedance片段、TTS/BGM分轨、Real-ESRGAN前后对照；仅制作流程",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    },
+    {
+      "id": "C02",
+      "from": 109,
+      "duration": 9,
+      "type": "seedance-cg",
+      "action": "已有童年回忆CG与灯下尾句、Logo；片尾静态关键帧仅作备选且正确标注",
+      "sourceStatus": "captured-generated-and-reviewed; see edit-decision.json"
+    }
+  ],
+  "durationConfirmation": {
+    "confirmed": true,
+    "userRequest": "约2分钟的参赛片，不是2小时，就做2分钟就可以。",
+    "targetFrames": 3540,
+    "note": "118秒剪辑预算为2分钟内预留2秒封装余量；不制作2小时版本。"
+  },
+  "coverage": {
+    "wuhan": "贯穿CG返乡、过早、里分骑行、桥影下、近岸划船和人物记忆；非仅地标蒙太奇。",
+    "ai": "制作证据独立8秒，Image2/Seedance/TTS/BGM/Real-ESRGAN；不称实时AI NPC。",
+    "optionalPlay": "自行车、汽车、手动木船和两种计时挑战均使用真实录屏；木船实际金章完赛；汽车展示出发过门。",
+    "story": "送旧物→认识街坊→办成约定→社区互助→去留选择→收藏纪念，游戏顺序与剪辑因果一致。",
+    "endings": "4种结局均以正常分岔玩法解锁；最终片展示实际选择、真结局和四结局画廊。",
+    "gallery": {
+      "baselineSlots": 51,
+      "currentCodeSlots": 53,
+      "newGeneratedAndIntegratedSlots": 2,
+      "newAssetPaths": [
+        "public/media/gallery-river-oars-v1.webp",
+        "public/media/gallery-road-home-v1.webp"
+      ],
+      "status": "code-integrated; end-to-end unlock-and-capture-validation-pending",
+      "note": "两张新Image2图已生成并目检。素材存在不是已完成实机解锁证据，最终字幕以录制构建为准。"
+    }
+  },
+  "requiredPendingShots": [
+    {
+      "segmentId": "R01",
+      "status": "completed-and-reviewed",
+      "requirement": "回陆记修理铺，接外公电话；真实旋转铜线、测试收音机成功"
+    },
+    {
+      "segmentId": "R02",
+      "status": "completed-and-reviewed",
+      "requirement": "给林婆婆送收音机；交换童画碎片，回到3D对话"
+    },
+    {
+      "segmentId": "R03",
+      "status": "completed-and-reviewed",
+      "requirement": "蔡记过早铺还灯；按约领取物资，再交给蔡姨核对"
+    },
+    {
+      "segmentId": "R04",
+      "status": "completed-and-reviewed",
+      "requirement": "真实借自行车、转向骑行，沿里分街口经过武汉日常"
+    },
+    {
+      "segmentId": "R05",
+      "status": "completed-and-reviewed",
+      "requirement": "上车驶入燕归路，停车后读桥影下旧合影；艺术压缩地标不冒充真实桥址"
+    },
+    {
+      "segmentId": "R06",
+      "status": "completed-and-reviewed",
+      "requirement": "码头借小木船，人物落座、真实划桨转向、近岸江面航行；与自动渡船区分"
+    },
+    {
+      "segmentId": "R07",
+      "status": "completed-and-reviewed",
+      "requirement": "桨影计时赛：倒数、依次穿浮标、完整一圈后记成绩"
+    },
+    {
+      "segmentId": "R08",
+      "status": "completed-and-reviewed",
+      "requirement": "燕归路驾驶计时：顺序门、转弯、抵达终点，留下小赛道纪念"
+    },
+    {
+      "segmentId": "R09",
+      "status": "completed-and-reviewed",
+      "requirement": "回到主线：周伯联络、社区核包、干地报告风险，最终核实街坊及物资到达"
+    },
+    {
+      "segmentId": "R10",
+      "status": "completed-and-reviewed",
+      "requirement": "真实分支选择与已完成结局记录；说明四种归途，不伪造全解锁"
+    },
+    {
+      "segmentId": "R11",
+      "status": "completed-and-reviewed",
+      "requirement": "成就/结局解锁收藏，实际打开画廊、切换分类、查看一幅纪念画"
+    }
+  ],
+  "productionGates": [
+    "New boat and both timed courses must pass ordered checkpoints, pause, cancel, restart, return-to-shore and old-save regression before recording.",
+    "Record current build gameplay with genuine inputs; do not use generated CG, injected results or a modified unlocked save as gameplay evidence.",
+    "Capture all 4 ending evidence chains through legitimate story nodes; montage selection may compress time but cannot fabricate unlocks.",
+    "All final source files, voices, captions, source hashes and sourceIn/sourceOut ranges are approved before readyForFinal=true.",
+    "Render 3540 frames; independently verify actual duration <=120s, >=1920x1080, MP4 H264/AAC, <500000000 bytes, decoding, audio and subtitle timing."
+  ],
+  "preserve": {
+    "styleProof": "output/demo-film-v1/江城有灯-30秒风格样片-1080p-v1.mp4",
+    "styleProofStatus": "existing delivered 30-second preview; preserve unchanged; not final competition film",
+    "proofGameplay": "output/demo-film-v1/capture/walk-to-granny-12s-1080p30.mp4",
+    "proofGameplayScope": "map selection and walking only; not evidence of puzzles, branches or races"
+  },
+  "finalDeliverable": "output/江城有灯-参赛片交付/江城有灯-参赛片-1080P.mp4",
+  "finalAcceptance": "output/demo-film-v1/final-technical-acceptance.json"
+}
