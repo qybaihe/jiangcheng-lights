@@ -37,3 +37,6 @@ output/edgeone-tooling/
 output/edgeone-release/
 *.pem
 *.key
+
+# Also ignore dependency symlinks
+node_modules
